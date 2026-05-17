@@ -1,6 +1,6 @@
 {
   "name": "Daily AI Radar",
-  "short_name": "AI Radar",
+  "short_name": "Daily AI Radar",
   "description": "Tägliche KI- und Tech-News-Inbox",
   "start_url": "./",
   "display": "standalone",
