@@ -53,6 +53,24 @@ function formatGermanDate(isoDate) {
   }).format(new Date(`${isoDate}T12:00:00Z`));
 }
 
+function readBriefings() {
+  if (!fs.existsSync(FILE)) return [];
+  const parsed = JSON.parse(fs.readFileSync(FILE, "utf8"));
+  return Array.isArray(parsed) ? parsed : [];
+}
+
+function latestDate(briefings) {
+  return briefings.reduce((max, item) => item.date && item.date > max ? item.date : max, "");
+}
+
+function shouldSkipArchivedDate(targetDate) {
+  if (FORCE_REBUILD) return false;
+  const briefings = readBriefings();
+  const exists = briefings.some(item => item.date === targetDate);
+  const latest = latestDate(briefings);
+  return exists && latest && targetDate < latest;
+}
+
 function decodeEntities(text = "") {
   return text
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
@@ -94,8 +112,7 @@ function linkFromBlock(block) {
 function parseFeed(xml, feed) {
   const blocks = xml.match(/<item[\s\S]*?<\/item>|<entry[\s\S]*?<\/entry>/gi) || [];
   return blocks.map(block => {
-    const rawTitle = tag(block, "title");
-    const title = stripHtml(rawTitle);
+    const title = stripHtml(tag(block, "title"));
     const link = linkFromBlock(block);
     const pubRaw = tag(block, "pubDate") || tag(block, "published") || tag(block, "updated") || tag(block, "dc:date");
     const description = stripHtml(tag(block, "description") || tag(block, "summary") || tag(block, "content:encoded") || "");
@@ -178,16 +195,14 @@ function fallbackBriefing(targetDate, sources, reason = "") {
     priority: "mittel",
     source: item.source,
     summary: item.description || "Neuer KI- oder Tech-Link aus dem Quellenfeed.",
-    why: "Dieser Eintrag wurde im kostenlosen Fallback-Modus aus RSS-/Feed-Daten übernommen. Für tiefere Einordnung wird die KI-Zusammenfassung genutzt.",
+    why: "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
     links: [item.url]
   }));
 
   return {
     date: targetDate,
     title: `KI- & Tech-Radar vom ${formatGermanDate(targetDate)}`,
-    summary: reason
-      ? `Fallback-Briefing: ${reason}`
-      : "Automatisch aus KI- und Tech-Feeds zusammengestellte Übersicht.",
+    summary: reason ? `Fallback-Briefing: ${reason}` : "Automatisch aus KI- und Tech-Feeds zusammengestellte Übersicht.",
     stories
   };
 }
@@ -203,6 +218,7 @@ Wichtig:
 - Erfinde keine Fakten, Zahlen, Namen oder Zitate.
 - Fasse doppelte oder sehr ähnliche Meldungen zusammen.
 - Priorisiere Themen, die für KI, Tech, Creator-Tools, YouTube/Video, Software, Hardware, Security, Startups, Plattformen und Regulierung relevant sind.
+- Nimm nur Meldungen auf, die wirklich relevant sind. Lieber 5 gute Meldungen als 8 mittelmäßige.
 - Maximal 8 Meldungen.
 - Jede Meldung braucht: title, category, priority, source, summary, why, links.
 - category soll eine der folgenden Kategorien sein: KI-Tools, Developer, Creator, Business, Security, Regulierung, Infrastruktur, Open Source, Hardware, Plattformen, Forschung.
@@ -320,20 +336,39 @@ function validateBriefing(briefing, targetDate, sources) {
   return briefing;
 }
 
-function upsertBriefing(briefing) {
-  let briefings = [];
-  if (fs.existsSync(FILE)) {
-    briefings = JSON.parse(fs.readFileSync(FILE, "utf8"));
-  }
-  if (!Array.isArray(briefings)) briefings = [];
+function addMetadata(briefing, sources, mode) {
+  briefing.generatedAt = new Date().toISOString();
+  briefing.generatedAtBerlin = new Intl.DateTimeFormat("de-DE", {
+    timeZone: "Europe/Berlin",
+    dateStyle: "medium",
+    timeStyle: "short"
+  }).format(new Date());
+  briefing.mode = mode;
+  briefing.sourceCount = sources.length;
+  briefing.highlights = briefing.stories
+    .slice()
+    .sort((a, b) => ({hoch: 0, mittel: 1, niedrig: 2}[a.priority] ?? 1) - ({hoch: 0, mittel: 1, niedrig: 2}[b.priority] ?? 1))
+    .slice(0, 3)
+    .map(story => story.title);
+  return briefing;
+}
 
+function upsertBriefing(briefing) {
+  let briefings = readBriefings();
+  const latest = latestDate(briefings);
   const index = briefings.findIndex(item => item.date === briefing.date);
-  if (index >= 0 && !FORCE_REBUILD) {
-    console.log(`Briefing für ${briefing.date} existiert bereits. Archiv bleibt unverändert.`);
+
+  if (index >= 0 && !FORCE_REBUILD && latest && briefing.date < latest) {
+    console.log(`Briefing für ${briefing.date} ist archiviert. Ältere Archivtage bleiben unverändert.`);
     return false;
   }
-  if (index >= 0 && FORCE_REBUILD) briefings[index] = briefing;
-  else briefings.unshift(briefing);
+
+  if (index >= 0) {
+    console.log(`Aktualisiere neuestes Briefing für ${briefing.date}.`);
+    briefings[index] = briefing;
+  } else {
+    briefings.unshift(briefing);
+  }
 
   briefings.sort((a, b) => b.date.localeCompare(a.date));
   fs.writeFileSync(FILE, JSON.stringify(briefings, null, 2) + "\n", "utf8");
@@ -344,27 +379,36 @@ async function main() {
   const targetDate = process.env.BRIEFING_DATE || yesterdayInBerlin();
   console.log(`Erstelle KI- & Tech-Briefing für ${targetDate}. Heute Berlin: ${todayInBerlin()}`);
 
+  if (shouldSkipArchivedDate(targetDate)) {
+    console.log(`Keine KI-Kosten: ${targetDate} ist bereits ein älterer Archivtag und wird nicht neu erzeugt.`);
+    return;
+  }
+
   const sources = await collectSources(targetDate);
   console.log(`${sources.length} Quellen gesammelt.`);
 
   let briefing;
+  let mode = "ai";
   if (!sources.length) {
+    mode = "fallback";
     briefing = fallbackBriefing(targetDate, [], "Es wurden keine passenden Feed-Einträge gefunden.");
   } else {
     try {
       briefing = await callOpenAI(buildPrompt(targetDate, sources));
       briefing = validateBriefing(briefing, targetDate, sources);
     } catch (error) {
+      mode = "fallback";
       console.warn(`KI-Zusammenfassung fehlgeschlagen: ${error.message}`);
       briefing = fallbackBriefing(targetDate, sources, `KI-Zusammenfassung fehlgeschlagen (${error.message}).`);
     }
   }
 
+  briefing = addMetadata(briefing, sources, mode);
   const changed = upsertBriefing(briefing);
   if (changed) {
-    console.log(`briefings.json aktualisiert: ${briefing.title} (${briefing.stories.length} Stories)`);
+    console.log(`briefings.json aktualisiert: ${briefing.title} (${briefing.stories.length} Stories, ${sources.length} Quellen, Modus: ${mode})`);
   } else {
-    console.log(`Keine Änderung geschrieben: ${briefing.date} ist bereits im Archiv.`);
+    console.log(`Keine Änderung geschrieben: ${briefing.date} bleibt stabil.`);
   }
 }
 
