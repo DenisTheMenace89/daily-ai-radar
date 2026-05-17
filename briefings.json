@@ -1,0 +1,97 @@
+[
+  {
+    "date": "2026-05-17",
+    "title": "KI wird operativer: Finanzen, Coding, Kultur und Infrastruktur",
+    "summary": "Der Tag zeigt, wie KI tiefer in sensible Alltagsbereiche, Unternehmenseinsatz, Kulturproduktion und politische Infrastrukturdebatten vordringt.",
+    "stories": [
+      {
+        "title": "OpenAI testet Finanzfunktionen mit Bankkonto-Anbindung",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "source": "TechCrunch",
+        "summary": "ChatGPT soll in einer Preview persönliche Finanzdaten über Plaid anbinden können, um Ausgaben, Abos, Portfolio und Planung auszuwerten.",
+        "why": "KI-Assistenten erhalten Einblick in hochsensible Lebensbereiche. Vertrauen, Datenschutz und klare Grenzen werden entscheidend.",
+        "links": ["https://techcrunch.com/"]
+      },
+      {
+        "title": "Codex wandert in die ChatGPT-Mobile-App",
+        "category": "Developer",
+        "priority": "hoch",
+        "source": "TechCrunch",
+        "summary": "Coding-Agenten werden mobil kontrollierbar: Tasks starten, Ergebnisse prüfen, Änderungen freigeben und Workflows überwachen.",
+        "why": "Softwareentwicklung bewegt sich weiter Richtung Agentensteuerung. Der Entwickler wird stärker zum Reviewer und Operator.",
+        "links": ["https://techcrunch.com/"]
+      },
+      {
+        "title": "Lokale KI-Agenten auf dem Mac werden praktischer",
+        "category": "Open Source",
+        "priority": "mittel",
+        "source": "TechCrunch / Open Source",
+        "summary": "Tools wie Osaurus verbinden lokale Modelle und Cloud-Anbieter mit Desktop-Funktionen, Dateien, Browser, Mail und Kalender.",
+        "why": "Lokale KI kann Datenschutz verbessern und Kosten senken. Gleichzeitig entstehen neue Sicherheitsfragen, weil Agenten mehr Zugriff auf persönliche Systeme erhalten.",
+        "links": ["https://techcrunch.com/"]
+      },
+      {
+        "title": "Regulatoren warnen vor Frontier-AI-Risiken",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "source": "Reuters",
+        "summary": "Behörden mahnen Unternehmen, Risiken fortgeschrittener KI-Modelle in Cybersecurity, Finanzsystem und operativer Stabilität stärker zu kontrollieren.",
+        "why": "KI-Risiken werden nicht mehr nur als Produktproblem, sondern als systemisches Unternehmens- und Finanzmarktrisiko betrachtet.",
+        "links": ["https://www.reuters.com/"]
+      },
+      {
+        "title": "Cannes diskutiert pragmatischeren KI-Einsatz im Film",
+        "category": "Creator",
+        "priority": "mittel",
+        "source": "Reuters",
+        "summary": "KI wird für VFX, Postproduktion und Kostensenkung offener betrachtet, bleibt aber bei Drehbuch, Schauspiel und kreativer Identität umstritten.",
+        "why": "Für Schauspieler und Creator ist die Trennlinie wichtig: KI als Werkzeug kann helfen, KI als Ersatz berührt Rechte, Identität und Vergütung.",
+        "links": ["https://www.reuters.com/"]
+      },
+      {
+        "title": "Data-Center-Debatte wird politischer",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "source": "Axios / Web",
+        "summary": "Städte und Regionen diskutieren Strombedarf, Wasserverbrauch und Genehmigungen neuer KI-Rechenzentren.",
+        "why": "Der KI-Boom hängt an realer Infrastruktur. Energie und lokale Akzeptanz können zum Wachstumsengpass werden.",
+        "links": ["https://www.axios.com/"]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-16",
+    "title": "Governance-Tag: KI-Ethik, Kultur und europäische Souveränität",
+    "summary": "Weniger Modell-Launch, mehr gesellschaftliche Einbettung: Vatikan, Kulturinstitutionen und europäische KI-Debatten prägen den Tag.",
+    "stories": [
+      {
+        "title": "Vatikan richtet KI-Studiengruppe ein",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "source": "AP News",
+        "summary": "Papst Leo XIV. setzt eine Studiengruppe zur künstlichen Intelligenz ein. Themen sind Menschenwürde, Arbeit, Wahrheit und autonome Waffen.",
+        "why": "KI wird als moralische und gesellschaftliche Grundsatzfrage behandelt, nicht nur als Technologieprodukt.",
+        "links": ["https://apnews.com/"]
+      },
+      {
+        "title": "KI-Molière-Projekt erreicht die Bühne",
+        "category": "Creator",
+        "priority": "mittel",
+        "source": "TechRadar",
+        "summary": "Ein Sorbonne-Projekt ließ ein KI-System im Stil Molières an einem Theaterstück mitarbeiten.",
+        "why": "Kreative KI wird von Kulturinstitutionen zunehmend öffentlich ausprobiert. Das verschiebt Debatten über Urheberschaft und Qualität.",
+        "links": ["https://www.techradar.com/"]
+      },
+      {
+        "title": "Mistral warnt vor europäischer KI-Abhängigkeit",
+        "category": "Business",
+        "priority": "hoch",
+        "source": "Business Insider",
+        "summary": "Mistral-CEO Arthur Mensch betont, dass Europa eigene KI-Infrastruktur und Modelle aufbauen müsse.",
+        "why": "KI-Souveränität wird zur Industriepolitik: Wer Modelle, Chips und Rechenzentren kontrolliert, kontrolliert Wertschöpfung.",
+        "links": ["https://www.businessinsider.com/"]
+      }
+    ]
+  }
+]
