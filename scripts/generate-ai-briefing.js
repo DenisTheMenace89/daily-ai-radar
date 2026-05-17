@@ -3,6 +3,7 @@ const fs = require("fs");
 const FILE = "briefings.json";
 const MODEL = process.env.OPENAI_MODEL || "gpt-5.4-mini";
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+const FORCE_REBUILD = process.env.FORCE_REBUILD === "true";
 
 const FEEDS = [
   { name: "TechCrunch AI", url: "https://techcrunch.com/category/artificial-intelligence/feed/" },
@@ -327,11 +328,16 @@ function upsertBriefing(briefing) {
   if (!Array.isArray(briefings)) briefings = [];
 
   const index = briefings.findIndex(item => item.date === briefing.date);
-  if (index >= 0) briefings[index] = briefing;
+  if (index >= 0 && !FORCE_REBUILD) {
+    console.log(`Briefing für ${briefing.date} existiert bereits. Archiv bleibt unverändert.`);
+    return false;
+  }
+  if (index >= 0 && FORCE_REBUILD) briefings[index] = briefing;
   else briefings.unshift(briefing);
 
   briefings.sort((a, b) => b.date.localeCompare(a.date));
   fs.writeFileSync(FILE, JSON.stringify(briefings, null, 2) + "\n", "utf8");
+  return true;
 }
 
 async function main() {
@@ -354,8 +360,12 @@ async function main() {
     }
   }
 
-  upsertBriefing(briefing);
-  console.log(`briefings.json aktualisiert: ${briefing.title} (${briefing.stories.length} Stories)`);
+  const changed = upsertBriefing(briefing);
+  if (changed) {
+    console.log(`briefings.json aktualisiert: ${briefing.title} (${briefing.stories.length} Stories)`);
+  } else {
+    console.log(`Keine Änderung geschrieben: ${briefing.date} ist bereits im Archiv.`);
+  }
 }
 
 main().catch(error => {
