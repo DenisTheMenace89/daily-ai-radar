@@ -1,38 +1,79 @@
-name: Daily AI Radar Briefing
+const fs = require("fs");
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 6 * * *"
+const FILE = "briefings.json";
 
-permissions:
-  contents: write
+function berlinDate(date) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Berlin",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(date);
 
-jobs:
-  update-briefing:
-    runs-on: ubuntu-latest
+  const map = Object.fromEntries(parts.map(p => [p.type, p.value]));
+  return `${map.year}-${map.month}-${map.day}`;
+}
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+function yesterdayInBerlin() {
+  return berlinDate(new Date(Date.now() - 24 * 60 * 60 * 1000));
+}
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
+function nowInBerlin() {
+  return new Intl.DateTimeFormat("de-DE", {
+    timeZone: "Europe/Berlin",
+    dateStyle: "medium",
+    timeStyle: "short"
+  }).format(new Date());
+}
 
-      - name: Generate demo briefing
-        run: node scripts/generate-demo-briefing.js
+const briefingDate = process.env.BRIEFING_DATE || yesterdayInBerlin();
+const timestamp = nowInBerlin();
 
-      - name: Commit updated briefing
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+let briefings = [];
 
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git add briefings.json
-            git commit -m "Update daily AI briefing"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+if (fs.existsSync(FILE)) {
+  briefings = JSON.parse(fs.readFileSync(FILE, "utf8"));
+}
+
+if (!Array.isArray(briefings)) {
+  briefings = [];
+}
+
+let briefing = briefings.find(item => item.date === briefingDate);
+
+if (!briefing) {
+  briefing = {
+    date: briefingDate,
+    title: `Automatisiertes Briefing vom ${briefingDate}`,
+    summary: "Dieses Briefing wurde automatisch von GitHub Actions erzeugt.",
+    stories: []
+  };
+
+  briefings.unshift(briefing);
+}
+
+const testStory = {
+  title: "Automationstest ausgeführt",
+  category: "System",
+  priority: "niedrig",
+  source: "GitHub Actions",
+  summary: `Dieser Eintrag wurde automatisch aktualisiert. Zeitpunkt: ${timestamp}.`,
+  why: "Damit prüfen wir, ob GitHub Actions die Datei briefings.json automatisch verändern kann. Wenn das funktioniert, ersetzen wir diesen Test später durch echte KI- & Tech-News.",
+  links: ["https://github.com/DenisTheMenace89/daily-ai-radar/actions"]
+};
+
+const existingIndex = briefing.stories.findIndex(
+  story => story.title === testStory.title
+);
+
+if (existingIndex >= 0) {
+  briefing.stories[existingIndex] = testStory;
+} else {
+  briefing.stories.unshift(testStory);
+}
+
+briefings.sort((a, b) => b.date.localeCompare(a.date));
+
+fs.writeFileSync(FILE, JSON.stringify(briefings, null, 2) + "\n", "utf8");
+
+console.log(`briefings.json wurde für ${briefingDate} aktualisiert.`);
