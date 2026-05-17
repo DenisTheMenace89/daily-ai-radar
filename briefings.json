@@ -74,51 +74,96 @@
   },
   {
     "date": "2026-05-16",
-    "title": "Governance-Tag: KI-Ethik, Kultur und europäische Souveränität",
-    "summary": "Weniger Modell-Launch, mehr gesellschaftliche Einbettung: Vatikan, Kulturinstitutionen und europäische KI-Debatten prägen den Tag.",
+    "title": "KI- und Tech-Daily-Briefing: OpenAI, YouTube-Schutz und neue Creator-Tools",
+    "summary": "Die wichtigsten Themen des Vortags drehen sich um OpenAI-Produktstrategie, KI-Zugänge auf Staatsebene, YouTube-Schutz gegen Deepfakes und mehrere neue Tools für LLMs, Video und Creator-Workflows. Dazu kommen Signale aus Hardware, Security und der KI-Infrastruktur.",
     "stories": [
       {
-        "title": "Automationstest ausgeführt",
-        "category": "System",
-        "priority": "niedrig",
-        "source": "GitHub Actions",
-        "summary": "Dieser Eintrag wurde automatisch aktualisiert. Zeitpunkt: 17.05.2026, 12:15.",
-        "why": "Damit prüfen wir, ob GitHub Actions die Datei briefings.json automatisch verändern kann. Wenn das funktioniert, ersetzen wir diesen Test später durch echte KI- & Tech-News.",
+        "title": "OpenAI-Umstrukturierung mit Fokus auf Produktstrategie und mögliche ChatGPT/Codex-Kombination",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI-Mitgründer Greg Brockman übernimmt laut Bericht die Produktstrategie. Gleichzeitig soll das Unternehmen planen, ChatGPT und das Programmierprodukt Codex zusammenzuführen.",
+        "why": "Für Creator- und Produkt-Workflows ist das relevant, weil sich damit die Bedienung und Positionierung von OpenAIs Tools verändern könnte. Eine engere Verzahnung von Chat und Coding kann auch für Video-, Script- und Automationsprozesse interessant werden.",
         "links": [
-          "https://github.com/DenisTheMenace89/daily-ai-radar/actions"
+          "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/"
         ]
       },
       {
-        "title": "Vatikan richtet KI-Studiengruppe ein",
+        "title": "Malta rollt ChatGPT Plus für alle Bürger aus",
         "category": "Regulierung",
         "priority": "hoch",
-        "source": "AP News",
-        "summary": "Papst Leo XIV. setzt eine Studiengruppe zur künstlichen Intelligenz ein. Themen sind Menschenwürde, Arbeit, Wahrheit und autonome Waffen.",
-        "why": "KI wird als moralische und gesellschaftliche Grundsatzfrage behandelt, nicht nur als Technologieprodukt.",
+        "source": "OpenAI News; Hacker News Frontpage",
+        "summary": "OpenAI und die Regierung von Malta starten eine Partnerschaft, um ChatGPT Plus an alle Bürger auszugeben. Laut Ankündigung gehören auch Trainingsangebote dazu, um praktische KI-Fähigkeiten und den verantwortungsvollen Umgang mit KI zu fördern.",
+        "why": "Das ist ein starkes Signal dafür, dass KI-Zugang zunehmend auch politisch und gesellschaftlich organisiert wird. Für Medienschaffende und Creator zeigt es, wie breit KI-Tools künftig ausgerollt und geschult werden könnten.",
         "links": [
-          "https://apnews.com/"
+          "https://openai.com/index/malta-chatgpt-plus-partnership/",
+          "https://openai.com/index/malta-chatgpt-plus-partnership/"
         ]
       },
       {
-        "title": "KI-Molière-Projekt erreicht die Bühne",
-        "category": "Creator",
-        "priority": "mittel",
-        "source": "TechRadar",
-        "summary": "Ein Sorbonne-Projekt ließ ein KI-System im Stil Molières an einem Theaterstück mitarbeiten.",
-        "why": "Kreative KI wird von Kulturinstitutionen zunehmend öffentlich ausprobiert. Das verschiebt Debatten über Urheberschaft und Qualität.",
-        "links": [
-          "https://www.techradar.com/"
-        ]
-      },
-      {
-        "title": "Mistral warnt vor europäischer KI-Abhängigkeit",
-        "category": "Business",
+        "title": "YouTube weitet KI-Likeness-Erkennung gegen Deepfakes aus",
+        "category": "Plattformen",
         "priority": "hoch",
-        "source": "Business Insider",
-        "summary": "Mistral-CEO Arthur Mensch betont, dass Europa eigene KI-Infrastruktur und Modelle aufbauen müsse.",
-        "why": "KI-Souveränität wird zur Industriepolitik: Wer Modelle, Chips und Rechenzentren kontrolliert, kontrolliert Wertschöpfung.",
+        "source": "The Verge AI",
+        "summary": "YouTube erweitert sein KI-Programm zur Erkennung von Ähnlichkeiten auf alle Nutzer über 18. Die Funktion scannt mit einem Selfie-ähnlichen Gesichtsscan nach möglichen Deepfakes oder Lookalikes und meldet Treffer an die betroffene Person.",
+        "why": "Für Schauspieler, Creator und alle mit öffentlicher Person ist das besonders wichtig, weil die Kontrolle über das eigene Gesicht und die eigene Marke zentral ist. Das betrifft direkt Medienrechte, Identitätsschutz und Reputationsrisiken auf YouTube.",
         "links": [
-          "https://www.businessinsider.com/"
+          "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults"
+        ]
+      },
+      {
+        "title": "ArXiv verschärft Regeln gegen den unkritischen Einsatz von LLMs in Papers",
+        "category": "Forschung",
+        "priority": "mittel",
+        "source": "TechCrunch AI",
+        "summary": "ArXiv will Autorinnen und Autoren für ein Jahr sperren, wenn sie KI praktisch die gesamte Arbeit in wissenschaftlichen Papieren erledigen lassen. Die Plattform reagiert damit auf den nachlässigen Einsatz großer Sprachmodelle.",
+        "why": "Das zeigt, dass generative KI auch in Fach- und Wissensarbeit stärker reguliert wird. Für Creator und Tech-Publizierende ist das ein Hinweis, dass Transparenz und Eigenleistung bei KI-gestützten Inhalten wichtiger werden.",
+        "links": [
+          "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/"
+        ]
+      },
+      {
+        "title": "SANA-WM: Open-Source-World-Model für 1 Minute 720p-Video",
+        "category": "Open Source",
+        "priority": "mittel",
+        "source": "Hacker News Frontpage",
+        "summary": "SANA-WM ist ein 2,6-Milliarden-Parameter-Open-Source-World-Model für 1-minütige 720p-Videogenerierung. Das Projekt wurde am Vortag auf Hacker News stark diskutiert.",
+        "why": "Für Video-Creator, Produktvideos und Prototyping ist das spannend, weil längere generative Bewegtbild-Formate näher rücken. Solche Modelle können perspektivisch Workflows für Storyboards, Previz und Content-Tests verändern.",
+        "links": [
+          "https://nvlabs.github.io/Sana/WM/"
+        ]
+      },
+      {
+        "title": "Nectar Social sammelt 30 Millionen Dollar für KI-gestütztes Marketing-System",
+        "category": "Business",
+        "priority": "mittel",
+        "source": "TechCrunch",
+        "summary": "Die KI-gestützte Marketingplattform Nectar Social hat eine Series-A-Finanzierung über 30 Millionen Dollar abgeschlossen. Angeführt wurde die Runde von Menlo Ventures und dem Anthology Fund.",
+        "why": "Das ist ein weiteres Zeichen dafür, dass KI im Marketing-Stack weiter Geld anzieht. Für Creator und kleine Teams bleiben solche Tools relevant, weil sie Distribution, Social-Media-Management und Kampagnenprozesse beeinflussen können.",
+        "links": [
+          "https://techcrunch.com/2026/05/16/marketing-operating-system-nectar-social-raises-30m-series-a-in-round-led-by-menlo/"
+        ]
+      },
+      {
+        "title": "Cerebras' teurer Weg zum KI-Chip-IPO",
+        "category": "Hardware",
+        "priority": "mittel",
+        "source": "TechCrunch",
+        "summary": "TechCrunch berichtet, dass Cerebras Systems in der Anfangszeit bis zu 8 Millionen Dollar pro Monat verbrannte und fast scheiterte. Heute ist das Unternehmen 2026 bislang der größte Tech-IPO-Deal des Jahres.",
+        "why": "Das zeigt, wie kapitalintensiv KI-Hardware ist und warum Infrastruktur hinter den Kulissen oft entscheidend bleibt. Für KI-Produkte und Creator-Tools heißt das: Rechenleistung und Chipzugang bleiben ein strategischer Engpass.",
+        "links": [
+          "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/"
+        ]
+      },
+      {
+        "title": "Ältere Kindles werden nach Support-Ende zum Jailbreak-Thema",
+        "category": "Hardware",
+        "priority": "niedrig",
+        "source": "TechCrunch",
+        "summary": "Nutzer versuchen, ältere Kindle-Geräte zu jailbreaken, nachdem Amazon den Support beendet hat. Der Artikel weist darauf hin, dass das zwar möglich sein kann, aber Risiken mit sich bringt.",
+        "why": "Für Medien- und Content-Nutzer ist das ein Beispiel dafür, wie Support-Enden Gerätefunktionen und Besitzgefühl verändern können. Es zeigt auch, wie stark Nutzer auf eigene Lösungen ausweichen, wenn Plattformen alte Hardware aufgeben.",
+        "links": [
+          "https://techcrunch.com/2026/05/16/users-turn-to-jailbreaking-their-older-kindles-as-amazon-ends-support/"
         ]
       }
     ]
