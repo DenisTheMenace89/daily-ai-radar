@@ -19,10 +19,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
-      - name: Generate demo briefing
-        run: node scripts/generate-demo-briefing.js
+      - name: Generate AI briefing
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-5.4-mini
+        run: node scripts/generate-ai-briefing.js
 
       - name: Commit updated briefing
         run: |
