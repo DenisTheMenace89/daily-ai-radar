@@ -1,75 +1,99 @@
 [
   {
     "date": "2026-05-17",
-    "title": "KI wird operativer: Finanzen, Coding, Kultur und Infrastruktur",
-    "summary": "Der Tag zeigt, wie KI tiefer in sensible Alltagsbereiche, Unternehmenseinsatz, Kulturproduktion und politische Infrastrukturdebatten vordringt.",
+    "title": "Daily Briefing: Siri-Privacy, OpenAI-Klage, Developer-Tools und mehr",
+    "summary": "Die wichtigsten Tech- und KI-Themen vom 17.05.2026 drehen sich um Apples geplanten Siri-Neustart mit Datenschutzfokus, den Elon-Musk-OpenAI-Prozess, neue Open-Source- und Agent-Tools für Entwickler sowie ein paar relevante Plattform- und Infrastruktur-Signale.",
     "stories": [
       {
-        "title": "OpenAI testet Finanzfunktionen mit Bankkonto-Anbindung",
+        "title": "Apple soll für die neue Siri Auto-Löschen von Chats planen",
         "category": "KI-Tools",
         "priority": "hoch",
-        "source": "TechCrunch",
-        "summary": "ChatGPT soll in einer Preview persönliche Finanzdaten über Plaid anbinden können, um Ausgaben, Abos, Portfolio und Planung auszuwerten.",
-        "why": "KI-Assistenten erhalten Einblick in hochsensible Lebensbereiche. Vertrauen, Datenschutz und klare Grenzen werden entscheidend.",
+        "source": "TechCrunch AI; The Verge AI",
+        "summary": "Berichte deuten darauf hin, dass die überarbeitete Siri eine Funktion zum automatischen Löschen von Chatverläufen erhalten könnte. Datenschutz soll damit ein zentrales Thema des kommenden Siri-Updates werden.",
+        "why": "Für Creator und Produktvideos ist das relevant, weil Apple seine KI-Funktionen klar über Privacy positioniert. Wenn Siri stärker in den Alltag integriert wird, sind Vertrauen und Datenkontrolle ein wichtiges Verkaufsargument.",
         "links": [
-          "https://techcrunch.com/"
+          "https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/",
+          "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats"
         ]
       },
       {
-        "title": "Codex wandert in die ChatGPT-Mobile-App",
-        "category": "Developer",
-        "priority": "hoch",
-        "source": "TechCrunch",
-        "summary": "Coding-Agenten werden mobil kontrollierbar: Tasks starten, Ergebnisse prüfen, Änderungen freigeben und Workflows überwachen.",
-        "why": "Softwareentwicklung bewegt sich weiter Richtung Agentensteuerung. Der Entwickler wird stärker zum Reviewer und Operator.",
-        "links": [
-          "https://techcrunch.com/"
-        ]
-      },
-      {
-        "title": "Lokale KI-Agenten auf dem Mac werden praktischer",
-        "category": "Open Source",
-        "priority": "mittel",
-        "source": "TechCrunch / Open Source",
-        "summary": "Tools wie Osaurus verbinden lokale Modelle und Cloud-Anbieter mit Desktop-Funktionen, Dateien, Browser, Mail und Kalender.",
-        "why": "Lokale KI kann Datenschutz verbessern und Kosten senken. Gleichzeitig entstehen neue Sicherheitsfragen, weil Agenten mehr Zugriff auf persönliche Systeme erhalten.",
-        "links": [
-          "https://techcrunch.com/"
-        ]
-      },
-      {
-        "title": "Regulatoren warnen vor Frontier-AI-Risiken",
+        "title": "Im Elon-Musk-OpenAI-Prozess steht Vertrauen in Sam Altman im Fokus",
         "category": "Regulierung",
         "priority": "hoch",
-        "source": "Reuters",
-        "summary": "Behörden mahnen Unternehmen, Risiken fortgeschrittener KI-Modelle in Cybersecurity, Finanzsystem und operativer Stabilität stärker zu kontrollieren.",
-        "why": "KI-Risiken werden nicht mehr nur als Produktproblem, sondern als systemisches Unternehmens- und Finanzmarktrisiko betrachtet.",
+        "source": "TechCrunch AI",
+        "summary": "In den letzten Tagen des Prozesses zwischen Elon Musk und OpenAI spielte die Frage eine große Rolle, ob OpenAI-CEO Sam Altman vertrauenswürdig ist. Das Thema Vertrauen war laut Bericht ein zentrales Motiv der Verhandlung.",
+        "why": "Der Fall ist wichtig, weil er direkt die Glaubwürdigkeit und Governance eines der wichtigsten KI-Unternehmen betrifft. Solche Verfahren prägen, wie Regulierung, Medien und Business-Partner künftig auf KI-Firmen schauen.",
         "links": [
-          "https://www.reuters.com/"
+          "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/"
         ]
       },
       {
-        "title": "Cannes diskutiert pragmatischeren KI-Einsatz im Film",
-        "category": "Creator",
-        "priority": "mittel",
-        "source": "Reuters",
-        "summary": "KI wird für VFX, Postproduktion und Kostensenkung offener betrachtet, bleibt aber bei Drehbuch, Schauspiel und kreativer Identität umstritten.",
-        "why": "Für Schauspieler und Creator ist die Trennlinie wichtig: KI als Werkzeug kann helfen, KI als Ersatz berührt Rechte, Identität und Vergütung.",
+        "title": "Semble soll Code-Suche für Agents mit deutlich weniger Tokens ermöglichen",
+        "category": "Developer",
+        "priority": "hoch",
+        "source": "Hacker News Frontpage",
+        "summary": "Semble ist ein neu veröffentlichtes Open-Source-Tool für Code-Suche in Agent-Workflows. Laut Beschreibung nutzt es statische Embeddings plus BM25 und soll im Vergleich zu grep 98 Prozent weniger Tokens benötigen.",
+        "why": "Für Entwickler, Tool-Bauer und Creator mit eigenen Apps oder Plugins ist das spannend, weil Agenten damit effizienter in großen Codebasen arbeiten können. Das kann Kosten und Reibung bei AI-gestützten Workflows spürbar senken.",
         "links": [
-          "https://www.reuters.com/"
+          "https://github.com/MinishLab/semble"
         ]
       },
       {
-        "title": "Data-Center-Debatte wird politischer",
-        "category": "Infrastruktur",
+        "title": "Aus einem Android-Tablet wurde eine Debian-Linux-Workstation",
+        "category": "Hardware",
         "priority": "mittel",
-        "source": "Axios / Web",
-        "summary": "Städte und Regionen diskutieren Strombedarf, Wasserverbrauch und Genehmigungen neuer KI-Rechenzentren.",
-        "why": "Der KI-Boom hängt an realer Infrastruktur. Energie und lokale Akzeptanz können zum Wachstumsengpass werden.",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein Projekt zeigt, wie sich ein 80-Dollar-RK3562-Android-Tablet in eine Debian-Linux-Workstation verwandeln lässt. Das Repo dokumentiert den Umbau und richtet sich an Bastler und Linux-Nutzer.",
+        "why": "Für Creator und Mobile-Setups ist das interessant, weil günstige Hardware so als produktives Zweitsystem oder Feldgerät nutzbar wird. Solche Mods sind auch für Video-Creator spannend, die mit kleinem Budget experimentieren.",
         "links": [
-          "https://www.axios.com/"
+          "https://github.com/tech4bot/rk3562deb"
+        ]
+      },
+      {
+        "title": "Viele LLM-Diskussionen drehen sich um Workflow, Kontext und Modellwahl",
+        "category": "Forschung",
+        "priority": "mittel",
+        "source": "Hacker News LLM",
+        "summary": "Mehrere HN-Beiträge des Tages behandeln praktische LLM-Fragen: Fine-Tuning, Modellwahl im Alltag, persistenter Workspace für Tools und Architekturentwicklungen bei LLMs. Der Tenor: Nicht jedes KI-Problem wird durch mehr Chat-Sessions oder mehr Modelle automatisch besser.",
+        "why": "Für Creator und Produktteams ist das relevant, weil gute KI-Workflows oft mehr von Kontext, Setup und Tooling abhängen als vom „besten“ Modell. Wer KI in Video-Produktion, Skripting oder Prototyping nutzt, profitiert besonders von stabilen Prozessen.",
+        "links": [
+          "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
+          "https://news.ycombinator.com/item?id=48169701",
+          "https://www.promptinjection.net/p/the-ultimate-llm-ai-fine-tuning-guide-tutorial",
+          "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures"
+        ]
+      },
+      {
+        "title": "AI bleibt gesellschaftlich umstritten, auch bei öffentlichen Auftritten",
+        "category": "Regulierung",
+        "priority": "niedrig",
+        "source": "The Verge AI",
+        "summary": "Eric Schmidt wurde bei einer Abschlussrede an der University of Arizona ausgebuht, als er auf KI zu sprechen kam. Der Bericht ordnet das als Zeichen dafür ein, dass KI für viele ein kontroverses Thema bleibt.",
+        "why": "Das zeigt, wie polarisiert die Debatte rund um KI inzwischen ist. Für öffentliche Kommunikation, Creator-Positionierung und Markenaufbau ist das ein Hinweis, dass KI-Themen nicht nur technisch, sondern auch emotional gelesen werden.",
+        "links": [
+          "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement"
+        ]
+      },
+      {
+        "title": "Cerebras-Win stärkt Eclipse und den Fokus auf „real world“ Investing",
+        "category": "Business",
+        "priority": "mittel",
+        "source": "TechCrunch",
+        "summary": "TechCrunch berichtet, dass der 2,5-Milliarden-Dollar-Erfolg bei Cerebras erst der Anfang für Eclipse sei. Die Firma sieht sich mit ihrer These zu Investments in der physischen Welt inzwischen näher am Zentrum des Tech-Markts.",
+        "why": "Für Startups, Hardware- und AI-Infrastruktur-Beobachter ist das ein Signal, dass große Wetten auf reale Systeme und Chips weiter wichtig bleiben. Solche Bewegungen prägen, welche Firmen in den nächsten Produkt- und Plattformzyklen profitieren.",
+        "links": [
+          "https://techcrunch.com/2026/05/17/for-eclipse-the-2-5b-cerebras-win-is-just-the-start-of-realizing-its-physical-world-thesis/"
         ]
       }
+    ],
+    "generatedAt": "2026-05-18T09:40:26.936Z",
+    "generatedAtBerlin": "18.05.2026, 11:40",
+    "mode": "ai",
+    "sourceCount": 22,
+    "highlights": [
+      "Apple soll für die neue Siri Auto-Löschen von Chats planen",
+      "Im Elon-Musk-OpenAI-Prozess steht Vertrauen in Sam Altman im Fokus",
+      "Semble soll Code-Suche für Agents mit deutlich weniger Tokens ermöglichen"
     ]
   },
   {
