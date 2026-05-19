@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-05-18",
+    "title": "KI- und Tech-Daily-Briefing: Modelle, Tools, Hardware und Plattformen",
+    "summary": "Die wichtigsten Meldungen vom 18.05.2026 drehen sich um KI-Tooling, Creator-nahe Audio-/Podcast-Funktionen, Enterprise-Codex-Deployments sowie Sicherheit und Plattformverschiebungen im KI-Ökosystem.",
+    "stories": [
+      {
+        "title": "Anthropic kauft Stainless, das Dev-Tools-Startup hinter SDK-Automation",
+        "category": "Developer",
+        "priority": "hoch",
+        "source": "TechCrunch AI",
+        "summary": "Anthropic hat Stainless übernommen, ein Startup, das die Erstellung und Pflege von SDKs automatisiert. Das Unternehmen war bei OpenAI, Google und Cloudflare im Einsatz.",
+        "why": "Für Teams, die APIs in Creator-Tools, Video-Workflows oder interne Produkte integrieren, ist automatisiertes SDK-Management direkt relevant. Das Signal: Die großen KI-Anbieter investieren stärker in Entwickler-Infrastruktur statt nur in Modelle.",
+        "links": [
+          "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+          "https://www.anthropic.com/news/anthropic-acquires-stainless"
+        ]
+      },
+      {
+        "title": "Amazon Alexa+ kann jetzt Podcast-Episoden generieren",
+        "category": "Creator",
+        "priority": "hoch",
+        "source": "TechCrunch AI",
+        "summary": "Amazon erweitert Alexa+ um eine Funktion, die auf Zuruf individuelle KI-Podcast-Episoden erzeugen kann. Damit entwickelt sich der Assistent zu einer personalisierten Content-Plattform.",
+        "why": "Für Creator, Hosts und Medienproduktionen ist das ein weiterer Schritt hin zu KI-generierten Audioformaten. Solche Funktionen könnten auch für schnelle Prototypen, Story-Varianten oder begleitende Formate rund um Video-Content relevant werden.",
+        "links": [
+          "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/"
+        ]
+      },
+      {
+        "title": "OpenAI und Dell bringen Codex in hybride und On-Prem-Umgebungen",
+        "category": "Developer",
+        "priority": "hoch",
+        "source": "OpenAI News",
+        "summary": "OpenAI und Dell kooperieren, um Codex in hybride und lokal betriebene Enterprise-Umgebungen zu bringen. Ziel ist es, KI-Coding-Agenten sicher über Daten und Workflows hinweg einzusetzen.",
+        "why": "Das ist vor allem für Unternehmen spannend, die sensible Produktions-, Medien- oder Kundendaten nicht in reine Cloud-Setups geben wollen. Für professionelle Creator-Teams und Agenturen kann das die Tür zu stärker abgesicherten KI-Workflows öffnen.",
+        "links": [
+          "https://openai.com/index/dell-codex-enterprise-partnership"
+        ]
+      },
+      {
+        "title": "SpaceX-Starbase: OSHA prüft Todesfall am Standort",
+        "category": "Security",
+        "priority": "mittel",
+        "source": "TechCrunch",
+        "summary": "OSHA untersucht einen Todesfall am Starbase-Standort von SpaceX. Laut Bericht reiht sich der Vorfall in weitere Arbeitssicherheitsprobleme an dem Standort ein.",
+        "why": "Für Tech- und Hardware-Produktion ist Arbeitssicherheit ein zentraler Faktor, gerade bei ambitionierten Infrastruktur- und Fertigungsprojekten. Solche Fälle sind auch für Medienberichterstattung über große Tech-Marken relevant.",
+        "links": [
+          "https://techcrunch.com/2026/05/18/osha-probing-worker-death-at-spacexs-starbase-site/"
+        ]
+      },
+      {
+        "title": "NYC Health + Hospitals meldet großen Datenabfluss mit Fingerabdrücken",
+        "category": "Security",
+        "priority": "hoch",
+        "source": "TechCrunch",
+        "summary": "Das New Yorker öffentliche Gesundheitssystem sagt, dass Hacker persönliche und medizinische Daten sowie biometrische Scans, darunter Fingerabdrücke, gestohlen haben. Betroffen seien mindestens 1,8 Millionen Menschen.",
+        "why": "Der Vorfall zeigt, wie sensibel biometrische Daten sind und wie gravierend ein Leak ausfallen kann. Für Plattformen, Creator-Accounts und Unternehmens-Workflows ist das ein Reminder, Identitäts- und Zugriffsschutz sehr ernst zu nehmen.",
+        "links": [
+          "https://techcrunch.com/2026/05/18/nyc-health-and-hospitals-says-hackers-stole-medical-data-and-fingerprints-during-breach-affecting-at-least-1-8-million-people/"
+        ]
+      },
+      {
+        "title": "Grafana Labs meldet Quellcode-Diebstahl und lehnt Lösegeldzahlung ab",
+        "category": "Open Source",
+        "priority": "hoch",
+        "source": "TechCrunch",
+        "summary": "Der Open-Source-Tool-Anbieter Grafana Labs sagt, dass Hacker die Codebasis gestohlen und mit Veröffentlichung gedroht hätten, falls nicht bezahlt werde. Das Unternehmen will nicht auf die Forderung eingehen.",
+        "why": "Grafana ist ein wichtiges Tool im Open-Source- und Dev-Ökosystem, das auch in produktionsnahen Setups breit genutzt wird. Solche Angriffe betreffen nicht nur Softwarefirmen, sondern indirekt auch Creator- und Business-Teams, die auf verlässliche Infrastruktur angewiesen sind.",
+        "links": [
+          "https://techcrunch.com/2026/05/18/open-source-tool-maker-grafana-labs-says-hackers-stole-its-code-refuses-to-pay-ransom/"
+        ]
+      },
+      {
+        "title": "LetinAR baut die Optik für AI Glasses",
+        "category": "Hardware",
+        "priority": "mittel",
+        "source": "TechCrunch AI",
+        "summary": "Das südkoreanische Startup LetinAR entwickelt eine Linse in Daumennagelgröße, die als optische Basis für die Ära der KI-Brillen dienen könnte. TechCrunch beschreibt sie als möglichen Backbone für AI Glasses.",
+        "why": "Für Video-Creator und Medienleute ist Wearable-Hardware relevant, weil sie neue Kamera-, Assistenz- und AR-Workflows ermöglichen kann. Auch für Produktvideos rund um KI-Hardware ist das ein spannender Frühindikator.",
+        "links": [
+          "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/"
+        ]
+      },
+      {
+        "title": "Musk verliert Klage gegen Altman und OpenAI",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "source": "TechCrunch AI",
+        "summary": "Elon Musks Klage gegen Sam Altman und OpenAI scheiterte, nachdem neun kalifornische Geschworene einstimmig entschieden, dass die Klagen zu spät eingereicht wurden. Damit blieb Musks Vorwurf einer Benachteiligung durch die OpenAI-Mitgründer erfolglos.",
+        "why": "Der Fall zeigt, wie stark der Macht- und Governance-Konflikt rund um KI inzwischen auch juristisch ausgetragen wird. Für die Branche ist das relevant, weil daraus Rahmenbedingungen für Kontrolle, Unternehmensführung und öffentliche Wahrnehmung entstehen.",
+        "links": [
+          "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+          "https://www.theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people"
+        ]
+      }
+    ],
+    "generatedAt": "2026-05-19T08:06:00.386Z",
+    "generatedAtBerlin": "19.05.2026, 10:06",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Anthropic kauft Stainless, das Dev-Tools-Startup hinter SDK-Automation",
+      "Amazon Alexa+ kann jetzt Podcast-Episoden generieren",
+      "OpenAI und Dell bringen Codex in hybride und On-Prem-Umgebungen"
+    ]
+  },
+  {
     "date": "2026-05-17",
     "title": "Daily Briefing: Siri-Privacy, OpenAI-Klage, Developer-Tools und mehr",
     "summary": "Die wichtigsten Tech- und KI-Themen vom 17.05.2026 drehen sich um Apples geplanten Siri-Neustart mit Datenschutzfokus, den Elon-Musk-OpenAI-Prozess, neue Open-Source- und Agent-Tools für Entwickler sowie ein paar relevante Plattform- und Infrastruktur-Signale.",
