@@ -138,6 +138,17 @@ function normalizeTitle(title) {
   return title.toLowerCase().replace(/[^a-z0-9äöüß ]/gi, "").replace(/\s+/g, " ").trim();
 }
 
+function normalizeUrl(url = "") {
+  try {
+    const parsed = new URL(url);
+    parsed.hash = "";
+    parsed.search = "";
+    return parsed.toString().replace(/\/$/, "");
+  } catch {
+    return String(url).split("#")[0].split("?")[0].replace(/\/$/, "");
+  }
+}
+
 async function fetchFeed(feed) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 15000);
@@ -163,7 +174,7 @@ async function collectSources(targetDate) {
   const seen = new Set();
 
   for (const item of all) {
-    const key = item.link || normalizeTitle(item.title);
+    const key = normalizeUrl(item.link) || normalizeTitle(item.title);
     const titleKey = normalizeTitle(item.title);
     if (seen.has(key) || seen.has(titleKey)) continue;
     seen.add(key);
@@ -217,6 +228,7 @@ Wichtig:
 - Nutze ausschließlich die unten gegebenen Quellen.
 - Erfinde keine Fakten, Zahlen, Namen oder Zitate.
 - Fasse doppelte oder sehr ähnliche Meldungen zusammen.
+- Strikte Dublettenregel: Dieselbe Nachricht darf nur einmal vorkommen. Wenn zwei Meldungen denselben Link, denselben Ursprung oder denselben Sachverhalt haben, kombiniere sie zu einer einzigen Story.
 - Priorisiere Themen, die für KI, Tech, Creator-Tools, YouTube/Video, Software, Hardware, Security, Startups, Plattformen und Regulierung relevant sind.
 - Nimm nur Meldungen auf, die wirklich relevant sind. Lieber 5 gute Meldungen als 8 mittelmäßige.
 - Maximal 8 Meldungen.
@@ -225,6 +237,9 @@ Wichtig:
 - priority ist: hoch, mittel oder niedrig.
 - summary: 1-2 Sätze, was passiert ist.
 - why: 1-2 Sätze, warum das wichtig ist, gerne mit Bezug auf Creator, Produktvideos, YouTube, Schauspiel/Medienrechte oder Business, aber nur wenn es wirklich passt.
+- Übersetze Headlines semantisch korrekt und eindeutig. Achte besonders darauf, wer die handelnde Person/Organisation ist.
+- Beispiel für korrekte Übersetzung: "Grafana Labs says hackers stole its code, refuses to pay ransom" bedeutet "Grafana Labs sagt, Hacker hätten Code gestohlen, und Grafana Labs weigert sich, Lösegeld zu zahlen". Es bedeutet NICHT, dass die Hacker kein Lösegeld fordern.
+- Wenn eine englische Headline grammatisch mehrdeutig wirken könnte, formuliere den deutschen Titel lieber als klaren Satz mit Subjekt und Verb.
 - links enthält nur URLs aus den Quellen.
 
 Antwortformat:
@@ -315,12 +330,15 @@ function validateBriefing(briefing, targetDate, sources) {
   if (!briefing || typeof briefing !== "object") throw new Error("Briefing ist kein Objekt.");
   if (!Array.isArray(briefing.stories)) throw new Error("Briefing.stories fehlt.");
 
-  const allowedUrls = new Set(sources.map(s => s.url));
+  const allowedUrls = new Set(sources.map(s => normalizeUrl(s.url)));
   briefing.date = targetDate;
   briefing.title = String(briefing.title || `KI- & Tech-Radar vom ${formatGermanDate(targetDate)}`).slice(0, 140);
   briefing.summary = String(briefing.summary || "Automatisch erzeugtes KI- und Tech-Briefing.").slice(0, 500);
-  briefing.stories = briefing.stories.slice(0, 8).map(story => {
-    const links = Array.isArray(story.links) ? story.links.filter(url => allowedUrls.has(url)).slice(0, 4) : [];
+
+  const cleanedStories = briefing.stories.slice(0, 12).map(story => {
+    const links = Array.isArray(story.links)
+      ? story.links.filter(url => allowedUrls.has(normalizeUrl(url))).slice(0, 4)
+      : [];
     return {
       title: String(story.title || "Unbenannte Meldung").slice(0, 180),
       category: String(story.category || "KI & Tech").slice(0, 40),
@@ -332,6 +350,25 @@ function validateBriefing(briefing, targetDate, sources) {
     };
   }).filter(story => story.title && story.summary && story.links.length);
 
+  const seenUrls = new Set();
+  const seenTitles = new Set();
+  const uniqueStories = [];
+  for (const story of cleanedStories) {
+    const titleKey = normalizeTitle(story.title);
+    const storyUrls = story.links.map(normalizeUrl);
+    const repeatsUrl = storyUrls.some(url => seenUrls.has(url));
+    const repeatsTitle = seenTitles.has(titleKey);
+    if (repeatsUrl || repeatsTitle) {
+      console.warn(`Doppelte Story entfernt: ${story.title}`);
+      continue;
+    }
+    storyUrls.forEach(url => seenUrls.add(url));
+    seenTitles.add(titleKey);
+    uniqueStories.push(story);
+    if (uniqueStories.length >= 8) break;
+  }
+
+  briefing.stories = uniqueStories;
   if (!briefing.stories.length) throw new Error("Briefing enthält keine gültigen Stories mit Quellenlinks.");
   return briefing;
 }
