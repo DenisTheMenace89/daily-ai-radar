@@ -35,13 +35,8 @@ function berlinDate(date) {
   return `${map.year}-${map.month}-${map.day}`;
 }
 
-function yesterdayInBerlin() {
-  return berlinDate(new Date(Date.now() - 24 * 60 * 60 * 1000));
-}
-
-function todayInBerlin() {
-  return berlinDate(new Date());
-}
+function yesterdayInBerlin() { return berlinDate(new Date(Date.now() - 24 * 60 * 60 * 1000)); }
+function todayInBerlin() { return berlinDate(new Date()); }
 
 function formatGermanDate(isoDate) {
   return new Intl.DateTimeFormat("de-DE", {
@@ -127,10 +122,7 @@ function isRelevant(item) {
   return KEYWORDS.some(keyword => text.includes(keyword));
 }
 
-function normalizeTitle(title) {
-  return title.toLowerCase().replace(/[^a-z0-9äöüß ]/gi, "").replace(/\s+/g, " ").trim();
-}
-
+function normalizeTitle(title) { return title.toLowerCase().replace(/[^a-z0-9äöüß ]/gi, "").replace(/\s+/g, " ").trim(); }
 function normalizeUrl(url = "") {
   try {
     const parsed = new URL(url);
@@ -181,7 +173,6 @@ async function collectSources(targetDate) {
     .slice(0, 40);
 
   const selected = (targetItems.length >= 8 ? targetItems : fallbackItems).slice(0, 32);
-
   return selected.map((item, index) => ({
     id: index + 1,
     title: item.title,
@@ -195,11 +186,16 @@ async function collectSources(targetDate) {
 function fallbackBriefing(targetDate, sources, reason = "") {
   const stories = sources.slice(0, 8).map(item => ({
     title: item.title,
+    originalTitle: item.title,
     category: item.source.includes("Hacker News") ? "Hacker News" : "KI & Tech",
     priority: "mittel",
+    signal: "mittel",
+    relevance: "mittel",
+    trust: "Einzelquelle / Feed",
     source: item.source,
     summary: item.description || "Neuer KI- oder Tech-Link aus dem Quellenfeed.",
     why: "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+    opportunity: "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
     links: [item.url]
   }));
 
@@ -207,6 +203,10 @@ function fallbackBriefing(targetDate, sources, reason = "") {
     date: targetDate,
     title: `KI- & Tech-Radar vom ${formatGermanDate(targetDate)}`,
     summary: reason ? `Fallback-Briefing: ${reason}` : "Automatisch aus KI- und Tech-Feeds zusammengestellte Übersicht.",
+    topSummary: reason ? `Fallback-Briefing: ${reason}` : "Heute gab es passende KI- und Tech-Signale aus den geprüften Feeds.",
+    implications: ["Prüfe die wichtigsten Meldungen direkt in den Quellen."],
+    watchlist: ["Morgen beobachten, ob es Follow-ups zu den stärksten Themen gibt."],
+    tags: ["#KI", "#Tech"],
     stories
   };
 }
@@ -225,15 +225,24 @@ Wichtig:
 - Priorisiere Themen, die für KI, Tech, Creator-Tools, YouTube/Video, Software, Hardware, Security, Startups, Plattformen und Regulierung relevant sind.
 - Nimm nur Meldungen auf, die wirklich relevant sind. Lieber 5 gute Meldungen als 8 mittelmäßige.
 - Maximal 8 Meldungen.
-- Jede Meldung braucht: title, category, priority, source, summary, why, links.
+- Jede Meldung braucht: title, originalTitle, category, priority, signal, relevance, trust, source, summary, why, opportunity, links.
 - category soll eine der folgenden Kategorien sein: KI-Tools, Developer, Creator, Business, Security, Regulierung, Infrastruktur, Open Source, Hardware, Plattformen, Forschung.
-- priority ist: hoch, mittel oder niedrig.
+- priority, signal und relevance sind jeweils: hoch, mittel oder niedrig.
+- trust ist kurz: "Primärquelle", "mehrere Quellen", "Einzelquelle" oder "Community-Signal".
 - summary: 1-2 Sätze, was passiert ist.
 - why: 1-2 Sätze, warum das wichtig ist, gerne mit Bezug auf Creator, Produktvideos, YouTube, Schauspiel/Medienrechte oder Business, aber nur wenn es wirklich passt.
+- opportunity: 1 kurzer Satz, welche Chance, Videoidee, Beobachtung oder Handlungsoption sich daraus für Denis ergeben könnte. Wenn nichts passt: "Nur beobachten."
+- originalTitle ist der englische oder originale Quellentitel der wichtigsten Quelle, nicht frei erfinden.
 - Übersetze Headlines semantisch korrekt und eindeutig. Achte besonders darauf, wer die handelnde Person/Organisation ist.
 - Beispiel für korrekte Übersetzung: "Grafana Labs says hackers stole its code, refuses to pay ransom" bedeutet "Grafana Labs sagt, Hacker hätten Code gestohlen, und Grafana Labs weigert sich, Lösegeld zu zahlen". Es bedeutet NICHT, dass die Hacker kein Lösegeld fordern.
 - Wenn eine englische Headline grammatisch mehrdeutig wirken könnte, formuliere den deutschen Titel lieber als klaren Satz mit Subjekt und Verb.
 - links enthält nur URLs aus den Quellen.
+
+Zusätzliche Briefing-Ebene:
+- topSummary: "Heute in 30 Sekunden" als 2-3 Sätze. Kein Hype, nur Einordnung.
+- implications: 2-4 kurze Bulletpoints: "Was bedeutet das?"
+- watchlist: 2-4 kurze Bulletpoints: "Was weiter beobachten?"
+- tags: 3-6 kurze Hashtags, z.B. #CreatorAI, #Security, #DeveloperTools.
 
 Antwortformat:
 Gib ausschließlich gültiges JSON zurück, ohne Markdown, ohne Erklärung.
@@ -243,14 +252,23 @@ Schema:
   "date": "${targetDate}",
   "title": "...",
   "summary": "...",
+  "topSummary": "...",
+  "implications": ["..."],
+  "watchlist": ["..."],
+  "tags": ["#..."],
   "stories": [
     {
       "title": "...",
+      "originalTitle": "...",
       "category": "...",
       "priority": "hoch|mittel|niedrig",
+      "signal": "hoch|mittel|niedrig",
+      "relevance": "hoch|mittel|niedrig",
+      "trust": "Primärquelle|mehrere Quellen|Einzelquelle|Community-Signal",
       "source": "...",
       "summary": "...",
       "why": "...",
+      "opportunity": "...",
       "links": ["..."]
     }
   ]
@@ -275,17 +293,13 @@ function extractOutputText(data) {
     }
     if (parts.length) return parts.join("\n");
   }
-  if (Array.isArray(data.choices) && data.choices[0]?.message?.content) {
-    return data.choices[0].message.content;
-  }
+  if (Array.isArray(data.choices) && data.choices[0]?.message?.content) return data.choices[0].message.content;
   return "";
 }
 
 function parseJsonFromText(text) {
   const cleaned = text.trim().replace(/^```json\s*/i, "").replace(/^```\s*/i, "").replace(/```$/i, "").trim();
-  try {
-    return JSON.parse(cleaned);
-  } catch {
+  try { return JSON.parse(cleaned); } catch {
     const first = cleaned.indexOf("{");
     const last = cleaned.lastIndexOf("}");
     if (first >= 0 && last > first) return JSON.parse(cleaned.slice(first, last + 1));
@@ -295,28 +309,20 @@ function parseJsonFromText(text) {
 
 async function callOpenAI(prompt) {
   if (!OPENAI_API_KEY) throw new Error("OPENAI_API_KEY fehlt in GitHub Secrets.");
-
   const res = await fetch("https://api.openai.com/v1/responses", {
     method: "POST",
-    headers: {
-      "content-type": "application/json",
-      "authorization": `Bearer ${OPENAI_API_KEY}`
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      input: prompt
-    })
+    headers: { "content-type": "application/json", "authorization": `Bearer ${OPENAI_API_KEY}` },
+    body: JSON.stringify({ model: MODEL, input: prompt })
   });
-
   const data = await res.json().catch(() => ({}));
-  if (!res.ok) {
-    const message = data?.error?.message || `${res.status} ${res.statusText}`;
-    throw new Error(`OpenAI API Fehler: ${message}`);
-  }
-
+  if (!res.ok) throw new Error(`OpenAI API Fehler: ${data?.error?.message || `${res.status} ${res.statusText}`}`);
   const text = extractOutputText(data);
   if (!text) throw new Error("OpenAI API lieferte keinen auswertbaren Text.");
   return parseJsonFromText(text);
+}
+
+function validLevel(value, fallback = "mittel") {
+  return ["hoch", "mittel", "niedrig"].includes(value) ? value : fallback;
 }
 
 function validateBriefing(briefing, targetDate, sources) {
@@ -327,18 +333,25 @@ function validateBriefing(briefing, targetDate, sources) {
   briefing.date = targetDate;
   briefing.title = String(briefing.title || `KI- & Tech-Radar vom ${formatGermanDate(targetDate)}`).slice(0, 140);
   briefing.summary = String(briefing.summary || "Automatisch erzeugtes KI- und Tech-Briefing.").slice(0, 500);
+  briefing.topSummary = String(briefing.topSummary || briefing.summary).slice(0, 700);
+  briefing.implications = Array.isArray(briefing.implications) ? briefing.implications.map(x => String(x).slice(0, 180)).slice(0, 4) : [];
+  briefing.watchlist = Array.isArray(briefing.watchlist) ? briefing.watchlist.map(x => String(x).slice(0, 180)).slice(0, 4) : [];
+  briefing.tags = Array.isArray(briefing.tags) ? briefing.tags.map(x => String(x).replace(/^([^#])/, "#$1").slice(0, 28)).slice(0, 6) : [];
 
   const cleanedStories = briefing.stories.slice(0, 12).map(story => {
-    const links = Array.isArray(story.links)
-      ? story.links.filter(url => allowedUrls.has(normalizeUrl(url))).slice(0, 4)
-      : [];
+    const links = Array.isArray(story.links) ? story.links.filter(url => allowedUrls.has(normalizeUrl(url))).slice(0, 4) : [];
     return {
       title: String(story.title || "Unbenannte Meldung").slice(0, 180),
+      originalTitle: String(story.originalTitle || story.title || "").slice(0, 220),
       category: String(story.category || "KI & Tech").slice(0, 40),
-      priority: ["hoch", "mittel", "niedrig"].includes(story.priority) ? story.priority : "mittel",
+      priority: validLevel(story.priority),
+      signal: validLevel(story.signal || story.priority),
+      relevance: validLevel(story.relevance || story.priority),
+      trust: String(story.trust || "Einzelquelle").slice(0, 40),
       source: String(story.source || "Web").slice(0, 80),
       summary: String(story.summary || "").slice(0, 600),
       why: String(story.why || "").slice(0, 600),
+      opportunity: String(story.opportunity || "Nur beobachten.").slice(0, 260),
       links
     };
   }).filter(story => story.title && story.summary && story.links.length);
@@ -363,6 +376,9 @@ function validateBriefing(briefing, targetDate, sources) {
 
   briefing.stories = uniqueStories;
   if (!briefing.stories.length) throw new Error("Briefing enthält keine gültigen Stories mit Quellenlinks.");
+  if (!briefing.implications.length) briefing.implications = ["Die wichtigsten Meldungen nach Relevanz und Signalstärke prüfen."];
+  if (!briefing.watchlist.length) briefing.watchlist = briefing.stories.slice(0, 3).map(story => story.title);
+  if (!briefing.tags.length) briefing.tags = [...new Set(briefing.stories.map(story => `#${story.category.replace(/\s+/g, "")}`))].slice(0, 5);
   return briefing;
 }
 
@@ -386,19 +402,16 @@ function addMetadata(briefing, sources, mode) {
 function upsertBriefing(briefing) {
   let briefings = readBriefings();
   const index = briefings.findIndex(item => item.date === briefing.date);
-
   if (index >= 0 && !FORCE_REBUILD) {
     console.log(`Briefing für ${briefing.date} existiert bereits. Kein erneutes Generieren/Überschreiben ohne FORCE_REBUILD.`);
     return false;
   }
-
   if (index >= 0 && FORCE_REBUILD) {
     console.log(`FORCE_REBUILD aktiv: Aktualisiere Briefing für ${briefing.date}.`);
     briefings[index] = briefing;
   } else {
     briefings.unshift(briefing);
   }
-
   briefings.sort((a, b) => b.date.localeCompare(a.date));
   fs.writeFileSync(FILE, JSON.stringify(briefings, null, 2) + "\n", "utf8");
   return true;
@@ -407,7 +420,6 @@ function upsertBriefing(briefing) {
 async function main() {
   const targetDate = process.env.BRIEFING_DATE || yesterdayInBerlin();
   console.log(`Erstelle KI- & Tech-Briefing für ${targetDate}. Heute Berlin: ${todayInBerlin()}`);
-
   if (shouldSkipExistingDate(targetDate)) {
     console.log(`Keine KI-Kosten: Briefing für ${targetDate} existiert bereits. Backup-Lauf beendet.`);
     return;
@@ -434,11 +446,8 @@ async function main() {
 
   briefing = addMetadata(briefing, sources, mode);
   const changed = upsertBriefing(briefing);
-  if (changed) {
-    console.log(`briefings.json aktualisiert: ${briefing.title} (${briefing.stories.length} Stories, ${sources.length} Quellen, Modus: ${mode})`);
-  } else {
-    console.log(`Keine Änderung geschrieben: ${briefing.date} bleibt stabil.`);
-  }
+  if (changed) console.log(`briefings.json aktualisiert: ${briefing.title} (${briefing.stories.length} Stories, ${sources.length} Quellen, Modus: ${mode})`);
+  else console.log(`Keine Änderung geschrieben: ${briefing.date} bleibt stabil.`);
 }
 
 main().catch(error => {
