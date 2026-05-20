@@ -3,7 +3,12 @@ name: Daily AI Radar Briefing
 on:
   workflow_dispatch:
   schedule:
+    # GitHub cron uses UTC.
+    # Summer time in Germany: 04:30 UTC = 06:30, 06:00 UTC = 08:00, 08:00 UTC = 10:00.
+    # Multiple runs make the daily briefing more reliable if GitHub delays or skips one scheduled run.
+    - cron: "30 4 * * *"
     - cron: "0 6 * * *"
+    - cron: "0 8 * * *"
 
 permissions:
   contents: write
