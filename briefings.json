@@ -1,5 +1,174 @@
 [
   {
+    "date": "2026-05-19",
+    "title": "Daily-Briefing: Google setzt auf Agenten, Video und neue Creator-Workflows",
+    "summary": "Google hat auf der I/O 2026 eine breite KI-Offensive gezeigt: von neuen Gemini-Modellen und Agenten über Workspace- und Search-Updates bis hin zu smarten Gläsern und Video-Tools. Parallel gab es relevante Signale zu KI-Security, Content-Provenance und Plattform-Rechten.",
+    "topSummary": "Heute in 30 Sekunden: Google verschiebt den Schwerpunkt klar von Chatbots hin zu agentischen, proaktiven KI-Systemen — mit Auswirkungen auf Suche, E-Mail, Android-Entwicklung und Video. Für Creator und Medienarbeit besonders spannend: neue Möglichkeiten für Videoerstellung, sprachbasierte Workflows und die wachsende Frage, wie KI-Inhalte verifiziert werden. Dazu kommen Security-News rund um AI-Phishing und verschlüsselte Calls bei Discord.",
+    "implications": [
+      "Google baut ein integriertes KI-Ökosystem aus Modellen, Apps und Entwicklertools auf — das könnte viele Standard-Workflows in Suche, E-Mail und App-Entwicklung verändern.",
+      "Für Creator steigt der Druck und die Chance zugleich: KI kann Video, Audio und Text stärker zusammenführen, während Provenance-Tools helfen sollen, Herkunft von Inhalten nachzuweis",
+      "Security wird stärker agentisch: Angriffe per E-Mail und Identitätsfälschung treffen auf neue KI-gestützte Abwehrmechanismen.",
+      "Die Plattformfrage bleibt offen: Wenn Suche und Workspace stärker KI-geführt werden, verschiebt sich Traffic, Sichtbarkeit und Kontrolle weiter zu den Plattformen."
+    ],
+    "watchlist": [
+      "Wie schnell Gemini 3.5 Flash und die neuen Agenten tatsächlich in Produkte und Workflows integriert werden.",
+      "Ob Google-Video-Tools und Video-Generierung für Creator brauchbar genug werden, um echte Produktionsschritte zu ersetzen.",
+      "Wie sich die neuen Content-Provenance-Signale von OpenAI in der Praxis auf Erkennung und Vertrauen auswirken.",
+      "Ob die Änderungen an Google Search messbar Traffic von Publishern und Creator-Seiten abziehen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorAI",
+      "#GoogleIO",
+      "#Security",
+      "#DeveloperTools",
+      "#VideoAI"
+    ],
+    "stories": [
+      {
+        "title": "Google macht bei KI-Design auf der I/O 2026 ernst",
+        "originalTitle": "Google just declared itself a contender in AI design at IO 2026",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google hat auf der I/O 2026 deutlich gemacht, dass es KI-Design als zentrales Feld besetzen will. Laut Quelle soll die App für alle zugänglich sein, von Lehrern bis zu kleinen Geschäftsinhabern.",
+        "why": "Das ist ein klares Signal, dass Google KI-Workflows massenmarktfähig machen will. Für Creator und Produktvideos relevant, weil sich damit schnelle Prototypen und visuelle Workflows noch breiter in bestehende Google-Produkte ziehen können.",
+        "opportunity": "Ein Video über Googles KI-Ökosystem als neue Produktionszentrale für Alltag und Content könnte gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/"
+        ]
+      },
+      {
+        "title": "Google macht Gmail per Sprache durchsuchbar",
+        "originalTitle": "You can now talk to your Gmail inbox, as seen at Google IO 2026",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google erweitert die AI Inbox in Gmail um sprachbasierte, konversationelle Suche. Nutzer können Gemini fragen, um versteckte E-Mail-Details zu finden.",
+        "why": "Das verändert einen Kern-Workflow für Kommunikation, Kundenkontakt und Projektorganisation. Für Denis kann das besonders bei Produktion, Casting-Kommunikation oder Creator-Mailboxen relevant sein.",
+        "opportunity": "Eine kurze Demo-Story zu „Gmail als Sprachassistent“ wäre ein guter Creator-Workflow-Clip.",
+        "links": [
+          "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/"
+        ]
+      },
+      {
+        "title": "Google setzt auf KI-Agenten statt auf klassische Suche",
+        "originalTitle": "Google Search as you know it is over",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI, Hacker News Frontpage",
+        "summary": "Google verwandelt Search laut Quelle von einer Linkliste in ein KI-gestütztes Erlebnis mit konversationellen Antworten, autonomen Agenten und interaktiven Oberflächen. Die Änderung könnte den Traffic für Publisher weiter senken.",
+        "why": "Das ist eine zentrale Plattformverschiebung mit direkten Folgen für Reichweite, Discovery und SEO. Für Video-Creator und Medienmacher heißt das: Noch stärker auf eigene Distribution und Formatbindung setzen.",
+        "opportunity": "Denis könnte ein kurzes Erklärvideo zu „Was Googles neue Suche für Creator bedeutet“ machen.",
+        "links": [
+          "https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/",
+          "https://blog.google/products-and-platforms/products/search/search-io-2026/"
+        ]
+      },
+      {
+        "title": "Google bringt Gemini 3.5 Flash als neuen Schwerpunkt auf Agenten",
+        "originalTitle": "With Gemini 3.5 Flash, Google bets its next AI wave on agents, not chatbots",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI, Hacker News Frontpage",
+        "summary": "Google hat Gemini 3.5 Flash vorgestellt, das laut Quelle das bisher leistungsstärkste Coding- und Agentenmodell des Unternehmens ist. Es kann komplexe Aufgaben autonom ausführen und Software von Grund auf bauen.",
+        "why": "Das ist für Developer-Tools und AI-gestützte Produktionspipelines ein großer Schritt. Für Creator kann das bedeuten, dass Prototyping, Automatisierung und App-Building noch direkter über KI laufen.",
+        "opportunity": "Ein Vergleichsvideo: Was können agentische Modelle heute schon besser als klassische Chatbots?",
+        "links": [
+          "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/",
+          "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+        ]
+      },
+      {
+        "title": "Google bringt neue Tools für Android-App-Entwicklung per KI und CLI",
+        "originalTitle": "Google’s AI Studio now lets anyone build Android apps in minutes",
+        "category": "Developer",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI, Hacker News Frontpage",
+        "summary": "Google hat neue webbasierte AI-Tools vorgestellt, mit denen native Android-Apps in Minuten generiert werden können. Zusätzlich gibt es Android CLI-Werkzeuge, die auch mit Coding-Agenten wie Claude Code und OpenAI Codex arbeiten sollen.",
+        "why": "Das senkt die Einstiegshürde für App-Prototyping deutlich und ist direkt relevant für Product-Video-Cases. Wer Ideen schnell visualisieren will, bekommt hier ein starkes neues Werkzeug.",
+        "opportunity": "Perfekt für ein Praxisvideo: „Vom Prompt zur Android-App in Minuten“.",
+        "links": [
+          "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
+          "https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/"
+        ]
+      },
+      {
+        "title": "Google erweitert KI um Video-Generierung, Bearbeitung und multimodale Modelle",
+        "originalTitle": "Google’s Gemini Omni turns images, audio, and text into video — and that’s just the start",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI",
+        "summary": "Google hat mit Gemini Omni ein multimodales Modell vorgestellt, das Text, Bilder, Audio und Video zusammen auswertet und per Gespräch Videos erzeugen und bearbeiten kann. Die Einführung startet mit Omni Flash.",
+        "why": "Das ist direkt relevant für Video-Creator, Produktvideos und schnellere Content-Produktion. Multimodale Video-Tools können den Schnitt-, Skript- und Ideationsprozess stark verkürzen.",
+        "opportunity": "Ein Video zu „Wie KI bald komplette Video-Workflows verändert“ wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/"
+        ]
+      },
+      {
+        "title": "OpenAI macht die Herkunft von KI-Bildern leichter überprüfbar",
+        "originalTitle": "OpenAI is making it easier to check if an image was made by their models",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI, Hacker News Frontpage",
+        "summary": "OpenAI hat zwei Maßnahmen vorgestellt, um KI-generierte Bilder besser erkennbar zu machen: den Beitritt zum offenen C2PA-Standard und die Integration von Googles SynthID in die eigenen Produkte. Auf Hacker News wurde die Meldung ebenfalls breit aufgegriffen.",
+        "why": "Für Creator, Medien und Schauspieler ist Content-Provenance wichtig, wenn Bilder, Promos oder KI-Assets glaubwürdig zugeordnet werden sollen. Das betrifft auch Fragen von Rechteklarheit und Verifikation.",
+        "opportunity": "Eine kurze Einordnung zu „Wie erkennt man KI-Bilder künftig besser?“ passt gut in ein Creator-Tech-Format.",
+        "links": [
+          "https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/",
+          "https://openai.com/index/advancing-content-provenance/"
+        ]
+      },
+      {
+        "title": "Discord schaltet Ende-zu-Ende-Verschlüsselung für Sprach- und Videoanrufe frei",
+        "originalTitle": "Discord enables end-to-end encrypted voice and video calling for every user",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Discord hat Ende-zu-Ende-verschlüsselte Sprach- und Videoanrufe für alle Nutzer aktiviert. Laut Quelle können damit nicht einmal Discord selbst die Kommunikation einsehen.",
+        "why": "Das ist relevant für Creator-Communities, Remote-Teams und vertrauliche Abstimmungen mit Mitwirkenden. Mehr Privatsphäre bei Calls ist gerade für Medienarbeit und Kollaboration ein praktischer Vorteil.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/19/discord-enables-end-to-end-encrypted-voice-and-video-calling-for-every-user/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-05-20T08:54:06.158Z",
+    "generatedAtBerlin": "20.05.2026, 10:54",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Google macht bei KI-Design auf der I/O 2026 ernst",
+      "Google macht Gmail per Sprache durchsuchbar",
+      "Google setzt auf KI-Agenten statt auf klassische Suche"
+    ]
+  },
+  {
     "date": "2026-05-18",
     "title": "KI-, Tech- und Creator-Briefing: 18.05.2026",
     "summary": "Die wichtigsten Entwicklungen des Vortags drehen sich um KI-Partnerschaften und -Tools, ein wichtiges Startup-Deal-Update rund um Anthropic, neue Creator-Audio-Funktionen bei Amazon sowie Sicherheits- und Plattformthemen. Dazu kommen ein prominentes OpenAI/Musk-Rechtsurteil und ein Hardware-Ansatz für AI-Glasses.",
