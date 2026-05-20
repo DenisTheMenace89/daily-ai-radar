@@ -2,6 +2,12 @@ name: Daily AI Radar Briefing
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/daily-briefing.yml"
+      - "scripts/generate-ai-briefing.js"
   schedule:
     # GitHub cron uses UTC.
     # Summer time in Germany: 04:30 UTC = 06:30, 06:00 UTC = 08:00, 08:00 UTC = 10:00.
