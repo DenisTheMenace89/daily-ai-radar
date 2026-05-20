@@ -59,16 +59,9 @@ function readBriefings() {
   return Array.isArray(parsed) ? parsed : [];
 }
 
-function latestDate(briefings) {
-  return briefings.reduce((max, item) => item.date && item.date > max ? item.date : max, "");
-}
-
-function shouldSkipArchivedDate(targetDate) {
+function shouldSkipExistingDate(targetDate) {
   if (FORCE_REBUILD) return false;
-  const briefings = readBriefings();
-  const exists = briefings.some(item => item.date === targetDate);
-  const latest = latestDate(briefings);
-  return exists && latest && targetDate < latest;
+  return readBriefings().some(item => item.date === targetDate);
 }
 
 function decodeEntities(text = "") {
@@ -392,16 +385,15 @@ function addMetadata(briefing, sources, mode) {
 
 function upsertBriefing(briefing) {
   let briefings = readBriefings();
-  const latest = latestDate(briefings);
   const index = briefings.findIndex(item => item.date === briefing.date);
 
-  if (index >= 0 && !FORCE_REBUILD && latest && briefing.date < latest) {
-    console.log(`Briefing für ${briefing.date} ist archiviert. Ältere Archivtage bleiben unverändert.`);
+  if (index >= 0 && !FORCE_REBUILD) {
+    console.log(`Briefing für ${briefing.date} existiert bereits. Kein erneutes Generieren/Überschreiben ohne FORCE_REBUILD.`);
     return false;
   }
 
-  if (index >= 0) {
-    console.log(`Aktualisiere neuestes Briefing für ${briefing.date}.`);
+  if (index >= 0 && FORCE_REBUILD) {
+    console.log(`FORCE_REBUILD aktiv: Aktualisiere Briefing für ${briefing.date}.`);
     briefings[index] = briefing;
   } else {
     briefings.unshift(briefing);
@@ -416,8 +408,8 @@ async function main() {
   const targetDate = process.env.BRIEFING_DATE || yesterdayInBerlin();
   console.log(`Erstelle KI- & Tech-Briefing für ${targetDate}. Heute Berlin: ${todayInBerlin()}`);
 
-  if (shouldSkipArchivedDate(targetDate)) {
-    console.log(`Keine KI-Kosten: ${targetDate} ist bereits ein älterer Archivtag und wird nicht neu erzeugt.`);
+  if (shouldSkipExistingDate(targetDate)) {
+    console.log(`Keine KI-Kosten: Briefing für ${targetDate} existiert bereits. Backup-Lauf beendet.`);
     return;
   }
 
