@@ -1,5 +1,5 @@
-const CACHE_NAME = 'daily-ai-radar-v7';
-const ASSETS = ['./', './index.html', './manifest.webmanifest?v=7', './icon-192.png?v=7', './icon-512.png?v=7', './apple-touch-icon.png?v=7'];
+const CACHE_NAME = 'daily-ai-radar-v8';
+const ASSETS = ['./', './index.html', './manifest.webmanifest?v=8', './icon-192.png?v=8', './icon-512.png?v=8', './apple-touch-icon.png?v=8'];
 
 self.addEventListener('install', event => {
   self.skipWaiting();
