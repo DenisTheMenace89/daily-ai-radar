@@ -1,5 +1,171 @@
 [
   {
+    "date": "2026-05-20",
+    "title": "Daily-Briefing: KI-Infrastruktur, OpenAI-Tempo, neue Creator-Tools",
+    "summary": "Die stärksten Signale des Tages kamen aus der KI-Infrastruktur: xAI expandiert bei Rechenleistung und Energie, Anthropic soll weiter auf xAI-Compute setzen, und OpenAI rückt mit einem möglichen IPO sowie einem neuen mathematischen Durchbruch in den Mittelpunkt. Für Creator und Produktteams spannend: Figma baut seinen KI-Assistenten aus, Stability AI bringt ein neues Audio-Modell, und YouTube-ähnliche Transkriptions-Tools für Video-Workflows tauchen auf.",
+    "topSummary": "Heute dominiert KI-Infrastruktur: Große Modelle brauchen mehr Compute, mehr Energie und mehr Kapital. Gleichzeitig werden die Produkte alltagstauglicher — von Design über Audio bis zu Desktop-Assistenz und Video-Transkription. Für Denis heißt das: Mehr Stoff für Creator-Workflows, Produktvideo-Ideen und Beobachtungen zu den Tools, die Medienproduktion schneller machen.",
+    "implications": [
+      "KI wird stärker zur Infrastruktur-Story: Rechenleistung, Chips, Strom und Finanzierung entscheiden immer mehr über Wettbewerbsfähigkeit.",
+      "Creator-Tools werden breiter: Design, Audio, Transkription und Desktop-Automation wandern tiefer in den Arbeitsalltag.",
+      "OpenAI bleibt nicht nur Forschungs-, sondern auch Business-News-Treiber — mit Produkt- und Kapitalmarktsignal zugleich.",
+      "Sicherheits- und Plattformfragen bleiben wichtig, weil mehr AI-Automation mehr Angriffsfläche und mehr Abhängigkeit schafft."
+    ],
+    "watchlist": [
+      "Wie konkret OpenAIs IPO-Zeitplan im September wird.",
+      "Ob der Anthropic-xAI-Compute-Deal und die Colossus2/GB200-Entwicklung zu weiteren Infrastruktur-Meldungen führen.",
+      "Ob Figma den KI-Assistenten schnell in den Alltag von Teams bringt und welche Features Creator tatsächlich nutzen.",
+      "Wie sich Video-Transkription und Audio-Generierung in Creator-Workflows durchsetzen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#OpenAI",
+      "#Infrastruktur",
+      "#Security",
+      "#DeveloperTools"
+    ],
+    "stories": [
+      {
+        "title": "xAI kauft weitere Gas-Turbinen für seine Rechenzentren",
+        "originalTitle": "Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "xAI will laut SpaceX-IPO-Filing in den nächsten drei Jahren Erdgas-Turbinen im Wert von 2,8 Milliarden US-Dollar kaufen. Der Schritt kommt, während das Unternehmen bereits wegen seiner Rechenzentrums-Generatoren verklagt wird.",
+        "why": "Das ist ein klares Signal, wie teuer KI-Infrastruktur geworden ist: Compute ist nicht nur Chip- und Cloud-Thema, sondern auch Energie- und Genehmigungsfrage. Für die Branche zeigt das, wie weit ein Anbieter gehen muss, um Modelle im großen Stil zu betreiben.",
+        "opportunity": "Gutes Thema für ein kurzes Erklärvideo über die versteckten Kosten hinter KI-Modellen.",
+        "links": [
+          "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/"
+        ]
+      },
+      {
+        "title": "Anthropic soll xAI monatlich 1,25 Milliarden Dollar für Compute zahlen",
+        "originalTitle": "Anthropic will pay xAI $1.25B per month for compute",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Anthropic soll xAI für Rechenleistung 1,25 Milliarden US-Dollar pro Monat zahlen. Damit wird der vorher überraschend angekündigte Compute-Deal erstmals konkret beziffert.",
+        "why": "Der Deal zeigt, dass KI-Modelle inzwischen über Firmen hinweg auf massiven Compute-Tausch und -Einkauf angewiesen sind. Das ist auch für Creator- und Produkt-Teams relevant, weil es die Richtung der gesamten Tool-Landschaft bestimmt.",
+        "opportunity": "Als Clip oder Kommentarformat geeignet: Wer kontrolliert in KI künftig die Infrastruktur, kontrolliert die Wertschöpfung.",
+        "links": [
+          "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/"
+        ]
+      },
+      {
+        "title": "OpenAI sagt, es habe ein 80 Jahre altes Mathematikproblem gelöst",
+        "originalTitle": "OpenAI claims it solved an 80-year-old math problem — for real this time",
+        "category": "Forschung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI, Hacker News Frontpage",
+        "summary": "OpenAI behauptet, ein seit 1946 ungelöstes Geometrieproblem mit einem Reasoning-Modell widerlegt zu haben. Laut Quelle stützen diesmal auch Mathematiker die Aussage, die beim letzten Versuch noch skeptisch waren.",
+        "why": "Das ist ein starkes Forschungs- und Glaubwürdigkeits-Signal für KI-Reasoning. Für Medien und Creator ist es ein guter Marker, wann sich KI-Claims von PR in überprüfbare wissenschaftliche Relevanz verschieben.",
+        "opportunity": "Thema für ein verständliches Video: Kann KI wirklich Forschungsergebnisse liefern — oder nur gut klingende Behauptungen?",
+        "links": [
+          "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
+          "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
+        ]
+      },
+      {
+        "title": "OpenAI treibt offenbar seinen Börsengang voran",
+        "originalTitle": "OpenAI barrels toward IPO that may happen in September",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI bereitet laut Bericht wieder einen möglichen Börsengang vor, der im September stattfinden könnte. Der Bericht kommt kurz nachdem Elon Musk in einem Verfahren gegen OpenAI verloren hat.",
+        "why": "Ein möglicher IPO verschiebt OpenAI noch stärker in Richtung Kapitalmarkt-Story statt nur Produkt- oder Forschungsstory. Für Denis ist das relevant, weil solche Entwicklungen das Tempo bei neuen Features, Preisen und Partnerschaften beeinflussen können.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/"
+        ]
+      },
+      {
+        "title": "Figma baut einen KI-Assistenten direkt in seine collaborative Canvas ein",
+        "originalTitle": "Figma adds an AI assistant to its collaborative canvas",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Figma erweitert seine Arbeitsfläche um einen KI-Assistenten, der per natürlicher Sprache neue Designs erzeugen, bestehende bearbeiten und Iterationen automatisieren kann. Das Feature zielt klar auf schnellere Design- und Produktarbeit.",
+        "why": "Für Creator, Produktvideos und Social-Content ist das direkt relevant, weil Layouts, Mockups und UI-Varianten schneller entstehen können. Das senkt die Hürde, Ideen visuell zu testen und sauber zu präsentieren.",
+        "opportunity": "Gute Videoidee: Wie weit kommt man mit Figma-KI von Prompt bis fertigem Mockup?",
+        "links": [
+          "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/"
+        ]
+      },
+      {
+        "title": "Stability AI veröffentlicht ein neues Audio-Modell für längere Songs",
+        "originalTitle": "Stability AI releases a new audio model that can create 6-minute songs",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Stability Audio 3.0 small kann laut Quelle on-device laufen und Tracks erzeugen, die bis zu sechs Minuten lang sind. Die Beschreibung nennt außerdem zweiminütige Tracks als Fähigkeit des kleinen Modells.",
+        "why": "Das ist interessant für Video-Creator, weil Musikproduktion, Temp-Tracks und schnelle Sound-Experimente näher an den Arbeitsalltag rücken. On-device ist dabei besonders spannend, weil es mehr Kontrolle und weniger Cloud-Abhängigkeit bedeutet.",
+        "opportunity": "Gutes Testvideo: KI-Musik für Videos lokal auf dem Gerät erzeugen.",
+        "links": [
+          "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/"
+        ]
+      },
+      {
+        "title": "Ein neues Desktop-KI-Tool will Aufgaben automatisch am Rechner lernen",
+        "originalTitle": "IrisGo, a startup backed by Andrew Ng, looks to become the AI desktop buddy you never knew you needed",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "IrisGo, unterstützt von Andrew Ng, positioniert sich als Desktop-KI, die beobachtet, was auf dem Bildschirm passiert, und Aufgaben für Nutzer automatisch lernt. Das Produkt wurde zunächst als „AI butler“ beschrieben.",
+        "why": "Solche Desktop-Agenten könnten Produktions- und Admin-Aufgaben im Creator-Alltag übernehmen, sind aber auch sensibel, weil sie sehr nah an Nutzerverhalten und Arbeitsoberflächen arbeiten. Das macht das Thema zugleich nützlich und erklärungsbedürftig.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/"
+        ]
+      },
+      {
+        "title": "Ein CPU-basiertes Transkriptions-Tool für Video-Plattformen taucht auf Hacker News auf",
+        "originalTitle": "Show HN: CPU-only transcription for YouTube, TikTok, X, Instagram videos",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Auf Hacker News wurde ein Projekt vorgestellt, das CPU-only-Transkription für YouTube-, TikTok-, X- und Instagram-Videos verspricht. Die Quelle verweist auf ein GitHub-Repository als Artikelziel.",
+        "why": "Das ist direkt relevant für Video-Creator und Producer, weil Transkription ein Kernbaustein für Untertitel, Schnitt, Suche und Content-Recycling ist. CPU-only deutet außerdem auf niedrigere Einstiegskosten und potenziell breitere Nutzbarkeit hin.",
+        "opportunity": "Gutes Thema für einen praxisnahen Tool-Check: Wie gut ist lokale Transkription für Creator wirklich?",
+        "links": [
+          "https://github.com/kouhxp/yapsnap"
+        ]
+      }
+    ],
+    "generatedAt": "2026-05-21T08:08:00.509Z",
+    "generatedAtBerlin": "21.05.2026, 10:08",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "xAI kauft weitere Gas-Turbinen für seine Rechenzentren",
+      "Anthropic soll xAI monatlich 1,25 Milliarden Dollar für Compute zahlen",
+      "OpenAI sagt, es habe ein 80 Jahre altes Mathematikproblem gelöst"
+    ]
+  },
+  {
     "date": "2026-05-19",
     "title": "Daily-Briefing: Google setzt auf Agenten, Video und neue Creator-Workflows",
     "summary": "Google hat auf der I/O 2026 eine breite KI-Offensive gezeigt: von neuen Gemini-Modellen und Agenten über Workspace- und Search-Updates bis hin zu smarten Gläsern und Video-Tools. Parallel gab es relevante Signale zu KI-Security, Content-Provenance und Plattform-Rechten.",
