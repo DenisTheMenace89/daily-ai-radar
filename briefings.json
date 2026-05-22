@@ -1,5 +1,170 @@
 [
   {
+    "date": "2026-05-21",
+    "title": "Daily-Briefing: KI wird zum Produkt- und Plattformthema, Spotify baut Creator-Features aus",
+    "summary": "Die spannendsten Meldungen drehen sich heute um neue KI-Funktionen in Spotify, Googles Agenten- und Such-Umbruch sowie um Sicherheits- und Infrastrukturthemen rund um AI und Ransomware. Für Creator und Medienmacher besonders relevant: Audio-Remixe, Podcast-Tools, Ticketing für Top-Fans und neue Video-Clipping-Software.",
+    "topSummary": "Heute in 30 Sekunden: Spotify macht KI jetzt direkt produktiv für Musik, Podcasts und Hörbücher, während Google und andere Plattformen ihre KI-Oberflächen neu sortieren. Gleichzeitig zeigt sich, dass Security, regulatorische Fragen und Infrastruktur für KI nicht mehr Nebenkriegsschauplatz, sondern Kern des Geschäfts sind. Für Denis ist das vor allem relevant als Signal für neue Creator-Tools, Plattform-Experimente und mögliche Video-Themen rund um Rechte, Distribution und KI-Workflow.",
+    "implications": [
+      "KI wird stärker in bestehende Creator-Plattformen eingebaut statt als separates Tool verkauft.",
+      "Plattformen testen neue Erlösmodelle zwischen Fan-Engagement, Lizenzierung und KI-Generierung.",
+      "Security und Regulierung bleiben ein echter Brems- und Kostenfaktor für AI-Rollouts.",
+      "Video- und Audio-Creator bekommen mehr Automatisierung, aber auch mehr Abhängigkeit von Plattformregeln."
+    ],
+    "watchlist": [
+      "Wie Universal Music, Künstler und Rechteinhaber auf AI-Covers und Remixes bei Spotify reagieren.",
+      "Ob Googles AI-Übersichten und Agenten-Strategie Nutzerakzeptanz oder Gegenwind erzeugen.",
+      "Wie streng neue Sicherheitsprüfungen für KI-Modelle regulatorisch tatsächlich ausfallen.",
+      "Ob weitere Creator-Tools für Shorts, Podcasts und Hörbücher schnell nachziehen."
+    ],
+    "tags": [
+      "#CreatorAI",
+      "#Spotify",
+      "#Google",
+      "#Security",
+      "#Plattformen",
+      "#VideoTools"
+    ],
+    "stories": [
+      {
+        "title": "Spotify und Universal Music einigen sich auf KI-Covers und Remixes von Fans",
+        "originalTitle": "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Spotify kooperiert mit Universal Music Group, damit Premium-Abonnenten KI-generierte Song-Covers und Remixes erstellen können. Beteiligte Künstler sollen dabei an den Einnahmen beteiligt werden.",
+        "why": "Das ist ein klares Signal, dass Musikrechte und KI-Generierung in Plattformprodukte integriert werden. Für Creator und Medienprojekte ist das relevant, weil sich damit neue Formate, aber auch neue Freigabe- und Monetarisierungsfragen ergeben.",
+        "opportunity": "Ein Video über KI-Musik auf großen Plattformen und die neuen Regeln für Rechte und Einnahmen könnte gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/"
+        ]
+      },
+      {
+        "title": "Spotify baut KI-gestützte Q&A- und Briefing-Funktionen für Podcasts aus",
+        "originalTitle": "Spotify adds AI-powered Q&A and briefing generation features to podcasts",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Spotify will Nutzern erlauben, aus Prompts tägliche oder wöchentliche Briefings zu generieren. Die neuen Funktionen sollen Podcasts stärker als interaktive Wissens- und Rechercheformate positionieren.",
+        "why": "Das trifft direkt den Bereich Audio, Podcasting und Content-Repurposing. Für Video- und Creator-Workflows ist spannend, dass aus langen Formaten automatisch strukturierte Zusammenfassungen und Q&A-Elemente entstehen können.",
+        "opportunity": "Denis könnte prüfen, wie sich solche Briefings für eigene Audio- oder Videoformate als Content-Repurpose nutzen lassen.",
+        "links": [
+          "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/"
+        ]
+      },
+      {
+        "title": "Spotify startet eine ElevenLabs-gestützte Audiobuch-Erstellungsfunktion",
+        "originalTitle": "Spotify launches an ElevenLabs-powered audiobook creation tool",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Spotify bringt ein KI-Tool zur Erstellung von Hörbüchern auf Basis von ElevenLabs-Technologie heraus. Laut Quelle bindet die Funktion Autoren nicht exklusiv an Spotify, sodass sie ihre generierten Hörbücher auch anderswo veröffentlichen können.",
+        "why": "Das ist interessant für Publishing, Voice-Workflows und wiederverwendbare Content-Produktion. Gerade für Sprecher, Schauspieler und Medienmacher ist relevant, wie sich KI-Vertonung und Distribution künftig kombinieren lassen.",
+        "opportunity": "Ein Video über KI-Synchronisation, Hörbuchproduktion und neue Distributionsmodelle wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/"
+        ]
+      },
+      {
+        "title": "Trump verschiebt eine KI-Sicherheits-Executive-Order wegen der Formulierungen",
+        "originalTitle": "Trump delays AI security executive order, saying language ‘could have been a blocker’",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Trump hat die Unterzeichnung einer Executive Order verschoben, die vor der Veröffentlichung staatliche Sicherheitsprüfungen für KI-Modelle verlangt hätte. Als Grund nannte er Unzufriedenheit mit der Formulierung.",
+        "why": "Das zeigt, wie volatil die regulatorischen Rahmenbedingungen für KI bleiben. Für Unternehmen und Creator-Tools heißt das: Produktplanung, Compliance und Launch-Timing können stark von politischen Entscheidungen abhängen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/"
+        ]
+      },
+      {
+        "title": "Google wirbt für ein KI-Agenten-Ökosystem, das Verbraucher erst noch annehmen müssen",
+        "originalTitle": "Google is pitching an AI agent ecosystem to consumers who may not buy it",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google versucht, Verbraucher für eine neue Art der Web-Nutzung mit KI-Agenten zu gewinnen. Laut Quelle ist die Ankündigung zugleich vielversprechend und verwirrend.",
+        "why": "Das ist wichtig, weil es den nächsten möglichen Plattformwechsel bei Suche, Navigation und Web-Interaktion markiert. Für Creator und Produktvideos ist relevant, wie sich Auffindbarkeit, Traffic und Nutzerverhalten verändern könnten.",
+        "opportunity": "Ein Vergleichs-Video zu Googles Agentenansatz und den Folgen für Suche und Creator-Reichweite wäre passend.",
+        "links": [
+          "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/"
+        ]
+      },
+      {
+        "title": "Spotify führt Tickets für Top-Fans ein und misst dafür Aktivität wie Streams und Shares",
+        "originalTitle": "Spotify will reserve tickets for top fans of an artists in a bid to drum up engagement",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Spotify will Tickets für Top-Fans von Künstlern reservieren und nutzt dafür Signale wie Streams und Shares. Ziel ist mehr Engagement auf der Plattform.",
+        "why": "Das zeigt, wie Plattformen Fan-Aktivität direkt in Zugang und Monetarisierung übersetzen. Für Musiker, Creator und Live-Formate ist das ein interessantes Modell zwischen Algorithmen, Community und Ticketing.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/21/spotify-will-reserve-tickets-for-top-fans-of-an-artists-in-a-bid-to-drum-up-engagement/"
+        ]
+      },
+      {
+        "title": "Ein Video-Clipping-Startup will Short-Form-Videos planbarer viral machen",
+        "originalTitle": "Clouted wants to take the guesswork out of making short videos go viral",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Das Startup Clouted hat eine Seed-Runde über 7 Millionen Dollar abgeschlossen. Es will mit Software das Rätselraten beim Viralgehen von Kurzvideos reduzieren.",
+        "why": "Das ist direkt relevant für Shorts, Reels und Creator-Optimierung. Solche Tools könnten vor allem für Video-Produktion, Hook-Testing und Schnitt-Entscheidungen interessant werden.",
+        "opportunity": "Ein Video über KI-gestützte Short-Video-Optimierung und den Wettbewerb um Creator-Tools könnte gut passen.",
+        "links": [
+          "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/"
+        ]
+      },
+      {
+        "title": "Law enforcement legt einen VPN-Dienst still, der von Dutzenden Ransomware-Gruppen genutzt wurde",
+        "originalTitle": "Law enforcement shuts down VPN service used by two dozen ransomware gangs",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Eine Strafverfolgungsaktion hat einen VPN-Dienst abgeschaltet, der laut Quelle von zwei Dutzend Ransomware-Gruppen genutzt wurde. Europol teilte mit, dass Nutzer inzwischen identifiziert worden seien.",
+        "why": "Das unterstreicht, wie stark Cybercrime-Infrastruktur inzwischen verfolgt wird. Für Creator, kleine Teams und Produktionen ist das ein Reminder, Sicherheits- und Zugriffstools nicht nur nach Bequemlichkeit zu wählen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/21/law-enforcement-shuts-down-vpn-service-used-by-two-dozen-ransomware-gangs/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-05-22T07:58:34.185Z",
+    "generatedAtBerlin": "22.05.2026, 09:58",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Spotify und Universal Music einigen sich auf KI-Covers und Remixes von Fans",
+      "Spotify baut KI-gestützte Q&A- und Briefing-Funktionen für Podcasts aus",
+      "Trump verschiebt eine KI-Sicherheits-Executive-Order wegen der Formulierungen"
+    ]
+  },
+  {
     "date": "2026-05-20",
     "title": "Daily-Briefing: KI-Infrastruktur, OpenAI-Tempo, neue Creator-Tools",
     "summary": "Die stärksten Signale des Tages kamen aus der KI-Infrastruktur: xAI expandiert bei Rechenleistung und Energie, Anthropic soll weiter auf xAI-Compute setzen, und OpenAI rückt mit einem möglichen IPO sowie einem neuen mathematischen Durchbruch in den Mittelpunkt. Für Creator und Produktteams spannend: Figma baut seinen KI-Assistenten aus, Stability AI bringt ein neues Audio-Modell, und YouTube-ähnliche Transkriptions-Tools für Video-Workflows tauchen auf.",
