@@ -1,5 +1,159 @@
 [
   {
+    "date": "2026-05-22",
+    "title": "Daily-Briefing: KI, Plattformen und Security im Fokus",
+    "summary": "Am 22.05.2026 dominierten vor allem KI-Tools, Plattform-Änderungen, Security-Vorfälle und große Tech-/Space-Meldungen. Für Creator und Produkt-Teams sind besonders Googles neue KI-Geräte, Spotifys Creator-Tools, Apples App-Store-Strategie und mehrere Sicherheitsmeldungen relevant.",
+    "topSummary": "Heute in 30 Sekunden: Google zeigt KI-Brillen und experimentiert weiter mit Pixel- und Search-Features, während Spotify und Meta neue Plattform- und Creator-Mechaniken ausrollen. Gleichzeitig häufen sich Security-Themen von Datenleaks bis Malware-Hijacks, und im KI-Ökosystem schieben neue Tools, Preise und Forschungsarbeiten die nächste Entwicklungswelle an.",
+    "implications": [
+      "KI wird sichtbarer im Alltag: von Brillen über Suchoberflächen bis zu Audio- und Creator-Tools.",
+      "Plattformen ziehen die Regeln an oder testen neue Formate, was direkt Monetarisierung und Distribution betrifft.",
+      "Security bleibt ein Produktions- und Reputationsrisiko, auch für Marken, Shops und Plattformen.",
+      "Für Entwickler und Creator-Teams wird die Tool-Landschaft schneller, aber auch fragmentierter."
+    ],
+    "watchlist": [
+      "Wie stark werden Googles AI-Glasses und neue Pixel-Features tatsächlich in Consumer-Produkte überführt?",
+      "Wie reagiert der Markt auf DeepSeeks dauerhaft niedrigere API-Preise?",
+      "Ob Apple seine App-Store-Regeln nach dem Epic-Fall wirklich begrenzt verändert oder breiter öffnet.",
+      "Welche Folgen die Sicherheitsvorfälle für Vertrauen und Prozesshygiene bei Marken und Plattformen haben."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Plattformen",
+      "#DeveloperTools",
+      "#Regulierung"
+    ],
+    "stories": [
+      {
+        "title": "Google zeigt neue KI-Brillen und experimentiert mit Disco-Ball-Icons auf dem Pixel-Startbildschirm",
+        "originalTitle": "Google goes for the glitter with disco-ball icons: ‘Are y’all sure you still want this?’",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google erlaubt es nun, den Pixel-Home-Screen mit Disco-Ball-Icons zu versehen. Parallel dazu zeigte das Unternehmen Prototypen von Android-XR-Brillen mit Gemini-Funktionen wie Übersetzung, Navigation und eingeblendeten Informationen.",
+        "why": "Das ist ein klarer Hinweis darauf, dass Google KI stärker in Alltagsgeräte und visuelle Interfaces drückt. Für Creator und Produktvideos sind das starke Demo-Themen, weil sich damit neue Nutzungs- und Storytelling-Formate zeigen lassen.",
+        "opportunity": "Eine kurze Video-Analyse zu Googles neuer KI-UI-Strategie und den Chancen für AR-/XR-Workflows wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/05/22/google-goes-for-the-glitter-with-disco-ball-icons-are-yall-sure-you-still-want-this/",
+          "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/"
+        ]
+      },
+      {
+        "title": "DeepSeek macht den Preisnachlass für V4 Pro dauerhaft",
+        "originalTitle": "DeepSeek makes the V4 Pro price discount permanent",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "DeepSeek will den Preis für deepseek-v4-pro nach Ende der Aktion dauerhaft auf ein Viertel des ursprünglichen Preises festsetzen. Der Hinweis stammt aus den API-Preisinformationen.",
+        "why": "Niedrigere Modellpreise können direkt die Kosten für Video-Workflows, Automatisierungen und Produktprototypen senken. Für Teams, die mit KI-APIs arbeiten, ist das ein möglicher Preisdruck- und Benchmark-Effekt.",
+        "opportunity": "Ein Kostenvergleich der wichtigsten KI-APIs für Creator- und Agent-Workflows könnte sinnvoll sein.",
+        "links": [
+          "https://api-docs.deepseek.com/quick_start/pricing"
+        ]
+      },
+      {
+        "title": "Spotify setzt stärker auf KI-Tools, die Nutzer zu mehr Content animieren",
+        "originalTitle": "Spotify’s AI bet: more of everything, less of what you want",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Spotify hat mehrere KI-gestützte Tools veröffentlicht, die Nutzer zum Erstellen von mehr Content anregen sollen. Der Eindruck der Berichterstattung: viel neue Funktion, aber nicht unbedingt mehr Fokus.",
+        "why": "Für Creator ist das relevant, weil Plattform-Tools zunehmend die Art beeinflussen, wie Inhalte entstehen und distribuiert werden. Solche KI-Funktionen können Reichweite, Produktionsgeschwindigkeit und Formatwahl verändern.",
+        "opportunity": "Eine Einschätzung dazu, ob Spotify eher Creator beflügelt oder mit KI-Features überlädt, wäre ein gutes Beobachtungsthema.",
+        "links": [
+          "https://techcrunch.com/2026/05/22/spotifys-ai-bet-more-of-everything-less-of-what-you-want/"
+        ]
+      },
+      {
+        "title": "Apple will den Epic-Fall nicht auf alle Entwickler ausweiten",
+        "originalTitle": "Apple says Epic lawsuit shouldn’t reshape App Store rules for all developers",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Apple bittet den Supreme Court, die zugunsten von Epic Games erlassene App-Store-Unterlassungsverfügung einzugrenzen und ein Contempt-Urteil zu externen Zahlungsgebühren aufzuheben. Apple argumentiert, der Fall solle nicht die Regeln für alle Entwickler umkrempeln.",
+        "why": "Das betrifft direkt App-Monetarisierung, In-App-Zahlungen und die wirtschaftlichen Rahmenbedingungen für Software- und Creator-Apps. Für Produkt- und Medien-Ökosysteme ist das regulatorisch sehr relevant.",
+        "opportunity": "Eine kurze Einordnung zu den Folgen für Creator-Apps und mobile Monetarisierung wäre wertvoll.",
+        "links": [
+          "https://techcrunch.com/2026/05/22/apple-says-epic-lawsuit-shouldnt-reshape-app-store-rules-for-all-developers/"
+        ]
+      },
+      {
+        "title": "Meta startet still eine neue Reddit-ähnliche App namens Forum",
+        "originalTitle": "Meta quietly launches a new Reddit-like app called Forum",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Meta hat eine neue App namens Forum veröffentlicht, die als Raum für tiefere Diskussionen, echte Antworten und Communitys beschrieben wird. Das Produkt erinnert strukturell an Reddit.",
+        "why": "Meta testet damit erneut Community- und Diskussionsformate, die für Creator-Communities, Fanbindung und Themen-Reichweite interessant sein können. Für Denis ist das vor allem relevant, falls sich daraus neue Publikations- oder Community-Optionen ergeben.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/22/meta-quietly-launches-a-new-reddit-like-app-called-forum/"
+        ]
+      },
+      {
+        "title": "Mehrere Security-Vorfälle zeigen, wie fragil Plattformen und Marken-Websites bleiben",
+        "originalTitle": "Trump Mobile confirms it exposed customers’ personal data, including phone numbers and home addresses",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch; Hacker News Frontpage",
+        "summary": "Trump Mobile bestätigte eine Exposition von Kundendaten, darunter Telefonnummern und Wohnadressen, die mit einer Drittplattform zusammenhing. Zusätzlich wurde die Website der Kleidungslinie von Kash Patel nach Berichten über einen Hack abgeschaltet; laut Nutzern auf X soll sie zum Installieren von Malware missbraucht worden sein.",
+        "why": "Das zeigt gleich zwei typische Risikoarten: Datenleck über Drittanbieter und kompromittierte Weboberflächen mit Malware-Risiko. Für Creator, Shops und Medienmarken ist das ein praktisches Warnsignal für Plattform- und Lieferketten-Security.",
+        "opportunity": "Ein Security-Check zu Drittanbieter-Risiken und Website-Härtung für Creator-Brands wäre sehr anschlussfähig.",
+        "links": [
+          "https://techcrunch.com/2026/05/22/trump-mobile-confirms-it-exposed-customers-personal-data-including-phone-numbers-and-home-addresses/",
+          "https://techcrunch.com/2026/05/22/kash-patels-clothing-brand-website-shut-down-after-reports-it-was-hacked/"
+        ]
+      },
+      {
+        "title": "Hacker News zeigt neuen Druck auf KI- und Entwickler-Tools: Modelle, IDEs und Schreib-Workflows",
+        "originalTitle": "Launch HN: Superset (YC P26) – IDE for the agents era",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage; Hacker News LLM",
+        "summary": "Auf Hacker News wurden mehrere neue Tools und Forschungsarbeiten diskutiert, darunter eine Open-Source-Modelldatenbank, eine agentische IDE für parallele Coding-Agents und eine Arbeit zu domänengetarnten Injection-Angriffen in Multi-Agent-LLM-Systemen. Dazu kamen weitere kleinere Tools für LLM-Workflows und Schreiben.",
+        "why": "Das signalisiert, dass sich die Tool-Landschaft rund um KI-Agenten, Coding und Modellvergleich weiter schnell professionalisiert. Für Produkttests und Videos ist das interessant, weil sich daraus leicht verständliche Vergleiche und Praxisdemos ableiten lassen.",
+        "opportunity": "Eine Vergleichsfolge zu Agenten-Tools und Sicherheitsrisiken in Multi-Agent-Setups wäre passend.",
+        "links": [
+          "https://github.com/anomalyco/models.dev",
+          "https://github.com/superset-sh/superset",
+          "https://arxiv.org/abs/2605.22001",
+          "https://github.com/Anioko/microcodegen"
+        ]
+      }
+    ],
+    "generatedAt": "2026-05-23T07:14:43.204Z",
+    "generatedAtBerlin": "23.05.2026, 09:14",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Google zeigt neue KI-Brillen und experimentiert mit Disco-Ball-Icons auf dem Pixel-Startbildschirm",
+      "DeepSeek macht den Preisnachlass für V4 Pro dauerhaft",
+      "Apple will den Epic-Fall nicht auf alle Entwickler ausweiten"
+    ]
+  },
+  {
     "date": "2026-05-21",
     "title": "Daily-Briefing: KI wird zum Produkt- und Plattformthema, Spotify baut Creator-Features aus",
     "summary": "Die spannendsten Meldungen drehen sich heute um neue KI-Funktionen in Spotify, Googles Agenten- und Such-Umbruch sowie um Sicherheits- und Infrastrukturthemen rund um AI und Ransomware. Für Creator und Medienmacher besonders relevant: Audio-Remixe, Podcast-Tools, Ticketing für Top-Fans und neue Video-Clipping-Software.",
