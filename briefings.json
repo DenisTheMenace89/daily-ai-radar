@@ -1,5 +1,140 @@
 [
   {
+    "date": "2026-05-23",
+    "title": "KI, Creator-Tools und Security im Fokus: neue Fan- und Such-Experimente, plus mehr Schutz vor Spyware",
+    "summary": "Am 23.05.2026 dominieren drei Themen: Unternehmen setzen KI stärker für Fan-Erlebnisse und Suchsichtbarkeit ein, während neue Tools und Forschungsansätze den Umgang mit LLMs effizienter machen sollen. Gleichzeitig bleibt Security relevant, weil Plattformen und Gerätehersteller neue Schutzfunktionen gegen Spyware betonen.",
+    "topSummary": "Heute ging es vor allem darum, wie KI Produkte, Marken und Medienerlebnisse verändert: Ferrari nutzt IBM-AI für Fan-Engagement, Berliner Startups profitieren von AI-Search-Sichtbarkeit, und Google zeigt neue multimodale KI-Funktionen. Parallel dazu rückt der Schutz vor gezielten Angriffen stärker in den Vordergrund, während mehrere HN-Posts auf praktische LLM-Tools und Workflows zielen.",
+    "implications": [
+      "Creator- und Marken-Teams bekommen mehr KI-Tools für Personalisierung, Auffindbarkeit und neue Video-Formate.",
+      "Security wird zunehmend ein Standard-Feature statt nur ein Spezialthema, besonders gegen gezielte Spyware-Angriffe.",
+      "LLM-Workflows bewegen sich von Experimenten hin zu Kosten-, Speicher- und Validierungsfragen.",
+      "Für den DACH-Markt ist sichtbar, dass AI-Sichtbarkeit und Search-Optimierung ein echtes Startup-Thema geworden sind."
+    ],
+    "watchlist": [
+      "Ob Google die neue Anything-to-anything-KI breiter ausrollt und welche Creator-Anwendungen daraus entstehen.",
+      "Ob Peecs Wachstum die AI-Search-Kategorie in Europa weiter validiert.",
+      "Ob die Spyware-Schutzmodi von Apple, Meta und Google in der Praxis einfacher nutzbar werden.",
+      "Ob die LLM-Tools aus HN wirklich messbar Tokens, Kosten oder Fehler reduzieren."
+    ],
+    "tags": [
+      "#KI",
+      "#Security",
+      "#CreatorTools",
+      "#Startup",
+      "#LLM",
+      "#Plattformen"
+    ],
+    "stories": [
+      {
+        "title": "Ferrari nutzt IBM-KI, um Formel-1-Fans stärker zu binden",
+        "originalTitle": "Ferrari is using IBM’s AI to create F1 superfans",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Ferrari und IBM zeigen, wie sie mit KI das Fan-Erlebnis rund um Scuderia Ferrari HP neu gestalten. Der Fokus liegt auf einer stärker personalisierten und datengetriebenen Ansprache von Fans.",
+        "why": "Das ist relevant, weil sich solche KI-Setups direkt auf Markenkommunikation, Event-Content und Fan-Engagement übertragen lassen. Für Creator im Sport- und Medienumfeld ist das ein gutes Signal, wie KI Erlebnis-Formate statt nur Textproduktion antreibt.",
+        "opportunity": "Eine Videoidee wäre: Wie KI Fan-Erlebnisse im Sport personalisiert — und was Creator daraus lernen können.",
+        "links": [
+          "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/"
+        ]
+      },
+      {
+        "title": "Google zeigt eine neue Anything-to-anything-KI für Medien und Video",
+        "originalTitle": "Google’s new anything-to-anything AI model is wild",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "The Verge AI",
+        "summary": "The Verge berichtet über Googles neues multimodales KI-Modell, das laut Titel Eingaben in viele verschiedene Formate umwandeln kann. Der Artikel verknüpft das mit Deepfake- und Video-Experimenten.",
+        "why": "Für Video-Creator ist das besonders relevant, weil solche Modelle Produktion, Previz, Storyboarding und experimentelle Medienformate stark beeinflussen können. Gleichzeitig bleibt die Frage wichtig, wo die Grenze zwischen Kreativität und missbräuchlicher Manipulation liegt.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video"
+        ]
+      },
+      {
+        "title": "Neue Schutzmodi von Apple, Meta und Google sollen vor Spyware helfen",
+        "originalTitle": "These special phone and app features can help protect you from spyware",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "TechCrunch erklärt spezielle Sicherheitsmodi und Funktionen von Apple, Meta und Google, die Geräte besser gegen gezielte Spyware-Angriffe absichern sollen. Der Artikel beschreibt auch, wie man diese Modi aktiviert.",
+        "why": "Für Creator, Schauspieler und andere öffentliche Personen ist das hochrelevant, weil gezielte Angriffe auf Accounts und Endgeräte ein reales Risiko sind. Solche Schutzfunktionen sind damit kein Nerd-Thema, sondern Teil der persönlichen Sicherheitsroutine.",
+        "opportunity": "Ein praktischer Short könnte zeigen, welche Basisschutzfunktionen Creator auf ihren Geräten prüfen sollten.",
+        "links": [
+          "https://techcrunch.com/2026/05/23/you-dont-have-to-click-anything-to-get-hacked-anymore-heres-how-to-fight-back/"
+        ]
+      },
+      {
+        "title": "Peec wächst schnell mit Software für AI-Search-Sichtbarkeit",
+        "originalTitle": "Peec, one of Berlin’s rising startups, more than doubled annualized revenue in months to $10M, sources say",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Peec, ein Berliner Startup für Sichtbarkeit in AI-Suchen, soll seinen annualisierten Umsatz in wenigen Monaten auf 10 Millionen Dollar mehr als verdoppelt haben. Die Quelle ordnet das als Beleg für ein wichtiges europäisches Startup-Thema ein.",
+        "why": "Das zeigt, dass AI-Search-Optimierung zu einem echten Markt geworden ist. Für Medien-, Creator- und Produktmarken wird es zunehmend wichtig, nicht nur in klassischen Suchmaschinen, sondern auch in KI-Antworten sichtbar zu sein.",
+        "opportunity": "Eine Beobachtung wäre sinnvoll: Wie sich AI-Search-Optimierung von klassischem SEO unterscheidet.",
+        "links": [
+          "https://techcrunch.com/2026/05/23/peec-one-of-berlins-rising-startups-more-than-doubled-annualized-revenue-in-months-to-10m-sources-say/"
+        ]
+      },
+      {
+        "title": "Mehrere LLM-Tools zielen auf weniger Kosten, weniger Tokens und bessere Validierung",
+        "originalTitle": "Agentic Compilation: Reducing LLM Rerun Costs",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News LLM",
+        "summary": "Auf Hacker News tauchen mehrere Beiträge zu LLM-Workflows auf: ein Paper zu geringeren Rerun-Kosten, ein Tool, das Input-Tokens senken soll, und ein Beitrag, der LLM-Code als untrusted text einordnet. Gemeinsam zeigen sie den Fokus auf effizientere und sicherere LLM-Nutzung.",
+        "why": "Das ist relevant für Produkt- und Video-Tools, weil KI-Features nur dann skalieren, wenn Kosten und Fehlerquoten beherrschbar bleiben. Für Denis ist das vor allem als Signal interessant, wie sich AI-Features in echte Produktionspipelines verschieben.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://arxiv.org/abs/2604.09718",
+          "https://github.com/Tem-Degu/streetai-memory",
+          "https://hack8s.com/244/llms-code-is-just-untrusted-text-until-you-validate-it"
+        ]
+      },
+      {
+        "title": "SpaceX startet Starship V3 erstmals, verliert aber den Booster bei der Rückkehr",
+        "originalTitle": "SpaceX launches Starship V3 for the first time, but loses booster on return",
+        "category": "Infrastruktur",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "niedrig",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "SpaceX hat Starship V3 erstmals gestartet, der Flug war laut Quelle insgesamt weitgehend erfolgreich. Beim Rückflug ging jedoch der Booster verloren.",
+        "why": "Für Denis ist das vor allem als Tech- und Infrastruktur-Signal interessant, nicht als Kernthema. Es zeigt aber, wie ambitionierte Hardware- und Raumfahrtprogramme weiterhin iterativ entwickelt werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/22/spacex-launches-starship-v3-for-the-first-time-but-loses-booster-on-return/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-05-24T07:36:51.466Z",
+    "generatedAtBerlin": "24.05.2026, 09:36",
+    "mode": "ai",
+    "sourceCount": 19,
+    "highlights": [
+      "Google zeigt eine neue Anything-to-anything-KI für Medien und Video",
+      "Neue Schutzmodi von Apple, Meta und Google sollen vor Spyware helfen",
+      "Ferrari nutzt IBM-KI, um Formel-1-Fans stärker zu binden"
+    ]
+  },
+  {
     "date": "2026-05-22",
     "title": "Daily-Briefing: KI, Plattformen und Security im Fokus",
     "summary": "Am 22.05.2026 dominierten vor allem KI-Tools, Plattform-Änderungen, Security-Vorfälle und große Tech-/Space-Meldungen. Für Creator und Produkt-Teams sind besonders Googles neue KI-Geräte, Spotifys Creator-Tools, Apples App-Store-Strategie und mehrere Sicherheitsmeldungen relevant.",
