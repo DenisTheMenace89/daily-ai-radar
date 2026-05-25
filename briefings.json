@@ -1,5 +1,170 @@
 [
   {
+    "date": "2026-05-24",
+    "title": "KI-Security, Smartglasses und AI-Tools: das Tech-Briefing vom 24. Mai 2026",
+    "summary": "Heute dominieren drei Muster: KI-Security wird zum laufenden Betrieb, neue KI-Hardware tastet sich zwischen Nutzen und Datenschutz voran, und Entwickler-Tools für LLMs werden konkreter. Dazu kommen ein paar signale starke Open-Source- und Forschungs-Themen, die vor allem für Software, Creator-Workflows und Produktvideos spannend sind.",
+    "topSummary": "Heute in 30 Sekunden: KI ist nicht mehr nur Produkt, sondern auch Angriffsfläche, Prozess und Infrastruktur. Gleichzeitig zeigen Wearables und Smartglasses, dass die nächste Geräteklasse zwar näher rückt, aber Vertrauen und Alltagstauglichkeit noch nicht gelöst sind. Für Creator und Produkt-Video-Creator sind vor allem neue AI-Tools, das DOS-Open-Source-Thema und die Agenten-/LLM-Entwicklungen interessant.",
+    "implications": [
+      "KI-Security wird zu einem dauerhaften Thema statt zu einer Randnotiz.",
+      "AI-Wearables und Smartglasses kommen voran, aber Datenschutz bleibt ein Verkaufshemmnis.",
+      "LLM-Tools werden immer stärker auf konkrete Workflows zugeschnitten, etwa Coding, Commit Messages und Agenten-Kontexte.",
+      "Open-Source- und Forschungs-Updates liefern gute Erklärthemen für technische Kurzvideos."
+    ],
+    "watchlist": [
+      "Wie schnell AI-Wearables und Smartglasses aus der Demo-Phase in echte Nutzung kommen.",
+      "Ob sich bei LLM-Agenten in der Praxis robuste Standards für Kontexte und Backend-Generierung durchsetzen.",
+      "Wie sich die Kostenstruktur von AI-Chips entwickelt, wenn Speicher weiter den Anteil erhöht.",
+      "Ob weitere Security-Fälle rund um Chatbots und KI-Plattformen auftauchen."
+    ],
+    "tags": [
+      "#KI",
+      "#Security",
+      "#CreatorTools",
+      "#Smartglasses",
+      "#LLM",
+      "#OpenSource"
+    ],
+    "stories": [
+      {
+        "title": "Google navigiert laut TechCrunch KI-Security in Echtzeit",
+        "originalTitle": "Everyone is navigating AI security in real time — even Google",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch beschreibt KI-Security als laufenden Übergangsprozess, in dem selbst große Anbieter wie Google nicht auf fertige Antworten zurückgreifen können. Die Entwicklung wird als Momentaufnahme einer Branche dargestellt, die ihre Sicherheitsmodelle gerade erst anpasst.",
+        "why": "Das ist wichtig, weil KI-Produkte und Creator-Tools immer mehr sensible Daten und Workflows berühren. Für Video- und Medienarbeit heißt das: Sicherheitsfragen werden Teil der Produktgeschichte, nicht nur der IT.",
+        "opportunity": "Ein kurzes Erklärvideo zu „Warum KI-Security gerade alle betrifft“ wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/"
+        ]
+      },
+      {
+        "title": "Amazon Bee wirkt nützlich, löst aber Datenschutz-Bauchschmerzen aus",
+        "originalTitle": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out",
+        "category": "Hardware",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch berichtet über Amazons Bee-Wearable als Gerät mit praktischen KI-Funktionen, das aber zugleich ein unangenehmes Datenschutzgefühl auslöst. Die Bewertung liegt klar in der Spannung zwischen Komfort und Überwachungsempfinden.",
+        "why": "Für Creator und Medienleute ist das relevant, weil immer mehr persönliche Geräte in den Alltag und damit in sensible Gesprächs-, Arbeits- und Aufnahmesituationen hineinreichen. Solche Produkte werden oft nicht nur nach Features, sondern nach Vertrauen bewertet.",
+        "opportunity": "Denis könnte das Thema als „Warum AI-Wearables noch kein No-Brainer sind“ aufgreifen.",
+        "links": [
+          "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/"
+        ]
+      },
+      {
+        "title": "Xreal sieht Smartglasses an einem Wendepunkt",
+        "originalTitle": "Xreal, Google’s smartglasses partner, thinks it has finally mastered this notoriously tricky industry",
+        "category": "Hardware",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "TechCrunch berichtet, dass Xreal, Googles Smartglasses-Partner, die Branche als an einem Wendepunkt sieht. Die Aussage kommt von Gründer und CEO Chi Xu, der glaubt, das Geschäft sei nun besser beherrschbar als zuvor.",
+        "why": "Smartglasses bleiben für Creator besonders spannend, weil sie Kamera-, Display- und AR-Ideen mit Alltag verbinden könnten. Wenn die Branche tatsächlich reifer wird, entstehen neue Formate für POV-Content, Produktdemos und Arbeits-Tools.",
+        "opportunity": "Ein Beobachtungsformat zu „Kommen Smartglasses jetzt endlich in den Alltag?“ passt gut.",
+        "links": [
+          "https://techcrunch.com/2026/05/24/xreal-googles-smartglasses-partner-thinks-it-has-finally-mastered-this-notoriously-tricky-industry/"
+        ]
+      },
+      {
+        "title": "DeepSeek bringt einen nativen Coding-Agenten mit niedrigeren Kosten",
+        "originalTitle": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+        "category": "Developer",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Auf Hacker News wird ein neuer DeepSeek-Coding-Agent namens reasonix diskutiert, der mit hohem Caching und niedrigen Kosten beworben wird. Die Resonanz zeigt, dass kosteneffiziente Coding-Tools weiter hohe Aufmerksamkeit bekommen.",
+        "why": "Für Entwickler- und Creator-Workflows ist das relevant, weil günstige Coding-Agenten den Zugang zu automatisierten Software-Aufgaben breiter machen. Das kann auch für Produktprototypen, interne Tools und Video-Software relevant sein.",
+        "opportunity": "Ein Video über „Wie günstig werden KI-Coding-Tools gerade?“ wäre aktuell.",
+        "links": [
+          "https://esengine.github.io/DeepSeek-Reasonix/"
+        ]
+      },
+      {
+        "title": "Eine Studie warnt vor der Fragilität von LLM-Agenten bei Backend-Code",
+        "originalTitle": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+        "category": "Forschung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "Die Arbeit untersucht, wie fragil LLM-Agenten bei der Generierung von Backend-Code sein können. Das Thema bekam auf Hacker News viel Aufmerksamkeit und trifft einen zentralen Praxispunkt bei AI-Softwareentwicklung.",
+        "why": "Für Creator, Produktteams und Agentur-Setups ist das wichtig, weil KI-Code nicht nur schnell, sondern auch zuverlässig sein muss. Gerade bei kundennahen Produkten zählt nicht nur Geschwindigkeit, sondern Verlässlichkeit.",
+        "opportunity": "Eine kurze Einordnung zu „Warum KI-Code-Agenten oft noch instabil sind“ wäre stark.",
+        "links": [
+          "https://arxiv.org/abs/2605.06445"
+        ]
+      },
+      {
+        "title": "Apple und ML-PICO zeigen, was bei praktischer Bildkompression zählt",
+        "originalTitle": "Perceptual Image Codec: What Matters in Practical Learned Image Compression",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "Apple veröffentlicht mit ML-PICO eine Arbeit zur praktischen lernbasierten Bildkompression. Der Fokus liegt darauf, was bei realer Nutzung wirklich zählt, nicht nur in der Theorie.",
+        "why": "Für Video- und Produkt-Content ist effiziente Bild- und Medienkompression relevant, weil sie Qualität, Ladezeiten und Speicherbedarf beeinflusst. Das Thema ist technisch, aber für Creator-Pipelines durchaus spannend.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://apple.github.io/ml-pico/"
+        ]
+      },
+      {
+        "title": "Microsoft veröffentlicht die früheste bisher entdeckte DOS-Quellcode-Version",
+        "originalTitle": "Microsoft open-sources “the earliest DOS source code discovered to date”",
+        "category": "Open Source",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "Hacker News Frontpage",
+        "summary": "Microsoft hat laut den verlinkten Quellen den bislang frühesten entdeckten DOS-Sourcecode geöffnet. Das Thema sorgt für Interesse, weil es historisch bedeutsam ist und ein ungewöhnlicher Open-Source-Moment von Microsoft ist.",
+        "why": "Solche Releases sind für Tech-Storytelling stark, weil sie Geschichte, Plattformpolitik und Softwarekultur verbinden. Für einen Creator kann das ein leicht erzählbares, aber substanzielles Format sein.",
+        "opportunity": "Ein kurzes Video über die Bedeutung von DOS-Quellcode für Softwaregeschichte und Microsofts Open-Source-Strategie passt gut.",
+        "links": [
+          "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/"
+        ]
+      },
+      {
+        "title": "Hacker lernen, Chatbot-Persönlichkeiten auszunutzen",
+        "originalTitle": "Hackers are learning to exploit chatbot &#8216;personalities’",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "The Verge AI",
+        "summary": "The Verge berichtet, dass Hacker lernen, die „Persönlichkeiten“ von Chatbots gezielt auszunutzen. Das verschiebt den Security-Blick von rein technischen Schwachstellen hin zu Verhaltens- und Prompt-Ebenen.",
+        "why": "Für Creator und Unternehmen ist das relevant, weil Chatbots in Support, Produktion und Content-Workflows immer häufiger eingesetzt werden. Angriffe auf Verhaltensmuster können neue Risiken für Marken- und Prozesssicherheit bedeuten.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.theverge.com/column/935545/hackers-ai-chatbots"
+        ]
+      }
+    ],
+    "generatedAt": "2026-05-25T08:45:18.260Z",
+    "generatedAtBerlin": "25.05.2026, 10:45",
+    "mode": "ai",
+    "sourceCount": 26,
+    "highlights": [
+      "Google navigiert laut TechCrunch KI-Security in Echtzeit",
+      "Amazon Bee wirkt nützlich, löst aber Datenschutz-Bauchschmerzen aus",
+      "Xreal sieht Smartglasses an einem Wendepunkt"
+    ]
+  },
+  {
     "date": "2026-05-23",
     "title": "KI, Creator-Tools und Security im Fokus: neue Fan- und Such-Experimente, plus mehr Schutz vor Spyware",
     "summary": "Am 23.05.2026 dominieren drei Themen: Unternehmen setzen KI stärker für Fan-Erlebnisse und Suchsichtbarkeit ein, während neue Tools und Forschungsansätze den Umgang mit LLMs effizienter machen sollen. Gleichzeitig bleibt Security relevant, weil Plattformen und Gerätehersteller neue Schutzfunktionen gegen Spyware betonen.",
