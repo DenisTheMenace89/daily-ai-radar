@@ -1,5 +1,171 @@
 [
   {
+    "date": "2026-05-25",
+    "title": "Daily Briefing: KI-Automatisierung, Creator-Tools und Regulierung ziehen an",
+    "summary": "Der Vortag war geprägt von einem deutlichen KI- und Plattform-Fokus: ClickUp ersetzt hunderte Mitarbeitende durch KI-Agenten, OpenAI schließt eine Content-Partnerschaft in Brasilien, und in Kalifornien sorgt die geplante Age-Verification-Regel weiter für Gegenwind. Dazu kamen mehrere interessante Tools und Showcases aus der HN-/Open-Source-Ecke, die für Creator und Entwickler relevant sind.",
+    "topSummary": "Heute in 30 Sekunden: Die spannendsten Signale kamen aus drei Richtungen: KI ersetzt zunehmend Arbeit, Medien- und Plattformpartnerschaften werden strategischer, und Regulierung trifft immer stärker Betriebssysteme, Inhalte und Infrastruktur. Für Creator und Product-Video-Macher sind vor allem neue lokale Video-Workflows, News-Distribution über KI und der politische Umgang mit AI besonders relevant.",
+    "implications": [
+      "KI wird nicht mehr nur als Assistenz verkauft, sondern direkt als Ersatz für ganze Arbeitsbereiche.",
+      "Content-Partnerschaften mit Plattformen wie OpenAI werden für Medienhäuser strategisch wichtiger.",
+      "Regulierung kann unerwartet tief in Software-Ökosysteme eingreifen, bis hin zum Betriebssystem.",
+      "Lokale, privacy-freundliche Creator-Tools bleiben ein starkes Gegenmodell zu Cloud-Only-KI."
+    ],
+    "watchlist": [
+      "Wie ClickUp die Ersetzung durch KI-Agenten operativ und kommunikativ rechtfertigt.",
+      "Ob weitere Medienhäuser ähnliche OpenAI-Partnerschaften eingehen.",
+      "Wie sich die kalifornische Age-Verification-Regel nach der Linux-Ausnahme weiterentwickelt.",
+      "Ob OpenBrief und ähnliche lokale Video-Tools mehr Aufmerksamkeit aus der Creator-Community bekommen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Regulierung",
+      "#OpenSource",
+      "#Security",
+      "#Plattformen"
+    ],
+    "stories": [
+      {
+        "title": "ClickUp ersetzt hunderte Mitarbeitende durch Tausende KI-Agenten",
+        "originalTitle": "What ClickUp’s mass layoff tells us about the future of work",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Das neun Jahre alte Startup ersetzt laut Quelle hunderte Beschäftigte durch Tausende KI-Agenten. Die Meldung deutet auf einen radikaleren Einsatz von KI in Unternehmensprozessen hin.",
+        "why": "Das ist ein starkes Signal dafür, dass KI nicht nur Produktivität erhöht, sondern Teams und Rollen strukturell verändert. Für Denis ist das relevant, weil solche Umbrüche oft auch neue Creator- und Produktvideo-Themen liefern.",
+        "opportunity": "Eine kurze Video-Analyse zu „KI ersetzt Jobs: Was ist real, was ist Hype?“ könnte gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/"
+        ]
+      },
+      {
+        "title": "OpenAI schließt eine Content-Partnerschaft mit Grupo Folha und Grupo UOL",
+        "originalTitle": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "OpenAI News",
+        "summary": "OpenAI arbeitet mit Grupo Folha und Grupo UOL zusammen, um vertrauenswürdigen brasilianischen Journalismus in ChatGPT zu bringen. Laut Quelle sollen Attribution und Transparenz dabei im Mittelpunkt stehen.",
+        "why": "Das zeigt, wie KI-Plattformen Nachrichteninhalte zunehmend als strategischen Baustein behandeln. Für Medien- und Creator-Projekte ist das ein wichtiger Hinweis auf neue Distributions- und Lizenzmodelle.",
+        "opportunity": "Denis könnte das als Beispiel für die Zukunft von Medienlizenzierung und KI-Suche aufgreifen.",
+        "links": [
+          "https://openai.com/index/grupo-folha-grupo-uol-partnership"
+        ]
+      },
+      {
+        "title": "Kalifornien will Linux aus der geplanten Age-Verification-Regel ausnehmen",
+        "originalTitle": "California moves to exempt Linux from its age-verification law after backlash",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "Nach Backlash soll Linux aus Kaliforniens bevorstehender Age-Verification-Regel ausgenommen werden. Die Änderung wurde von demselben Abgeordneten vorgeschlagen, der das ursprüngliche Gesetz eingebracht hatte.",
+        "why": "Die Meldung zeigt, wie weit digitale Regulierung in technische Plattformen eingreifen kann und wie schnell Community- und Branchenreaktionen politische Korrekturen erzwingen. Das ist relevant für alle, die Software, Creator-Plattformen oder Betriebssysteme nutzen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.tomshardware.com/software/linux/california-moves-to-exempt-linux-from-its-upcoming-age-verification-law-after-backlash-over-forcing-operating-systems-to-collect-users-ages-amendment-proposed-by-the-same-lawmaker-who-wrote-the-original-law"
+        ]
+      },
+      {
+        "title": "OpenBrief ist ein lokaler Video-Downloader und -Zusammenfasser mit KI",
+        "originalTitle": "Show HN: OpenBrief – Local-first video downloader/summarizer",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "OpenBrief ist ein GUI-Tool für yt-dlp mit KI-Funktionen: Links werden lokal heruntergeladen, Transkription und Voice-Generierung laufen auf dem eigenen Rechner, und Zusammenfassungen sowie Chat über das Transkript nutzen ein LLM. Das Tool ist Open Source und kostenlos.",
+        "why": "Das ist direkt relevant für Video-Creator, weil es lokale, datenschutzfreundliche Workflows für Analyse, Transkription und Content-Research bietet. Für Product-Videos kann das eine gute Basis für schnellere Vorarbeit und Clip-Recherche sein.",
+        "opportunity": "Eine Demo dazu wäre ein sehr passendes Creator-Tool-Video.",
+        "links": [
+          "https://github.com/tantara/openbrief"
+        ]
+      },
+      {
+        "title": "Pope Leo XIV stellt AI als Frage nach Macht, Arbeit und Menschlichkeit",
+        "originalTitle": "Pope Leo calls for being ‘profoundly human’ in the age of AI",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Mehrere Quellen",
+        "source": "The Verge AI, TechCrunch AI",
+        "summary": "Pope Leo XIV warnt in seinem ersten großen päpstlichen Dokument vor den Risiken von KI und unkontrollierter technologischer Macht. Laut den Quellen geht es dabei um die Folgen für Arbeit, KI-gestützte Kriegsführung und die Rolle einer Tech-Elite.",
+        "why": "Die Meldung ist weniger ein Technik- als ein Macht- und Gesellschaftssignal, berührt aber zentrale KI-Debatten rund um Arbeit, Kontrolle und Ethik. Für Medien- und Creator-Kommunikation eignet sich das als Einordnung zum gesellschaftlichen Rahmen von KI.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare",
+          "https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/"
+        ]
+      },
+      {
+        "title": "TechCrunch öffnet Bewerbungen für Startup Battlefield 200",
+        "originalTitle": "Startup Battlefield 200 applications close in days: Apply before May 27",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Die Bewerbungsfrist für Startup Battlefield 200 endet am 27. Mai. Laut Quelle gibt es Zugang zu VC-Netzwerk, Sichtbarkeit, TechCrunch-Berichterstattung und 100.000 US-Dollar.",
+        "why": "Für Startups und Tool-Builder ist das ein direkter Call-to-Action mit echter Reichweite. Auch für Denis kann das interessant sein, wenn er frühe KI- oder Creator-Startups beobachten oder vorstellen will.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/25/startup-battlefield-200-applications-close-in-days-apply-before-may-27/"
+        ]
+      },
+      {
+        "title": "Ein eSports-Startup hat beim Pitch trotz KI-Hype 20 Millionen Dollar eingesammelt",
+        "originalTitle": "The pitch trick that helped an eSports startup raise $20M when VCs only wanted AI",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Lucra Sports hat laut Quelle 20 Millionen Dollar eingesammelt, obwohl Investoren vor allem KI sehen wollten. Gründer Dylan Robbins habe dabei eine ungewöhnliche Pitch-Strategie eingesetzt.",
+        "why": "Das zeigt, dass Kapitalmärkte zwar stark auf KI fixiert sind, aber gute Storys und Positionierung weiterhin zählen. Für Creator- und Produkt-Content ist das als Beispiel für Pitching und Narrative relevant.",
+        "opportunity": "Eine kurze Beobachtung zu „Wie man außerhalb des KI-Hypes finanziert“ könnte funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/05/25/the-pitch-trick-that-helped-an-esports-startup-raise-20m-when-vcs-only-wanted-ai/"
+        ]
+      },
+      {
+        "title": "Ein HN-Showcase zeigt SynapCores als KI-native Datenbank",
+        "originalTitle": "Show HN: SynapCores – AI-native database (vector, graph, SQL, AutoML, LLM)",
+        "category": "Developer",
+        "priority": "niedrig",
+        "signal": "niedrig",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News LLM",
+        "summary": "SynapCores wird als KI-native Datenbank mit Vektor-, Graph-, SQL-, AutoML- und LLM-Funktionen vorgestellt. In den vorliegenden Quellen gibt es dazu nur die Show-HN-Ankündigung ohne weitere Einordnung.",
+        "why": "Das ist für Developer interessant, aber aktuell noch eher ein Frühindikator als ein belastbares Produkt-Signal. Für Denis ist es vor allem ein Beobachtungspunkt für neue AI-Infra-Ansätze.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://synapcores.com"
+        ]
+      }
+    ],
+    "generatedAt": "2026-05-26T08:06:39.913Z",
+    "generatedAtBerlin": "26.05.2026, 10:06",
+    "mode": "ai",
+    "sourceCount": 22,
+    "highlights": [
+      "ClickUp ersetzt hunderte Mitarbeitende durch Tausende KI-Agenten",
+      "OpenAI schließt eine Content-Partnerschaft mit Grupo Folha und Grupo UOL",
+      "Kalifornien will Linux aus der geplanten Age-Verification-Regel ausnehmen"
+    ]
+  },
+  {
     "date": "2026-05-24",
     "title": "KI-Security, Smartglasses und AI-Tools: das Tech-Briefing vom 24. Mai 2026",
     "summary": "Heute dominieren drei Muster: KI-Security wird zum laufenden Betrieb, neue KI-Hardware tastet sich zwischen Nutzen und Datenschutz voran, und Entwickler-Tools für LLMs werden konkreter. Dazu kommen ein paar signale starke Open-Source- und Forschungs-Themen, die vor allem für Software, Creator-Workflows und Produktvideos spannend sind.",
