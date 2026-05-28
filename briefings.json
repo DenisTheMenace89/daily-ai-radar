@@ -1,5 +1,172 @@
 [
   {
+    "date": "2026-05-27",
+    "title": "Daily-Briefing: KI, Creator-Tools und Plattformverschiebungen",
+    "summary": "Die wichtigsten Themen des Vortags drehen sich um den weiteren Umbau von Suche, Creator-Plattformen und KI-Infrastruktur. Besonders relevant: YouTube labelt KI-Videos automatisch, Meta baut neue Abo- und KI-Angebote aus, und Google Search wird durch AI-Antworten immer stärker verändert.",
+    "topSummary": "Heute in 30 Sekunden: Plattformen verschieben gerade die Spielregeln für Sichtbarkeit, Monetarisierung und Content-Kennzeichnung. Für Creator, Marken und Produktteams heißt das: Wer von Suche, Video und Social abhängig ist, muss sich auf neue Labels, neue Formate und neue Verteilungslogiken einstellen. Parallel fließt weiter viel Kapital in KI-Software und -Infrastruktur.",
+    "implications": [
+      "KI-Kennzeichnung wird auf großen Plattformen sichtbarer und automatisierter.",
+      "Suche entwickelt sich weiter weg von klassischen Link-Ergebnissen hin zu KI-Antworten.",
+      "Creator- und Business-Abos werden für Plattformen ein zentraler Monetarisierungshebel.",
+      "KI-Startups und Infrastruktur-Anbieter ziehen weiter starkes Kapital an."
+    ],
+    "watchlist": [
+      "Wie streng und zuverlässig YouTubes automatische KI-Labels in der Praxis funktionieren.",
+      "Ob Metas neue Abo- und KI-Pläne tatsächlich Creator- und Business-Nutzung beschleunigen.",
+      "Wie stark sich die Google-Search-Umstellung auf Traffic, SEO und Markenwahrnehmung auswirkt.",
+      "Ob weitere große Finanzierungsrunden bei KI-Coding und Dateninfrastruktur folgen."
+    ],
+    "tags": [
+      "#CreatorAI",
+      "#YouTube",
+      "#Meta",
+      "#Search",
+      "#Security",
+      "#StartupFunding"
+    ],
+    "stories": [
+      {
+        "title": "YouTube kennzeichnet KI-Videos jetzt automatisch",
+        "originalTitle": "YouTube will now automatically label AI videos",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "YouTube will Videos mit erheblicher fotorealistischer KI künftig automatisch labeln und verlässt sich damit nicht mehr nur auf Creator-Angaben. Die KI-Labels sollen zudem sichtbarer werden.",
+        "why": "Das ist direkt relevant für Creator, Video-Producer und Medienmarken, weil Kennzeichnung, Transparenz und Wahrnehmung von KI-Inhalten auf einer der wichtigsten Video-Plattformen neu geregelt werden. Wer mit KI-Assets arbeitet, muss mit zusätzlicher Sichtbarkeit und möglicher Vertrauenswirkung rechnen.",
+        "opportunity": "Denis könnte prüfen, wie sich KI-Labels in eigenen Videoformaten auf Klicks, Vertrauen und Conversion auswirken.",
+        "links": [
+          "https://techcrunch.com/2026/05/27/youtube-will-now-automatically-label-ai-videos/",
+          "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/"
+        ]
+      },
+      {
+        "title": "Meta startet weltweite Abos für Instagram, Facebook und WhatsApp",
+        "originalTitle": "Meta launches Instagram, Facebook, and WhatsApp subscriptions, with more to come, including AI plans",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Meta rollt weltweit kostenpflichtige Abo-Pläne für Instagram, Facebook und WhatsApp aus. Unter dem breiteren „Meta One“-Brand testet das Unternehmen zusätzlich neue Angebote für KI-, Creator- und Business-Nutzung.",
+        "why": "Für Creator und Unternehmen ist das relevant, weil Meta neue Monetarisierungs- und Produktpfade für Reichweite und Services ausbaut. Das kann beeinflussen, wie Content, Community und Business-Kommunikation künftig auf Meta-Plattformen organisiert werden.",
+        "opportunity": "Denis könnte beobachten, welche neuen Creator- und Business-Funktionen tatsächlich in der Praxis ankommen.",
+        "links": [
+          "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/"
+        ]
+      },
+      {
+        "title": "Google Search verschiebt sich weiter zu KI-Antworten",
+        "originalTitle": "Your SEO strategy is optimized for a search engine that no longer exists.",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Mehrere Quellen",
+        "source": "TechCrunch AI, TechCrunch",
+        "summary": "Nach Google I/O stehen KI-generierte Antworten im Zentrum der Suche, während klassische blaue Links an Bedeutung verlieren. Laut den Quellen haben viele Marken kaum noch Sichtbarkeit dafür, wie KI ihre Inhalte gegenüber Kunden darstellt.",
+        "why": "Das ist ein tiefer Einschnitt für SEO, Brand Visibility und Traffic-Strategien. Für Creator, Produktvideos und Medienformate heißt das: Auffindbarkeit hängt nicht mehr nur an Rankings, sondern auch daran, wie KI Systeme Inhalte zusammenfassen und präsentieren.",
+        "opportunity": "Denis könnte daraus ein Video zu „SEO nach Google I/O“ oder zu Brand-Sichtbarkeit in KI-Suchen machen.",
+        "links": [
+          "https://techcrunch.com/podcast/your-seo-strategy-is-optimized-for-a-search-engine-that-no-longer-exists/",
+          "https://techcrunch.com/video/google-just-broke-seo-heres-what-replaces-it/"
+        ]
+      },
+      {
+        "title": "Cognition hebt 1 Milliarde US-Dollar bei 25 Milliarden US-Dollar Pre-Money ein",
+        "originalTitle": "AI coding startup Cognition raises $1B at $25B pre-money valuation",
+        "category": "Developer",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Das AI-Coding-Startup Cognition hat 1 Milliarde US-Dollar eingesammelt und wird mit 25 Milliarden US-Dollar pre-money bewertet. Das Unternehmen nennt eine annualisierte Umsatzrate von 492 Millionen US-Dollar und sagt, seine Bewertung habe sich in acht Monaten mehr als verdoppelt.",
+        "why": "Die Runde zeigt, wie stark Investoren weiterhin auf KI-Entwicklungstools setzen. Für Produkt- und Software-Teams ist das ein Signal, dass AI-Coding-Workflows weiter an Bedeutung gewinnen und sich der Markt schnell verdichtet.",
+        "opportunity": "Denis könnte AI-Coding-Tools als Basis für schnellere Video-Produktions-Workflows testen oder beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/"
+        ]
+      },
+      {
+        "title": "Remote steigert Umsatz pro Mitarbeiter um 50 Prozent und wird cashflow-positiv",
+        "originalTitle": "Payroll startup Remote says it grew revenue 50% per employee without adding headcount",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Der Payroll-Anbieter Remote hat laut Quelle 300 Millionen US-Dollar ARR überschritten und ist cashflow-positiv geworden. Das Unternehmen schreibt den Anstieg des Umsatzes pro Mitarbeiter um 50 Prozent der KI-Nutzung zu, ohne die Belegschaft zu vergrößern.",
+        "why": "Das ist ein konkretes Signal dafür, dass KI nicht nur Produktfeatures verändert, sondern auch interne Effizienz und Skalierung. Für Creator-Businesses und kleinere Teams ist das als Benchmark interessant, wenn Automatisierung und schlanke Prozesse im Fokus stehen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/27/payroll-startup-remote-says-it-grew-revenue-50-per-employee-without-adding-headcount/"
+        ]
+      },
+      {
+        "title": "ElevenLabs bringt ein Musikmodell, das Genres mitten im Track wechseln kann",
+        "originalTitle": "ElevenLabs’ new music-generation model can switch genres mid-track",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "ElevenLabs hat ein neues Musikgenerierungsmodell vorgestellt, das Genres während eines Tracks wechseln kann. Nutzer können außerdem einen Abschnitt eines Songs neu generieren, ohne den Rest des Tracks zu verändern.",
+        "why": "Für Video-Creator, Trailer, Social Ads und Produktvideos ist das spannend, weil Musikproduktion und Iteration flexibler werden. Das könnte schnellere Sound-Experimente und gezieltere Änderungen an einzelnen Szenen erleichtern.",
+        "opportunity": "Denis könnte testen, ob sich damit schneller passgenaue Musik für Reels, Demos oder Showreels erstellen lässt.",
+        "links": [
+          "https://techcrunch.com/2026/05/27/elevenlabss-new-music-generation-model-can-switch-genres-mid-track/"
+        ]
+      },
+      {
+        "title": "CrowdStrike und Google legen ein Botnetz still, das Open-Source-Entwickler angriff",
+        "originalTitle": "CrowdStrike and Google take down botnet used by hackers to target open source software developers",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "CrowdStrike und Google haben das Glassworm-Botnetz abgeschaltet, das für Malware-Angriffe auf Open-Source-Projekte genutzt wurde. Über diese Projekte griffen die Cyberkriminellen wiederum Entwickler und Unternehmen an, die die Software nutzen.",
+        "why": "Das ist ein relevantes Supply-Chain-Security-Thema für alle, die mit Software, Plugins oder Open-Source-Tools arbeiten. Auch Creator-Workflows hängen oft an solchen Tools, weshalb Schadsoftware in der Lieferkette indirekt Produktions- und Business-Risiken erzeugt.",
+        "opportunity": "Denis könnte künftig bei Tools und Plugins stärker auf Herkunft, Updates und Sicherheitslage achten.",
+        "links": [
+          "https://techcrunch.com/2026/05/27/crowdstrike-and-google-take-down-botnet-used-by-hackers-to-target-software-developers-in-supply-chain-attacks/"
+        ]
+      },
+      {
+        "title": "Robinhood lässt KI-Agenten jetzt Aktien für Nutzer handeln",
+        "originalTitle": "Robinhood now lets your AI agents trade stocks",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Robinhood erlaubt es KI-Agenten, Portfolios zu lesen und Handelsstrategien zu entwickeln sowie Investments vorzuschlagen. Käufe dürfen sie jedoch nur über das vorab geladene Guthaben in der dafür vorgesehenen Wallet ausführen.",
+        "why": "Das ist ein weiterer Schritt von Assistenten hin zu agentischem Handeln in regulierten Kontexten. Für Creator und Selbstständige ist das vor allem ein Indikator, wie schnell KI-Tools in konkrete Finanz-Workflows vordringen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-05-28T08:26:44.408Z",
+    "generatedAtBerlin": "28.05.2026, 10:26",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "YouTube kennzeichnet KI-Videos jetzt automatisch",
+      "Meta startet weltweite Abos für Instagram, Facebook und WhatsApp",
+      "Google Search verschiebt sich weiter zu KI-Antworten"
+    ]
+  },
+  {
     "date": "2026-05-26",
     "title": "KI- und Tech-Daily-Briefing für Denis",
     "summary": "Die auffälligsten Signale des Tages drehen sich um die Konsolidierung im KI-Ökosystem, neue Daten- und Tool-Infrastruktur für LLMs sowie die wachsende Regulierung rund um Plattformen, Security und digitale Souveränität. Für Creator und Produktvideos sind vor allem die Monetarisierung von AI-Distribution, neue Audio-/Content-Formate und die Frage relevant, wie sich KI-Tools transparenter und robuster einsetzen lassen.",
