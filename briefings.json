@@ -1,5 +1,171 @@
 [
   {
+    "date": "2026-05-28",
+    "title": "Daily-Briefing: KI wird Infrastruktur, Produkt und Markt zugleich",
+    "summary": "Heute dominieren drei Signale: KI-Modelle werden produktiver und agentischer, die Infrastruktur wird auf Maschinenverkehr umgebaut, und rund um Anthropic verdichten sich Investitions- und Plattform-News. Für Creator und Tech-Business ist außerdem relevant, dass YouTube neue Podcast-Funktionen testet und Sicherheitsvorfälle weiter an Daten und Identitätsrisiken erinnern.",
+    "topSummary": "Heute in 30 Sekunden: KI verlässt die Experimentierphase und wird stärker in Produkte, Workflows und Cloud-Infrastruktur eingebaut. Gleichzeitig zeigen neue Deals, App-Launches und Plattform-Updates, wie schnell sich der Markt professionalisiert. Für Denis besonders spannend: YouTube optimiert Podcasts, während Security- und Plattformthemen zeigen, wie wichtig Vertrauen und Distribution bleiben.",
+    "implications": [
+      "KI-Agenten treiben neue Anforderungen an Cloud, Workflow-Tools und Plattformen.",
+      "Anthropic bleibt ein zentraler Taktgeber für Modellqualität, Kapitalmarkt und Enterprise-AI.",
+      "YouTube baut weiter Funktionen für Audio- und Podcast-Formate aus.",
+      "Security- und Privacy-Risiken bleiben auch jenseits klassischer IT-Produkte ein Thema."
+    ],
+    "watchlist": [
+      "Wie schnell Plattformen ihre Infrastruktur auf Maschinenverkehr und Agenten-Traffic umstellen.",
+      "Ob Anthropic den IPO-Pfad wirklich zügig weitergeht.",
+      "Wie stark YouTube neue Podcast-Features bei Creators und Hörern ausrollt.",
+      "Ob weitere Sicherheitsvorfälle rund um Backups, IDs und Adtech politische Reaktionen auslösen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#YouTube",
+      "#Security",
+      "#Startups",
+      "#AIInfrastructure"
+    ],
+    "stories": [
+      {
+        "title": "Die Internet-Infrastruktur wird für Maschinenverkehr neu gebaut",
+        "originalTitle": "The internet is being rebuilt for machines",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Mit dem Übergang von KI-Experimenten zu produktiven Agenten richten AWS, Cloudflare und andere ihre Cloud-Infrastruktur stärker auf maschinell erzeugten Internetverkehr aus als auf menschliche Nutzer. Es geht dabei um eine grundlegende Verschiebung der Traffic- und Infrastrukturannahmen.",
+        "why": "Wenn Agenten ein größerer Teil des Netzes werden, betrifft das auch Publishing, Distribution und Produktvideos: Ladezeiten, API-Nutzung und Automatisierung werden wichtiger. Für Creator- und Tool-Ökosysteme ist das ein Hinweis, dass „AI-first“ bald auch „traffic-first for machines“ bedeutet.",
+        "opportunity": "Ein Video über die Folgen von Agenten-Traffic für Creator-Tools und Plattformen könnte früh Aufmerksamkeit erzeugen.",
+        "links": [
+          "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/"
+        ]
+      },
+      {
+        "title": "Anthropic schließt 65-Milliarden-Runde ab und nähert sich einer 1-Billionen-Bewertung",
+        "originalTitle": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI, Hacker News Frontpage",
+        "summary": "Anthropic hat eine Series-H-Runde über 65 Milliarden Dollar zu einer Post-Money-Bewertung von 965 Milliarden Dollar abgeschlossen. Laut Quelle könnte das die letzte private Finanzierungsrunde vor einem erwarteten IPO sein.",
+        "why": "Das ist ein klares Marktsignal dafür, wie groß der KI-Wettlauf geworden ist. Für Denis ist das relevant, weil diese Größenordnungen direkt beeinflussen, welche Tools, Plattformen und Workflows in Creator-Software auftauchen.",
+        "opportunity": "Ein kurzes Einordnungs-Video zu „Warum Anthropic jetzt fast eine Billion wert ist“ passt gut für Tech- und Business-Publikum.",
+        "links": [
+          "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+          "https://www.anthropic.com/news/series-h"
+        ]
+      },
+      {
+        "title": "Anthropic veröffentlicht Opus 4.8 mit Dynamic-Workflows für Subagenten",
+        "originalTitle": "Anthropic releases Opus 4.8 with new ‘dynamic workflow’ tool",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Anthropic hat Opus 4.8 vorgestellt, inklusive eines neuen Tools namens Dynamic Workflows. Die Funktion ist für die Koordination von Schwärmen aus Subagenten gedacht.",
+        "why": "Das ist besonders relevant für Produktivität, Automatisierung und Creator-Workflows, weil komplexere Aufgaben stärker an Agenten delegiert werden können. Solche Funktionen prägen, wie schnell sich KI in echte Produktionsprozesse einbaut.",
+        "opportunity": "Eine Demo-Idee: zeigen, wie Subagenten ein Creator-Research- oder Video-Workflow-Problem aufteilen könnten.",
+        "links": [
+          "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/"
+        ]
+      },
+      {
+        "title": "YouTube erweitert Podcasts um KI-Empfehlungen und Auto-Speed",
+        "originalTitle": "YouTube adds new podcast features, including an AI recommendation tool and ‘Auto speed’",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "YouTube rollt neue Podcast-Funktionen aus, darunter ein KI-Empfehlungstool und „Auto speed“. Der Schritt zeigt, dass YouTube im Podcast-Markt weiter gegen andere Plattformen antritt.",
+        "why": "Für Creator ist das direkt relevant, weil Empfehlungssysteme und Wiedergabeverhalten Reichweite und Watchtime beeinflussen. Auch für Video-Creator mit Longform-Formaten wird YouTube damit noch stärker zur Podcast-Plattform.",
+        "opportunity": "Eine Analyse dazu, wie YouTube Podcasts und Video weiter zusammenführt, dürfte für Denis' Publikum gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/05/28/youtube-adds-new-podcast-features-including-an-ai-recommendation-tool-and-auto-speed/"
+        ]
+      },
+      {
+        "title": "Asana übernimmt den No-Code-Agenten-Baukasten StackAI",
+        "originalTitle": "Asana acquires no-code agent-builder StackAI",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Asana will StackAI übernehmen und in seine wachsende Suite von KI-Workflow-Tools integrieren. StackAI ist ein No-Code-Builder für Agenten.",
+        "why": "Das zeigt, dass klassische Workflow-Software KI nicht nur addiert, sondern über Zukäufe tiefer umbaut. Für Creator- und Production-Teams ist das wichtig, weil Planungs-, Freigabe- und Automationsprozesse zunehmend agentisch werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/"
+        ]
+      },
+      {
+        "title": "Visa investiert in Replit, um agentische Zahlungen für Entwickler zu ermöglichen",
+        "originalTitle": "Visa invests in Replit to power agentic payments for developers",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Visa investiert in Replit und will damit agentische Zahlungen für Entwickler unterstützen. Laut Quelle nutzen bereits über 1.000 Visa-Mitarbeiter Replit für Prototyping und Entwicklung.",
+        "why": "Das verbindet KI-Entwicklung direkt mit Zahlungs- und Produktinfrastruktur. Für Tool- und App-Creator ist spannend, dass Entwicklung, Prototyping und Monetarisierung immer enger zusammenrücken.",
+        "opportunity": "Ein kurzes Creator-Tech-Update zu „Payments für Agenten“ könnte als Trendstück funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/05/28/visa-invests-in-replit-to-power-agentic-payments-for-developers/"
+        ]
+      },
+      {
+        "title": "Sesame bringt seine konversationellen KI-Agenten als iOS-App heraus",
+        "originalTitle": "Sesame, the conversational AI startup from Oculus founders, launches its iOS app",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Sesame hat eine iOS-App veröffentlicht, die konversationelle KI-Agenten für die Öffentlichkeit zugänglich macht. Der Fokus liegt auf natürlicheren Dialogen, die sich mehr wie ein Gespräch mit einer Person anfühlen sollen.",
+        "why": "Mobile, sprachnahe KI-Erlebnisse sind für Creator relevant, weil sie neue Formate für Assistenz, Vorproduktion und Audience-Interaktion eröffnen. Solche Apps zeigen, wohin sich Chatbot-UX außerhalb des Browser-Fensters bewegt.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/"
+        ]
+      },
+      {
+        "title": "Signal-Nutzer werden mit Phishing angegriffen, um Backups zu stehlen",
+        "originalTitle": "Hackers are trying to steal Signal users’ backups in new wave of phishing attacks",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Eine neue Angriffswelle versucht, Signal-Nutzer dazu zu bringen, ihren geheimen Recovery-Key preiszugeben. Damit könnten Angreifer auf Online-Backups mit vergangenen Nachrichten zugreifen.",
+        "why": "Das ist ein direktes Risiko für vertrauliche Kommunikation, auch für Creator, Produzenten und Medienkontakte. Wer mit Teams, Kund:innen oder Quellen über Messenger arbeitet, sollte Backup- und Recovery-Prozesse besonders ernst nehmen.",
+        "opportunity": "Ein kurzer Sicherheitshinweis-Clip für Creator könnte sehr nützlich sein.",
+        "links": [
+          "https://techcrunch.com/2026/05/28/hackers-are-trying-to-steal-signal-users-backups-in-new-wave-of-phishing-attacks/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-05-29T08:14:03.018Z",
+    "generatedAtBerlin": "29.05.2026, 10:14",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Die Internet-Infrastruktur wird für Maschinenverkehr neu gebaut",
+      "Anthropic schließt 65-Milliarden-Runde ab und nähert sich einer 1-Billionen-Bewertung",
+      "Anthropic veröffentlicht Opus 4.8 mit Dynamic-Workflows für Subagenten"
+    ]
+  },
+  {
     "date": "2026-05-27",
     "title": "Daily-Briefing: KI, Creator-Tools und Plattformverschiebungen",
     "summary": "Die wichtigsten Themen des Vortags drehen sich um den weiteren Umbau von Suche, Creator-Plattformen und KI-Infrastruktur. Besonders relevant: YouTube labelt KI-Videos automatisch, Meta baut neue Abo- und KI-Angebote aus, und Google Search wird durch AI-Antworten immer stärker verändert.",
