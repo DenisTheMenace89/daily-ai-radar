@@ -1,5 +1,158 @@
 [
   {
+    "date": "2026-05-29",
+    "title": "Daily-Briefing KI & Tech für Denis",
+    "summary": "Am 29.05.2026 dominierten erneut KI-Produktivität, AI-Coding, Infrastruktur und Security die wichtigsten Signale. Auffällig sind gleichzeitig ein stärkerer Fokus auf KI-Ökonomie in Unternehmen, neue Chip- und Inferenz-Starts sowie Debatten darüber, wie viel Verantwortung KI-Systeme schon übernehmen sollten.",
+    "topSummary": "Heute in 30 Sekunden: Die spannendsten Impulse kamen aus KI-Tools, Developer-Workflows und der Chip-Infrastruktur darunter. Während einige Firmen weiter auf Effizienz durch KI setzen, zeigen andere Meldungen, dass Menschen, Sicherheit und Evaluierung weiterhin zentrale Engpässe bleiben. Für Creator und Produktvideos sind vor allem AI-Coding, Plattform-Debatten und neue Hardware-/Tooling-Ansätze relevant.",
+    "implications": [
+      "KI wird nicht nur als Feature, sondern als Organisations- und Kostenhebel verkauft.",
+      "Developer-Tools verschieben sich stärker hin zu kontrollierten, prüfbaren Aktionen statt freier Agenten.",
+      "Security- und Governance-Fragen bleiben ein harter Realitätscheck für den KI-Hype.",
+      "Neue Chip- und Inferenz-Ansätze zeigen, dass Performance weiter ein strategischer Engpass ist."
+    ],
+    "watchlist": [
+      "Ob Groq die gemeldete Finanzierungsrunde und den Pivot Richtung Inferenz bestätigt.",
+      "Wie sich die Debatte um Microsoft und den Sicherheitsforscher rechtlich und reputativ entwickelt.",
+      "Ob weitere Daten zu AI-gestützten Layoffs und dem Begriff 'AI psychosis' folgen.",
+      "Welche Entwickler-Tools aus HN nur Demo bleiben und welche echte Workflows verbessern."
+    ],
+    "tags": [
+      "#AI",
+      "#CreatorTools",
+      "#DeveloperTools",
+      "#Security",
+      "#Startups",
+      "#Infrastructure"
+    ],
+    "stories": [
+      {
+        "title": "Groq soll nach Nvidias 20-Milliarden-Not-Übernahmeversuch 650 Millionen Dollar einsammeln",
+        "originalTitle": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+        "category": "Hardware",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Der Chip-Start-up Groq soll intern 650 Millionen Dollar einwerben und dabei stärker auf AI-Inferenz statt auf Hardware-Fokus setzen. Laut der Quelle verschiebt sich das Unternehmen damit strategisch in Richtung des Betriebs von Modellen statt nur des Baus von Chips.",
+        "why": "Das ist relevant, weil Inferenz-Kosten und Laufzeit-Performance direkt beeinflussen, wie günstig Creator-Tools, Video-KI und produktive AI-Workflows skaliert werden können. Für die Branche ist das ein weiteres Signal, dass die Infrastruktur hinter KI gerade neu sortiert wird.",
+        "opportunity": "Ein kurzes Erklärvideo zu 'Warum Inferenz gerade wichtiger wird als nur mehr GPUs' wäre stark.",
+        "links": [
+          "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/"
+        ]
+      },
+      {
+        "title": "Cognition sagt, AI-Coding-Agenten sollen Menschen nicht ersetzen",
+        "originalTitle": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans",
+        "category": "Developer",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Scott Wu von Cognition betont, dass der AI-Coding-Agent Devin nicht dafür gedacht sei, menschliche Programmierer zu ersetzen. Die Aussage setzt einen Kontrapunkt zur verbreiteten Erzählung, KI könne ganze Entwicklerrollen übernehmen.",
+        "why": "Für Denis ist das spannend, weil viele Creator- und Produktvideos genau von solchen Automatisierungsversprechen leben. Die Story eignet sich, um den Unterschied zwischen Assistenz, Agent und Ersatz sauber zu erklären.",
+        "opportunity": "Ein Video über den realistischen Nutzen von AI-Coding-Agents im Alltag könnte gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/"
+        ]
+      },
+      {
+        "title": "Microsoft gerät wegen Drohung mit strafrechtlicher Untersuchung gegen Sicherheitsforscher unter Druck",
+        "originalTitle": "Microsoft under fire for threatening security researcher with criminal investigation",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Ein öffentlicher Konflikt zwischen Microsoft und einem unabhängigen Sicherheitsforscher hat eine Debatte darüber neu entfacht, wer für die Absicherung von Software verantwortlich ist. Im Kern steht die Frage, wie große Plattformen mit externen Researchern umgehen.",
+        "why": "Das ist für Tech- und Creator-Publikum relevant, weil Security, Disclosure und Plattformmacht immer häufiger zusammenkommen. Für Medien- und Produktvideos lässt sich daran gut zeigen, wie fragil das Verhältnis zwischen Herstellern und Forschern sein kann.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/29/microsoft-under-fire-for-threatening-security-researcher-with-criminal-investigation/"
+        ]
+      },
+      {
+        "title": "Aaron Levie kritisiert 'AI psychosis' bei Chefs und den Jobabbau durch KI",
+        "originalTitle": "Does your CEO have AI psychosis? Aaron Levie thinks most of them do.",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Box-Gründer Aaron Levie beschreibt eine Art 'AI psychosis', bei der Entscheider glauben, KI könne Jobs ersetzen, obwohl sie die Arbeit selbst nicht ausreichend verstehen. Als Beispiel nennt die Quelle unter anderem Kürzungen bei ClickUp und einen breiteren Trend bei Tech-Layoffs.",
+        "why": "Die Story ist wichtig, weil sie den Kultur- und Management-Aspekt des KI-Booms trifft, nicht nur die Technik. Für Creator ist das ein starkes Thema für ein nüchternes Video über Hype, Produktivität und die Grenzen von Automatisierung.",
+        "opportunity": "Ein Kommentarvideo über 'Warum KI-Einsparungen oft einfacher klingen als sie sind' wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/podcast/does-your-ceo-have-ai-psychosis-aaron-levie-thinks-most-of-them-do/",
+          "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/"
+        ]
+      },
+      {
+        "title": "TechCrunch erklärt zentrale KI-Begriffe in einem Glossar",
+        "originalTitle": "So you’ve heard these AI terms and nodded along; let’s fix that",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch veröffentlicht ein Glossar mit Definitionen wichtiger KI-Begriffe und Slang-Ausdrücke, die im aktuellen KI-Markt ständig auftauchen. Der Beitrag richtet sich an Leser, die die Terminologie besser einordnen wollen.",
+        "why": "Für Denis ist das nützlich als Referenz, weil saubere Begriffserklärung in KI-Content den Unterschied zwischen oberflächlichem Hype und verständlichem Mehrwert macht. Das Material kann auch helfen, eigene Formate oder Erklärvideos sprachlich präziser zu bauen.",
+        "opportunity": "Ein deutschsprachiges Kurzformat 'Die 10 wichtigsten KI-Begriffe ohne Buzzword-Nebel' wäre sinnvoll.",
+        "links": [
+          "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
+        ]
+      },
+      {
+        "title": "Hacker News zeigt viele Signale für neue LLM-Tools, Evaluierung und DevOps-Ansätze",
+        "originalTitle": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
+        "category": "Open Source",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage / HN LLM",
+        "summary": "Auf Hacker News tauchten mehrere relevante Projekte rund um LLM-Inferenz, Evaluierung und DevOps auf, darunter Tiny-vLLM, Knowa, CVE-Bench und Piper. Gemeinsam zeigen sie einen klaren Fokus auf mehr Geschwindigkeit, bessere Kontrolle und realistischere Tests für KI-Systeme.",
+        "why": "Das ist für Creator und Produktvideos interessant, weil sich damit sehr gut zeigen lässt, wie sich die Entwicklerwelt von 'Chat mit Modell' hin zu produktionsnahen Workflows verschiebt. Besonders die Kombination aus Inferenz, Security-Tests und typed actions ist ein starkes Narrativ.",
+        "opportunity": "Ein Sammelvideo über 'Die spannendsten HN-KI-Tools des Tages' wäre gut geeignet.",
+        "links": [
+          "https://github.com/jmaczan/tiny-vllm",
+          "https://github.com/zzorphcreator/knowa",
+          "https://giovannigatti.github.io/cve-bench/",
+          "https://github.com/antoniociccia/piper"
+        ]
+      },
+      {
+        "title": "GTA-6-Entwickler sollen sich gewerkschaftlich organisiert haben",
+        "originalTitle": "GTA 6 Developers Unionize",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein HN-Frontpage-Post verweist auf Berichte, wonach Entwickler von GTA 6 bei Rockstar Games eine Gewerkschaftsinitiative angekündigt haben. Die Resonanz auf HN war sehr groß.",
+        "why": "Für Medien- und Spiele-Produktionen ist das relevant, weil sich daran Arbeitsbedingungen, Kreativproduktion und Machtverhältnisse in großen Entertainment-Studios zeigen. Es berührt indirekt auch Themen wie Produktionsdruck und Rechte an kreativer Arbeit.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://rockstarintel.com/gta-6-developers-announce-rockstar-games-union/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-05-30T07:25:51.179Z",
+    "generatedAtBerlin": "30.05.2026, 09:25",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Groq soll nach Nvidias 20-Milliarden-Not-Übernahmeversuch 650 Millionen Dollar einsammeln",
+      "Cognition sagt, AI-Coding-Agenten sollen Menschen nicht ersetzen",
+      "Microsoft gerät wegen Drohung mit strafrechtlicher Untersuchung gegen Sicherheitsforscher unter Druck"
+    ]
+  },
+  {
     "date": "2026-05-28",
     "title": "Daily-Briefing: KI wird Infrastruktur, Produkt und Markt zugleich",
     "summary": "Heute dominieren drei Signale: KI-Modelle werden produktiver und agentischer, die Infrastruktur wird auf Maschinenverkehr umgebaut, und rund um Anthropic verdichten sich Investitions- und Plattform-News. Für Creator und Tech-Business ist außerdem relevant, dass YouTube neue Podcast-Funktionen testet und Sicherheitsvorfälle weiter an Daten und Identitätsrisiken erinnern.",
