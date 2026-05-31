@@ -1,5 +1,170 @@
 [
   {
+    "date": "2026-05-30",
+    "title": "KI-Infrastruktur wächst, Creator-Ökonomie verschiebt sich",
+    "summary": "Der Vortag war geprägt von großen Investitionen in KI-Infrastruktur, neuen Hardware- und Assistenzprodukten sowie mehr Reibung rund um Entwickler-Tools und Plattformen. Für Creator und Tech-Teams zeigen sich zwei klare Linien: mehr Automatisierung auf Produktseite, aber auch mehr Kosten-, Kontroll- und Vertrauensfragen.",
+    "topSummary": "Heute in 30 Sekunden: SoftBank will massiv in französische Rechenzentren investieren, während Meta an einem KI-Pendant arbeitet und Google Gemini Spark als 24/7-Assistent positioniert. Gleichzeitig wächst der Druck auf Entwickler durch Copilot-Änderungen und die Debatte, wie sehr man sich auf KI im Code verlassen sollte. Für Video- und Creator-Themen sticht außerdem hervor, dass zwei der größten Filme des Wochenendes von YouTubern inszeniert wurden.",
+    "implications": [
+      "Mehr KI-Infrastruktur bedeutet mittelfristig mehr Kapazität für Modelle, Tools und Apps.",
+      "Creator- und Produkt-Workflows werden stärker von KI-Assistenten und Automatisierung geprägt.",
+      "Entwickler müssen mit neuen Preis- und Qualitätsfragen bei KI-Coding-Tools umgehen.",
+      "YouTube bleibt ein relevanter Einstiegspfad in Mainstream-Entertainment und Medienproduktion."
+    ],
+    "watchlist": [
+      "Wie genau SoftBanks Rechenzentrumsprojekt in Frankreich umgesetzt wird.",
+      "Ob Metas KI-Pendant tatsächlich als neues Hardware-Produkt sichtbar wird.",
+      "Wie stark die Copilot-Billing-Umstellung die Nutzung und Entwicklerstimmung belastet.",
+      "Ob TikTok seine Super-App-Ambitionen weiter konkretisiert."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorEconomy",
+      "#DeveloperTools",
+      "#Infrastruktur",
+      "#Plattformen",
+      "#Video"
+    ],
+    "stories": [
+      {
+        "title": "SoftBank will bis zu 75 Milliarden Euro in französische Rechenzentren investieren",
+        "originalTitle": "SoftBank says it will invest up to €75 billion to build French data centers",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "SoftBank will laut eigener Aussage bis zu 75 Milliarden Euro investieren, um in Frankreich Rechenzentren aufzubauen. Ziel ist der Aufbau und Betrieb von bis zu 5 Gigawatt zusätzlicher Rechenzentrumskapazität.",
+        "why": "Das ist ein klares Signal, dass der Ausbau der KI-Infrastruktur weiter massiv Kapital anzieht. Für KI-Produkte, Video-Tools und lokale europäische Cloud-/Compute-Optionen ist das strategisch relevant.",
+        "opportunity": "Als Video-Thema: erklären, warum Rechenzentrums-Kapazität der neue Engpass für KI-Tools ist.",
+        "links": [
+          "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/"
+        ]
+      },
+      {
+        "title": "GitHub Copilot stellt auf tokenbasierte Abrechnung um und sorgt für Unmut unter Entwicklern",
+        "originalTitle": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs",
+        "category": "Developer",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "GitHub Copilot hat ein neues tokenbasiertes Billing eingeführt, das bei Entwicklern für deutliche Kritik sorgt. Die Umstellung wird als möglicher Wendepunkt für die bisher sehr großzügige Copilot-Ära beschrieben.",
+        "why": "Für alle, die mit KI-Assistenz programmieren oder Tools bauen, sind Preise und Nutzungsgrenzen ein direkter Produktfaktor. Es zeigt auch, wie schnell sich die Wirtschaftlichkeit von KI-Workflows ändern kann.",
+        "opportunity": "Eine kurze Analyse zu „Was tokenbasierte KI-Preise für Creator- und Dev-Tools bedeuten“ wäre stark.",
+        "links": [
+          "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/"
+        ]
+      },
+      {
+        "title": "Meta entwickelt Berichten zufolge einen KI-Anhänger",
+        "originalTitle": "Meta is reportedly developing an AI pendant",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Meta arbeitet Berichten zufolge an einem KI-Anhänger und setzt damit offenbar weiter auf KI-gestützte Hardware. Die Meldung deutet auf neue Formfaktoren jenseits von Smartphone und Kopfhörer hin.",
+        "why": "Wearables mit KI-Funktion könnten für Creator, Medienarbeit und mobile Produktivität interessant werden. Gleichzeitig bleibt offen, ob solche Produkte wirklich alltagstauglich sind oder nur ein weiterer Prototyp bleiben.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/"
+        ]
+      },
+      {
+        "title": "Google Gemini Spark wirkt als 24/7-Assistent nützlich, bleibt aber als separates Produkt erklärungsbedürftig",
+        "originalTitle": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Gemini Spark automatisiert laut Test alltägliche Aufgaben wie Inbox-Zusammenfassungen und die Planung lokaler Events. Gleichzeitig bleibt unklar, warum Google das Produkt separat statt integrierter anbietet.",
+        "why": "Das ist direkt relevant für Creator-Workflows, Orga, Research und schnelle Content-Vorbereitung. Solche Assistenzprodukte zeigen, wohin sich persönliche KI-Software im Alltag bewegt.",
+        "opportunity": "Ein Praxis-Video „Welche Aufgaben ein 24/7-KI-Assistent einem Creator wirklich abnimmt“ wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/"
+        ]
+      },
+      {
+        "title": "Die Browser-Konkurrenz zu Chrome und Safari nimmt 2026 weiter zu",
+        "originalTitle": "As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch bündelt einen Überblick über alternative Browser, die Chrome und Safari herausfordern wollen. Die Meldung ordnet den aktuellen Stand der Browser-Wars ein.",
+        "why": "Browser sind für Creator, Produktrecherche, Web-Apps und KI-Workflows zentrale Arbeitsumgebungen. Veränderungen hier können direkte Auswirkungen auf Performance, Datenschutz und Erweiterungen haben.",
+        "opportunity": "Ein Vergleich der spannendsten Browser für Creator und KI-Nutzer könnte gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/"
+        ]
+      },
+      {
+        "title": "Zwei der größten Filme des Wochenendes wurden von YouTubern inszeniert",
+        "originalTitle": "This weekend’s two biggest movies were both directed by YouTubers",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Die beiden erfolgreichsten Filme des Wochenendes wurden beide von YouTubern gedreht. Die Meldung verweist auf eine starke YouTube-zu-Prestige-Horror-Pipeline.",
+        "why": "Das ist für Creator und Schauspiel-/Mediennähe besonders relevant, weil es YouTube als echten Karrierepfad ins Mainstream-Kino bestätigt. Es zeigt auch, wie sich Storytelling, Reichweite und Regie-Kompetenz über Plattformen hinweg verschieben.",
+        "opportunity": "Eine Story über YouTube als Sprungbrett in Film und Regie wäre für Denis sehr anschlussfähig.",
+        "links": [
+          "https://techcrunch.com/2026/05/30/this-weekends-two-biggest-movies-were-both-directed-by-youtubers/"
+        ]
+      },
+      {
+        "title": "TikTok arbeitet offenbar daran, eine Super-App zu werden",
+        "originalTitle": "TikTok’s road to becoming a super app",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "TikTok könnte laut Bericht darauf hinarbeiten, die App für möglichst viele digitale Aktivitäten nutzbar zu machen. Die Entwicklung wird als Schritt in Richtung Super-App beschrieben.",
+        "why": "Für Creator ist TikTok längst mehr als ein Feed; eine Super-App-Strategie würde Reichweite, Monetarisierung und Nutzerbindung weiter bündeln. Das ist auch für Plattformstrategien und Mediendistribution relevant.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/05/30/tiktoks-road-to-becoming-a-super-app/"
+        ]
+      },
+      {
+        "title": "AV2 wurde als neuer Video-Standard veröffentlicht",
+        "originalTitle": "The AV2 Video Standard Has Released (Final v1.0 Specification)",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Der AV2-Video-Standard ist laut Frontpage-Beitrag in der finalen v1.0-Spezifikation erschienen. Die Meldung verweist auf die Veröffentlichung des neuen Standards.",
+        "why": "Ein neuer Video-Standard kann für Encoding, Streaming, Upload-Workflows und Plattformen relevant werden. Für Product-Video-Creator ist das besonders interessant, wenn bessere Kompression oder Qualität bei gleichem Bandbreitenbudget möglich wird.",
+        "opportunity": "Ein kurzer Technik-Check zu AV2 und möglichen Auswirkungen auf Video-Delivery wäre sinnvoll.",
+        "links": [
+          "https://av2.aomedia.org"
+        ]
+      }
+    ],
+    "generatedAt": "2026-05-31T07:56:59.620Z",
+    "generatedAtBerlin": "31.05.2026, 09:56",
+    "mode": "ai",
+    "sourceCount": 30,
+    "highlights": [
+      "SoftBank will bis zu 75 Milliarden Euro in französische Rechenzentren investieren",
+      "GitHub Copilot stellt auf tokenbasierte Abrechnung um und sorgt für Unmut unter Entwicklern",
+      "Zwei der größten Filme des Wochenendes wurden von YouTubern inszeniert"
+    ]
+  },
+  {
     "date": "2026-05-29",
     "title": "Daily-Briefing KI & Tech für Denis",
     "summary": "Am 29.05.2026 dominierten erneut KI-Produktivität, AI-Coding, Infrastruktur und Security die wichtigsten Signale. Auffällig sind gleichzeitig ein stärkerer Fokus auf KI-Ökonomie in Unternehmen, neue Chip- und Inferenz-Starts sowie Debatten darüber, wie viel Verantwortung KI-Systeme schon übernehmen sollten.",
