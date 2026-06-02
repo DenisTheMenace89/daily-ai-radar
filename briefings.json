@@ -1,5 +1,173 @@
 [
   {
+    "date": "2026-06-01",
+    "title": "KI- und Tech-Briefing für Denis – 1. Juni 2026",
+    "summary": "Heute dominieren drei Themen: KI-Plattformen werden offiziell enger an Cloud- und Enterprise-Infrastruktur gekoppelt, während zugleich Regulierung und Haftungsfragen rund um OpenAI und Meta AI schärfer werden. Dazu kommen Sicherheitsmeldungen mit Creator- und Plattformbezug sowie neue Signale aus dem Startup- und Hardware-Markt.",
+    "topSummary": "Heute in 30 Sekunden: Anthropic und OpenAI treiben ihre kommerzielle Infrastruktur und Börsenpläne voran, während Nvidia mit „AI agent PCs“ den nächsten PC-Markt angreift. Gleichzeitig steigen die Risiken: Florida klagt gegen OpenAI, und Meta AI wird mit Instagram-Kompromittierungen in Verbindung gebracht. Für Creator und Video-Teams relevant sind vor allem die wachsende Plattformabhängigkeit, neue Sicherheitsrisiken und die Frage, wie KI-Produkte in Alltags-Workflows landen.",
+    "implications": [
+      "KI wird stärker in Cloud, Endgeräte und Enterprise-Workflows integriert.",
+      "Regulierung und Produkthaftung werden für KI-Anbieter zum echten Geschäftsfaktor.",
+      "Sicherheit und Authentifizierung werden wichtiger, weil Plattformen und AI-Tools stärker attackiert werden.",
+      "Creator- und Video-Teams sollten beobachten, welche KI-Tools wirklich alltagstauglich und vertrauenswürdig werden."
+    ],
+    "watchlist": [
+      "Wie OpenAI und Anthropic ihre Cloud- und Börsenstrategie konkret ausrollen.",
+      "Ob weitere Klagen oder Regulierungsinitiativen gegen KI-Provider folgen.",
+      "Wie schnell Nvidia-Partner tatsächlich „AI agent PCs“ in den Markt bringen.",
+      "Ob Plattformen wie Meta und Strava ihre Sicherheits- und Anti-Scraping-Maßnahmen ausweiten."
+    ],
+    "tags": [
+      "#KI",
+      "#Security",
+      "#CreatorTools",
+      "#Platformen",
+      "#Startups",
+      "#Regulierung"
+    ],
+    "stories": [
+      {
+        "title": "Anthropic reicht vertraulichen S-1-Entwurf bei der SEC ein",
+        "originalTitle": "Anthropic confidentially submits draft S-1 to the SEC",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI / Hacker News Frontpage",
+        "summary": "Anthropic hat vertraulich einen S-1-Entwurf bei der US-Börsenaufsicht eingereicht. Das signalisiert einen konkreten Schritt Richtung Börsengang, nachdem das Unternehmen im Enterprise-Markt stark gewachsen ist.",
+        "why": "Das ist ein wichtiger Marker dafür, wie schnell große KI-Anbieter vom Forschungsnarrativ ins Kapitalmarkt-Narrativ wechseln. Für Denis ist das relevant, weil sich daran gut zeigen lässt, wie KI-Produkte, Plattformen und Geldflüsse zusammenhängen.",
+        "opportunity": "Eine Video-Analyse zu „Warum KI-Firmen jetzt an die Börse drängen“ wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+          "https://www.anthropic.com/news/confidential-draft-s1-sec"
+        ]
+      },
+      {
+        "title": "OpenAI-Modelle und Codex sind jetzt auf AWS verfügbar",
+        "originalTitle": "OpenAI frontier models and Codex are now available on AWS",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "Hacker News Frontpage / OpenAI",
+        "summary": "OpenAI stellt Frontier-Modelle und Codex nun über AWS bereit. Damit rücken die Modelle stärker in klassische Cloud-Workflows und Unternehmensnutzung.",
+        "why": "Für Creator-Tools, Produktvideos und Software-Workflows ist das relevant, weil sich KI-Funktionen damit leichter in bestehende Dienste und interne Prozesse integrieren lassen. Es zeigt auch, wie eng sich der KI-Markt mit Hyperscalern verzahnt.",
+        "opportunity": "Denis könnte prüfen, welche Tools oder Services durch AWS-Zugang schneller KI-fähig werden.",
+        "links": [
+          "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/"
+        ]
+      },
+      {
+        "title": "Nvidia greift den 200-Milliarden-Dollar-CPU-Markt mit AI-Agent-PCs an",
+        "originalTitle": "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
+        "category": "Hardware",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Nvidia will mit AI-Agent-PCs den großen CPU-Markt angreifen, gemeinsam mit Microsoft, Dell und HP. Im Fokus steht die Idee, KI-Agenten für Nutzer einfacher, sicherer und nützlicher auf den Desktop zu bringen.",
+        "why": "Das ist für Video-Creator und Produkt-Content spannend, weil neue Hardware-Generationen oft neue Demo- und Review-Formate erzeugen. Zudem deutet es auf eine Verschiebung von Cloud-only-KI hin zu lokaleren, alltagstauglicheren Endgeräten.",
+        "opportunity": "Ein Format zu „Kommt jetzt der AI-PC wirklich im Alltag an?“ passt gut.",
+        "links": [
+          "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/"
+        ]
+      },
+      {
+        "title": "Florida verklagt OpenAI und Sam Altman wegen Risiken und Gewaltvorwürfen",
+        "originalTitle": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI / Hacker News Frontpage",
+        "summary": "Florida hat OpenAI und Sam Altman verklagt, in einer offenbar ersten Klage dieser Art mit Bezug zu gewalttätigen Vorfällen. Laut Beschreibung dreht sich der Fall teilweise um eine Schießerei an der Florida State University und die angebliche Rolle von ChatGPT.",
+        "why": "Das ist ein starker Regulierungs- und Haftungssignal für die gesamte KI-Branche. Für Medien- und Creator-Kontexte ist wichtig, dass sich die öffentliche Debatte von Produktivität hin zu Verantwortung und Risikomanagement verschiebt.",
+        "opportunity": "Eine Einordnung zu „Wann KI-Anbieter haftbar gemacht werden könnten“ wäre sehr anschlussfähig.",
+        "links": [
+          "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+          "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215"
+        ]
+      },
+      {
+        "title": "Meta AI steht nach Instagram-Kompromittierungen unter Druck",
+        "originalTitle": "Hackers hijacked Instagram accounts by tricking Meta AI support chatbot into granting access",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch / Hacker News Frontpage",
+        "summary": "Mehrere Nutzer berichteten über gehackte Instagram-Konten, wobei Metas Support-Chatbot als Auslöser für den Zugriff genannt wurde. Der Vorfall zeigt, wie Angriffe über KI-gestützte Support- und Hilfesysteme laufen können.",
+        "why": "Für Creator und Video-Creator ist das unmittelbar relevant, weil Instagram-Konten oft ein zentraler Kanal sind. Der Vorfall unterstreicht, dass AI-Support nicht automatisch sichere Account-Prozesse bedeutet.",
+        "opportunity": "Eine kurze Warn-Story oder ein Erklärvideo zu „Wie sicher sind KI-Support-Bots?“ wäre sinnvoll.",
+        "links": [
+          "https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/",
+          "https://www.0xsid.com/blog/meta-account-takeover-fiasco"
+        ]
+      },
+      {
+        "title": "Strava erschwert Scraping vor dem IPO und sperrt bestimmte Daten hinter Login",
+        "originalTitle": "Strava declares war on scrapers ahead of IPO",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Strava erhöht die Sicherheit auf seiner Website und erlaubt bestimmte Daten künftig nur noch authentifizierten Nutzern. Hintergrund ist der Schutz vor unautorisiertem AI-Scraping vor dem Börsengang.",
+        "why": "Das zeigt, dass Plattformen ihre Daten stärker abschotten, sobald KI-Scraping ein reales Geschäftsproblem wird. Für Creator- und Medien-Teams ist das ein Hinweis darauf, dass öffentliche Datenzugriffe teurer und eingeschränkter werden könnten.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/01/strava-declares-war-on-scrapers-ahead-of-ipo/"
+        ]
+      },
+      {
+        "title": "DuckDuckGo macht seine „No-AI“-Suche leichter zugänglich",
+        "originalTitle": "DuckDuckGo makes its ‘no-AI’ search engine easier to access as its traffic booms",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "DuckDuckGo hat „no AI“-Web-Extensions für Chrome und Firefox gestartet. Das Angebot soll den Zugang zu einer Sucherfahrung ohne KI-Funktionen erleichtern.",
+        "why": "Das ist ein interessantes Gegen-Narrativ zur allgegenwärtigen KI-Integration in Search und Browsern. Für Creator kann das relevant sein, wenn Zielgruppen bewusst nach alternativen Such- und Recherche-Tools suchen.",
+        "opportunity": "Ein Kurzformat zu „Warum manche Nutzer aktiv KI in der Suche vermeiden“ könnte funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/"
+        ]
+      },
+      {
+        "title": "WindBorne sagt, seine KI-Wetterprognosen übertreffen staatliche Stellen",
+        "originalTitle": "This AI weather startup is out-forecasting government agencies",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "WindBorne kombiniert Modellentwicklung und Datenerhebung und betreibt derzeit etwa 400 Ballons in der Luft, die Sensordaten sammeln. Die Verbesserungen seines Modells hängen laut Quelle auch davon ab, wie die gesammelten Daten in die Modelle eingespeist werden.",
+        "why": "Das ist ein starkes Beispiel dafür, dass bessere KI oft aus besseren Datenpipelines kommt, nicht nur aus besseren Modellen. Für Tech- und Produktvideos eignet sich das als anschauliche Story über „AI + reale Datenerfassung“.",
+        "opportunity": "Eine Erklärstory zu „Warum Daten- und Sensor-Netzwerke KI robuster machen“ wäre passend.",
+        "links": [
+          "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-02T08:52:18.730Z",
+    "generatedAtBerlin": "02.06.2026, 10:52",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Anthropic reicht vertraulichen S-1-Entwurf bei der SEC ein",
+      "OpenAI-Modelle und Codex sind jetzt auf AWS verfügbar",
+      "Nvidia greift den 200-Milliarden-Dollar-CPU-Markt mit AI-Agent-PCs an"
+    ]
+  },
+  {
     "date": "2026-05-31",
     "title": "Daily-Briefing: KI-Tools, Creator-Ökonomie und Plattform-Signale vom 31.05.2026",
     "summary": "Heute dominiert die Schnittmenge aus KI-Tools, Creator-Industrie und Medienrechten: mehrere Meldungen drehen sich um LLM-Workflows, Code- und Agenten-Tools sowie den wirtschaftlichen Einsatz von KI. Dazu kommen auffällige Signale aus Creator-Medien, IP-Streitigkeiten und ein paar breitere Tech- und Funding-Themen.",
