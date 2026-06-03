@@ -1,5 +1,172 @@
 [
   {
+    "date": "2026-06-02",
+    "title": "KI- und Tech-Daily-Briefing",
+    "summary": "Am 2. Juni dominierten KI-Produktankündigungen von Microsoft und OpenAI, dazu kamen neue Creator-Features bei Meta und X. Parallel rückten Sicherheit, Regulierung und Missbrauchsschutz stärker in den Fokus: von Google-Fake-Call-Erkennung bis zu neuen Risiken bei Dashlane und Ring.",
+    "topSummary": "Heute in 30 Sekunden: Microsoft und OpenAI schieben neue Werkzeuge für Entwickler, Agenten und produktive Wissensarbeit nach vorne. Für Creator spannend: Meta testet episodische Reels, X reagiert mit Video, und Scorsese nutzt KI ausgerechnet fürs Storyboarding. Gleichzeitig wird klar, dass KI nicht nur neue Möglichkeiten bringt, sondern auch neue Sicherheits- und Regulierungsfragen verschärft.",
+    "implications": [
+      "KI wird stärker in konkrete Workflows eingebaut statt nur als Chat-Oberfläche verkauft.",
+      "Creator-Plattformen experimentieren mit Formaten, die mehr Episodenlogik und Video-Reaktionen fördern.",
+      "Sicherheits- und Compliance-Themen wandern direkt in KI-Produkte und Unternehmensprozesse.",
+      "Regulierung und öffentliche Debatte bleiben ein relevanter Rahmen für Modell- und Plattform-Strategien."
+    ],
+    "watchlist": [
+      "Wie sich Microsofts neue Tools in Entwickler- und Office-Workflows durchsetzen.",
+      "Ob Meta und X die Creator-Features nur testen oder breiter ausrollen.",
+      "Wie Unternehmen auf KI-Budgets, Compliance-Tools und Agenten-Kontrollen reagieren.",
+      "Ob Sicherheitsvorfälle bei Passwortmanagern und Smart-Home-Plattformen zu größerer Skepsis führen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Regulierung",
+      "#DeveloperTools",
+      "#Plattformen"
+    ],
+    "stories": [
+      {
+        "title": "Microsoft führt neue Tools für KI-Tests und Agenten-Kontrolle ein",
+        "originalTitle": "Microsoft offers devs a better way to control AI agent behavior",
+        "category": "Developer",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Microsoft hat eine Spezifikation vorgestellt, mit der Entwickler, Compliance- und Security-Teams Agenten über portable Policy-Dateien steuern können. Dazu kam ein neues Open-Source-Framework für Verhaltens- und Regressionstests per Textbeschreibung.",
+        "why": "Das ist für Teams relevant, die KI nicht nur bauen, sondern belastbar in Produkte und Workflows bringen wollen. Gerade für Creator-Tools, produktive Assistenten und Unternehmenssoftware wird Kontrolle über Agentenverhalten ein zentrales Thema.",
+        "opportunity": "Ein Video darüber, wie man KI-Agenten testbar und regelbar macht, könnte für Denis als Produkt- und Tech-Format stark sein.",
+        "links": [
+          "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
+          "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/"
+        ]
+      },
+      {
+        "title": "OpenAI erweitert Codex um sechs Tools für Wissensarbeit",
+        "originalTitle": "OpenAI launches new Codex tools for white-collar work",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI hat sechs neue Codex-Tools für konkrete Aufgaben veröffentlicht, darunter Datenanalyse, kreative Produktion, Vertrieb und Produktdesign. Die Tools sollen Codex mit Integrationen, Anweisungen und Kontext stärker auf bestimmte Jobs zuschneiden.",
+        "why": "Für Creator und Produktvideo-Workflows ist besonders relevant, dass kreative Produktion explizit als Anwendungsfall adressiert wird. Das zeigt, wie KI-Tools immer stärker vertikalisiert und auf Berufsrollen optimiert werden.",
+        "opportunity": "Denis könnte daraus eine Praxis-Story machen: Welche Codex-Workflows sparen Zeit in Video- und Content-Produktion?",
+        "links": [
+          "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/"
+        ]
+      },
+      {
+        "title": "Google rollt Erkennung gefälschter Anrufe gegen KI-Betrug aus",
+        "originalTitle": "Google rolls out fake call detection to protect against AI deepfake impersonation scams",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google hat eine Funktion zur Erkennung gefälschter Anrufe eingeführt, um vor Deepfake-Imitationen und gefälschten Telefonnummern zu schützen. Die Maßnahme richtet sich gegen Betrugsversuche, bei denen sich Angreifer als Autoritätspersonen, Familienmitglieder oder Arbeitgeber ausgeben.",
+        "why": "Das Thema ist direkt relevant für Medien-, Creator- und Business-Kontexte, weil Identitätsmissbrauch mit KI alltagstauglicher wird. Für öffentliche Personen steigt der Druck, Kommunikationskanäle und Verifizierung stärker abzusichern.",
+        "opportunity": "Eine kurze Aufklärung zu Deepfake-Betrug und Schutzmaßnahmen wäre für Denis als Creator gut anschlussfähig.",
+        "links": [
+          "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/"
+        ]
+      },
+      {
+        "title": "Meta testet episodische Reels mit der Funktion 'Series'",
+        "originalTitle": "Meta tests ‘Series’ for episodic Reels on Instagram and Facebook",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Meta testet eine neue Funktion namens 'Series' für episodische Reels auf Instagram und Facebook. Laut Meta wird bereits über Monetarisierung nachgedacht, Details dazu nannte das Unternehmen aber nicht.",
+        "why": "Das könnte für Creator eine neue Erzähl- und Formatlogik bedeuten, die stärker auf Serien, Wiedererkennung und Bindung setzt. Für Video-Creator ist das besonders relevant, weil episodische Formate oft besser zu wiederkehrenden Publikumsbeziehungen passen.",
+        "opportunity": "Denis könnte prüfen, ob sich daraus ein Serienformat für Kurzvideos oder Behind-the-Scenes-Content ableiten lässt.",
+        "links": [
+          "https://techcrunch.com/2026/06/02/meta-tests-series-for-episodic-reels-on-instagram-and-facebook/"
+        ]
+      },
+      {
+        "title": "X führt eine Video-Reaktionsfunktion für Creator ein",
+        "originalTitle": "X caters to creators with new ‘React with Video’ feature",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "X erlaubt Nutzern jetzt, mit Video auf Posts zu reagieren. Die Funktion ist klar auf Creator ausgerichtet und erweitert die Interaktion auf der Plattform um ein stärker visuelles Format.",
+        "why": "Für Creator kann das neue Reaktionsformat zusätzliche Reichweite und neue Formen der Community-Interaktion bringen. Gleichzeitig verstärkt es den Trend, dass Plattformen immer mehr native Video-Tools statt reiner Text-Interaktionen anbieten.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/02/x-caters-to-creators-with-new-react-with-video-feature/"
+        ]
+      },
+      {
+        "title": "Uber deckelt KI-Ausgaben nach Budgetüberschreitung in vier Monaten",
+        "originalTitle": "Uber caps employee AI spending after blowing through budget in 4 months",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Uber hat die KI-Ausgaben für Mitarbeitende begrenzt, nachdem das Unternehmen das Budget offenbar in nur vier Monaten ausgeschöpft hatte. Zuvor hatte Uber Mitarbeitende noch dazu ermutigt, KI möglichst intensiv zu nutzen.",
+        "why": "Die Meldung zeigt, wie schnell experimentelle KI-Nutzung in echte Kostenfragen kippen kann. Das ist für Creator- und Produktteams relevant, wenn mehrere Tools, Lizenzen und Agenten parallel eingesetzt werden.",
+        "opportunity": "Ein Kostencheck-Format zu KI-Tool-Ausgaben könnte für Denis als Business- und Tech-Thema funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/"
+        ]
+      },
+      {
+        "title": "Trump unterschreibt abgeschwächte KI-Anordnung nach Industrieeinwänden",
+        "originalTitle": "Trump signs narrower executive order on AI oversight after industry objections",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI / Hacker News Frontpage",
+        "summary": "Nach Einwänden aus der Industrie hat Präsident Trump eine überarbeitete KI-Anordnung unterzeichnet. Statt harter Vorgaben verlangt sie laut Quelle nur freiwillige staatliche Vorabprüfungen für fortgeschrittene Modelle.",
+        "why": "Für KI-Unternehmen bleibt die Richtung der Regulierung entscheidend, auch wenn die Vorgaben hier weniger streng ausfallen. Solche Änderungen beeinflussen, wie schnell neue Modelle live gehen und wie viel Compliance-Aufwand nötig ist.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
+          "https://www.politico.com/news/2026/06/02/trump-signs-downsized-ai-order-00946389"
+        ]
+      },
+      {
+        "title": "Amazon wird wegen Ring-Gesichtserkennung per Sammelklage angegriffen",
+        "originalTitle": "Amazon faces class action lawsuit over Ring facial-recognition feature",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Gegen Amazon wurde in Seattle eine Sammelklage wegen der Ring-Funktion 'Familiar Faces' eingereicht. Der Vorwurf lautet, dass Bilder von Passanten ohne Zustimmung gespeichert würden.",
+        "why": "Das ist relevant für Datenschutz, Smart-Home-Technik und den Umgang mit biometrischen Daten. Für öffentliche Personen und Creator zeigt der Fall, wie sensibel Gesichtserkennung und Aufnahmen im Alltag bleiben.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/02/amazon-faces-class-action-lawsuit-over-ring-facial-recognition-feature/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-03T09:13:35.965Z",
+    "generatedAtBerlin": "03.06.2026, 11:13",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Microsoft führt neue Tools für KI-Tests und Agenten-Kontrolle ein",
+      "OpenAI erweitert Codex um sechs Tools für Wissensarbeit",
+      "Google rollt Erkennung gefälschter Anrufe gegen KI-Betrug aus"
+    ]
+  },
+  {
     "date": "2026-06-01",
     "title": "KI- und Tech-Briefing für Denis – 1. Juni 2026",
     "summary": "Heute dominieren drei Themen: KI-Plattformen werden offiziell enger an Cloud- und Enterprise-Infrastruktur gekoppelt, während zugleich Regulierung und Haftungsfragen rund um OpenAI und Meta AI schärfer werden. Dazu kommen Sicherheitsmeldungen mit Creator- und Plattformbezug sowie neue Signale aus dem Startup- und Hardware-Markt.",
