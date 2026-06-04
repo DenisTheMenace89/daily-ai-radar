@@ -36,6 +36,8 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-5.4-mini
+          OPENAI_TTS_MODEL: gpt-4o-mini-tts
+          OPENAI_TTS_VOICE: cedar
         run: node scripts/generate-ai-briefing.js
 
       - name: Commit updated briefing
@@ -44,7 +46,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           if [[ -n "$(git status --porcelain)" ]]; then
-            git add briefings.json
+            git add briefings.json audio/*.mp3
             git commit -m "Update daily AI briefing"
             git push
           else
