@@ -1,9 +1,14 @@
 const fs = require("fs");
+const path = require("path");
 
 const FILE = "briefings.json";
+const AUDIO_DIR = "audio";
 const MODEL = process.env.OPENAI_MODEL || "gpt-5.4-mini";
+const TTS_MODEL = process.env.OPENAI_TTS_MODEL || "gpt-4o-mini-tts";
+const TTS_VOICE = process.env.OPENAI_TTS_VOICE || "cedar";
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const FORCE_REBUILD = process.env.FORCE_REBUILD === "true";
+const FORCE_AUDIO = process.env.FORCE_AUDIO === "true";
 
 const FEEDS = [
   { name: "TechCrunch AI", url: "https://techcrunch.com/category/artificial-intelligence/feed/" },
@@ -54,9 +59,14 @@ function readBriefings() {
   return Array.isArray(parsed) ? parsed : [];
 }
 
+function findExistingBriefing(targetDate) {
+  return readBriefings().find(item => item.date === targetDate) || null;
+}
+
 function shouldSkipExistingDate(targetDate) {
-  if (FORCE_REBUILD) return false;
-  return readBriefings().some(item => item.date === targetDate);
+  if (FORCE_REBUILD || FORCE_AUDIO) return false;
+  const existing = findExistingBriefing(targetDate);
+  return Boolean(existing && existing.audioPath);
 }
 
 function decodeEntities(text = "") {
@@ -382,6 +392,98 @@ function validateBriefing(briefing, targetDate, sources) {
   return briefing;
 }
 
+function buildAudioScript(briefing) {
+  const stories = (briefing.stories || []).slice(0, 6);
+  const highlights = (briefing.highlights && briefing.highlights.length ? briefing.highlights : stories.slice(0, 3).map(story => story.title)).slice(0, 3);
+  const implications = (briefing.implications || []).slice(0, 3);
+  const watchlist = (briefing.watchlist || []).slice(0, 3);
+
+  const lines = [];
+  lines.push(`Daily AI Radar vom ${formatGermanDate(briefing.date)}.`);
+  lines.push("");
+  lines.push("Heute in dreißig Sekunden:");
+  lines.push(briefing.topSummary || briefing.summary || "Hier kommt dein kompaktes KI- und Tech-Briefing.");
+  if (highlights.length) {
+    lines.push("");
+    lines.push("Die wichtigsten Signale:");
+    highlights.forEach((item, index) => lines.push(`${index + 1}. ${item}.`));
+  }
+  if (implications.length) {
+    lines.push("");
+    lines.push("Was bedeutet das?");
+    implications.forEach(item => lines.push(item));
+  }
+  if (stories.length) {
+    lines.push("");
+    lines.push("Die Meldungen im Detail:");
+    stories.forEach((story, index) => {
+      lines.push("");
+      lines.push(`Meldung ${index + 1}: ${story.title}.`);
+      lines.push(story.summary);
+      if (story.why) lines.push(`Warum wichtig: ${story.why}`);
+      if (story.opportunity && story.opportunity !== "Nur beobachten.") lines.push(`Chance oder Handlungsidee: ${story.opportunity}`);
+    });
+  }
+  if (watchlist.length) {
+    lines.push("");
+    lines.push("Weiter beobachten:");
+    watchlist.forEach(item => lines.push(item));
+  }
+  lines.push("");
+  lines.push("Das war dein Daily AI Radar.");
+
+  return lines.join("\n").replace(/\s+/g, " ").trim().slice(0, 3900);
+}
+
+async function callOpenAISpeech(input) {
+  if (!OPENAI_API_KEY) throw new Error("OPENAI_API_KEY fehlt in GitHub Secrets.");
+  const res = await fetch("https://api.openai.com/v1/audio/speech", {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+      "authorization": `Bearer ${OPENAI_API_KEY}`
+    },
+    body: JSON.stringify({
+      model: TTS_MODEL,
+      voice: TTS_VOICE,
+      input,
+      instructions: "Sprich auf Deutsch wie ein ruhiger, klarer Morning-Briefing-Host. Natürlich, präzise, nicht werblich. Mache kurze Pausen zwischen Abschnitten.",
+      response_format: "mp3"
+    })
+  });
+  if (!res.ok) {
+    const errorText = await res.text().catch(() => "");
+    throw new Error(`OpenAI TTS Fehler: ${res.status} ${res.statusText} ${errorText}`.trim());
+  }
+  return Buffer.from(await res.arrayBuffer());
+}
+
+async function addAudio(briefing) {
+  const audioPath = `${AUDIO_DIR}/briefing-${briefing.date}.mp3`;
+  if (!FORCE_AUDIO && !FORCE_REBUILD && fs.existsSync(audioPath)) {
+    briefing.audioPath = audioPath;
+    briefing.audioUrl = audioPath;
+    return briefing;
+  }
+
+  try {
+    fs.mkdirSync(AUDIO_DIR, { recursive: true });
+    const script = buildAudioScript(briefing);
+    const buffer = await callOpenAISpeech(script);
+    fs.writeFileSync(audioPath, buffer);
+    briefing.audioPath = audioPath;
+    briefing.audioUrl = audioPath;
+    briefing.audioGeneratedAt = new Date().toISOString();
+    briefing.audioVoice = TTS_VOICE;
+    briefing.audioModel = TTS_MODEL;
+    briefing.audioScriptLength = script.length;
+    console.log(`Audio-Briefing geschrieben: ${audioPath} (${buffer.length} bytes)`);
+  } catch (error) {
+    console.warn(`Audio-Erzeugung fehlgeschlagen: ${error.message}`);
+  }
+  return briefing;
+}
+
 function addMetadata(briefing, sources, mode) {
   briefing.generatedAt = new Date().toISOString();
   briefing.generatedAtBerlin = new Intl.DateTimeFormat("de-DE", {
@@ -402,16 +504,22 @@ function addMetadata(briefing, sources, mode) {
 function upsertBriefing(briefing) {
   let briefings = readBriefings();
   const index = briefings.findIndex(item => item.date === briefing.date);
+
   if (index >= 0 && !FORCE_REBUILD) {
-    console.log(`Briefing für ${briefing.date} existiert bereits. Kein erneutes Generieren/Überschreiben ohne FORCE_REBUILD.`);
-    return false;
-  }
-  if (index >= 0 && FORCE_REBUILD) {
+    const existing = briefings[index];
+    const canAddMissingAudio = briefing.audioPath && (!existing.audioPath || FORCE_AUDIO);
+    if (!canAddMissingAudio) {
+      console.log(`Briefing für ${briefing.date} existiert bereits. Kein erneutes Generieren/Überschreiben ohne FORCE_REBUILD.`);
+      return false;
+    }
+    briefings[index] = { ...existing, ...briefing };
+  } else if (index >= 0 && FORCE_REBUILD) {
     console.log(`FORCE_REBUILD aktiv: Aktualisiere Briefing für ${briefing.date}.`);
     briefings[index] = briefing;
   } else {
     briefings.unshift(briefing);
   }
+
   briefings.sort((a, b) => b.date.localeCompare(a.date));
   fs.writeFileSync(FILE, JSON.stringify(briefings, null, 2) + "\n", "utf8");
   return true;
@@ -420,8 +528,18 @@ function upsertBriefing(briefing) {
 async function main() {
   const targetDate = process.env.BRIEFING_DATE || yesterdayInBerlin();
   console.log(`Erstelle KI- & Tech-Briefing für ${targetDate}. Heute Berlin: ${todayInBerlin()}`);
+
+  const existing = findExistingBriefing(targetDate);
   if (shouldSkipExistingDate(targetDate)) {
-    console.log(`Keine KI-Kosten: Briefing für ${targetDate} existiert bereits. Backup-Lauf beendet.`);
+    console.log(`Keine KI-Kosten: Briefing und Audio für ${targetDate} existieren bereits. Backup-Lauf beendet.`);
+    return;
+  }
+
+  if (existing && !FORCE_REBUILD) {
+    console.log(`Briefing für ${targetDate} existiert bereits, aber Audio fehlt. Erzeuge nur Audio.`);
+    const withAudio = await addAudio(existing);
+    const changed = upsertBriefing(withAudio);
+    if (changed) console.log(`Audio-Metadaten für ${targetDate} aktualisiert.`);
     return;
   }
 
@@ -445,8 +563,9 @@ async function main() {
   }
 
   briefing = addMetadata(briefing, sources, mode);
+  briefing = await addAudio(briefing);
   const changed = upsertBriefing(briefing);
-  if (changed) console.log(`briefings.json aktualisiert: ${briefing.title} (${briefing.stories.length} Stories, ${sources.length} Quellen, Modus: ${mode})`);
+  if (changed) console.log(`briefings.json aktualisiert: ${briefing.title} (${briefing.stories.length} Stories, ${sources.length} Quellen, Modus: ${mode}, Audio: ${briefing.audioPath || "nein"})`);
   else console.log(`Keine Änderung geschrieben: ${briefing.date} bleibt stabil.`);
 }
 
