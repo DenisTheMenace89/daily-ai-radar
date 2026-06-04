@@ -1,5 +1,169 @@
 [
   {
+    "date": "2026-06-03",
+    "title": "Daily-Briefing: KI-Geld, Creator-Controls und mehr Regulierung",
+    "summary": "Am 3. Juni dominierten KI-Finanzierung, neue Creator- und Plattformfunktionen sowie mehrere Security- und Regulierungsnews. Besonders relevant: Google, Meta, Amazon und Substack schieben KI-Funktionen weiter in den Alltag, während Regulierung und Sicherheit stärker eingreifen.",
+    "topSummary": "Heute in 30 Sekunden: Der Markt zeigt weiter starken Hunger nach KI—von Alphabet bis zu mehreren Startups fließt viel Kapital in Tools für Suche, Agenten und Monitoring. Gleichzeitig werden Plattformen wie Meta, Amazon, TikTok und Substack produktseitig kreativer, aber auch kontrollierter. Für Creator und Medien bleibt spannend, wie sich KI, Rechte, Moderation und Auffindbarkeit verschieben.",
+    "implications": [
+      "KI wird nicht mehr nur als Chatbot verkauft, sondern zunehmend als Suche, Shopping-, Business- und Infrastruktur-Layer.",
+      "Creator bekommen mehr Kontroll- und Distributionsfunktionen, aber auch mehr Plattform-Abhängigkeit.",
+      "Regulatorische Eingriffe und Sicherheitsvorfälle werden zu einem festen Teil der Produkt- und Business-Storys.",
+      "Für Video-Content eignen sich besonders Vergleiche zwischen nützlichen KI-Tools und KI-Features, die eher Datennutzung und Kontrolle betreffen."
+    ],
+    "watchlist": [
+      "Wie schnell Google die Publisher-Opt-out-Funktion in der KI-Suche global ausrollt.",
+      "Ob Meta die WhatsApp-Business-KI monetär skaliert und wie Unternehmen auf tokenbasierte Kosten reagieren.",
+      "Ob die neue Welle an KI-Infrastruktur- und Monitoring-Startups echte Nachfrage in Produktion findet.",
+      "Wie sich neue Creator-Control-Features bei Substack und TikTok auf Engagement und Moderation auswirken."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Regulierung",
+      "#Plattformen"
+    ],
+    "stories": [
+      {
+        "title": "Alphabet sammelt rekordverdächtige 85 Milliarden Dollar für Googles KI-Geschäft ein",
+        "originalTitle": "Alphabet’s record-breaking $85B raise for Google’s AI business is a helluva good signal",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Alphabet hat laut TechCrunch einen rekordverdächtigen Aktienverkauf über 85 Milliarden Dollar platziert, was als starkes Signal für den Appetit von Investoren auf KI-bezogene Angebote gelesen wird.",
+        "why": "Das zeigt, dass KI weiterhin ein Kapitalmagnet ist und Google offenbar weiter massiv in seine KI-Ambitionen investiert. Für Creator und Produktvideos ist das ein guter Indikator, dass KI-Funktionen in Googles Ökosystem weiter Priorität haben werden.",
+        "opportunity": "Denis könnte das als Einstieg für ein kurzes Video über Googles KI-Strategie und den Investorenhunger nach KI nutzen.",
+        "links": [
+          "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/"
+        ]
+      },
+      {
+        "title": "Google veröffentlicht Dreambeans, ein KI-Tool, das Nutzerdaten in Cartoons verwandelt",
+        "originalTitle": "Google’s Dreambeans, its weirdest-named AI tool to date, will turn your life into a cartoon",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Dreambeans ist laut TechCrunch eine kuratierte Sammlung von KI-illustrierten „Stories“, die aus persönlichen Daten im Google-Konto zusammengesetzt werden. Google positioniert das als neue Art, Nutzerleben visuell aufzubereiten.",
+        "why": "Das ist relevant für die Debatte um KI, Personalisierung und Datennutzung. Für Medien- und Creator-Themen ist besonders interessant, wie aus persönlichem Kontext automatisch visuelle Inhalte entstehen.",
+        "opportunity": "Denis könnte das als Beispiel für den nächsten Schritt personalisierter KI-Content-Formate aufgreifen.",
+        "links": [
+          "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon/"
+        ]
+      },
+      {
+        "title": "Amazon zeigt bei der Suche KI-generierte Produktbilder",
+        "originalTitle": "Amazon will show AI product images when you search for some reason",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Amazon setzt laut TechCrunch bei Teilen der Suche auf visuelle Suche und KI, um KI-generierte Produktbilder anzuzeigen, die zu Suchanfragen passen sollen. Der Händler sagt, das solle Nutzer zu Produkten führen.",
+        "why": "Das betrifft direkt E-Commerce, Produktdarstellung und Kaufentscheidungen. Für Product-Video-Creator ist das spannend, weil KI-Visuals immer stärker den ersten Eindruck eines Produkts prägen können.",
+        "opportunity": "Denis könnte beobachten, wie KI-generierte Produktbilder die Wahrnehmung von Produkten und Werbevideos verändern.",
+        "links": [
+          "https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/"
+        ]
+      },
+      {
+        "title": "Meta rollt seinen KI-Agenten für WhatsApp Business weltweit aus",
+        "originalTitle": "Meta’s AI agent for WhatsApp Business is now available globally",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Meta hat seinen KI-Agenten für WhatsApp Business weltweit verfügbar gemacht. Laut TechCrunch sollen Unternehmen dafür auf Basis des Token-Verbrauchs zahlen.",
+        "why": "Das ist wichtig für alle, die WhatsApp als Vertriebs- oder Supportkanal nutzen. Tokenbasierte KI-Preise können für kleine Unternehmen und Creator-Businesses direkt relevant werden.",
+        "opportunity": "Denis könnte daraus eine Business-Story machen: Wann lohnt sich ein KI-Agent im Kundenkontakt wirklich?",
+        "links": [
+          "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/"
+        ]
+      },
+      {
+        "title": "U.K.-Regulierung zwingt Google zu einem Opt-out für KI-Suche von Publishern",
+        "originalTitle": "Publishers will be able to opt out of AI Search, thanks to new regulation",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Britische Regulierer verlangen von Google ein Werkzeug, mit dem Website-Publisher generative KI-Suchfunktionen abwählen können. Die Option soll zunächst im Vereinigten Königreich getestet und dann weltweit ausgerollt werden.",
+        "why": "Das ist für Medienhäuser, Publisher und Rechteinhaber besonders relevant, weil es direkt in die Sichtbarkeit und Verwertung von Inhalten eingreift. Für Denis ist das auch als Medienrechts- und Plattformthema stark.",
+        "opportunity": "Denis könnte das als Kurzkommentar zu KI-Suche und Publisher-Rechten aufbereiten.",
+        "links": [
+          "https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/"
+        ]
+      },
+      {
+        "title": "Substack führt Reply Rules ein, damit Creator Antworten besser steuern können",
+        "originalTitle": "Substack’s new ‘Reply Rules’ feature lets creators control how people respond",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Substack hat eine neue Funktion namens Reply Rules veröffentlicht, die allen englischsprachigen Publikationen zur Verfügung steht. Creator sollen damit stärker kontrollieren können, wie ihr Publikum antwortet.",
+        "why": "Für Creator ist Moderation ein Kernproblem, besonders bei wachsenden Communities. Das Feature zeigt, dass Plattformen mehr Werkzeuge für Diskussionssteuerung anbieten, was auch für Video-Communities und Fan-Management relevant ist.",
+        "opportunity": "Denis könnte das mit Blick auf Community-Management und Kommentarsteuerung bei eigenen Projekten beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/03/substacks-new-reply-rules-feature-lets-creators-control-how-people-respond/"
+        ]
+      },
+      {
+        "title": "Coralogix sammelt 200 Millionen Dollar für das Monitoring von KI-Agenten ein",
+        "originalTitle": "Coralogix raises $200M on bet that someone needs to watch the AI agents",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Coralogix hat 200 Millionen Dollar aufgenommen, um die Monitoring-Schicht für KI-Agenten auszubauen. Das Unternehmen setzt darauf, dass Agenten in der Produktion Tools brauchen, die Verhalten, Ausfälle und operative Daten überwachen.",
+        "why": "Das signalisiert, dass KI-Systeme nicht mehr nur gebaut, sondern auch zuverlässig überwacht werden müssen. Für technische Zielgruppen ist das ein klarer Hinweis auf eine entstehende Infrastruktur-Kategorie rund um Agentenbetrieb.",
+        "opportunity": "Denis könnte daraus eine Erklärstory über die nächste KI-Infrastrukturwelle machen.",
+        "links": [
+          "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/"
+        ]
+      },
+      {
+        "title": "Suno sammelt trotz Copyright-Klagen weitere 400 Millionen Dollar ein",
+        "originalTitle": "Still facing copyright lawsuits, AI music generator Suno raises another $400M",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Der KI-Musikgenerator Suno hat weitere 400 Millionen Dollar eingesammelt und wird nun mit über 5,4 Milliarden Dollar bewertet. Das geschieht, obwohl das Unternehmen weiterhin mit Copyright-Klagen konfrontiert ist.",
+        "why": "Das ist besonders relevant für Medien-, Musik- und Creator-Rechte sowie für die Frage, wie schnell KI-Tools trotz juristischer Risiken skalieren. Gerade für Video- und Soundproduktion ist das ein wichtiges Signal.",
+        "opportunity": "Denis könnte das als Thema zu KI-Musik, Urheberrecht und Produktions-Workflows aufgreifen.",
+        "links": [
+          "https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-04T08:38:16.036Z",
+    "generatedAtBerlin": "04.06.2026, 10:38",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Alphabet sammelt rekordverdächtige 85 Milliarden Dollar für Googles KI-Geschäft ein",
+      "Google veröffentlicht Dreambeans, ein KI-Tool, das Nutzerdaten in Cartoons verwandelt",
+      "Meta rollt seinen KI-Agenten für WhatsApp Business weltweit aus"
+    ]
+  },
+  {
     "date": "2026-06-02",
     "title": "KI- und Tech-Daily-Briefing",
     "summary": "Am 2. Juni dominierten KI-Produktankündigungen von Microsoft und OpenAI, dazu kamen neue Creator-Features bei Meta und X. Parallel rückten Sicherheit, Regulierung und Missbrauchsschutz stärker in den Fokus: von Google-Fake-Call-Erkennung bis zu neuen Risiken bei Dashlane und Ring.",
