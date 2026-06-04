@@ -161,7 +161,13 @@
       "Alphabet sammelt rekordverdächtige 85 Milliarden Dollar für Googles KI-Geschäft ein",
       "Google veröffentlicht Dreambeans, ein KI-Tool, das Nutzerdaten in Cartoons verwandelt",
       "Meta rollt seinen KI-Agenten für WhatsApp Business weltweit aus"
-    ]
+    ],
+    "audioPath": "audio/briefing-2026-06-03.mp3",
+    "audioUrl": "audio/briefing-2026-06-03.mp3",
+    "audioGeneratedAt": "2026-06-04T21:19:39.699Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
   },
   {
     "date": "2026-06-02",
