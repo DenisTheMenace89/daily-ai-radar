@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-06-04",
+    "title": "KI wird produktiver, teurer und stärker in Plattformen eingebaut",
+    "summary": "Am 4. Juni dominierten drei Muster: KI-Funktionen werden direkt in große Plattformen wie Meta, Apple und Google integriert, Creator- und Business-Workflows bekommen mehr Assistenz, und Security/Trust-Themen bleiben ein Dauerbrenner. Dazu kommen Infrastruktur-Signale wie neue Rechenzentrums- und Cloud-Deals sowie mehrere stark diskutierte LLM- und Sicherheits-Tools aus der Developer-Welt.",
+    "topSummary": "Heute zeigt sich vor allem, wie schnell KI aus Demo-Software zu eingebauten Produktfunktionen wird: Meta, Apple und Creator-Plattformen schieben neue Assistenz- und Agenten-Features nach. Gleichzeitig rücken Kosten, Skalierung und Sicherheit stärker in den Vordergrund – von Cloud-Deals über Rechenzentrums-Tricks bis zu Prompt-Injection und Account-Governance.",
+    "implications": [
+      "Creator-Tools werden konkreter: KI-Assistenten auf Plattformen könnten Analyse, Posting-Entscheidungen und Community-Management vereinfachen.",
+      "Plattformen bauen KI nicht mehr nur auf, sondern in Kernprodukte ein – das erhöht Reichweite, aber auch Abhängigkeit von den Regeln der Gatekeeper.",
+      "Infrastruktur bleibt ein Kosten- und Wettbewerbsvorteil: Rechenzentrumskapazität, Cloud-Verträge und Energieeffizienz werden zum strategischen Thema.",
+      "Security und Trust sind kein Randthema mehr: Prompt-Injection, Account-Bans und Spionage über Job-Plattformen zeigen neue Angriffs- und Kontrollflächen."
+    ],
+    "watchlist": [
+      "Wie stark wird Metas Creator-Assistent tatsächlich im Alltag genutzt, und ob er echte Zeit spart.",
+      "Was Apple auf der WWDC bei Siri und Apple Intelligence konkret liefert, statt nur anzuteasern.",
+      "Ob die neuen LLM-Security-Tools und Anthropic-Frameworks in echte Entwickler-Workflows wandern.",
+      "Ob mehr Plattformen ähnliche AI-Agent-Freigaben wie Apple für Business-Messaging erlauben."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Plattformen",
+      "#DeveloperTools",
+      "#Cloud"
+    ],
+    "stories": [
+      {
+        "title": "Meta startet einen neuen KI-Assistenten für Creator auf Facebook",
+        "originalTitle": "Meta rolls out a new AI creator assistant on Facebook",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Meta hat einen neuen KI-Assistenten für Creator auf Facebook eingeführt. Der Assistent soll schnelle Antworten auf Fragen wie „Wann soll ich posten?“ oder „Was sagen Leute in meinen Kommentaren?“ liefern.",
+        "why": "Für Creator ist das direkt relevant, weil Analyse und Community-Management näher an den Alltag der Plattform rücken. Solche Funktionen können die Produktion und Auswertung von Social-Content schneller machen.",
+        "opportunity": "Gute Beobachtung für ein Video über den nächsten Schritt von Social-Media-Analytics durch KI.",
+        "links": [
+          "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/"
+        ]
+      },
+      {
+        "title": "Apple genehmigt Poke als ersten KI-Agenten auf Messages for Business",
+        "originalTitle": "Apple approves Poke as the first AI agent on its Messages for Business platform",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Das Startup Poke ist laut Quelle der erste KI-Agent, der für Apples Messages-for-Business-Plattform zugelassen wurde. Poke erlaubt Menschen, KI-Agenten per einfacher Textnachricht zu nutzen.",
+        "why": "Das ist ein wichtiges Signal dafür, wie schnell KI-Agenten in Kundenkommunikation und Business-Messaging integriert werden. Für Medien- und Creator-nahe Marken könnte das ein neues Interaktionsmodell werden.",
+        "opportunity": "Denis könnte daraus eine Story über den Eintritt von KI-Agenten in Apple-Ökosysteme machen.",
+        "links": [
+          "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/"
+        ]
+      },
+      {
+        "title": "Apple kündigt vor der WWDC Siri-Revamp und Apple-Intelligence-Updates an",
+        "originalTitle": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch ordnet vor der WWDC ein, welche Apple-Ankündigungen zu Siri und Apple Intelligence zu erwarten sind. Der Artikel selbst bleibt vorsichtig und verweist vor allem auf die anstehende Veranstaltung.",
+        "why": "Für Creator und Produktvideo-Workflows ist entscheidend, ob Apple die Assistentenfunktionen spürbar verbessert und stärker in den Alltag bringt. Ohne konkrete Features bleibt es aber vorerst ein Erwartungssignal.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/"
+        ]
+      },
+      {
+        "title": "Apple nennt 1,4 Billionen Dollar App-Store-Umsatz und betont den Anteil ohne Provision",
+        "originalTitle": "Apple touts $1.4 trillion in App Store billings and sales, 90% without a commission",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Apple sagt, der App Store habe 1,4 Billionen Dollar Umsatz und Verkäufe generiert, nach 1,3 Billionen im Vorjahr. Laut Quelle entfielen 149 Milliarden Dollar auf digitale Güter, und 90 Prozent liefen ohne Provision.",
+        "why": "Für Entwickler, Creator-Apps und Medienprodukte ist das relevant, weil Apple seine Plattformmacht und die wirtschaftliche Bedeutung des Ökosystems unterstreicht. Das dürfte auch in Regulierungsdebatten wieder eine Rolle spielen.",
+        "opportunity": "Beobachten, ob Apple diese Zahl als Argument in Plattform- und App-Policy-Debatten nutzt.",
+        "links": [
+          "https://techcrunch.com/2026/06/04/apple-touts-1-4-trillion-in-app-store-billings-and-sales-90-without-a-commission/"
+        ]
+      },
+      {
+        "title": "Lovable baut seine Google-Cloud-Nutzung mit neuem Mehrjahresdeal aus",
+        "originalTitle": "Lovable signs multiyear deal with Google Cloud to up usage 5x, source says",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Laut einer Quelle haben Lovable und Google einen erweiterten Mehrjahresdeal geschlossen. Dabei soll Lovables Footprint auf Google Cloud um das Fünffache wachsen, außerdem erhält das Unternehmen erweiterten Zugang zu Anthropic Claude.",
+        "why": "Das ist ein gutes Signal dafür, wie schnell AI-Native-Startups skalieren und wie wichtig Cloud- und Modell-Deals für Wachstum geworden sind. Für Produktvideos kann das ein Beispiel für die Infrastruktur hinter KI-Apps sein.",
+        "opportunity": "Starke Story über die unsichtbare Basis von KI-Startup-Wachstum.",
+        "links": [
+          "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/"
+        ]
+      },
+      {
+        "title": "Waymo-Robotaxi-Batterien sollen als Netzspeicher weiterverwendet werden",
+        "originalTitle": "Waymo’s spent robotaxi batteries will be used as grid storage",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Waymo hat laut Quelle einen Deal mit B2U Storage Solutions geschlossen, um ausgemusterte Batteriepacks als Grid-Storage zu nutzen. Die Packs werden demnach aus den Robotaxis ausgebaut und weiterverwendet.",
+        "why": "Das zeigt, wie Hardware-Lebenszyklen in der Mobilitäts- und Energieinfrastruktur verlängert werden können. Für Tech-Content ist es ein gutes Beispiel für Kreislaufwirtschaft in autonomer Mobilität.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/04/waymos-spent-robotaxi-batteries-will-be-used-as-grid-storage/"
+        ]
+      },
+      {
+        "title": "Anthropic veröffentlicht ein Open-Source-Framework für KI-gestützte Schwachstellensuche",
+        "originalTitle": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+        "category": "Open Source",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Auf Hacker News wurde ein Open-Source-Framework von Anthropic zur KI-gestützten Schwachstellensuche stark diskutiert. Die Quelle verweist auf ein GitHub-Repository mit dem Namen defending-code-reference-harness.",
+        "why": "Für Security- und Developer-Themen ist das relevant, weil KI hier direkt für defensive Code-Analyse genutzt wird. Solche Tools können für Teams und Produktsoftware schnell praktischen Nutzen bekommen.",
+        "opportunity": "Gut für ein kurzes Update zu KI als Sicherheitswerkzeug im Dev-Workflow.",
+        "links": [
+          "https://github.com/anthropics/defending-code-reference-harness"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-05T08:30:03.649Z",
+    "generatedAtBerlin": "05.06.2026, 10:30",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Meta startet einen neuen KI-Assistenten für Creator auf Facebook",
+      "Apple genehmigt Poke als ersten KI-Agenten auf Messages for Business",
+      "Anthropic veröffentlicht ein Open-Source-Framework für KI-gestützte Schwachstellensuche"
+    ],
+    "audioPath": "audio/briefing-2026-06-04.mp3",
+    "audioUrl": "audio/briefing-2026-06-04.mp3",
+    "audioGeneratedAt": "2026-06-05T08:30:41.091Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-03",
     "title": "Daily-Briefing: KI-Geld, Creator-Controls und mehr Regulierung",
     "summary": "Am 3. Juni dominierten KI-Finanzierung, neue Creator- und Plattformfunktionen sowie mehrere Security- und Regulierungsnews. Besonders relevant: Google, Meta, Amazon und Substack schieben KI-Funktionen weiter in den Alltag, während Regulierung und Sicherheit stärker eingreifen.",
