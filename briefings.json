@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-06-05",
+    "title": "Daily-Briefing KI & Tech für Denis",
+    "summary": "Gestern dominierten weiter KI-Infrastruktur, Kosten und neue Plattformwetten. Gleichzeitig zeigen mehrere Meldungen, dass Creator-, Video- und Medienfragen zunehmend mit KI, Datenzentren und Sicherheitsrisiken verflochten sind.",
+    "topSummary": "Heute in 30 Sekunden: Die KI-Welle bleibt teuer und infrastrukturlastig: Google bucht massenhaft Compute, AirTrunk plant riesige Datenzentren, und New York bremst neue Rechenzentren per Moratorium. Dazu kommen Produkt- und Marktzeichen: Open-Source- und Vibe-Coding-Tools wachsen weiter, während Security-Teams vor realen Angriffen mit Fake-IT-Workern warnen.",
+    "implications": [
+      "KI ist nicht nur Software, sondern ein Infrastruktur- und Energiethema geworden.",
+      "Open-Source- und Developer-Tools profitieren weiter von der KI-Nachfrage.",
+      "Security bleibt praktisch: Angriffe kombinieren Social Engineering, Vor-Ort-Taktiken und Remote-Tools.",
+      "Für Creator und Medienmärkte wird relevant, wie KI Produktionsentscheidungen, Rechte und Kosten beeinflusst."
+    ],
+    "watchlist": [
+      "Wie stark steigen die Compute- und Rechenzentrumsinvestitionen weiter?",
+      "Ob weitere Regulierer neue Datenzentren oder KI-Infrastruktur bremsen.",
+      "Wie sich Open-Source-Tools wie Supabase und Microsofts pg_durable in der Praxis entwickeln.",
+      "Ob Security-Warnungen zu Fake-IT-Workern in anderen Branchen auftauchen."
+    ],
+    "tags": [
+      "#KI",
+      "#Infrastructure",
+      "#Security",
+      "#DeveloperTools",
+      "#OpenSource",
+      "#CreatorTech"
+    ],
+    "stories": [
+      {
+        "title": "Google zahlt SpaceX 920 Millionen Dollar pro Monat für Compute",
+        "originalTitle": "Google will pay SpaceX $920M per month for compute",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Laut TechCrunch zahlt Google SpaceX monatlich 920 Millionen Dollar für Compute. Ein Google-Sprecher erklärte, der Deal sei eine Folge der unerwartet hohen Nachfrage nach den kürzlich gestarteten KI-Produkten.",
+        "why": "Das zeigt, wie brutal der Compute-Bedarf im KI-Markt geworden ist. Für Creator- und Video-Tools heißt das: Leistungsfähigere Features kommen nur mit massiver Infrastruktur nach.",
+        "opportunity": "Als Video-Thema: „Warum KI gerade zum Infrastruktur-Markt wird“.",
+        "links": [
+          "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
+        ]
+      },
+      {
+        "title": "AirTrunk investiert 30 Milliarden Dollar in 5 GW KI-Rechenzentren in Indien",
+        "originalTitle": "AirTrunk commits $30B to build 5GW of AI data centers in India",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Der australische Rechenzentrumsbetreiber AirTrunk plant, 5 GW Kapazität in Indien aufzubauen. Dafür sollen laut Quelle 30 Milliarden Dollar investiert werden.",
+        "why": "Der Bau neuer KI-Infrastruktur wird global skaliert und verschiebt sich zunehmend in neue Märkte. Das ist relevant für alle, die KI-Produkte, Plattformen oder datenintensive Workflows nutzen.",
+        "opportunity": "Beobachten, ob Indien zum nächsten großen KI-Infrastruktur-Hub wird.",
+        "links": [
+          "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/"
+        ]
+      },
+      {
+        "title": "New York stoppt neue große Datenzentren für ein Jahr",
+        "originalTitle": "New York lawmakers pass one-year ban on new data centers",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "The Verge AI",
+        "summary": "Das Parlament des Bundesstaats New York hat ein einjähriges Moratorium für neue große Datenzentren beschlossen. Es ist das erste landesweite Verbot dieser Art, falls Gouverneurin Kathy Hochul es unterzeichnet.",
+        "why": "Das ist ein klarer regulatorischer Gegenpol zur KI-Infrastruktur-Euphorie. Wenn mehr Regionen ähnliche Schritte gehen, könnte das die Verfügbarkeit und Kosten von KI-Services beeinflussen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.theverge.com/policy/944041/new-york-data-center-moratorium"
+        ]
+      },
+      {
+        "title": "Google bringt Gemma-4-QAT-Modelle für effizientere Nutzung auf mobilen Geräten und Laptops",
+        "originalTitle": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "Google stellt Gemma-4-QAT-Modelle vor, die Kompression für mobile Geräte und Laptops optimieren sollen. Die Meldung wurde auf Hacker News stark diskutiert.",
+        "why": "Kleinere und effizientere Modelle sind wichtig für Creator-Workflows, lokale Tools und On-Device-Anwendungen. Für Produktvideos kann das ein gutes Beispiel sein, wie KI „leichter“ und alltagstauglicher wird.",
+        "opportunity": "Ein kurzes Video zu „KI auf dem Laptop statt nur in der Cloud“ könnte gut funktionieren.",
+        "links": [
+          "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/"
+        ]
+      },
+      {
+        "title": "Supabase verdoppelt seine Bewertung in acht Monaten auf 10 Milliarden Dollar",
+        "originalTitle": "Supabase doubles valuation to $10B in 8 months",
+        "category": "Open Source",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Supabase hat laut TechCrunch seine Bewertung in acht Monaten auf 10 Milliarden Dollar verdoppelt. Als Open-Source-Projekt, das zum schnell wachsenden Unternehmen geworden ist, profitiert es stark von Tools wie Claude, Codex und anderen Vibe-Coding-Plattformen.",
+        "why": "Das zeigt, wie stark Open-Source-Infrastruktur derzeit von KI-gestützter Entwicklung profitiert. Für Denis ist das ein gutes Signal für die nächste Generation von Creator- und Produkt-Tools im Backend.",
+        "opportunity": "Als Beobachtung: Welche Open-Source-Stacks werden durch KI plötzlich massiv schneller gebaut?",
+        "links": [
+          "https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/"
+        ]
+      },
+      {
+        "title": "Google und FBI warnen vor Ransomware-Gruppe mit falschen IT-Mitarbeitern vor Ort",
+        "originalTitle": "Google and FBI warn of ransomware group that sends fake IT workers to hack victims in person",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Laut TechCrunch hat die als Silent Ransom Group bekannte Bande Menschen als angebliche IT-Support-Mitarbeiter in Firmenbüros geschickt. Dort wurden Daten per USB-Stick oder Remote-Access-Tools gestohlen.",
+        "why": "Das ist ein sehr praktisches Security-Risiko, das klassische IT-Sicherheit mit physischem Social Engineering kombiniert. Gerade in Medien-, Produktions- und Agenturumgebungen ist das relevant.",
+        "opportunity": "Ein Awareness-Clip zu „Warum IT-Support heute auch ein Angriff sein kann“ wäre nützlich.",
+        "links": [
+          "https://techcrunch.com/2026/06/05/google-and-fbi-warn-of-ransomware-group-that-sends-fake-it-workers-to-hack-victims-in-person/"
+        ]
+      },
+      {
+        "title": "Founders Fund startet eine Game-Show mit Sam Altman, Palmer Luckey und anderen Tech-Prominenten",
+        "originalTitle": "Founders Fund launches game show starring Sam Altman, Palmer Luckey, and other tech elites",
+        "category": "Plattformen",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Founders Fund hat eine Game-Show gestartet, moderiert von Mike Solana. In der ersten Folge traten mehrere bekannte Tech-Persönlichkeiten auf, darunter Sam Altman und Palmer Luckey.",
+        "why": "Das ist weniger ein Produkt- als ein Kultur- und Reichweiten-Signal: Tech wird immer stärker als Show-Format inszeniert. Für Creator ist das interessant, weil sich damit Reichweite, Branding und Personality-Content verbinden lassen.",
+        "opportunity": "Als Format-Idee beobachten: Tech-Formate werden immer stärker entertainment-getrieben.",
+        "links": [
+          "https://techcrunch.com/2026/06/04/founders-fund-launches-game-show-starring-sam-altman-palmer-luckey-and-other-tech-elites/"
+        ]
+      },
+      {
+        "title": "VC-geförderte E-Bike-Startups gehen pleite, während das bootstrapped Lectric wächst",
+        "originalTitle": "As VC-backed e-bike startups went bankrupt, bootstrapped Lectric grew",
+        "category": "Business",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "TechCrunch berichtet, dass mehrere VC-finanzierte E-Bike-Startups insolvent wurden, während Lectric ohne Venture Capital weiter gewachsen ist. Das Unternehmen hat in den letzten sechs Monaten drei neue Marken gestartet.",
+        "why": "Die Meldung ist ein Signal dafür, dass profitables Wachstum und Distribution oft wichtiger sind als reines VC-Tempo. Das ist auch für Creator- und Produkt-Marken ein nützlicher Denkrahmen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/05/as-vc-backed-e-bike-startups-went-bankrupt-bootstrapped-lectric-grew/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-06T07:30:45.520Z",
+    "generatedAtBerlin": "06.06.2026, 09:30",
+    "mode": "ai",
+    "sourceCount": 27,
+    "highlights": [
+      "Google zahlt SpaceX 920 Millionen Dollar pro Monat für Compute",
+      "AirTrunk investiert 30 Milliarden Dollar in 5 GW KI-Rechenzentren in Indien",
+      "New York stoppt neue große Datenzentren für ein Jahr"
+    ],
+    "audioPath": "audio/briefing-2026-06-05.mp3",
+    "audioUrl": "audio/briefing-2026-06-05.mp3",
+    "audioGeneratedAt": "2026-06-06T07:31:29.511Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-04",
     "title": "KI wird produktiver, teurer und stärker in Plattformen eingebaut",
     "summary": "Am 4. Juni dominierten drei Muster: KI-Funktionen werden direkt in große Plattformen wie Meta, Apple und Google integriert, Creator- und Business-Workflows bekommen mehr Assistenz, und Security/Trust-Themen bleiben ein Dauerbrenner. Dazu kommen Infrastruktur-Signale wie neue Rechenzentrums- und Cloud-Deals sowie mehrere stark diskutierte LLM- und Sicherheits-Tools aus der Developer-Welt.",
