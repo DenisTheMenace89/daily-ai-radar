@@ -1,5 +1,161 @@
 [
   {
+    "date": "2026-06-06",
+    "title": "Daily-Briefing: KI-Sicherheit, Apple-Siri und neue Creator-/Plattform-Trends",
+    "summary": "Am 6. Juni dominierten KI-Sicherheitsfragen, neue Apple-/Meta-Bewegungen und mehrere Signale rund um Creator- und Software-Tools. Für Denis besonders relevant: Plattformen bauen stärker auf KI, während zugleich Missbrauch, Regulierung und Produktqualität zum Thema werden.",
+    "topSummary": "Heute geht es vor allem um zwei Spannungen: KI wird in Plattformen und Consumer-Apps tiefer integriert, aber Sicherheits- und Vertrauensprobleme bleiben offen. Gleichzeitig deutet sich mit Apple, Meta und OpenAI an, dass die nächste Produktwelle eher über Assistenten, Feeds und Schutzmechanismen als nur über neue Modelle läuft.",
+    "implications": [
+      "KI-Funktionen werden immer stärker zu Plattform-Features statt zu isolierten Tools.",
+      "Prompt-Injection und Account-Missbrauch bleiben praktische Risiken für Creator und Unternehmen.",
+      "Apple, Meta und OpenAI setzen die Themen, an denen sich Produktvideos und Erklärformate gut aufhängen lassen.",
+      "Creator-Tools und Video-Workflows profitieren weiter von offenen Open-Source-Bausteinen und effizienteren LLM-Stacks."
+    ],
+    "watchlist": [
+      "Wie konkret OpenAIs Lockdown Mode und Metas Chatbot-Schutz in der Praxis wirken.",
+      "Was Apple auf der WWDC tatsächlich bei Siri und Apple Intelligence zeigt.",
+      "Ob sich bei Meta AI, Instagram und Social-Feeds eine breitere Produktstrategie abzeichnet.",
+      "Wie schnell Open-Source-Video- und LLM-Tools aus Hacker News in echte Workflows wandern."
+    ],
+    "tags": [
+      "#KI",
+      "#Security",
+      "#Apple",
+      "#Meta",
+      "#CreatorTools",
+      "#OpenSource"
+    ],
+    "stories": [
+      {
+        "title": "OpenAI führt Lockdown Mode gegen Prompt-Injection-Angriffe auf sensible Daten ein",
+        "originalTitle": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI hat einen Lockdown Mode vorgestellt, der das Risiko reduzieren soll, dass ChatGPT bei Prompt-Injection-Angriffen sensible Daten weitergibt. Laut Quelle kann ChatGPT trotzdem weiterhin verwundbar bleiben.",
+        "why": "Das ist für alle relevant, die KI mit internen Daten, Kundenmaterial oder Produktionsprozessen nutzen. Für Creator und Unternehmen ist das ein direktes Vertrauens- und Workflow-Thema.",
+        "opportunity": "Eine Videoidee wäre: „Wie sicher sind KI-Assistenten wirklich?“, mit Fokus auf Schutzmaßnahmen und typische Angriffsmuster.",
+        "links": [
+          "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/"
+        ]
+      },
+      {
+        "title": "Apple bereitet zur WWDC ein neues Siri-Revamp und Apple-Intelligence-Updates vor",
+        "originalTitle": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI, The Verge AI",
+        "summary": "Mehrere Quellen deuten auf eine größere Apple-WWDC-Richtung hin, bei der Siri erneut neu vorgestellt und Apple Intelligence aktualisiert wird. Der Fokus liegt klar auf einer erneuten KI-Positionierung von Apple.",
+        "why": "Apple prägt massiv, wie Creator, Medien und Endnutzer KI in Alltag und Produktion wahrnehmen. Wenn Siri und Apple Intelligence wirklich aufgefrischt werden, betrifft das iPhone-Workflows, Diktat, Assistenzfunktionen und Mobile-Creator-Prozesse.",
+        "opportunity": "Gut für ein Einordnungs-Video: Was Apple bei KI kann, was noch offen bleibt, und welche Folgen das für iPhone-User hat.",
+        "links": [
+          "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+          "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini"
+        ]
+      },
+      {
+        "title": "Meta baut in der Meta-AI-App einen KI-generierten Clickbait-Newsfeed",
+        "originalTitle": "Meta made its own AI-generated clickbait news feed",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "The Verge AI",
+        "summary": "Die Meta-AI-App hat laut Quelle einen „For You“-Bereich mit KI-generierten, clickbait-artigen Stories eingeführt. Themen, Bilder und Texte werden dabei KI-basiert erzeugt.",
+        "why": "Das zeigt, wie Plattformen Content künftig stärker automatisieren und kuratieren könnten. Für Creator ist das wichtig, weil Reichweite, Aufmerksamkeit und Content-Qualität auf solchen Flächen neu verteilt werden können.",
+        "opportunity": "Spannend als Creator-Analyse: Wie KI-Feeds das Social-Media-Ökosystem verändern und was das für Inhalte bedeutet.",
+        "links": [
+          "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles"
+        ]
+      },
+      {
+        "title": "Meta bestätigt, dass tausende Instagram-Konten über den KI-Chatbot missbraucht wurden",
+        "originalTitle": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "Auf Hacker News wurde eine Meldung aufgegriffen, wonach Meta bestätigt habe, dass tausende Instagram-Konten durch Missbrauch des KI-Chatbots kompromittiert wurden. Die Quelle verweist auf einen Sicherheitsbericht dazu.",
+        "why": "Für Creator ist Instagram ein zentraler Kanal, und Account-Sicherheit ist dort geschäftskritisch. Die Meldung unterstreicht, dass KI-Funktionen nicht nur Nutzen, sondern auch neue Angriffsflächen bringen.",
+        "opportunity": "Eine praktische Creator-Checkliste zu Instagram-Account-Sicherheit und KI-Risiken wäre hier sehr passend.",
+        "links": [
+          "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot"
+        ]
+      },
+      {
+        "title": "Open-Source-Projekt ntsc-rs emuliert analoge TV- und VHS-Artefakte für Video-Ästhetik",
+        "originalTitle": "Ntsc-rs – open-source video emulation of analog TV and VHS artifacts",
+        "category": "Open Source",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Auf Hacker News landete ein Open-Source-Projekt, das analoge TV- und VHS-Artefakte digital emuliert. Das Projekt wurde stark diskutiert und sammelte viele Punkte.",
+        "why": "Für Video-Creator ist das direkt relevant, weil solche Tools Stil, Nostalgie und visuelle Markenwirkung in Produktionen bringen können. Es ist ein gutes Beispiel dafür, wie Open Source kreative Looks zugänglich macht.",
+        "opportunity": "Eine kurze Demo-Idee: „So erzeugt man VHS-/Retro-Looks ohne teure Plugins“.",
+        "links": [
+          "https://ntsc.rs/"
+        ]
+      },
+      {
+        "title": "Nvidia arbeitet an einem leistungsstarken CPU-System für Windows-PCs",
+        "originalTitle": "Nvidia is proposing a beast of a CPU system for Windows PCs",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Auf Hacker News wurde ein Nvidia-Konzept für ein starkes CPU-System für Windows-PCs diskutiert. Die Meldung stützt sich auf einen geteilten Hinweis aus Social Media.",
+        "why": "Das ist relevant für Creator-Workstations, wenn sich CPU- und Plattform-Strategien bei Windows-Hardware verschieben. Noch ist es eher ein Signal als ein abgeschlossenes Produkt.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://twitter.com/lemire/status/2062880075117113739"
+        ]
+      },
+      {
+        "title": "OpenCV 5.0 erscheint mit neuem DNN-Engine und eingebauter LLM- und VLM-Unterstützung",
+        "originalTitle": "OpenCV 5.0 Released with Rewritten DNN Engine, Built-In LLM and VLM Support",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "Hacker News LLM",
+        "summary": "OpenCV 5.0 wurde laut Phoronix veröffentlicht und bringt eine neu geschriebene DNN-Engine sowie integrierte LLM- und VLM-Unterstützung mit. Die Meldung wurde auf Hacker News als interessant aufgegriffen.",
+        "why": "Das ist wichtig für visuelle KI-Workflows, Medienanalyse und Prototyping in Software, die mit Bild und Video arbeitet. Für Creator-Tech kann das mittelfristig neue Automationen ermöglichen.",
+        "opportunity": "Eine technische Kurz-Einordnung zu OpenCV 5.0 und visueller KI könnte für ein Produktvideo nützlich sein.",
+        "links": [
+          "https://www.phoronix.com/news/OpenCV-5.0-Released"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-07T08:06:12.438Z",
+    "generatedAtBerlin": "07.06.2026, 10:06",
+    "mode": "ai",
+    "sourceCount": 24,
+    "highlights": [
+      "OpenAI führt Lockdown Mode gegen Prompt-Injection-Angriffe auf sensible Daten ein",
+      "Apple bereitet zur WWDC ein neues Siri-Revamp und Apple-Intelligence-Updates vor",
+      "Meta baut in der Meta-AI-App einen KI-generierten Clickbait-Newsfeed"
+    ],
+    "audioPath": "audio/briefing-2026-06-06.mp3",
+    "audioUrl": "audio/briefing-2026-06-06.mp3",
+    "audioGeneratedAt": "2026-06-07T08:06:54.780Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-05",
     "title": "Daily-Briefing KI & Tech für Denis",
     "summary": "Gestern dominierten weiter KI-Infrastruktur, Kosten und neue Plattformwetten. Gleichzeitig zeigen mehrere Meldungen, dass Creator-, Video- und Medienfragen zunehmend mit KI, Datenzentren und Sicherheitsrisiken verflochten sind.",
