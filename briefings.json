@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-06-07",
+    "title": "Daily-Briefing: KI-Kosten, Creator-AI und Security-Risiken",
+    "summary": "Die auffälligsten Themen des Tages drehen sich um steigende KI-Kosten, die nächste Produktphase von OpenAI und die wachsende Reibung zwischen LLM-Nutzung und echter Produktivität. Dazu kommen Security-Breaches, Plattformprobleme durch LLM-Crawler und ein frischer Blick darauf, wie schwer KI-generierte Creator-Inhalte zu erkennen sind.",
+    "topSummary": "Heute in 30 Sekunden: KI wird teurer, produktseitig aggressiver und operativ komplizierter. Während OpenAI an einer Super-App arbeitet und Notion den Zugriff auf Anthropic nach einer Störung wiederherstellt, zeigen Security- und Infrastrukturmeldungen, dass die KI-Welle auch neue Angriffs- und Belastungsflächen schafft. Für Creator und Video-Produktion bleibt besonders spannend, wie schnell sich KI-Content professionalisiert und wie schwer er zu unterscheiden wird.",
+    "implications": [
+      "KI-Nutzung wird stärker über Kosten, Caching und Modellwahl entschieden – nicht nur über Qualität.",
+      "Tool-Stacks wie Notion, Agenten und LLM-Infrastrukturen bleiben anfällig für Ausfälle und Abhängigkeiten.",
+      "Security bleibt ein Top-Thema: Breaches, Crawler-Last und Missbrauch von Systemen treffen auch Medien- und Creator-Workflows.",
+      "KI-generierte Inhalte werden für Publikum und Plattformen immer schwerer einzuordnen."
+    ],
+    "watchlist": [
+      "Wie stark die Preisentwicklung bei großen KI-Anbietern auf Endprodukte und Creator-Tools durchschlägt.",
+      "Ob OpenAI die Super-App-Richtung konkretisiert und damit Chat-, Tool- und Workflow-Nutzung neu sortiert.",
+      "Ob weitere Plattformen Probleme mit LLM-Crawlern oder Modellzugängen melden.",
+      "Wie sich die Debatte um KI-Content-Creator und Authentizität bei Video und Social weiter zuspitzt."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Plattformen",
+      "#DeveloperTools",
+      "#LLM"
+    ],
+    "stories": [
+      {
+        "title": "Steigen die KI-Preise in eine neue Phase?",
+        "originalTitle": "Is this the dawn of the Tokenpocalypse?",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch warnt vor weiteren Preiserhöhungen bei KI-Diensten, während die großen KI-Unternehmen offenbar einen Börsengang vorbereiten. Der Beitrag deutet an, dass sich die Kostenstruktur im Markt spürbar verschiebt.",
+        "why": "Für Creator-Tools und Video-Workflows ist das relevant, weil KI-Funktionen schnell teurer werden können, wenn Token-Kosten und Monetarisierung steigen. Das betrifft sowohl Produktteams als auch Solo-Creator, die auf AI-Assistenz in Schnitt, Script oder Recherche setzen.",
+        "opportunity": "Ein Update-Video zu „Was KI-Preiserhöhungen für Creator-Tools bedeuten“ wäre aktuell.",
+        "links": [
+          "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/"
+        ]
+      },
+      {
+        "title": "Notion stellt den Zugriff auf Anthropic nach einer Störung wieder her",
+        "originalTitle": "Notion restores access to Anthropic after service disruption",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Notion hat den Zugriff auf Anthropic nach einer Service-Störung wiederhergestellt. Laut TechCrunch reagierte der Product-Lead überrascht auf die starke Verbreitung der Meldung.",
+        "why": "Das zeigt, wie abhängig moderne Produktivitätstools von einzelnen KI-Integrationen sind. Für Creator und Produktionsteams ist das ein Hinweis, dass Ausfälle bei AI-Features direkt den Workflow treffen können.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/"
+        ]
+      },
+      {
+        "title": "OpenAI arbeitet weiter an einer „Super-App“",
+        "originalTitle": "OpenAI is still working on that ‘super app’",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch berichtet, dass OpenAI weiter an einer Super-App arbeitet. Ein Senior-Mitarbeiter soll dabei gesagt haben: „Chat is dead“.",
+        "why": "Das ist ein Signal, dass KI-Produkte stärker zu umfassenden Arbeitsumgebungen statt nur zu Chat-Interfaces werden könnten. Für Content-Produktion, Video-Workflows und mediale Recherche wäre das ein möglicher Strukturwandel.",
+        "opportunity": "Ein Beobachtungsformat zu „Vom Chat zur KI-App: Was OpenAI plant“ könnte für Denis interessant sein.",
+        "links": [
+          "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/"
+        ]
+      },
+      {
+        "title": "TechCrunch sammelt die schlimmsten Hacks und Datenlecks des Jahres 2026",
+        "originalTitle": "Hacked, leaked, and held for ransom: the worst breaches of 2026 so far",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "TechCrunch fasst die bislang gravierendsten Sicherheitsvorfälle 2026 zusammen, darunter ein großer DOGE-Datenabfluss, Angriffe auf kritische Energie- und Wassersysteme sowie ein Hack eines FBI-Überwachungssystems.",
+        "why": "Security bleibt ein Basisthema für alle digitalen Produktions- und Creator-Workflows, besonders wenn Accounts, Inhalte oder Assets an mehreren Plattformen hängen. Solche Breaches erhöhen den Druck auf saubere Schutz- und Backup-Prozesse.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/07/the-worst-hacks-and-breaches-of-2026-so-far/"
+        ]
+      },
+      {
+        "title": "HN-Debatte zeigt: LLMs verändern Software-Jobs und Projektstarts spürbar",
+        "originalTitle": "LLMs are eroding my software engineering career and I don't know what to do",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein viel diskutierter Hacker-News-Post beschreibt, dass LLMs die Software-Engineering-Karriere des Autors unter Druck setzen. Parallel dazu wurden mehrere Beiträge zu LLM-Agenten, Prompt Caching und lokaler LLM-Nutzung sichtbar.",
+        "why": "Das ist relevant, weil sich die Rolle von Entwicklern, Tool-Machern und technischen Kreativen verschiebt. Für Denis ist das vor allem ein Hinweis darauf, dass KI nicht nur Tools liefert, sondern Arbeitsmärkte und Skill-Sets neu sortiert.",
+        "opportunity": "Ein Video über „Welche Jobs KI wirklich verändert“ hätte klare Anschlussfähigkeit.",
+        "links": [
+          "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do"
+        ]
+      },
+      {
+        "title": "SourceHut meldet Störungen durch LLM-Crawler",
+        "originalTitle": "SourceHut Disrupted by LLM Crawlers",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "Hacker News LLM",
+        "summary": "SourceHut wurde laut Statusmeldung durch LLM-Crawler gestört. Die Meldung wurde auf Hacker News diskutiert und zeigt Lastprobleme durch automatisierte Zugriffe.",
+        "why": "Das ist ein direktes Infrastrukturthema: KI-Nutzung erzeugt echte Kosten und Belastungen für Hosting, Repos und Plattformen. Für Creator- und Dev-Tools bedeutet das mehr Druck auf Rate-Limits, Zugriffskontrolle und Kostenmanagement.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://status.sr.ht/issues/2026-06-06-llms-again/"
+        ]
+      },
+      {
+        "title": "Die Sichtbarkeit von KI-„Content Creators“ nimmt weiter ab",
+        "originalTitle": "AI ‘content creators’ are getting harder to spot",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "The Verge AI",
+        "summary": "The Verge beschreibt, dass KI-generierte Influencer und Content-Creator immer schwerer zu erkennen sind. Die Entwicklung wird als fortschreitende Verschiebung von der offensichtlichen zur schwer unterscheidbaren KI-Ästhetik eingeordnet.",
+        "why": "Für Video-Creator und Schauspiel/Medienarbeit ist das zentral, weil Authentizität, Erkennbarkeit und Transparenz ein noch größeres Thema werden. Je besser KI-Content aussieht, desto wichtiger werden Stil, Marke und glaubwürdige Kennzeichnung.",
+        "opportunity": "Ein Kurzformat zu „Woran man KI-Content heute noch erkennt“ passt sehr gut.",
+        "links": [
+          "https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-08T09:11:50.699Z",
+    "generatedAtBerlin": "08.06.2026, 11:11",
+    "mode": "ai",
+    "sourceCount": 22,
+    "highlights": [
+      "Steigen die KI-Preise in eine neue Phase?",
+      "OpenAI arbeitet weiter an einer „Super-App“",
+      "TechCrunch sammelt die schlimmsten Hacks und Datenlecks des Jahres 2026"
+    ],
+    "audioPath": "audio/briefing-2026-06-07.mp3",
+    "audioUrl": "audio/briefing-2026-06-07.mp3",
+    "audioGeneratedAt": "2026-06-08T09:12:38.786Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-06",
     "title": "Daily-Briefing: KI-Sicherheit, Apple-Siri und neue Creator-/Plattform-Trends",
     "summary": "Am 6. Juni dominierten KI-Sicherheitsfragen, neue Apple-/Meta-Bewegungen und mehrere Signale rund um Creator- und Software-Tools. Für Denis besonders relevant: Plattformen bauen stärker auf KI, während zugleich Missbrauch, Regulierung und Produktqualität zum Thema werden.",
