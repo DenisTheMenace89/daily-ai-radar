@@ -1,5 +1,175 @@
 [
   {
+    "date": "2026-06-11",
+    "title": "Daily-Briefing: KI, Creator-Tools, Security und Plattformen",
+    "summary": "Heute dominieren drei Themen: große Plattform- und KI-Bewegungen, neue Creator- und Consumer-Tools sowie mehrere Security- und Regulierungssignale. Für Denis besonders relevant sind die Meta-Updates für Edits, Deezer’s AI-Music-Scanner, die Oracle-Sicherheitswarnung und die Entwicklungen rund um soziale Plattformen.",
+    "topSummary": "Heute in 30 Sekunden: Meta schiebt Edits mit AI-Assistent und Desktop-Version Richtung Creator-Workflow, Deezer will KI-Musik in Playlists erkennen, und neue Tools wie Pool machen Screenshots produktiver. Gleichzeitig gibt es ernste Security-Signale bei Oracle sowie stärkeren Regulierungsdruck rund um Social Media für Kinder. Für Creator und Produkt-Video-Formate ist vor allem spannend, wie schnell sich KI direkt in bestehende Apps und Workflows integriert.",
+    "implications": [
+      "Creator-Tools werden stärker zu All-in-one-Workflows statt einzelner Features.",
+      "Security bleibt ein operatives Risiko für Unternehmen und Plattformen, nicht nur ein IT-Thema.",
+      "Regulierung und Plattformpolitik rund um Kinder und Social Media gewinnen weiter an Tempo.",
+      "KI wird zunehmend in konkrete Nutzungsfälle eingebaut: Musik, Shopping, Editing, Agenten und Suche."
+    ],
+    "watchlist": [
+      "Wie schnell Meta Edits mit AI-Assistent und Desktop-Version ausrollt.",
+      "Ob Deezer’s Tool bei Plattformen, Labels oder Creators Diskussionen über AI-Musik auslöst.",
+      "Wie groß die Auswirkungen der Oracle-Schwachstelle tatsächlich werden.",
+      "Ob weitere Länder Social-Media-Beschränkungen für Minderjährige einführen."
+    ],
+    "tags": [
+      "#CreatorAI",
+      "#Security",
+      "#Plattformen",
+      "#Regulierung",
+      "#TechNews"
+    ],
+    "stories": [
+      {
+        "title": "Meta stattet Edits mit einem KI-Assistenten und einer Desktop-Version aus",
+        "originalTitle": "Meta’s Edits app is getting an AI assistant and a desktop version",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Meta integriert einen KI-Assistenten direkt in die Edits-App und ergänzt eine Desktop-Version. Laut Quelle zielt das darauf ab, Creator stärker in Instagram-Workflows zu halten.",
+        "why": "Das ist direkt relevant für Video-Creator, weil Editing, Ideation und Produktion damit enger zusammenrücken. Solche Feature-Sprünge verändern oft schnell, welche Tools Creator im Alltag tatsächlich nutzen.",
+        "opportunity": "Eine Videoidee wäre ein Vergleich: Wie verändert ein integrierter KI-Assistent den Schnitt-Workflow gegenüber klassischen Editoren?",
+        "links": [
+          "https://techcrunch.com/2026/06/11/metas-edits-app-is-getting-an-ai-assistant-and-a-desktop-version/"
+        ]
+      },
+      {
+        "title": "Deezer führt ein Tool ein, das KI-Musik in Playlists erkennt",
+        "originalTitle": "Deezer’s new tool can identify AI music from Spotify, Apple Music, and others",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Deezer hat ein neues Tool vorgestellt, das Playlists von Spotify, Apple Music und anderen Plattformen durchsucht und KI-generierte Musik identifizieren kann. Damit wird AI-Music-Detection zu einem konkreten Plattformfeature.",
+        "why": "Für Creator und Medienrechte ist das wichtig, weil Kennzeichnung und Herkunft von Musik in der Distribution relevanter werden. Das Thema könnte auch bei YouTube- und Social-Video-Nutzung nachziehen.",
+        "opportunity": "Beobachten, ob sich daraus ein breiterer Standard für AI-Music-Labels entwickelt.",
+        "links": [
+          "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/"
+        ]
+      },
+      {
+        "title": "Oracle warnt vor einer Sicherheitslücke, die Hacker für Angriffe auf mehr als 100 Firmen ausnutzen",
+        "originalTitle": "Oracle warns of security bug that hackers abused to breach 100+ companies",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Oracle hat eine Sicherheitslücke gemeldet, die laut Bericht von einer Cybercrime-Gruppe in einer Mass-Hacking-Kampagne ausgenutzt wird. Google informierte mehr als 100 Organisationen mit potenziell verwundbaren Servern.",
+        "why": "Das ist ein klares Enterprise-Sicherheitsignal mit möglicher Breitenwirkung. Für Creator- und Medienunternehmen ist das relevant, weil Infrastruktur- und Datenrisiken oft indirekt auf Produktions- und Publishing-Workflows durchschlagen.",
+        "opportunity": "Nur beobachten, außer Denis arbeitet mit betroffenen Oracle- oder Cloud-Stacks in einem Teamumfeld.",
+        "links": [
+          "https://techcrunch.com/2026/06/11/oracle-warns-of-security-bug-that-hackers-abused-to-breach-100-companies/"
+        ]
+      },
+      {
+        "title": "Bluesky startet Gruppenchats und setzt stärker auf Community-Funktionen",
+        "originalTitle": "Bluesky launches group chats, as company shifts focus to community features",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Bluesky hat Gruppenchats eingeführt und verlagert den Fokus weiter auf Features für kleinere Communities. Die Plattform entwickelt sich damit weg von reinem Microblogging hin zu engeren Sozial- und Community-Formaten.",
+        "why": "Für Creator kann das interessant sein, wenn Community-Aufbau und direkter Austausch wichtiger werden als Reichweite allein. Neue Social-Features verändern oft, wie Content verteilt und diskutiert wird.",
+        "opportunity": "Nur beobachten, ob sich daraus neue Creator-Community-Formate ergeben.",
+        "links": [
+          "https://techcrunch.com/2026/06/11/bluesky-launches-group-chats-as-company-shifts-focus-to-community-features/"
+        ]
+      },
+      {
+        "title": "Mehrere Länder bewegen sich auf Social-Media-Verbote für Kinder zu",
+        "originalTitle": "These are the countries moving to ban social media for children",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Der Bericht listet Länder auf, die Social-Media-Beschränkungen für Kinder einführen oder vorbereiten. Australien war laut Quelle Ende 2025 das erste Land mit einem solchen Verbot.",
+        "why": "Das ist für Plattformen, Creator und Medienrechte relevant, weil Altersverifikation, Reichweitenlogik und jugendgerechte Inhalte stärker reguliert werden könnten. Solche Regeln wirken oft auch auf YouTube-Strategien und Short-Form-Distribution.",
+        "opportunity": "Für Denis als Creator ist das ein gutes Beobachtungsthema für ein kurzes Update zu Social-Media-Regulierung und Jugendschutz.",
+        "links": [
+          "https://techcrunch.com/2026/06/11/social-media-ban-children-countries-list/"
+        ]
+      },
+      {
+        "title": "Pool bringt eine App, die Screenshots in eine durchsuchbare Erinnerungsdatenbank verwandelt",
+        "originalTitle": "Pool’s new app turns your screenshots into something useful",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Pool hat eine App vorgestellt, die Screenshots automatisch in persönliche Sammlungen sortiert und die Original-Links zu gespeicherten Inhalten wiederfindet. Die App soll helfen, Produkte, Rezepte, Reiseideen und andere Dinge später wiederzufinden.",
+        "why": "Das trifft einen echten Creator- und Produktivitäts-Use-Case, weil viele Arbeitsideen, Referenzen und Inspirationsquellen über Screenshots laufen. Für Produktvideos kann das als Workflow-Tool für Recherche und Asset-Sammlung interessant sein.",
+        "opportunity": "Gute Videoidee: Ein persönlicher Test, ob die App wirklich besser ist als Foto-Müllordner und Notizen.",
+        "links": [
+          "https://techcrunch.com/2026/06/11/pools-new-app-turns-your-screenshots-into-a-searchable-memory-bank/"
+        ]
+      },
+      {
+        "title": "DoorDash startet einen KI-Chatbot, der Bestellungen per Prompt und Foto ermöglicht",
+        "originalTitle": "DoorDash’s new AI chatbot lets you order with prompts and photos",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "DoorDash führt mit Ask DoorDash einen Chatbot ein, mit dem Nutzer in eigenen Worten oder per Foto suchen und bestellen können. Statt durch Restaurants und Stores zu scrollen, sollen Anfragen dialogbasiert funktionieren.",
+        "why": "Das zeigt, wie schnell KI in alltägliche Consumer-Apps integriert wird. Für Creator ist das ein gutes Beispiel, wie visuelle und sprachliche Interaktion Produktoberflächen verändert.",
+        "opportunity": "Nur beobachten, aber als Beispiel für AI-UX in einem kurzen Trend-Clip geeignet.",
+        "links": [
+          "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/"
+        ]
+      },
+      {
+        "title": "Anthropic arbeitet mit TCS zusammen, um Enterprise-KI-Deployments zu skalieren",
+        "originalTitle": "Anthropic taps TCS to scale its enterprise AI deployments",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Anthropic kooperiert mit TCS, um Unternehmenskunden beim Einsatz seiner Modelle zu unterstützen. Laut Bericht wird TCS dafür eine Business Unit aufbauen.",
+        "why": "Das ist ein Signal dafür, dass Enterprise-KI immer stärker über Integratoren und Dienstleister in die Breite geht. Für Business- und Produktbeobachtung zeigt es, wie Modelle praktisch in Firmenprozesse eingebaut werden.",
+        "opportunity": "Nur beobachten, falls Denis ein Format zu KI im Unternehmensalltag plant.",
+        "links": [
+          "https://techcrunch.com/2026/06/11/anthropic-taps-tcs-to-scale-its-enterprise-ai-deployments/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-12T08:46:03.558Z",
+    "generatedAtBerlin": "12.06.2026, 10:46",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Meta stattet Edits mit einem KI-Assistenten und einer Desktop-Version aus",
+      "Deezer führt ein Tool ein, das KI-Musik in Playlists erkennt",
+      "Oracle warnt vor einer Sicherheitslücke, die Hacker für Angriffe auf mehr als 100 Firmen ausnutzen"
+    ],
+    "audioPath": "audio/briefing-2026-06-11.mp3",
+    "audioUrl": "audio/briefing-2026-06-11.mp3",
+    "audioGeneratedAt": "2026-06-12T08:46:45.574Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-10",
     "title": "Daily Briefing: KI-Kosten, Creator-Deals und Security-Druck",
     "summary": "Heute prägen vor allem hohe KI-Ausgaben, neue Infrastruktur- und Plattform-Deals sowie mehrere Security-Meldungen das Bild. Für Creator und Medien sind besonders die Themen rund um Monetarisierung, Rechte-Tracking und KI-gestützte Tools relevant.",
