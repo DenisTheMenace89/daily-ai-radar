@@ -1,5 +1,181 @@
 [
   {
+    "date": "2026-06-12",
+    "title": "KI-, Tech- und Creator-Briefing für Denis",
+    "summary": "Die wichtigsten Themen des Tages drehen sich um KI-Missbrauch, frisches Funding im europäischen KI-Markt und den anhaltenden Run auf AI-/Deep-Tech-Startups. Dazu kommen mehrere Signale aus der Entwicklerwelt rund um lokale Coding-Agents, LLM-Tools und praxisnahe Evaluations- und Kontrollschichten.",
+    "topSummary": "Heute dominieren drei Linien: Erstens wird KI immer stärker sowohl für Scam-Operationen als auch für Verteidigung und Security genutzt. Zweitens bleibt der Markt für KI-Startups heiß, mit neuen Millionen- und Milliardenrunden sowie IPO-Fantasie rund um die großen Namen. Drittens wächst das Ökosystem an Tools, mit denen Entwickler und Creator KI-Workflows kontrollierbarer machen wollen.",
+    "implications": [
+      "KI-Security bleibt ein zentrales Thema: Die gleiche Technologie beschleunigt Scam, aber auch Erkennung und Abwehr.",
+      "Für Creator und Video-Produktionen werden günstigere Video-AI-Modelle und agentische Workflow-Tools interessanter.",
+      "Der Kapitalmarkt signalisiert weiter starken Glauben an KI- und Deep-Tech-Plattformen, trotz hoher Bewertungen.",
+      "Entwickler fokussieren sich zunehmend auf Tests, Kontrolle und lokale Ausführung statt nur auf reine Chatbots."
+    ],
+    "watchlist": [
+      "Wie Google rechtlich und technisch gegen die Scam-Operation vorgeht.",
+      "Ob Mistral die gemunkelte Finanzierung offiziell bestätigt und zu welcher Bewertung.",
+      "Welche Produkte aus der neuen Welle an LLM-Control-Plane-, Review- und Eval-Tools wirklich Nutzwert haben.",
+      "Ob Avataar oder ähnliche Video-AI-Anbieter mit Preis-Leistungsmodellen Creator-Workflows außerhalb von Indien angreifen."
+    ],
+    "tags": [
+      "#AI",
+      "#Security",
+      "#CreatorTools",
+      "#Startups",
+      "#DeveloperTools",
+      "#VideoAI"
+    ],
+    "stories": [
+      {
+        "title": "Google verklagt chinesische Cybercrime-Gruppe wegen KI-gestütztem Scam gegen Hunderttausende Opfer",
+        "originalTitle": "Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google sagt, eine Gruppe namens „Outsider Enterprise“ habe KI genutzt, um Hunderttausende Opfer zu betrügen. Laut Beschreibung wurden innerhalb von zwei Wochen 2,5 Millionen Textnachrichten verschickt.",
+        "why": "Das zeigt, wie stark KI bereits in großskalige Betrugsoperationen eingebaut wird. Für Creator, Medien und Marken ist das relevant, weil Scam-Infrastrukturen dadurch schneller, günstiger und schwerer zu erkennen werden.",
+        "opportunity": "Ein Security- oder Awareness-Video über KI-gestützte Scam-Taktiken wäre aktuell und praxisnah.",
+        "links": [
+          "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/"
+        ]
+      },
+      {
+        "title": "Mistral soll 3 Milliarden Euro bei 20 Milliarden Euro Bewertung einsammeln",
+        "originalTitle": "Mistral is rumored to be raising €3B at €20B valuation",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Mistral soll laut Bericht eine neue Finanzierungsrunde über 3 Milliarden Euro anpeilen. Die Bewertung läge damit bei rund 20 Milliarden Euro und damit fast doppelt so hoch wie bei der Series C.",
+        "why": "Wenn sich die Runde bestätigt, wäre das ein starkes Signal für den europäischen KI-Markt und für die Frage, wie viel Kapital in Foundation-Model-Anbieter weiter fließt. Für Produktvideos und Creator-Workflows ist Mistral als europäische Alternative strategisch interessant.",
+        "opportunity": "Denis könnte Mistral als europäisches KI-Powerhouse in einem Marktvergleich mit OpenAI und Anthropic einordnen.",
+        "links": [
+          "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/"
+        ]
+      },
+      {
+        "title": "Avataar positioniert sein Video-KI-Modell als günstig und kulturell angepasst für den indischen Markt",
+        "originalTitle": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Avataar AIs distilliertes Video-Modell wird mit 0,005 Dollar pro generierter Sekunde bepreist. Laut Quelle ist das Modell auf Geschwindigkeit, niedrige Kosten und kulturelle Anpassung für Indien ausgelegt.",
+        "why": "Für Creator-Tools ist das spannend, weil Video-KI damit stärker über Preis und Skalierung statt nur über Modell-Qualität konkurriert. Solche Preispunkte sind auch für Produktvideo- und Social-Content-Workflows relevant.",
+        "opportunity": "Ein kurzer Beobachtungs-Post zu den Kosten pro Sekunde bei Video-KI könnte für Denis’ Creator-Publikum nützlich sein.",
+        "links": [
+          "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/"
+        ]
+      },
+      {
+        "title": "SpaceX startet erfolgreich an die Börse, und Robinhood meldet Rekordverkehr",
+        "originalTitle": "SpaceX IPO closes up 19% and delivers the world’s first trillionaire",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch",
+        "summary": "SpaceX hat sein mit Spannung erwartetes Debüt hingelegt und wurde über dem Ausgabepreis von 135 Dollar gehandelt. Parallel meldete Robinhood nach dem Börsendebüt Rekordtraffic mit zeitweiligen Störungen, die laut Quelle inzwischen behoben sind.",
+        "why": "Das zeigt, wie groß die Aufmerksamkeit für High-Profile-Tech-IPOs geblieben ist und wie stark Retail-Plattformen auf solche Events reagieren. Für Medien- und Creator-Formate ist das ein gutes Signal für erklärende Börsen- und Tech-Storys.",
+        "opportunity": "Ein kurzes Erklärvideo zu SpaceX als IPO-Event und den Folgen für Tech-Märkte wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/06/12/spacex-ipo-closes-up-19-and-delivers-the-worlds-first-trillionaire/",
+          "https://techcrunch.com/2026/06/12/robinhood-sees-record-breaking-traffic-after-spacex-stock-debuts/"
+        ]
+      },
+      {
+        "title": "SpaceX-IPO befeuert Diskussionen über Musk und eine mögliche Tesla-Fusion",
+        "originalTitle": "SpaceX president Gwynne Shotwell just gave another hint at a Tesla merger",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch",
+        "summary": "Nach dem SpaceX-IPO wurde berichtet, dass Gwynne Shotwell erneut Hinweise auf eine mögliche Tesla-Fusion gegeben habe. Separat wurde auch thematisiert, dass Elon Musk nun auf dem Papier zum ersten Billionär geworden sei.",
+        "why": "Das ist vor allem ein Signal für die Wahrnehmung von Musk als Macht- und Kapitalzentrum in Tech. Für Medien- und Creator-Formate eignet sich das als Analyse über Konzernmacht, Personenkult und Marktinteresse.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/12/spacex-president-gwynne-shotwell-just-gave-another-hint-at-a-tesla-merger/",
+          "https://techcrunch.com/2026/06/12/elon-musk-becomes-the-worlds-first-trillionaire-after-spacexs-historic-ipo/"
+        ]
+      },
+      {
+        "title": "Entwickler suchen stärker nach lokalen Coding-Agents und Kontrollschichten für LLM-Workflows",
+        "originalTitle": "How to setup a local coding agent on macOS",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "Hacker News Frontpage / Hacker News LLM",
+        "summary": "Auf Hacker News landen mehrere Beiträge rund um lokale Coding-Agents, Eval-Tools und Kontrollschichten für LLMs, darunter eine Anleitung für einen lokalen Coding-Agent auf macOS, ein Tool zum Testen von Agenten-Outputs und eine „LLM Control Plane“. Dazu kommen weitere kleine Projekte für Agent-Reviews und Knowledge-OS-Ansätze.",
+        "why": "Das ist ein klares Zeichen, dass sich KI-Nutzung vom reinen Prompting hin zu überprüfbaren, wiederholbaren Workflows verschiebt. Für produktive Video-, Medien- und Software-Teams ist das relevant, weil Qualitätssicherung und Kontrolle wichtiger werden.",
+        "opportunity": "Ein praxisnahes Video über den Setup-Trend zu lokalen KI-Agents und deren Grenzen könnte funktionieren.",
+        "links": [
+          "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
+          "https://github.com/Kareem-Rashed/rubric-eval",
+          "https://blog.mozilla.ai/what-is-an-llm-control-plane/",
+          "https://github.com/vinzenzu/pi-auto-reviewer"
+        ]
+      },
+      {
+        "title": "Palantir verliert Rechtsstreit gegen Schweizer Investigativmagazin",
+        "originalTitle": "Palantir loses legal challenge against Swiss investigative magazine",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "Laut FT hat Palantir einen Rechtsstreit gegen ein Schweizer Investigativmagazin verloren. Die Meldung wurde auf Hacker News stark diskutiert.",
+        "why": "Der Fall ist relevant, weil er Fragen zu Medienfreiheit, Macht großer Daten- und Analysefirmen und juristischen Konflikten mit Journalismus berührt. Für ein deutschsprachiges Publikum ist das ein guter Anker für eine Debatte über Tech-Macht und öffentliche Kontrolle.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979"
+        ]
+      },
+      {
+        "title": "US-Überwachungsgesetz Section 702 könnte erstmals auslaufen",
+        "originalTitle": "US surveillance law to expire for first time after lawmakers reject Trump’s controversial pick to lead spy agencies",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Laut Bericht dürfte Section 702, die NSA- und FBI-Überwachung ohne Haftbefehl ermöglicht, am Freitag erstmals auslaufen. Auslöser ist unter anderem die Ablehnung von Trumps umstrittenem Kandidaten zur Führung der Geheimdienste.",
+        "why": "Das ist ein relevantes Regulierungssignal für Privacy, Plattformen und Sicherheitsdiskussionen. Für Creator und Medien ist es vor allem wichtig, weil Überwachung, Datenzugriff und Vertrauen in digitale Infrastruktur direkt zusammenhängen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/12/us-spy-law-to-expire-for-first-time-after-lawmakers-reject-trumps-controversial-pick-to-lead-spy-agencies/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-13T08:01:50.407Z",
+    "generatedAtBerlin": "13.06.2026, 10:01",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Google verklagt chinesische Cybercrime-Gruppe wegen KI-gestütztem Scam gegen Hunderttausende Opfer",
+      "Mistral soll 3 Milliarden Euro bei 20 Milliarden Euro Bewertung einsammeln",
+      "SpaceX startet erfolgreich an die Börse, und Robinhood meldet Rekordverkehr"
+    ],
+    "audioPath": "audio/briefing-2026-06-12.mp3",
+    "audioUrl": "audio/briefing-2026-06-12.mp3",
+    "audioGeneratedAt": "2026-06-13T08:02:35.865Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-11",
     "title": "Daily-Briefing: KI, Creator-Tools, Security und Plattformen",
     "summary": "Heute dominieren drei Themen: große Plattform- und KI-Bewegungen, neue Creator- und Consumer-Tools sowie mehrere Security- und Regulierungssignale. Für Denis besonders relevant sind die Meta-Updates für Edits, Deezer’s AI-Music-Scanner, die Oracle-Sicherheitswarnung und die Entwicklungen rund um soziale Plattformen.",
