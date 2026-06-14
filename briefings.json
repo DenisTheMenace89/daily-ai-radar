@@ -1,5 +1,165 @@
 [
   {
+    "date": "2026-06-13",
+    "title": "KI-Governance verschärft sich, Creator-Tools werden nützlicher",
+    "summary": "Der Vortag stand vor allem im Zeichen von KI-Regulierung und Modell-Sicherheitsdebatten: OpenAI gerät unter Ermittlungsdruck, Anthropic muss Modelle nach Regierungsanordnung abschalten, und rund um Amazon gibt es Hinweise, dass interne Sicherheitsforschung den Druck mit ausgelöst hat. Daneben zeigen Produkt- und Tool-Meldungen, wie schnell sich Creator-Workflows in Richtung AI-Editing und lokale LLM-Inferenz weiterentwickeln.",
+    "topSummary": "Heute in 30 Sekunden: Die größte Story ist klar die wachsende Regulierungs- und Sicherheitslage rund um große KI-Anbieter. Gleichzeitig wird der praktische Nutzen für Creator sichtbarer: Foto-Editing, lokale LLMs und Agenten-Tools reifen weiter, auch wenn Video-KI für echte Filmproduktion laut der Quellen noch nicht überzeugt. Für Denis heißt das: beobachten, wo KI wirklich produktiv wird und wo Politik, Sicherheit und Rechte den Einsatz begrenzen.",
+    "implications": [
+      "KI-Modelle werden stärker als Infrastruktur behandelt, mit mehr Aufsicht, Exportkontrollen und Sicherheitsprüfungen.",
+      "Creator- und Produkt-Workflows verschieben sich weiter zu AI-gestütztem Editing, Prototyping und lokalen Tools.",
+      "Die Lücke zwischen Demo-Video-KI und wirklich nutzbarer Film-/Media-Produktion bleibt groß.",
+      "Sicherheits- und Compliance-Themen werden für KI-Produkte immer stärker zum Markt- und Vertriebsfaktor."
+    ],
+    "watchlist": [
+      "Wie weit die staatlichen Untersuchungen gegen OpenAI gehen und ob weitere Bereiche wie Werbung oder Gesundheitsdaten betroffen sind.",
+      "Ob Anthropic die betroffenen Modelle langfristig oder nur vorübergehend aus dem Verkehr zieht.",
+      "Ob sich die Amazon-/Anthropic-Berichte bestätigen und wie stark sie die Regulierung beeinflussen.",
+      "Welche Creator-Tools aus den neuen AI-Photo-Editing- und lokalen LLM-Projekten tatsächlich im Alltag ankommen."
+    ],
+    "tags": [
+      "#KI",
+      "#Security",
+      "#Regulierung",
+      "#CreatorTools",
+      "#DeveloperTools",
+      "#AIVideo"
+    ],
+    "stories": [
+      {
+        "title": "OpenAI wird von Generalstaatsanwälten untersucht",
+        "originalTitle": "OpenAI faces investigation from state attorneys general",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Mehrere Staatsanwälte untersuchen OpenAI, laut Quelle unter anderem mit Fragen zu Werberichtlinien und zum Umgang mit Gesundheitsdaten. Welche Bundesstaaten beteiligt sind, ist unklar.",
+        "why": "Das ist ein klares Signal, dass KI-Anbieter nicht nur technisch, sondern auch regulatorisch enger geprüft werden. Für Medien- und Creator-Use-Cases ist besonders relevant, wie streng Plattformen und Modelle bei Daten, Werbung und sensiblen Inhalten behandelt werden.",
+        "opportunity": "Gutes Thema für ein Update-Video zu „Was KI-Anbieter regulatorisch gerade droht“. ",
+        "links": [
+          "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/"
+        ]
+      },
+      {
+        "title": "Die Regierung zwingt Anthropic, Fable 5 und Mythos 5 abzuschalten",
+        "originalTitle": "Anthropic cuts off Fable 5 and Mythos 5 access following government order",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "The Verge AI, TechCrunch AI, The Verge AI",
+        "summary": "Laut den Quellen wurde Anthropic per Regierungsanordnung verpflichtet, Fable 5 und Mythos 5 für alle ausländischen Staaten zu blockieren, auch innerhalb der USA. Anthropic hat daraufhin den Zugriff für alle Kundinnen und Kunden komplett beendet.",
+        "why": "Das zeigt, wie direkt nationale Sicherheitsbedenken inzwischen in Produktzugriffe eingreifen. Für Creator, Developer und Plattformen ist das ein Warnsignal: Selbst leistungsstarke Modelle können plötzlich verschwinden oder regional eingeschränkt werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
+          "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+          "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban"
+        ]
+      },
+      {
+        "title": "KPMG zieht KI-Bericht wegen offensichtlicher Halluzinationen zurück",
+        "originalTitle": "KPMG pulls report on AI usage due to apparent hallucinations",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "KPMG hat einen Bericht über KI-Nutzung offenbar zurückgezogen, weil darin Halluzinationen aufgetreten sein sollen. Die Meldung zeigt damit erneut, dass KI selbst bei KI-Themen unzuverlässige Ergebnisse liefern kann.",
+        "why": "Für Denis ist das ein praktisches Beispiel dafür, warum KI-Inhalte im professionellen Umfeld immer geprüft werden müssen. Gerade bei Produktvideos, Präsentationen und Medieninhalten ist Verifikation wichtiger als der erste Output.",
+        "opportunity": "Starker Aufhänger für ein Creator-Video über „Warum KI-Reports trotzdem geprüft werden müssen“. ",
+        "links": [
+          "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/"
+        ]
+      },
+      {
+        "title": "Apple bringt neue KI-Fotobearbeitung in iOS 27",
+        "originalTitle": "Apple’s new AI photo editing tools mostly work, for better and worse",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "The Verge AI",
+        "summary": "Apple hat in iOS 27 neue KI-Funktionen für Fotobearbeitung vorgestellt, darunter Reframe, Extend und Clean Up. Laut Hands-on funktionieren sie größtenteils, bleiben aber im Vergleich zu Googles Pixel-Ansätzen eher zurückhaltend.",
+        "why": "Das ist direkt relevant für Creator, die viel mit Bildmaterial, Thumbnails und Social-Assets arbeiten. Wenn Apple solche Funktionen systemweit ausrollt, verschiebt sich Standard-Bearbeitung weiter in Richtung integrierter KI-Tools.",
+        "opportunity": "Gute Videoidee: Vergleich von Apple-Fotobearbeitung mit Creator-Workflows auf iPhone und Desktop.",
+        "links": [
+          "https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on"
+        ]
+      },
+      {
+        "title": "The Verge zweifelt daran, dass Hollywood mit normaler Gen-KI produziert werden kann, was Zuschauer bezahlen wollen",
+        "originalTitle": "The future of Hollywood isn’t feeding prompts into vanilla gen AI models",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "The Verge AI",
+        "summary": "Der Artikel argumentiert, dass bisherige generative Video-Projekte noch nicht das Niveau erreicht haben, das Publikum wirklich bezahlen würde. Im Fokus steht die Lücke zwischen Hype und tatsächlich überzeugender Entertainment-Produktion.",
+        "why": "Für Schauspiel, Medienrechte und Video-Creator ist das wichtig, weil es den aktuellen Stand von KI-Video nüchtern einordnet. Die Botschaft lautet: Für echte Produktion reicht „Prompt rein, Clip raus“ derzeit noch nicht.",
+        "opportunity": "Nützlich als Referenzpunkt für ein Video über die Grenzen von KI-Video in der Praxis.",
+        "links": [
+          "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai"
+        ]
+      },
+      {
+        "title": "Neue lokale LLM- und Agenten-Tools zeigen weiter schnellen Fortschritt im Entwickler-Ökosystem",
+        "originalTitle": "TensorSharp: Open Source Local LLM Inference Engine",
+        "category": "Open Source",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News LLM",
+        "summary": "Auf Hacker News wurden mehrere neue Projekte rund um LLM-Agenten und lokale Inferenz diskutiert, darunter TensorSharp, Galdor, AgentNexus und GEDD. Es handelt sich um Show-HN- und Community-Signale mit noch begrenzter Substanz.",
+        "why": "Das zeigt, wohin sich die Tool-Landschaft für Entwickler bewegt: mehr lokale Ausführung, mehr Agenten-Architekturen, mehr Tracing und Replay. Für produktnahe KI-Workflows ist das ein interessanter Frühindikator.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://github.com/zhongkaifu/TensorSharp",
+          "https://github.com/YasserCR/galdor",
+          "https://github.com/dugubuyan/agent-nexus",
+          "https://github.com/aws-samples/sample-GEDD"
+        ]
+      },
+      {
+        "title": "Der FBI baut eine Cyber-Teststadt zum Simulieren von Angriffen",
+        "originalTitle": "The FBI built its own replica small town to simulate real-world cyberattacks",
+        "category": "Security",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Das FBI hat in Alabama eine eigene kleine Stadt als Trainingsumgebung für realitätsnahe Cyberangriffe gebaut. Die Anlage dient dazu, Angriffe unter kontrollierten Bedingungen zu simulieren.",
+        "why": "Auch wenn es nicht direkt Creator-Tech ist, zeigt es den wachsenden Stellenwert von praktischer Cyberabwehr. Für Plattformen und Software-Anbieter bleibt Security damit ein zentraler Produktfaktor.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/13/the-fbi-built-its-own-replica-small-town-to-simulate-real-world-cyberattacks/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-14T08:32:50.969Z",
+    "generatedAtBerlin": "14.06.2026, 10:32",
+    "mode": "ai",
+    "sourceCount": 22,
+    "highlights": [
+      "OpenAI wird von Generalstaatsanwälten untersucht",
+      "Die Regierung zwingt Anthropic, Fable 5 und Mythos 5 abzuschalten",
+      "KPMG zieht KI-Bericht wegen offensichtlicher Halluzinationen zurück"
+    ],
+    "audioPath": "audio/briefing-2026-06-13.mp3",
+    "audioUrl": "audio/briefing-2026-06-13.mp3",
+    "audioGeneratedAt": "2026-06-14T08:33:33.296Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-12",
     "title": "KI-, Tech- und Creator-Briefing für Denis",
     "summary": "Die wichtigsten Themen des Tages drehen sich um KI-Missbrauch, frisches Funding im europäischen KI-Markt und den anhaltenden Run auf AI-/Deep-Tech-Startups. Dazu kommen mehrere Signale aus der Entwicklerwelt rund um lokale Coding-Agents, LLM-Tools und praxisnahe Evaluations- und Kontrollschichten.",
