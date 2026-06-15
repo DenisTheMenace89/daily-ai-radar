@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-06-14",
+    "title": "KI, Regulierung und Plattformdruck prägten den 14. Juni",
+    "summary": "Am Vortag dominierten zwei große Linien: KI wird stärker industriell und geopolitisch aufgeladen, während Plattformen und Staaten neue Regeln verschärfen. Dazu kamen einzelne Signale aus der Creator-, Security- und Hardware-Welt, die vor allem für Produkt- und Video-Teams relevant sind.",
+    "topSummary": "Heute in 30 Sekunden: OpenAI baut mit einem neuen Partnernetzwerk den Enterprise-Vertrieb rund um KI aus, während rund um Anthropic, China und Exportrestriktionen Sicherheits- und Geopolitikfragen weiter zunehmen. Parallel verschärfen sich die Debatten um Social-Media-Zugänge für Minderjährige und um Microsofts Kontozwang in Windows 11. Für Creator und Produktvideos bleibt außerdem spannend, wie sich lokale LLM-Tools, GPU-Workflows und Plattformregeln entwickeln.",
+    "implications": [
+      "KI ist nicht mehr nur Modell-Story, sondern immer stärker Vertriebs-, Infrastruktur- und Regulierungsfrage.",
+      "Plattform- und OS-Änderungen können Creator-Workflows direkt beeinflussen, etwa bei Accounts, Zugang und Distribution.",
+      "Security- und Exportthemen zeigen, dass KI-Produkte zunehmend unter geopolitischer Beobachtung stehen.",
+      "Für Video-Formate bieten sich Erklärstücke zu KI-Ökonomie, Plattformregeln und praktischen Creator-Tools an."
+    ],
+    "watchlist": [
+      "Wie konkret das OpenAI Partner Network umgesetzt wird und wer als Partner profitiert.",
+      "Ob die Diskussion um Anthropic, Mythos und China weitere regulatorische Folgen auslöst.",
+      "Wie schnell der UK-Vorstoß zu Social Media für Unter-16-Jährige politisch Fahrt aufnimmt.",
+      "Ob Microsofts Konto-Strategie bei Windows 11 noch mehr Gegenwind erzeugt."
+    ],
+    "tags": [
+      "#KI",
+      "#Regulierung",
+      "#Security",
+      "#Plattformen",
+      "#CreatorTools",
+      "#DeveloperTools"
+    ],
+    "stories": [
+      {
+        "title": "OpenAI startet ein Partnernetzwerk und will 150 Millionen Dollar in Enterprise-KI lenken",
+        "originalTitle": "Introducing the OpenAI Partner Network",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "OpenAI News",
+        "summary": "OpenAI hat das OpenAI Partner Network angekündigt und will 150 Millionen Dollar investieren, um Partner bei Enterprise-AI-Adoption, Deployment und Transformation zu unterstützen.",
+        "why": "Das ist ein klares Signal, dass KI-Vertrieb und Implementierung jetzt genauso wichtig werden wie das Modell selbst. Für Unternehmen und Creator mit B2B-Fokus kann das neue Integrations- und Beratungsmöglichkeiten eröffnen.",
+        "opportunity": "Eine Videoidee wäre: Wer verdient in der KI-Wertschöpfungskette künftig am meisten – Modellanbieter, Partner oder Integratoren?",
+        "links": [
+          "https://openai.com/index/introducing-openai-partner-network"
+        ]
+      },
+      {
+        "title": "Berichte deuten darauf hin, dass China Zugang zu Anthropics Mythos gehabt haben könnte",
+        "originalTitle": "China may have accessed Mythos",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "The Verge AI",
+        "summary": "Ein Bericht von Semafor legt nahe, dass die US-Regierung ihre Exportrestriktionen für Anthropics Mythos teilweise wegen der Sorge verschärft habe, China könne Zugriff gehabt haben. Der Vorgang wird als potenzielles nationales Sicherheitsproblem beschrieben.",
+        "why": "Das verbindet KI direkt mit Exportkontrollen, Sicherheitsfragen und geopolitischem Wettbewerb. Solche Fälle beeinflussen, wie schnell neue Modelle international ausgerollt werden können.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos"
+        ]
+      },
+      {
+        "title": "Großbritannien erwägt ein Social-Media-Verbot für Kinder unter 16 Jahren",
+        "originalTitle": "UK may ban social media for children under 16",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Die britische Regierung scheint einem australischen Vorbild zu folgen und prüft ein weitreichendes Verbot von Social Media für Jugendliche unter 16 Jahren.",
+        "why": "Für Plattformen, Creator und Medienhäuser wäre das ein potenziell massiver Eingriff in Reichweite, Distribution und Zielgruppenansprache. Auch die Debatte um Jugendschutz und Altersverifikation dürfte dadurch weiter an Fahrt gewinnen.",
+        "opportunity": "Für Denis spannend als Beobachtung für ein Erklärvideo zu Plattformregeln, Reichweite und Jugendschutz.",
+        "links": [
+          "https://techcrunch.com/2026/06/14/uk-may-ban-social-media-for-children-under-16/"
+        ]
+      },
+      {
+        "title": "Windows-11-Nutzer kritisieren den immer stärkeren Zwang zu Microsoft-Konten",
+        "originalTitle": "Windows 11 users are tired of MS account requirements creeping into everything",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Auf Hacker News wurde ein Windows-Central-Artikel stark diskutiert, der beschreibt, dass Microsoft-Konto-Anforderungen in Windows 11 immer weiter ausgeweitet werden. Die Resonanz zeigt deutlichen Frust über Workarounds und Account-Zwang.",
+        "why": "Das betrifft die tägliche Nutzung von Windows als Arbeitsplattform für Creator, Cutter und Entwickler. Solche Änderungen können Onboarding, Privatsphäre und Produktivität direkt beeinflussen.",
+        "opportunity": "Eine kurze Beobachtung oder ein Kommentarvideo zu Windows 11 als Arbeitsgerät könnte gut funktionieren.",
+        "links": [
+          "https://www.windowscentral.com/microsoft/windows-11/windows-11-users-are-tired-of-microsoft-account-requirements-and-workarounds"
+        ]
+      },
+      {
+        "title": "TechCrunch sieht ein mögliches IPO-Fenster für KI-Startups",
+        "originalTitle": "As AI companies race to go public, who else is along for the ride?",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch beschreibt, dass KI-Startups versuchen, auf einer möglichen IPO-Welle mitzureiten. Im Zentrum steht die Frage, wer in diesem Marktumfeld noch mit an die Börse gehen könnte.",
+        "why": "Das ist relevant, weil sich die KI-Branche offenbar von reinen Wachstumsstorys stärker in Richtung Kapitalmarkt und Exit-Logik bewegt. Für Business-Analysen ist das ein Hinweis auf steigenden Druck auf Umsatz, Margen und Marktposition.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/"
+        ]
+      },
+      {
+        "title": "Meta soll beginnen, den 2-Milliarden-Dollar-Deal mit Manus nach Pekings Vorgabe rückgängig zu machen",
+        "originalTitle": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Laut TechCrunch arbeitet Meta daran, die Übernahme von Manus im Wert von 2 Milliarden Dollar wieder zurückzudrehen. Auslöser soll eine Anweisung aus Beijing gewesen sein.",
+        "why": "Der Fall zeigt, wie stark KI-Deals inzwischen von geopolitischen und regulatorischen Faktoren abhängen. Für den Markt ist das ein Signal, dass M&A im KI-Sektor nicht nur eine Finanz-, sondern auch eine Machtfrage ist.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/"
+        ]
+      },
+      {
+        "title": "TechCrunch Mobility ordnet die SpaceX-Dynamik im Verhältnis zu Tesla ein",
+        "originalTitle": "TechCrunch Mobility: SpaceX rockets past Tesla",
+        "category": "Infrastruktur",
+        "priority": "niedrig",
+        "signal": "niedrig",
+        "relevance": "niedrig",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "TechCrunch Mobility berichtet über SpaceX und beschreibt, dass das Unternehmen Tesla in der Wahrnehmung überholt habe. Der Beitrag verknüpft Mobilität zunehmend mit dem Einfluss von KI.",
+        "why": "Für ein Daily-Briefing ist das eher ein Randthema, kann aber als Indikator für die anhaltende Bedeutung von SpaceX und Elon-Musk-getriebenen Tech-Narrativen dienen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/14/techcrunch-mobility-spacex-rockets-past-tesla/"
+        ]
+      },
+      {
+        "title": "Ein Tool verspricht, vorab zu prüfen, ob ein LLM auf einer GPU läuft",
+        "originalTitle": "I built a free tool that tells you if an LLM will run on your GPU",
+        "category": "Developer",
+        "priority": "niedrig",
+        "signal": "niedrig",
+        "relevance": "niedrig",
+        "trust": "Community-Signal",
+        "source": "Hacker News LLM",
+        "summary": "Auf Hacker News wurde ein kostenloses Tool vorgestellt, das einschätzen soll, ob ein LLM auf einer bestimmten GPU läuft. Die Aufmerksamkeit ist derzeit noch klein, aber das Thema ist praktisch relevant.",
+        "why": "Für Creator und Entwickler, die lokal testen oder Modelle auf eigener Hardware betreiben, ist das ein nützlicher Workflow-Hinweis. Es geht um die praktische Frage, welche Modelle auf welcher Maschine realistisch sind.",
+        "opportunity": "Eine knappe Tool-Rubrik oder ein Test-Video zu Local-LLM-Workflows wäre denkbar.",
+        "links": [
+          "https://www.slopesome.com"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-15T10:42:57.695Z",
+    "generatedAtBerlin": "15.06.2026, 12:42",
+    "mode": "ai",
+    "sourceCount": 25,
+    "highlights": [
+      "OpenAI startet ein Partnernetzwerk und will 150 Millionen Dollar in Enterprise-KI lenken",
+      "Berichte deuten darauf hin, dass China Zugang zu Anthropics Mythos gehabt haben könnte",
+      "Großbritannien erwägt ein Social-Media-Verbot für Kinder unter 16 Jahren"
+    ],
+    "audioPath": "audio/briefing-2026-06-14.mp3",
+    "audioUrl": "audio/briefing-2026-06-14.mp3",
+    "audioGeneratedAt": "2026-06-15T10:43:35.102Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-13",
     "title": "KI-Governance verschärft sich, Creator-Tools werden nützlicher",
     "summary": "Der Vortag stand vor allem im Zeichen von KI-Regulierung und Modell-Sicherheitsdebatten: OpenAI gerät unter Ermittlungsdruck, Anthropic muss Modelle nach Regierungsanordnung abschalten, und rund um Amazon gibt es Hinweise, dass interne Sicherheitsforschung den Druck mit ausgelöst hat. Daneben zeigen Produkt- und Tool-Meldungen, wie schnell sich Creator-Workflows in Richtung AI-Editing und lokale LLM-Inferenz weiterentwickeln.",
