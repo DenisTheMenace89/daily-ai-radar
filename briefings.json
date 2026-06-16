@@ -1,5 +1,163 @@
 [
   {
+    "date": "2026-06-15",
+    "title": "KI-Regulierung, Plattform-AI und neue Enterprise-Deals",
+    "summary": "Der Vortag war geprägt von zwei starken Signalen: KI wird stärker politisch reguliert und gleichzeitig tiefer in große Plattformen und Unternehmenssoftware integriert. Dazu kamen mehrere relevante Finanzierungs- und M&A-Meldungen rund um AI-Infrastruktur und Automatisierung.",
+    "topSummary": "Heute in 30 Sekunden: Die spannendsten Themen drehen sich um Plattformen, die KI direkt in ihre Kernprodukte einbauen, und um die wachsende Regulierung rund um Social Media und KI-Modelle. Besonders relevant für Creator und Video-Profis: Facebook testet KI-Funktionen mit öffentlichen Inhalten, während der UK Social-Media-Bann für Unter-16-Jährige auch YouTube betrifft. Parallel verschärft sich der Druck auf KI-Anbieter und Security-Teams, weil Staaten, Unternehmen und Startups um Kontrolle, Identität und Zugriffsrechte ringen.",
+    "implications": [
+      "Plattformen nutzen öffentliche Inhalte noch stärker als Trainings- und Suchgrundlage für KI-Erlebnisse.",
+      "Regulierung wird für Creator-Plattformen und Reichweitenstrategien ein echter Produktfaktor, nicht nur ein Policy-Thema.",
+      "Enterprise-KI verschiebt sich von reinen Chatbots hin zu Agenten, Identitäten und Sicherheitskontrollen.",
+      "Große Deals und Finanzierungsrunden zeigen: KI bleibt trotz Gegenwind ein Kapitalmarkt-Thema."
+    ],
+    "watchlist": [
+      "Wie Meta die neuen AI-Mode-Funktionen konkret ausrollt und ob Creator-Reichweite davon profitiert oder leidet.",
+      "Ob der UK-Plan für Unter-16-Jährige rechtlich und technisch in Plattform-Restriktionen übersetzt wird.",
+      "Wie weit US-Government-Eingriffe bei KI-Modellen in den nächsten Wochen noch gehen.",
+      "Ob weitere Enterprise-Anbieter auf Agenten-Identität und Governance als Kernprodukt setzen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorEconomy",
+      "#Plattformen",
+      "#Security",
+      "#Regulierung",
+      "#Startups"
+    ],
+    "stories": [
+      {
+        "title": "Meta rollt neue KI-Funktionen auf Facebook aus und nutzt öffentliche Informationen von seinen Plattformen",
+        "originalTitle": "Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI / The Verge AI",
+        "summary": "Meta führt auf Facebook eine neue Welle von KI-Funktionen ein. Laut den Quellen zieht der neue „AI Mode“ Informationen aus öffentlichen Inhalten über Metas Plattformen hinweg; auf Facebook-Suche erscheint er neben Modi wie „People“ und „Marketplace“.",
+        "why": "Das ist relevant, weil Creator und Medienmarken damit noch stärker in plattforminterne KI-Sucherlebnisse und Empfehlungslogiken eingebunden werden. Öffentliche Posts werden damit nicht nur Reichweiten-Content, sondern auch Input für KI-Ausspielung.",
+        "opportunity": "Beobachten, ob und wie öffentliche Inhalte auf Facebook künftig sichtbarer oder stärker automatisiert verwertet werden.",
+        "links": [
+          "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+          "https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook"
+        ]
+      },
+      {
+        "title": "Der US-Druck auf Anthropic zeigt, dass KI-Modelle politisch angreifbar sind",
+        "originalTitle": "The US government’s Anthropic models ban was never about an AI jailbreak",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI",
+        "summary": "Die Trump-Regierung zwang Anthropic dazu, seine neuesten Cybersecurity-Modelle zurückzuziehen. Parallel protestierten Cybersecurity-Experten gegen die Beschränkungen und warnten, dass dadurch Verteidiger bei der Absicherung von Software und Produkten geschwächt werden.",
+        "why": "Das signalisiert, dass KI-Modelle nicht nur technisch, sondern auch geopolitisch und regulatorisch angreifbar sind. Für alle, die mit Sicherheits-, Produkt- oder Creator-Tools arbeiten, kann das direkte Auswirkungen auf Verfügbarkeit und Funktionsumfang haben.",
+        "opportunity": "Eine Video- oder Kommentarspur zu KI-Regulierung und geopolitischem Einfluss auf Tools und Modelle aufbauen.",
+        "links": [
+          "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+          "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/"
+        ]
+      },
+      {
+        "title": "UK plant weitreichendes Social-Media-Verbot für Unter-16-Jährige",
+        "originalTitle": "UK unveils sweeping social media ban for users under 16",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Das Vereinigte Königreich hat einen umfassenden Plan für ein Social-Media-Verbot für Nutzer unter 16 vorgestellt. Betroffen wären mehrere Plattformen, darunter Snapchat, TikTok, YouTube, Instagram, Facebook und X.",
+        "why": "Für Creator ist das besonders relevant, weil Jugendreichweiten, Discovery und Plattform-Strategien davon direkt beeinflusst werden können. YouTube steht dabei ausdrücklich auf der Liste und damit auch ein zentraler Kanal für Video-Content.",
+        "opportunity": "Prüfen, welche Formate bei jüngeren Zielgruppen künftig stärker unter Druck geraten könnten.",
+        "links": [
+          "https://techcrunch.com/2026/06/15/uk-unveils-sweeping-social-media-ban-for-users-under-16/"
+        ]
+      },
+      {
+        "title": "Salesforce kauft die AI-Customer-Service-Plattform Fin für 3,6 Milliarden Dollar",
+        "originalTitle": "Salesforce acquires AI customer service platform Fin for $3.6B",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Salesforce übernimmt die AI-Customer-Service-Plattform Fin für 3,6 Milliarden Dollar. Das Unternehmen will Fin-Technologie und Team nutzen, um Agentforce als Plattform für benutzerdefinierte KI-Agenten auszubauen.",
+        "why": "Der Deal zeigt, dass Enterprise-KI zunehmend in konkrete Workflows und Agentenprodukte wandert. Für Creator- und Medienbusiness ist das ein Indikator, wie schnell Support, CRM und Automatisierung in Richtung KI-Agenten kippen.",
+        "opportunity": "Als Signal für den nächsten Produktzyklus von KI-Agenten und Unternehmensautomatisierung beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/"
+        ]
+      },
+      {
+        "title": "NewCore sammelt 66 Millionen Dollar ein, um KI-Agenten Identitäten zu geben",
+        "originalTitle": "As AI agents become employees, NewCore emerges with $66M to give them identities",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "NewCore hat 66 Millionen Dollar eingesammelt und argumentiert, dass die nächste große Herausforderung in der Unternehmenssicherheit nicht Menschen, sondern KI-Agenten seien. Der Fokus liegt auf Identitäten und Verwaltung für autonome Systeme.",
+        "why": "Das ist wichtig, weil Agenten ohne saubere Identität und Rechteverwaltung schnell zum Risiko werden. Für Unternehmen, die KI in interne Prozesse oder Creator-Workflows einbauen, ist Governance damit ein zentrales Thema.",
+        "opportunity": "Beobachten, ob Identitäts- und Rechteverwaltung zum Standardbaustein für AI-Tools wird.",
+        "links": [
+          "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/"
+        ]
+      },
+      {
+        "title": "Sarvam wird mit 234 Millionen Dollar zur neuesten KI-Einhorn-Firma Indiens",
+        "originalTitle": "Sarvam becomes India’s newest AI unicorn with $234 million funding round led by HCLTech",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Das indische KI-Startup Sarvam hat in einer von HCLTech geführten Runde 234 Millionen Dollar erhalten und ist damit zum neuesten KI-Einhorn des Landes geworden. HCLTech investiert dabei 150 Millionen Dollar in das Bengaluru-Startup.",
+        "why": "Die Runde unterstreicht, dass KI-Investitionen nicht nur in den USA stattfinden, sondern auch in Indien kräftig weiterlaufen. Das kann für Tooling, Outsourcing, Produktionen und mögliche internationale Partnerschaften relevant sein.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/"
+        ]
+      },
+      {
+        "title": "SpaceX wird börsennotiert und zieht im IPO noch mehr Kapital an",
+        "originalTitle": "SpaceX’s biggest-ever IPO just grew to $85.7 billion raised",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI / TechCrunch",
+        "summary": "SpaceX ist jetzt öffentlich, und die IPO-Finanzierung wurde laut Bericht noch auf 85,7 Milliarden Dollar ausgebaut. TechCrunch bündelt dazu mehrere Beiträge, darunter Hinweise auf Gewinner, Verlierer und den Inhalt der S-1-Unterlagen.",
+        "why": "Das ist vor allem als Kapitalmarkt- und Tech-Story relevant, weniger als direkte Creator-News. Trotzdem zeigt es, wie groß der Appetit auf Infrastruktur- und Deep-Tech-Themen weiterhin ist.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/15/spacex-is-public-everything-you-need-to-know-post-ipo/",
+          "https://techcrunch.com/2026/06/15/spacexs-biggest-ever-ipo-just-grew-to-85-7-billion-raised/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-16T09:39:57.040Z",
+    "generatedAtBerlin": "16.06.2026, 11:39",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Meta rollt neue KI-Funktionen auf Facebook aus und nutzt öffentliche Informationen von seinen Plattformen",
+      "Der US-Druck auf Anthropic zeigt, dass KI-Modelle politisch angreifbar sind",
+      "UK plant weitreichendes Social-Media-Verbot für Unter-16-Jährige"
+    ],
+    "audioPath": "audio/briefing-2026-06-15.mp3",
+    "audioUrl": "audio/briefing-2026-06-15.mp3",
+    "audioGeneratedAt": "2026-06-16T09:40:42.079Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-14",
     "title": "KI, Regulierung und Plattformdruck prägten den 14. Juni",
     "summary": "Am Vortag dominierten zwei große Linien: KI wird stärker industriell und geopolitisch aufgeladen, während Plattformen und Staaten neue Regeln verschärfen. Dazu kamen einzelne Signale aus der Creator-, Security- und Hardware-Welt, die vor allem für Produkt- und Video-Teams relevant sind.",
