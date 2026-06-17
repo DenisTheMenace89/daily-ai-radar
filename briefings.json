@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-06-16",
+    "title": "KI, Plattformen und Hardware: Das Wichtigste vom 16.06.2026",
+    "summary": "Der Tag war geprägt von großen Plattform- und KI-Bewegungen: Google bringt Android 17 und neue Gemini-Funktionen, Threads wächst weiter und Qualcomm positioniert sich für die Post-Smartphone-Ära. Gleichzeitig zeigen Security- und Regulierungsthemen wie der FIFA-Stream-Fehler, die Telegram-Sperre in Indien und der DOJ-Streit um xAI, dass KI und Infrastruktur politisch und operativ unter Druck bleiben.",
+    "topSummary": "Heute dominieren drei Linien: mehr KI direkt in Plattformen und Geräten, mehr Druck auf Vertrauen und Sicherheit, und weiter hohe Investitionen in neue Hardware-Formfaktoren. Für Creator und Produkt-Teams ist besonders relevant, dass sich die Nutzeroberflächen von Android, Threads und AR-Brillen schnell verändern. Dazu kommt: AI-Branding allein überzeugt Verbraucher offenbar immer weniger.",
+    "implications": [
+      "KI wird stärker in Betriebssysteme, Wearables und Social-Plattformen eingebaut statt als separate App behandelt.",
+      "Security- und Compliance-Risiken bleiben ein echtes Produkt- und Reputationsproblem, besonders bei Plattformen mit Medien- oder Streaming-Bezug.",
+      "Verbraucher reagieren skeptischer auf offensichtliches AI-Marketing; Nutzen und Qualität zählen stärker als das Label.",
+      "Neue Hardware von Snap und Qualcomm zeigt, dass Creator künftig mehr Formfaktoren für Video, AR und Live-Workflows bekommen könnten."
+    ],
+    "watchlist": [
+      "Wie schnell Android 17, Gemini und Pixel-Drops tatsächlich bei Nutzern ankommen.",
+      "Ob die Telegram-Beschränkung in Indien längerfristige Plattformfolgen hat.",
+      "Wie sich der DOJ-Fall um xAI und die unpermitted gas turbines entwickelt.",
+      "Ob Snap Specs und neue Qualcomm-Wearables echten Creator-Mehrwert liefern oder nur Nischenprodukte bleiben."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Plattformen",
+      "#Hardware",
+      "#Regulierung"
+    ],
+    "stories": [
+      {
+        "title": "Google startet Android 17 mit neuen Multitasking-Tools und erweitert Gemini-Funktionen",
+        "originalTitle": "Android 17 launches with new multitasking tools as Google expands Gemini features",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google hat Android 17 und Wear OS 7 veröffentlicht. Die Version bringt neue Multitasking-Funktionen, Kindersicherungen, Security-Tools und Smartwatch-Verbesserungen; dazu kommt ein Pixel Drop mit Googles neuesten KI-Modellen.",
+        "why": "Das ist relevant, weil Google KI und Produktivität direkt in die tägliche Geräte-Nutzung integriert. Für Creator zählt das vor allem dann, wenn Workflows, Multitasking und mobile Content-Produktion auf Android wichtiger werden.",
+        "opportunity": "Eine kurze Video-Analyse zu den neuen Android-17- und Gemini-Funktionen könnte für Denis’ Publikum sehr anschlussfähig sein.",
+        "links": [
+          "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/"
+        ]
+      },
+      {
+        "title": "Qualcomm setzt auf die Hardware nach dem Smartphone und kündigt zwei neue Produkte an",
+        "originalTitle": "Qualcomm wants to be the chip inside whatever replaces your smartphone, and it just announced two products toward that end",
+        "category": "Hardware",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Qualcomm will den Chip für die nächste große Computerplattform nach dem Smartphone liefern und hat dazu zwei neue Produkte vorgestellt. Der CEO sprach außerdem von über 40 unterschiedlichen KI-Wearables, darunter Schmuck, Kamerabrillen, Pins und Uhren.",
+        "why": "Für Creator und Video-Creator ist das spannend, weil Wearables und AR-Formfaktoren neue Aufnahme-, Display- und Assistenz-Workflows ermöglichen könnten. Gleichzeitig zeigt es, wohin sich die Hardware-Branche strategisch bewegt.",
+        "opportunity": "Beobachten, welche dieser Formfaktoren später tatsächlich für Creator-Tools oder On-the-go-Content relevant werden.",
+        "links": [
+          "https://techcrunch.com/2026/06/16/qualcomm-wants-to-be-the-chip-inside-whatever-replaces-your-smartphone-and-it-just-announced-two-products-toward-that-end/"
+        ]
+      },
+      {
+        "title": "Snap bringt seine lang erwarteten AR-Brillen Specs auf den Markt",
+        "originalTitle": "Snap finally debuts its long-awaited AR glasses, Specs, and, oof, they aren’t cheap",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Snap hat nach über einem Jahrzehnt Entwicklung seine AR-Brillen Specs vorgestellt. Der erste Eindruck ist laut Quelle, dass die Geräte nicht billig sind.",
+        "why": "AR-Brillen sind für Creator besonders interessant, wenn sie Aufnahme, Vorschau, Interaktion oder Live-Workflows vereinfachen. Der Preis dürfte aber entscheidend dafür sein, ob das ein echtes Creator-Tool oder eher ein Early-Adopter-Produkt bleibt.",
+        "opportunity": "Ein Vergleichsformat zu AR-Brillen als Creator-Tool wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/06/16/snap-finally-debuts-its-long-awaited-ar-glasses-specs-and-oof-they-arent-cheap/"
+        ]
+      },
+      {
+        "title": "FIFA hatte einen Sicherheitsfehler, der die TV-Streams der WM hätte manipulieren können",
+        "originalTitle": "Bug in FIFA World Cup internal system gave anyone ability to modify TV stream",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Eine Sicherheitsforscherin berichtet von einer Schwachstelle in FIFA-Onlineplattformen, die den Zugriff auf mehrere interne Systeme erlaubte. Darunter war offenbar auch ein System, das die Kontrolle über den TV-Stream jedes WM-Spiels ermöglicht hätte.",
+        "why": "Das ist ein klares Beispiel dafür, wie gravierend Plattform- und Livestream-Sicherheitslücken sein können. Für Medien-, Event- und Creator-Setups ist so etwas besonders relevant, weil Live-Ausspielung und Rechteverwaltung unmittelbar betroffen sind.",
+        "opportunity": "Eine Sicherheits-Short-Story zu „Wie verwundbar Live-Streams wirklich sind“ wäre gut anschlussfähig.",
+        "links": [
+          "https://techcrunch.com/2026/06/16/bug-in-fifa-world-cup-internal-system-gave-anyone-ability-to-modify-tv-stream/"
+        ]
+      },
+      {
+        "title": "Indien sperrt Telegram vorübergehend wegen Betrugs bei Prüfungen",
+        "originalTitle": "India orders temporary ban on Telegram over exam fraud concerns",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Indien hat Telegram landesweit bis zum 22. Juni gesperrt und verlangt zusätzlich, die Funktion zum Bearbeiten von Nachrichten zu deaktivieren. Hintergrund sind Betrugs- und Missbrauchsbedenken im Prüfungsumfeld.",
+        "why": "Das zeigt, wie schnell Plattformfunktionen regulatorisch ins Visier geraten können, wenn sie für Missbrauch genutzt werden. Für Creator und Communities ist das relevant, weil Distribution und Community-Management stark von Plattformregeln abhängen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/16/india-temporarily-blocks-access-to-telegram-over-exam-fraud-concerns/"
+        ]
+      },
+      {
+        "title": "WordPress-VIP-Umfrage: Viele US-Verbraucher finden KI in Markenbotschaften abschreckend",
+        "originalTitle": "Sixty percent of US consumers say ‘AI’ in brand messaging is a turnoff, survey finds",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Laut einer aktuellen WordPress-VIP-Umfrage sind 60 Prozent der US-Verbraucher von „AI“ in Markenbotschaften eher abgeschreckt. Gleichzeitig sehen Unternehmen KI-Suche als wichtigen Referral-Kanal.",
+        "why": "Für Creator, Produktvideos und Markenkommunikation ist das direkt relevant: KI sollte offenbar als Nutzen erlebbar sein, nicht als bloßes Buzzword. Das betrifft besonders Produktclaims in Video-Pitches und Social Content.",
+        "opportunity": "Eine klare Videothese: „Nicht AI sagen, sondern Problem lösen“.",
+        "links": [
+          "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/"
+        ]
+      },
+      {
+        "title": "ChatGPT verliert erstmals unter 50 Prozent Marktanteil",
+        "originalTitle": "ChatGPT’s market share slips below 50% for first time",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "ChatGPT liegt laut Quelle erstmals unter 50 Prozent Marktanteil, bleibt aber mit über 1,1 Milliarden monatlichen Nutzern der weltweit populärste KI-Assistent. Dahinter folgen Gemini mit 662 Millionen und Claude mit 245 Millionen Nutzern.",
+        "why": "Das zeigt, dass der KI-Assistentenmarkt trotz ChatGPT-Dominanz deutlich pluraler wird. Für Creator und Produkt-Teams heißt das: Inhalte und Tools sollten nicht mehr nur auf ein Modell-Ökosystem optimiert werden.",
+        "opportunity": "Ein Vergleichsvideo zu ChatGPT, Gemini und Claude für verschiedene Creator-Workflows wäre sinnvoll.",
+        "links": [
+          "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/"
+        ]
+      },
+      {
+        "title": "Plaud meldet über 100 Millionen US-Dollar ARR nach mehr als 2 Millionen verkauften KI-Notizgeräten",
+        "originalTitle": "Plaud says its software business topped $100M in ARR after shipping over 2M AI notetakers",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Plaud sagt, dass das Softwaregeschäft die Marke von 100 Millionen US-Dollar ARR überschritten hat, nachdem mehr als 2 Millionen KI-Notizgeräte ausgeliefert wurden. Das Unternehmen positioniert sich in einem hart umkämpften Markt für AI-Meeting-Notetaker.",
+        "why": "Das ist für Creator und Produktvideo-Teams relevant, weil Audio-zu-Text- und Meeting-Tools direkt in Recherche, Schnittvorbereitung und Dokumentation greifen. Gleichzeitig zeigt es, dass spezialisierte KI-Produkte trotz Wettbewerb skalieren können.",
+        "opportunity": "Denis könnte ein Format zu den besten KI-Notiz- und Interview-Tools testen.",
+        "links": [
+          "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-17T09:18:30.811Z",
+    "generatedAtBerlin": "17.06.2026, 11:18",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Google startet Android 17 mit neuen Multitasking-Tools und erweitert Gemini-Funktionen",
+      "Qualcomm setzt auf die Hardware nach dem Smartphone und kündigt zwei neue Produkte an",
+      "FIFA hatte einen Sicherheitsfehler, der die TV-Streams der WM hätte manipulieren können"
+    ],
+    "audioPath": "audio/briefing-2026-06-16.mp3",
+    "audioUrl": "audio/briefing-2026-06-16.mp3",
+    "audioGeneratedAt": "2026-06-17T09:19:08.029Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-15",
     "title": "KI-Regulierung, Plattform-AI und neue Enterprise-Deals",
     "summary": "Der Vortag war geprägt von zwei starken Signalen: KI wird stärker politisch reguliert und gleichzeitig tiefer in große Plattformen und Unternehmenssoftware integriert. Dazu kamen mehrere relevante Finanzierungs- und M&A-Meldungen rund um AI-Infrastruktur und Automatisierung.",
