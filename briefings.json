@@ -1,5 +1,177 @@
 [
   {
+    "date": "2026-06-17",
+    "title": "KI, Plattformen und Security: die wichtigsten Tech-Signale vom 17. Juni 2026",
+    "summary": "Die wichtigsten Meldungen drehen sich heute um KI-Geschäftsmodelle, Plattformkontrolle, Creator-Funktionen und Security-Risiken. Besonders auffällig: mehr Druck auf konkrete KI-ROI-Nachweise, neue soziale und Shopping-Interfaces sowie mehrere Security- und Infrastruktur-Signale mit Unternehmensbezug.",
+    "topSummary": "Heute in 30 Sekunden: KI wird weniger als Hype-Thema, sondern stärker als Kosten-, ROI- und Infrastrukturfrage verhandelt. Gleichzeitig bauen Plattformen ihre Kontroll- und Empfehlungsmechanismen aus, was für Creator und Vermarktung relevant ist. Im Hintergrund bleiben Security- und Governance-Themen ein klarer Risikofaktor.",
+    "implications": [
+      "KI-Tools werden zunehmend daran gemessen, ob sie messbar Zeit, Geld oder Output sparen.",
+      "Creator- und Social-Plattformen verschieben sich in Richtung mehr Personalisierung und direkter Nutzerkontrolle.",
+      "Security bleibt ein operatives Thema, nicht nur ein IT-Thema: Supply-Chain-, App-Store- und Firewall-Risiken treffen Unternehmen direkt.",
+      "Für Medien- und Creator-Workflows werden Übersetzung, Audio-Streaming und neue Such-/Shopping-Interfaces wichtiger."
+    ],
+    "watchlist": [
+      "Ob sich die Nachfrage nach KI-Produkten nach ROI statt nach Demo-Effekt verschiebt.",
+      "Wie stark Snapchat, Threads, Instagram, TikTok und Pinterest neue Nutzer- und Creator-Funktionen tatsächlich ausrollen.",
+      "Ob die Fortinet-Vorfälle weitere Unternehmensmeldungen oder Reaktionen von Behörden auslösen.",
+      "Wie sich DeepLs Mixhalo-Kauf und Googles Gemini-Strategie auf Audio-, Live- und Smart-Home-Use-Cases auswirken."
+    ],
+    "tags": [
+      "#KI",
+      "#Creator",
+      "#Security",
+      "#Plattformen",
+      "#Startups",
+      "#Infrastruktur"
+    ],
+    "stories": [
+      {
+        "title": "Unternehmen verlangen bei KI immer stärker einen klaren Return on Investment",
+        "originalTitle": "NEA’s Tiffany Luck says enterprises are still figuring out their AI ROI",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch beschreibt eine Gegenbewegung zum früheren „Tokenmaxxing“: Unternehmen prüfen KI-Ausgaben wieder härter, nachdem Budgets teils schnell aufgebraucht wurden und Lizenzen gekürzt wurden. Im Zentrum steht die Frage, welche KI-Nutzung sich wirklich rechnet.",
+        "why": "Für Creator- und Produktvideo-Workflows ist das relevant, weil Tool-Auswahl und Budget künftig stärker an messbarem Output hängen. Auch für Marken- und Agenturprojekte wird KI eher als Produktivitätshebel denn als Experiment bewertet.",
+        "opportunity": "Denis könnte ein Video über „Welche KI-Tools sparen wirklich Zeit?“ machen.",
+        "links": [
+          "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
+          "https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/"
+        ]
+      },
+      {
+        "title": "World-Leader wollen amerikanische KI nutzen, aber nicht von ihr abgeschaltet werden",
+        "originalTitle": "World leaders want American AI. They just don’t want America to be able to turn it off.",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Laut TechCrunch haben Macron und Modi beim G7-Gipfel gewarnt, dass die USA den Zugang zu amerikanischer KI jederzeit kappen könnten. Der Artikel knüpft das an den jüngsten Anthropic-Blackout und damit an die Frage digitaler Abhängigkeit.",
+        "why": "Das ist wichtig für alle, die mit KI-Tools arbeiten oder Content-Workflows davon abhängig machen: Verfügbarkeit und geopolitische Kontrolle werden Teil der Produktentscheidung. Für Medien- und Creator-Produktionen ist das ein reales Betriebsrisiko.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/"
+        ]
+      },
+      {
+        "title": "Google setzt auf Gemini, um den Smart Speaker neu zu erfinden",
+        "originalTitle": "Google bets on Gemini to reinvent the smart home speaker",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google bringt einen neuen Google Home Speaker für 99,99 US-Dollar und ersetzt die starren Google-Assistant-Befehle durch konversationellere Gemini-Interaktionen. Der Fokus liegt darauf, generative KI in den Smart-Home-Alltag zu bringen.",
+        "why": "Für Creator und Medienproduzenten ist das relevant, weil Sprach-Interfaces als Bedienoberfläche für Geräte, Assistenz und Content-Workflows wieder an Bedeutung gewinnen könnten. Es zeigt auch, wie Google Gemini stärker in Endgeräte integriert.",
+        "opportunity": "Denis könnte beobachten, ob Gemini auf Geräten irgendwann in Kamera-, Studio- oder Heim-Setups nützlich wird.",
+        "links": [
+          "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/"
+        ]
+      },
+      {
+        "title": "DeepL kauft Mixhalo für Live-Event-Audio-Streaming und Übersetzung",
+        "originalTitle": "DeepL acquires Mixhalo for live-event audio streaming and translation",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "DeepL übernimmt Mixhalo und erweitert damit sein Angebot um Live-Event-Audio-Streaming und Übersetzung. Gleichzeitig eröffnet das Unternehmen ein Büro in San Francisco, um das US-Geschäft auszubauen.",
+        "why": "Das ist besonders interessant für Live-Produktionen, Panels, Creator-Events und internationale Medienformate, bei denen Echtzeit-Übersetzung einen direkten Mehrwert bietet. Für Denis könnte das neue Formate für mehrsprachige Inhalte oder Event-Auftritte ermöglichen.",
+        "opportunity": "Eine Videoidee wäre: „Wie Echtzeit-Übersetzung Live-Events und Creator-Formate verändert“.",
+        "links": [
+          "https://techcrunch.com/2026/06/17/deepl-acquires-mixhalo-for-live-event-audio-streaming-and-translation/"
+        ]
+      },
+      {
+        "title": "Plattformen testen mehr Nutzerkontrolle über Empfehlungsalgorithmen",
+        "originalTitle": "Social media’s next evolution: user-controlled algorithms",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch berichtet, dass Feeds bei Threads, Instagram und TikTok anpassbarer werden und Nutzer die Empfehlungsalgorithmen stärker direkt beeinflussen können. Damit verschiebt sich die Logik von rein passiven zu steuerbaren Feeds.",
+        "why": "Für Creator ist das zentral, weil Reichweite, Distribution und Audience-Tuning davon abhängen, wie Feeds priorisieren. Wer Social-Strategien entwickelt, muss verstehen, wie Nutzer künftig den Algorithmus aktiv „trainieren“ können.",
+        "opportunity": "Denis könnte Content dazu machen, wie Creator ihre Inhalte für steuerbare Feeds besser positionieren.",
+        "links": [
+          "https://techcrunch.com/2026/06/17/social-medias-next-evolution-user-controlled-algorithms/"
+        ]
+      },
+      {
+        "title": "Pinterest startet eine experimentelle KI-Shopping-App namens Ask Pinterest",
+        "originalTitle": "Pinterest launches an experimental AI shopping app called ‘Ask Pinterest’",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Pinterest hat mit „Ask Pinterest“ eine experimentelle KI-Shopping-App gestartet, in der Nutzer per Konversation Empfehlungen und Inspiration suchen können. Der Ansatz verbindet Suche, Inspiration und Shopping in einer Oberfläche.",
+        "why": "Das ist relevant für Produktvideos und Social Commerce, weil KI zunehmend die Produktfindung ersetzt oder vorstrukturiert. Für Creator mit Commerce- oder Affiliate-Bezug könnte das ein neuer Discovery-Kanal werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/"
+        ]
+      },
+      {
+        "title": "FTC-Klage zeigt, wie Abo-Betrugsnetzwerke App-Store-Kontrollen umgehen",
+        "originalTitle": "FTC lawsuit reveals how subscription scam networks evade app store enforcement",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Eine neue FTC-Klage beschreibt, wie angebliche Abo-Betrugsnetzwerke mit Briefkastenfirmen und Zahlungsinfrastruktur trotz Beschwerden in App Stores aktiv bleiben konnten. Der Fall legt Schwächen bei der Durchsetzung offen.",
+        "why": "Für alle, die Apps, Subscriptions oder Creator-Tools vertreiben, ist das ein wichtiger Hinweis auf Plattform- und Payment-Risiken. Es zeigt, wie betrügerische Modelle trotz Store-Regeln operieren können.",
+        "opportunity": "Denis könnte daraus eine Security- oder Business-Analyse über App-Store-Betrug machen.",
+        "links": [
+          "https://techcrunch.com/2026/06/17/ftc-lawsuit-reveals-how-subscription-scam-networks-evade-app-store-enforcement/"
+        ]
+      },
+      {
+        "title": "Cyberkriminelle sollen zehntausende Fortinet-Firewalls angegriffen haben",
+        "originalTitle": "Cybercriminals allegedly hacked tens of thousands of Fortinet firewalls used by major companies all over the world",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "TechCrunch berichtet über eine angebliche Kompromittierung von zehntausenden Fortinet-Firewalls und VPNs durch eine russischsprachige Gruppe. Betroffen sein sollen mehrere große Unternehmen weltweit.",
+        "why": "Das ist ein klar relevantes Enterprise-Security-Signal und betrifft die Infrastruktur vieler Firmen direkt. Für Medien- und Produktionsumgebungen ist das wichtig, weil VPN- und Perimeter-Sicherheit oft die Basis des Arbeitsalltags sind.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/17/cybercriminals-allegedly-hacked-tens-of-thousands-of-fortinet-firewalls-used-by-major-companies-all-over-the-world/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-18T09:00:23.191Z",
+    "generatedAtBerlin": "18.06.2026, 11:00",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Unternehmen verlangen bei KI immer stärker einen klaren Return on Investment",
+      "World-Leader wollen amerikanische KI nutzen, aber nicht von ihr abgeschaltet werden",
+      "FTC-Klage zeigt, wie Abo-Betrugsnetzwerke App-Store-Kontrollen umgehen"
+    ],
+    "audioPath": "audio/briefing-2026-06-17.mp3",
+    "audioUrl": "audio/briefing-2026-06-17.mp3",
+    "audioGeneratedAt": "2026-06-18T09:01:04.817Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-16",
     "title": "KI, Plattformen und Hardware: Das Wichtigste vom 16.06.2026",
     "summary": "Der Tag war geprägt von großen Plattform- und KI-Bewegungen: Google bringt Android 17 und neue Gemini-Funktionen, Threads wächst weiter und Qualcomm positioniert sich für die Post-Smartphone-Ära. Gleichzeitig zeigen Security- und Regulierungsthemen wie der FIFA-Stream-Fehler, die Telegram-Sperre in Indien und der DOJ-Streit um xAI, dass KI und Infrastruktur politisch und operativ unter Druck bleiben.",
