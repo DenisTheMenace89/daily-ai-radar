@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-06-18",
+    "title": "KI-Infrastruktur wird teurer, Creator-AI wird sichtbarer, und Plattformen justieren nach",
+    "summary": "Die wichtigsten Meldungen drehen sich um Geld für KI-Infrastruktur, neue KI-Video- und Creator-Produkte sowie mehr Regulierung rund um App Stores und Datennutzung. Auffällig ist außerdem, dass mehrere Themen direkt an Video, Medienrechte und digitale Identität andocken.",
+    "topSummary": "Heute in 30 Sekunden: KI-Infrastruktur bleibt ein Kapitalmagnet, während neue Produkte und Startups die nächste Welle von Creator- und Video-Workflows anvisieren. Gleichzeitig verschärfen Regulierung, Security und Plattformpolitik die Rahmenbedingungen für Daten, Distribution und Rechte. Für Denis ist vor allem spannend, wo sich aus diesen Verschiebungen neue Videoformate, Produktgeschichten und Creator-Tools ergeben.",
+    "implications": [
+      "KI-Infrastruktur und Inference bleiben extrem kapitalintensiv — das spricht für anhaltenden Wettbewerb bei Modellen, Chips und Rechenzentren.",
+      "Video- und Creator-KI rückt weiter in den Mainstream, inklusive digitaler Klone und interaktiver Formate.",
+      "Plattformen und Regulatoren greifen stärker in Distribution, App-Märkte und Datenzugang ein.",
+      "Security- und Identitätsthemen bleiben zentral, weil mehr Daten, mehr Automatisierung und mehr KI-Einsatz auch neue Angriffsflächen schaffen."
+    ],
+    "watchlist": [
+      "Ob Baseten die gemeldete Finanzierungsrunde tatsächlich abschließt und was das für den Inference-Markt bedeutet.",
+      "Wie sich Snap/Dotmo als eigenständige AI-Video-Company positioniert und ob daraus Creator- oder Video-Tools entstehen.",
+      "Ob OpenAIs personeller Ausbau vor dem IPO als Signal für Produkt-, Policy- oder Governance-Fokus zu lesen ist.",
+      "Wie schnell App-Store- und Grid-Regulierung in konkrete Marktverschiebungen übersetzt wird."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorAI",
+      "#Security",
+      "#Infrastruktur",
+      "#Plattformen",
+      "#Regulierung"
+    ],
+    "stories": [
+      {
+        "title": "Snap lagert sein AI-Video-Team in die neue Firma Dotmo aus",
+        "originalTitle": "Snap spins off AI video team into new company, Dotmo, due to costs",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Snap trennt sich von einem weiteren internen Bereich: Das AI-Video-Team wird in die neue Firma Dotmo ausgegliedert. Laut Quelle sollen aktuelle Snap-Mitarbeiter das Team bilden und sich dort auf AI-Video-Entwicklung konzentrieren.",
+        "why": "Das ist direkt relevant für Creator-Tools, Video-Workflow und KI-generierte Medien. Wenn Snap hier aus Kostengründen ausgliedert, zeigt das auch, wie teuer die Entwicklung in diesem Segment geworden ist.",
+        "opportunity": "Eine Video-Idee über die nächste Phase von AI-Video jenseits der großen Plattformen.",
+        "links": [
+          "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/"
+        ]
+      },
+      {
+        "title": "OpenAI baut vor dem Börsengang personell auf und holt prominente Namen",
+        "originalTitle": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI verstärkt sich vor dem geplanten Börsengang und holt in derselben Woche unter anderem Noam Shazeer von Google DeepMind und den ehemaligen Trump-AI-Policy-Verantwortlichen Dean Ball an Bord.",
+        "why": "Das ist ein Signal für die nächste Unternehmensphase: Produkt, Politik und Governance werden offenbar enger zusammengedacht. Für Medien- und Creator-Themen ist das relevant, weil OpenAI damit weiter zur zentralen Infrastruktur für generative Inhalte wird.",
+        "opportunity": "Als Beobachtung zu OpenAIs IPO-Vorbereitung und Machtaufbau einordnen.",
+        "links": [
+          "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/"
+        ]
+      },
+      {
+        "title": "Amazon will seine KI-Chips direkter verkaufen und Nvidia stärker angreifen",
+        "originalTitle": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
+        "category": "Hardware",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "AWS soll in Gesprächen sein, seine Chips auch an andere Rechenzentren zu verkaufen. Andy Jassy hat das als 50-Milliarden-Dollar-Chance beschrieben.",
+        "why": "Das verstärkt den Druck im KI-Hardwaremarkt und zeigt, dass der Wettbewerb nicht mehr nur über Modelle, sondern auch über Chip-Ökosysteme läuft. Für produktionsnahe AI-Workflows kann das langfristig Kosten, Verfügbarkeit und Performance beeinflussen.",
+        "opportunity": "Als Marktvideo zu Chip-Wettbewerb und AWS-Strategie verwerten.",
+        "links": [
+          "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/"
+        ]
+      },
+      {
+        "title": "FERC gibt Rechenzentren einen beschleunigten Weg ins Stromnetz",
+        "originalTitle": "AI data centers just got a government-mandated fast lane to the grid",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Die US-Behörde FERC verlangt von Netzbetreibern, Rechenzentren bei Netzanschlüssen bevorzugt zu behandeln. Laut Quelle löst das aber nicht das Problem knapper Stromversorgung.",
+        "why": "Das ist ein wichtiger Regulierungsimpuls für KI-Infrastruktur, weil Strom und Netzanschluss zu strategischen Engpässen werden. Für die Branche bedeutet das: Wachstum hängt nicht nur an Chips und Kapital, sondern auch an Energiepolitik.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/"
+        ]
+      },
+      {
+        "title": "Karamo Brown startet Kē mit einem KI-Digital-Clone",
+        "originalTitle": "‘Queer Eye’ life coach Karamo Brown launches Kē, a wellness app featuring his AI digital clone",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Karamo Brown hat die Wellness-App Kē gestartet, die einen KI-Digital-Clone von ihm enthält. Die App knüpft an seine persönliche Reise rund um Fitness, Ernährung, Meditation, Sobriety, Beziehungen und persönliches Wachstum an.",
+        "why": "Das ist für Creator und Medienrechte spannend, weil digitale Klone von realen Personen ein immer normaleres Produktmuster werden. Gerade für Schauspiel, Personality-Marken und Videoformate ist das ein relevantes Vorzeichen.",
+        "opportunity": "Eine kurze Einordnung zu KI-Klonen als Creator-Produkt machen.",
+        "links": [
+          "https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/"
+        ]
+      },
+      {
+        "title": "Apple öffnet den App Store in Brasilien für neue Konkurrenz",
+        "originalTitle": "Apple opens up App Store to new competition in Brazil",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Apple muss seine Kontrolle über die iPhone-App-Verteilung in Brasilien weiter lockern. Laut Quelle wird der App Store dort für neue Konkurrenz geöffnet.",
+        "why": "Das ist ein weiterer Schritt weg von streng abgeschotteten App-Ökosystemen. Für Creator-Tools und Mobile-Apps kann das Einfluss auf Distribution, Gebühren und Nutzerzugang haben.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/18/apple-opens-up-app-store-to-new-competition-in-brazil/"
+        ]
+      },
+      {
+        "title": "Texas meldet Datenleck mit mehr als 3 Millionen gestohlenen Ausweisdokumenten",
+        "originalTitle": "Texas government data breach allowed hackers to steal 3 million driver’s licenses and passports",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Bei einem Datenleck mit Regierungsdokumenten in Texas sollen Hacker Informationen aus mehr als 3 Millionen Führerscheinen und Pässen erbeutet haben.",
+        "why": "Das unterstreicht, wie sensibel Identitätsdaten sind und wie groß die Folgen von Sicherheitslücken im öffentlichen Sektor sein können. Für digitale Produkte, Verifikation und Plattformen ist das ein relevantes Warnsignal.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/18/texas-government-data-breach-allowed-hackers-to-steal-3-million-drivers-licenses-and-passports/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-19T09:19:04.897Z",
+    "generatedAtBerlin": "19.06.2026, 11:19",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Snap lagert sein AI-Video-Team in die neue Firma Dotmo aus",
+      "OpenAI baut vor dem Börsengang personell auf und holt prominente Namen",
+      "Amazon will seine KI-Chips direkter verkaufen und Nvidia stärker angreifen"
+    ],
+    "audioPath": "audio/briefing-2026-06-18.mp3",
+    "audioUrl": "audio/briefing-2026-06-18.mp3",
+    "audioGeneratedAt": "2026-06-19T09:19:46.899Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-17",
     "title": "KI, Plattformen und Security: die wichtigsten Tech-Signale vom 17. Juni 2026",
     "summary": "Die wichtigsten Meldungen drehen sich heute um KI-Geschäftsmodelle, Plattformkontrolle, Creator-Funktionen und Security-Risiken. Besonders auffällig: mehr Druck auf konkrete KI-ROI-Nachweise, neue soziale und Shopping-Interfaces sowie mehrere Security- und Infrastruktur-Signale mit Unternehmensbezug.",
