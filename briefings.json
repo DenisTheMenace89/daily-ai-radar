@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-06-20",
+    "title": "KI, Video und Plattformen: ein kurzer Überblick",
+    "summary": "Heute dominierten KI-Produktdebatten, Creator-nahe Infrastruktur und ein paar relevante Plattform- und Regulierungssignale. Besonders auffällig: mehr Aufmerksamkeit für KI-Humanisierung, Tools für lokale LLM-Workflows und medienrelevante Standards sowie Rechtefragen.",
+    "topSummary": "Heute in 30 Sekunden: KI bleibt das große Thema, aber die Debatte verschiebt sich von bloßen Features hin zu Vertrauen, Effizienz und Kontrolle. Für Creator und Medienleute sind vor allem neue Video-/Plattform-Funktionen, Standards für Medientechnik und Fragen rund um Trainingsdaten und Rechte interessant.",
+    "implications": [
+      "KI-Tools werden stärker an Nutzungsrealität gemessen: Nützlichkeit, Kosten und Datenkontrolle zählen mehr als Demo-Effekte.",
+      "Für Creator und Video-Teams sind Standards, Plattform-Updates und Workflows für lokale bzw. effiziente LLM-Nutzung besonders relevant.",
+      "Rechte- und Transparenzfragen bei Trainingsdaten bleiben ein zentrales Risiko für KI-Produkte und Medienmarken.",
+      "Hardware- und Infrastruktur-Entwicklungen zeigen, dass sich KI-Anwendungen zunehmend in konkrete Produktions-Workflows verschieben."
+    ],
+    "watchlist": [
+      "Wie sich die Debatte um KI-Chatbots als vermeintliche 'Freunde' auf Produktdesign und Regulierung auswirkt.",
+      "Ob neue iOS- und Vision-Pro-Features Creator-Workflows spürbar verändern.",
+      "Wie stark offene Medientechnik-Standards und frei zugängliche SMPTE-Ressourcen in der Praxis genutzt werden.",
+      "Ob weitere Transparenz-Initiativen zu KI-Trainingsdaten bei Musik und Medien folgen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Video",
+      "#Platforms",
+      "#Security",
+      "#MediaTech"
+    ],
+    "stories": [
+      {
+        "title": "Signal-Chefin Meredith Whittaker erinnert daran, dass KI-Chatbots keine Freunde sind",
+        "originalTitle": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Meredith Whittaker von Signal betont, dass KI-Chatbots weder bewusst noch empfindungsfähig seien. Die Aussage zielt auf die Art, wie Menschen diese Systeme emotional wahrnehmen und nutzen.",
+        "why": "Das ist relevant, weil KI-Produkte zunehmend als Begleiter oder Gesprächspartner vermarktet werden. Für Creator und Medienmarken ist das auch eine Frage von Verantwortung, Vertrauen und Tonalität in der Kommunikation.",
+        "opportunity": "Gute Grundlage für ein kurzes Video über den Unterschied zwischen KI-Assistenz und emotionaler Bindung.",
+        "links": [
+          "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/"
+        ]
+      },
+      {
+        "title": "Mit „In the Weights“ entsteht eine neue, KI-zentrierte Vanity-Suche",
+        "originalTitle": "In the Weights is your new AI-centric vanity search",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "„In the Weights“ ist als neue Sucherfahrung rund um KI und Selbstdarstellung beschrieben. Die zugrunde liegende Frage lautet: „So ... what's your In the Weights score?“",
+        "why": "Das zeigt, wie sich KI-Interfaces von reinen Produktivitäts-Tools hin zu spielerischen oder identitätsbezogenen Formaten entwickeln. Für Creator kann das als Beispiel für neue Social- und Engagement-Mechaniken interessant sein.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/"
+        ]
+      },
+      {
+        "title": "Der Nobelpreisträger John Jumper verlässt DeepMind und wechselt zu Anthropic",
+        "originalTitle": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "John Jumper verlässt Google DeepMind und wechselt zum Konkurrenten Anthropic. Laut Quelle ist er nicht die einzige prominente Person, die DeepMind verlässt.",
+        "why": "Solche Wechsel sind ein starkes Signal für den Wettbewerb um Spitzenpersonal im KI-Markt. Für die Branche ist das relevant, weil Forschung, Produktstrategie und Talentdynamik eng zusammenhängen.",
+        "opportunity": "Einordnen, wie stark sich der KI-Talentmarkt gerade zugunsten von Konkurrenten verschiebt.",
+        "links": [
+          "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/"
+        ]
+      },
+      {
+        "title": "SMPTE macht seine Standards frei zugänglich",
+        "originalTitle": "SMPTE Makes Its Standards Freely Accessible",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "Die SMPTE stellt ihre Standards frei zugänglich zur Verfügung und öffnet damit ihre Standards-Bibliothek für die globale Medientechnik-Community. In der Quelle wird dies als wichtiger Schritt für den Zugang zu Medienstandards hervorgehoben.",
+        "why": "Das ist besonders relevant für Video, Broadcast und Creator-Workflows, weil Standards oft die Basis für Kompatibilität und Produktionsqualität sind. Frei zugängliche Standards senken Hürden für Teams, Tools und Integrationen.",
+        "opportunity": "Gute Story für ein Creator-Tech-Update über offene Medientechnik-Standards und warum sie für Video-Produktion wichtig sind.",
+        "links": [
+          "https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community"
+        ]
+      },
+      {
+        "title": "Jean-Baptiste Kempf baut mit Kyber eine Infrastruktur-Schicht für Echtzeit-Fernsteuerung von Geräten",
+        "originalTitle": "He made your free video player run smoothly. Now he’s doing that for robots.",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Jean-Baptiste Kempf, bekannt aus der Open-Source-Welt, arbeitet mit Kyber an einer Infrastruktur-Schicht für die Echtzeitsteuerung entfernter Geräte. Die Beschreibung ordnet das Projekt als technischen Unterbau für vernetzte Systeme ein.",
+        "why": "Die Verbindung aus Open Source, Infrastruktur und Echtzeitsteuerung ist für Medienproduktion und Creator-Setups interessant, wenn Geräte und Workflows aus der Ferne gesteuert werden sollen. Außerdem zeigt es, wie Open-Source-Know-how in neue Hardware- und Robotikbereiche wandert.",
+        "opportunity": "Als Beispiel für die nächste Welle von Infra-Tools beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/"
+        ]
+      },
+      {
+        "title": "Die Atlantic hat eine durchsuchbare Datenbank der Musik erstellt, die zum KI-Training genutzt wird",
+        "originalTitle": "The Atlantic created a searchable database of the music used to train AI",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "The Verge AI",
+        "summary": "The Atlantic hat laut Quelle vier Musik-Datensätze identifiziert, die für das Training von KI-Modellen genutzt werden, und sie öffentlich durchsuchbar gemacht. Zwei der Datensätze sollen sehr groß sein, mit 12 Millionen und 9 Millionen Tracks.",
+        "why": "Das ist zentral für Urheberrecht, Transparenz und die öffentliche Debatte über Trainingsdaten. Für Musik, Video und Medienrechte ist das ein klarer Hinweis darauf, wie sichtbar diese Konflikte inzwischen werden.",
+        "opportunity": "Stoff für ein kurzes Rechte-/Transparenz-Video mit Fokus auf Trainingsdaten und Medienproduktion.",
+        "links": [
+          "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data"
+        ]
+      },
+      {
+        "title": "iOS 27 bringt mehrere neue Funktionen, die man kennen sollte",
+        "originalTitle": "Every new iOS 27 feature that’s worth knowing about",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "TechCrunch fasst mehrere neue iOS-27-Funktionen zusammen. Die Quelle betont, dass diese Änderungen weniger spektakulär wirken als Apples Siri- und Apple-Intelligence-Upgrades, aber dennoch relevant sind.",
+        "why": "Für Creator und App-basierte Workflows ist iOS oft eine zentrale Produktions- und Distributionsplattform. Auch kleinere System-Änderungen können sich auf Kamera-, Schnitt- und Publishing-Prozesse auswirken.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/20/every-new-ios-27-feature-thats-worth-knowing-about/"
+        ]
+      },
+      {
+        "title": "UHF X11 bringt X11 auf VisionOS und Apple Vision Pro",
+        "originalTitle": "UHF X11: X11 Built for VisionOS and Apple Vision Pro",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "UHF X11 wird als X11-Umgebung für VisionOS und Apple Vision Pro vorgestellt. Die Diskussion auf Hacker News zeigt spürbares Interesse an dieser ungewöhnlichen Plattform-Kombination.",
+        "why": "Für experimentelle Workflows und frühe Spatial-Computing-Setups kann das spannend sein. Für Video- und Creator-Produktionen bleibt vor allem interessant, ob solche Lösungen produktiv nutzbar werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.lispm.net/apps/uhf-x11/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-21T08:46:00.261Z",
+    "generatedAtBerlin": "21.06.2026, 10:46",
+    "mode": "ai",
+    "sourceCount": 17,
+    "highlights": [
+      "Signal-Chefin Meredith Whittaker erinnert daran, dass KI-Chatbots keine Freunde sind",
+      "Der Nobelpreisträger John Jumper verlässt DeepMind und wechselt zu Anthropic",
+      "SMPTE macht seine Standards frei zugänglich"
+    ],
+    "audioPath": "audio/briefing-2026-06-20.mp3",
+    "audioUrl": "audio/briefing-2026-06-20.mp3",
+    "audioGeneratedAt": "2026-06-21T08:46:42.915Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-19",
     "title": "Daily-Briefing: KI-Regulierung, neue Plattform-Strategien und einige klare Signalthemen",
     "summary": "Der Vortag wurde vor allem von zwei großen KI-Themen geprägt: staatlicher Druck auf Anthropic und die Frage, wie viel Regulierung Modelle wirklich bremst, sowie weitere Signale rund um KI-Integration in Plattformen und Produkte. Dazu kommen relevante Moves bei Chips, Dev-Tools, Security und ein Medien-/Creator-relevanter Filmstopp rund um Sam Altman.",
