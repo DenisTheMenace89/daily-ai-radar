@@ -1,5 +1,163 @@
 [
   {
+    "date": "2026-06-21",
+    "title": "KI, Creator-Tools und Plattformen: Die wichtigsten Signale vom 21. Juni 2026",
+    "summary": "Heute dominieren drei Themen: Apple bereitet praktische KI-Funktionen für iOS 27 vor, während rund um offene Modelle und LLM-Tooling viel Bewegung in der Entwickler-Community ist. Für Creator besonders relevant: Der Polymarket-Vorwurf zeigt, wie schnell KI-/Video-Content in Richtung Täuschung kippen kann.",
+    "topSummary": "Heute in 30 Sekunden: Apple schiebt KI offenbar stärker in Alltagsfunktionen statt nur in Siri. Parallel wächst der Druck auf geschlossene LLM-Ökosysteme, weil offene Modelle und günstigere Infrastruktur weiter an Zugkraft gewinnen. Für Creator ist der Polymarket-Fall ein klares Warnsignal: AI-Content, der echt wirkt, aber irreführt, wird zum Reputations- und Plattformrisiko.",
+    "implications": [
+      "Praktische KI-Features werden wichtiger als große Demo-Momente.",
+      "Offene Modelle und Kostenkontrolle bleiben ein zentraler Wettbewerbsfaktor.",
+      "Creator- und Plattform-Content mit KI-Bezug steht stärker unter Vertrauensdruck.",
+      "Produkt- und Erklärvideos zu KI-Workflows bleiben ein gutes Thema."
+    ],
+    "watchlist": [
+      "Wie Apple die neuen iOS-27-KI-Funktionen konkret ausrollt.",
+      "Ob die Diskussion um offene Modelle zu mehr Migration aus Closed-Source-LLMs führt.",
+      "Ob der Polymarket-Fall zu weiteren Reaktionen bei Plattformen oder Regulierung führt.",
+      "Welche Open-Source- oder LLM-Tooling-Projekte aus der HN-Community anschlussfähig werden."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorEconomy",
+      "#Apple",
+      "#OpenSource",
+      "#Security",
+      "#DeveloperTools"
+    ],
+    "stories": [
+      {
+        "title": "Apple bringt in iOS 27 praktische KI-Funktionen jenseits von Siri",
+        "originalTitle": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Apple plant laut TechCrunch AI mehrere praktische KI-Funktionen in iOS 27, die nicht nur über Siri laufen. Im Fokus stehen also offenbar Alltagsfeatures statt eines reinen Assistenten-Showcases.",
+        "why": "Das ist relevant, weil Apple KI damit weiter in Standard-Workflows auf dem iPhone verankern könnte. Für Creator und Video-Profis ist das wichtig, weil neue mobile KI-Features oft direkt in Aufnahme-, Schnitt- und Kommunikationsabläufe hineinwirken.",
+        "opportunity": "Eine Videoidee wäre ein Vergleich: Welche iPhone-KI-Funktionen sind für Creator wirklich nützlich?",
+        "links": [
+          "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/"
+        ]
+      },
+      {
+        "title": "Die Trump-Regierung geht gegen Anthropic vor, mit möglichen Folgen fürs KI-Ökosystem",
+        "originalTitle": "When the Trump administration cracks down on Anthropic, who benefits?",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch diskutiert im Equity-Podcast, was die jüngsten Maßnahmen der Trump-Regierung gegen Anthropic ausgelöst haben könnten und welche Folgen das für das KI-Ökosystem haben kann. Es geht dabei um die Frage, wer von einem härteren Vorgehen profitieren könnte.",
+        "why": "Für die Branche ist das wichtig, weil regulatorischer Druck die Marktverhältnisse zwischen großen Modellanbietern verschieben kann. Für Denis ist das vor allem als Signal relevant, wie politisch aufgeladen KI-Infrastruktur und Anbieter inzwischen sind.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/"
+        ]
+      },
+      {
+        "title": "Polymarket soll Creator für irreführende Videos über Fake-Wetten bezahlt haben",
+        "originalTitle": "Polymarket reportedly paid creators to post deceptive videos about fake bets",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Laut TechCrunch soll Polymarket Creator dafür bezahlt haben, irreführende Videos über angebliche Wetten zu posten. Die Videos seien auf „fast perfekten Kopien“ der Polymarket-Website gedreht worden und zeigten nicht reale Trades und Gewinne.",
+        "why": "Das ist für Creator und Plattform-Content extrem relevant, weil es die Grenze zwischen Werbung, Inszenierung und Täuschung betrifft. Gerade bei Videoformaten mit angeblich realen Screens oder Plattformen ist das ein direktes Vertrauens- und Compliance-Thema.",
+        "opportunity": "Eine starke Videoidee wäre ein Kurzformat über „Wie erkennt man gefälschte Plattform-Demos und manipulierte Creator-Integrationen?“",
+        "links": [
+          "https://techcrunch.com/2026/06/21/polymarket-reportedly-paid-creators-to-post-deceptive-videos-about-fake-bets/"
+        ]
+      },
+      {
+        "title": "HN-Hype um offene Modelle: Apertus und die Debatte um den Wechsel weg von geschlossenen LLMs",
+        "originalTitle": "Apertus – Open Foundation Model for Sovereign AI",
+        "category": "Open Source",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Auf Hacker News landete mit „Apertus – Open Foundation Model for Sovereign AI“ ein stark beachtetes Open-Model-Thema auf der Frontpage. Parallel wurde auch die These diskutiert, dass der Wechsel zu offenen Modellen nur wenig Nachteile habe.",
+        "why": "Das zeigt, dass offene Modelle im Entwickler- und Produktumfeld weiter Momentum haben. Für Creator und Teams ist das relevant, weil offene Modelle oft bessere Kostenkontrolle, mehr Anpassbarkeit und mehr Unabhängigkeit bedeuten können.",
+        "opportunity": "Eine gute Beobachtungsfrage für ein Video wäre: Sind offene Modelle inzwischen alltagstauglich genug für Creator-Workflows?",
+        "links": [
+          "https://apertvs.ai/",
+          "https://www.marble.onl/posts/cancel_claude.html"
+        ]
+      },
+      {
+        "title": "HN diskutiert neue Tools für LLM-Kostenkontrolle, Gateways und lokale Hardware",
+        "originalTitle": "AkaRouter – Flat per-call LLM API gateway (20x cheaper than Claude Max)",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News LLM",
+        "summary": "Auf Hacker News tauchten mehrere Tooling-Posts rund um LLM-Kosten, Token-Kompression, lokale Hardware und API-Gateways auf. Dazu gehören unter anderem AkaRouter, Tokoscope und ein lokaler LLM-Hardware-Rechner.",
+        "why": "Das ist für Entwickler und Produktteams wichtig, weil die Kostenfrage bei KI-Features weiterhin zentral ist. Für Creator-Tools kann das bedeuten, dass KI-Features günstiger und planbarer in Apps und Produktionspipelines eingebaut werden können.",
+        "opportunity": "Denis könnte dazu ein Video machen: Welche LLM-Tools senken wirklich Kosten, ohne Qualität zu ruinieren?",
+        "links": [
+          "https://akarouter.dev",
+          "https://tokoscope.com",
+          "https://vettedconsumer.com/can-i-run-it/"
+        ]
+      },
+      {
+        "title": "JSON-LD und einfache Website-Metadaten werden auf Hacker News diskutiert",
+        "originalTitle": "JSON-LD explained for personal websites",
+        "category": "Developer",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein Beitrag erklärt JSON-LD für persönliche Websites und wurde auf Hacker News sichtbar diskutiert. Inhaltlich geht es um strukturierte Daten und die bessere Beschreibung von Webseiten für Maschinen.",
+        "why": "Das Thema ist kleiner, aber für personal branding, SEO und maschinenlesbare Profile relevant. Für Creator kann das helfen, Inhalte, Projekte und Referenzen sauberer auffindbar zu machen.",
+        "opportunity": "Eine kurze Erklärung für Creator-Websites wäre denkbar: Wie strukturierte Daten Reichweite und Auffindbarkeit verbessern.",
+        "links": [
+          "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/"
+        ]
+      },
+      {
+        "title": "HN zeigt Interesse an Software-Vermarktung und dem kleinsten verkaufbaren Produkt",
+        "originalTitle": "The minimum viable unit of saleable software",
+        "category": "Business",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein HN-Frontpage-Post diskutiert, was die kleinste verkaufbare Einheit von Software ist. Es geht also um Produktzuschnitt, Packaging und Monetarisierung.",
+        "why": "Das ist für Startups und Creator-Tools interessant, weil viele neue Produkte nicht an Technik, sondern an Positionierung und klaren Nutzenversprechen scheitern. Wer Software verkauft, muss wissen, was der minimale Wert ist, den Kundinnen und Kunden wirklich kaufen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://brandur.org/minimum-viable-unit"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-22T10:21:24.682Z",
+    "generatedAtBerlin": "22.06.2026, 12:21",
+    "mode": "ai",
+    "sourceCount": 20,
+    "highlights": [
+      "Apple bringt in iOS 27 praktische KI-Funktionen jenseits von Siri",
+      "Die Trump-Regierung geht gegen Anthropic vor, mit möglichen Folgen fürs KI-Ökosystem",
+      "Polymarket soll Creator für irreführende Videos über Fake-Wetten bezahlt haben"
+    ],
+    "audioPath": "audio/briefing-2026-06-21.mp3",
+    "audioUrl": "audio/briefing-2026-06-21.mp3",
+    "audioGeneratedAt": "2026-06-22T10:22:08.695Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-20",
     "title": "KI, Video und Plattformen: ein kurzer Überblick",
     "summary": "Heute dominierten KI-Produktdebatten, Creator-nahe Infrastruktur und ein paar relevante Plattform- und Regulierungssignale. Besonders auffällig: mehr Aufmerksamkeit für KI-Humanisierung, Tools für lokale LLM-Workflows und medienrelevante Standards sowie Rechtefragen.",
