@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-06-23",
+    "title": "Daily Briefing: KI integriert sich tiefer in Arbeit, Tools und Plattformen",
+    "summary": "Am 23.06. dominierten Meldungen rund um KI-Workflows in Unternehmen, neue Creator- und Video-getriebene Plattformen sowie mehrere Security- und Infrastruktur-Themen. Besonders auffällig: KI wird weniger als separates Tool gedacht, sondern zunehmend als Schicht in Slack, Recruiting, Dev-Tools und Sicherheitsprozessen.",
+    "topSummary": "Heute in 30 Sekunden: KI rückt weiter in konkrete Arbeitsabläufe vor — vor allem in Enterprise-Kommunikation, Recruiting und Developer-Tools. Gleichzeitig zeigen mehrere Security-Meldungen, wie wichtig saubere Zugriffs- und Credential-Hygiene bleibt. Für Creator und Medienleute sind vor allem Metas Smart Glasses und video-first Plattformideen spannend.",
+    "implications": [
+      "KI-Produkte werden stärker über Kontext und Workflow verkauft, nicht nur über Modellleistung.",
+      "Video-first-Formate gewinnen auch außerhalb klassischer Social-Plattformen an Relevanz, etwa im Recruiting.",
+      "Security bleibt ein Business-Risiko mit direktem Kundendaten-Bezug, besonders bei alten Credentials und Drittanbietern.",
+      "Creator- und Video-Teams sollten beobachten, wie neue Hardware und Plattformen neue Aufnahme- und Veröffentlichungsformate eröffnen."
+    ],
+    "watchlist": [
+      "Wie sich Anthropic’s Slack-Integration in realen Unternehmens-Setups schlägt.",
+      "Ob Meta seine Smart Glasses als echte Creator-Hardware positionieren kann.",
+      "Wie schnell OpenAIs Open-Source-Security-Initiative praktisch Ergebnisse liefert.",
+      "Ob weitere Details zum Klue-/LastPass-Vorfall zusätzliche Plattform- und Lieferkettenrisiken zeigen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Plattformen",
+      "#DeveloperTools",
+      "#Hardware"
+    ],
+    "stories": [
+      {
+        "title": "Anthropic bringt Claude als dauerhaften KI-Assistenten in Slack",
+        "originalTitle": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Anthropic hat mit Claude Tag eine neue Funktion vorgestellt, die als immer präsenter KI-Teampartner in Slack arbeitet. Laut Beschreibung geht es dabei nicht nur um Produktivität, sondern auch darum, Organisationswissen und Workflows besser zu erfassen.",
+        "why": "Das ist relevant, weil KI damit direkt in die tägliche Kommunikationsoberfläche von Teams rückt. Für Creator- und Video-Teams könnte das ein Modell dafür sein, wie Briefings, Feedback und Produktionswissen künftig in Tools zusammenlaufen.",
+        "opportunity": "Beobachten, ob solche Slack-KI-Workflows später auch für kleine Kreativteams interessant werden.",
+        "links": [
+          "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/"
+        ]
+      },
+      {
+        "title": "Fika Jobs setzt auf Video-first Recruiting mit KI-Interview-Agenten",
+        "originalTitle": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Das Stockholmer Startup Fika Jobs hat 4 Millionen Dollar eingesammelt, um eine Video-first-Hiring-Plattform aufzubauen. KI-Agenten sollen dabei Kandidaten interviewen, ergänzt durch kurze Video-Profile.",
+        "why": "Die Idee verbindet Video, Recruiting und KI auf eine Weise, die auch für Medien- und Talentprozesse interessant ist. Für Denis ist das vor allem ein Signal, wie stark Video als Standardformat für Selbstdarstellung und Auswahlprozesse weiter an Bedeutung gewinnt.",
+        "opportunity": "Eine Videoidee wäre ein kurzer Vergleich: klassisches CV-Recruiting versus KI-gestützte Video-Bewerbung.",
+        "links": [
+          "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/"
+        ]
+      },
+      {
+        "title": "OpenAI startet Initiative zum Finden und Patchen von Open-Source-Bugs",
+        "originalTitle": "OpenAI launches new initiative to help find and patch open source bugs",
+        "category": "Open Source",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI hat eine neue Initiative vorgestellt, die der Open-Source-Community beim Finden und Beheben von Sicherheitslücken helfen soll. Laut Quelle wird dafür KI eingesetzt, um Open-Source-Projekte besser zu schützen.",
+        "why": "Das ist wichtig für Entwickler-Ökosysteme, weil Sicherheit in offenen Abhängigkeiten ein Dauerproblem bleibt. Für Creator mit Software- oder Tool-Zuschauerbasis ist das ein gutes Thema, um den Nutzen von KI jenseits von Chatbots zu zeigen.",
+        "opportunity": "Gut als Erklärvideo: Wie KI Open-Source-Security praktisch unterstützen kann.",
+        "links": [
+          "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/"
+        ]
+      },
+      {
+        "title": "Superhuman übernimmt die KI-Erkennungs-Startup GPTZero",
+        "originalTitle": "Superhuman acquires AI detection startup GPTZero",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Superhuman hat das Startup GPTZero übernommen. Laut Quelle gehört bei Superhuman bzw. Grammarly bereits ein KI-Detection-Tool zum Produktumfeld.",
+        "why": "Das Thema ist relevant, weil KI-Erkennung weiter in bestehende Produktivitäts- und Kommunikations-Tools integriert wird. Für Medien- und Creator-Fragen rund um Authentizität, Textprüfung und KI-Content bleibt das ein wichtiger Marktindikator.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/23/superhuman-acquires-ai-detection-startup-gptzero/"
+        ]
+      },
+      {
+        "title": "Meta startet günstigere Smart Glasses unter eigener Marke",
+        "originalTitle": "Meta debuts new, cheaper smart glasses under its own brand",
+        "category": "Hardware",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Meta hat neue, günstigere Smart Glasses unter eigener Marke vorgestellt. Laut Quelle sind sie ab sofort in mehreren Ländern und in verschiedenen Farb- und Linsenvarianten verfügbar.",
+        "why": "Das ist für Creator spannend, weil Smart Glasses als Aufnahme-, POV- und Social-Device immer greifbarer werden. Sollte Meta den Preis senken, könnte das die Reichweite solcher Hardware deutlich erhöhen.",
+        "opportunity": "Eine Videoidee wäre ein Creator-Blick auf Smart Glasses als neues Alltags- und Drehwerkzeug.",
+        "links": [
+          "https://techcrunch.com/2026/06/23/meta-debuts-new-cheaper-smart-glasses-under-its-own-brand/"
+        ]
+      },
+      {
+        "title": "Klue meldet Datenbreach nach gestohlener alter Zugangsdaten",
+        "originalTitle": "Klue says hackers stole credential from 2022 that led to customer data breaches",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Klue sagt, Hacker hätten ein Credential aus dem Jahr 2022 gestohlen, das später zu Kunden-Datenbreaches führte. Laut Quelle ist unklar, warum das Credential nach dem begrenzten Pilotprojekt nicht widerrufen wurde.",
+        "why": "Das ist ein klassisches Beispiel dafür, wie alte Zugänge jahrelang ein Sicherheitsrisiko bleiben können. Für Unternehmen und Creator mit vielen Tool-Zugängen ist das ein direkt relevantes Warnsignal.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/23/klue-says-hackers-stole-credential-from-2022-that-led-to-customer-data-breaches/"
+        ]
+      },
+      {
+        "title": "LastPass sagt, dass beim Klue-Breach Kundensupport-Daten gestohlen wurden",
+        "originalTitle": "Password manager maker LastPass says hackers stole customer support case data during Klue breach",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "LastPass teilte mit, dass Hacker im Zuge des Klue-Vorfalls auch Kundensupport-Falldaten gestohlen hätten. Laut Quelle ist das bereits die zweite Datenpanne, die LastPass-Kunden in jüngerer Zeit betrifft.",
+        "why": "Das unterstreicht, wie verwundbar Tool-Ökosysteme über Drittanbieter und technische Partner hinweg sind. Für Denis ist das auch aus Business-Sicht relevant, weil viele Kreative auf Passwortmanager und SaaS-Ketten angewiesen sind.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/23/password-manager-maker-lastpass-says-hackers-stole-customer-support-case-data-during-klue-breach/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-24T07:59:00.850Z",
+    "generatedAtBerlin": "24.06.2026, 09:59",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Anthropic bringt Claude als dauerhaften KI-Assistenten in Slack",
+      "Fika Jobs setzt auf Video-first Recruiting mit KI-Interview-Agenten",
+      "OpenAI startet Initiative zum Finden und Patchen von Open-Source-Bugs"
+    ],
+    "audioPath": "audio/briefing-2026-06-23.mp3",
+    "audioUrl": "audio/briefing-2026-06-23.mp3",
+    "audioGeneratedAt": "2026-06-24T07:59:40.960Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-22",
     "title": "Daily Briefing: KI-Infrastruktur, Creator-Tools und Security im Fokus",
     "summary": "Am 22.06.2026 dominieren KI-Infrastruktur und Plattformthemen: große Deals, neue Tools für Film und Creator-Workflows sowie weiter steigende Anforderungen an Energie, Datenschutz und Sicherheit. Für Denis besonders relevant sind die neuen AI-Filmmaking-Ansätze, Instagrams TV-Offensive und die wachsenden Sicherheits- und Identitätsfragen rund um KI-Systeme.",
