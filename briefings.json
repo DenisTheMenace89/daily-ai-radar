@@ -1,5 +1,166 @@
 [
   {
+    "date": "2026-06-24",
+    "title": "KI- & Tech-Radar vom Mittwoch, 24. Juni 2026",
+    "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (Expected ',' or '}' after property value in JSON at position 5412 (line 71 column 160)).",
+    "topSummary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (Expected ',' or '}' after property value in JSON at position 5412 (line 71 column 160)).",
+    "implications": [
+      "Prüfe die wichtigsten Meldungen direkt in den Quellen."
+    ],
+    "watchlist": [
+      "Morgen beobachten, ob es Follow-ups zu den stärksten Themen gibt."
+    ],
+    "tags": [
+      "#KI",
+      "#Tech"
+    ],
+    "stories": [
+      {
+        "title": "AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
+        "originalTitle": "AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "While AI dominates the layoff narrative, engineers are actually making up a larger share of new hires, according to SignalFire data.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/"
+        ]
+      },
+      {
+        "title": "AI researchers continue to leave Google for its rivals",
+        "originalTitle": "AI researchers continue to leave Google for its rivals",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Top AI researchers Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, following departures from top scientists Noam Shazeer and John Jumper.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/"
+        ]
+      },
+      {
+        "title": "The memory chip crunch is paying off for this US company",
+        "originalTitle": "The memory chip crunch is paying off for this US company",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Revenue quadrupled to $41.45 billion compared with the same period a year ago. The company's profit, meanwhile, rose from $1.88 billion to an incredible $28.2 billion year-over-year.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/"
+        ]
+      },
+      {
+        "title": "Companies are scrambling to stop employees from maxing out AI budgets with small tasks",
+        "originalTitle": "Companies are scrambling to stop employees from maxing out AI budgets with small tasks",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "The tokenmaxxing era was brief. We now appear to be entering the era of token rationing.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/"
+        ]
+      },
+      {
+        "title": "Facebook rolls out an AI companion app for creators",
+        "originalTitle": "Facebook rolls out an AI companion app for creators",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "The new app, which is currently being tested with select creators, will have Facebook's recently launched AI creator assistant built into it.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/"
+        ]
+      },
+      {
+        "title": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
+        "originalTitle": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Agility Robotics, the humanoid robotics startup that spun out of Oregon State University in 2015, expects to generate $620 million in proceeds.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/"
+        ]
+      },
+      {
+        "title": "Figma adds code layers, support for animations, more AI features in new update",
+        "originalTitle": "Figma adds code layers, support for animations, more AI features in new update",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Figma's update adds a new code layer, support for motion and shaders, and the ability to create custom plug-ins for various tasks using AI.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/"
+        ]
+      },
+      {
+        "title": "OpenAI unveils its first custom chip, built by Broadcom",
+        "originalTitle": "OpenAI unveils its first custom chip, built by Broadcom",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Named Jalapeño, the new processor was designed specifically for the unique needs of OpenAI's inference systems.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-25T08:00:06.148Z",
+    "generatedAtBerlin": "25.06.2026, 10:00",
+    "mode": "fallback",
+    "sourceCount": 32,
+    "highlights": [
+      "AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
+      "AI researchers continue to leave Google for its rivals",
+      "The memory chip crunch is paying off for this US company"
+    ],
+    "audioPath": "audio/briefing-2026-06-24.mp3",
+    "audioUrl": "audio/briefing-2026-06-24.mp3",
+    "audioGeneratedAt": "2026-06-25T08:00:41.543Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3111
+  },
+  {
     "date": "2026-06-23",
     "title": "Daily Briefing: KI integriert sich tiefer in Arbeit, Tools und Plattformen",
     "summary": "Am 23.06. dominierten Meldungen rund um KI-Workflows in Unternehmen, neue Creator- und Video-getriebene Plattformen sowie mehrere Security- und Infrastruktur-Themen. Besonders auffällig: KI wird weniger als separates Tool gedacht, sondern zunehmend als Schicht in Slack, Recruiting, Dev-Tools und Sicherheitsprozessen.",
