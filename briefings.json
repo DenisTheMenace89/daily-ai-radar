@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-06-25",
+    "title": "Daily-Briefing: KI-Tools, Video-Software, Infrastruktur und Security im Fokus",
+    "summary": "Der Vortag war geprägt von frischem Geld für KI-Infrastruktur und Agenten-Testing, neuen Signalen im Wettbewerb um bezahlte KI-Nutzer sowie einem klaren Schub für Creator-Software durch Adobe. Dazu kamen mehrere Security-Meldungen und ein paar Hardware- und Plattformbewegungen, die vor allem für produktive Workflows und Medien-Tools relevant sind.",
+    "topSummary": "Heute in 30 Sekunden: Geld fließt weiter in KI-Infrastruktur, Agenten-Testing und Software, die KI-Nutzung im Alltag produktiver macht. Für Creator ist vor allem Adobes Topaz-Deal spannend, weil Bild- und Video-Enhancement stärker direkt in Standard-Workflows wandern dürfte. Parallel zeigen Security-Vorfälle und Preissteigerungen bei Apple und Xbox, dass Kosten, Risiko und Tool-Auswahl 2026 enger zusammenhängen.",
+    "implications": [
+      "Creator- und Video-Workflows werden weiter von KI-Features und Enhancement-Tools geprägt.",
+      "Agenten-Tests, Sicherheits- und Kontrollschichten werden für KI-Produkte wichtiger.",
+      "Infrastruktur bleibt teuer, aber strategisch zentral für die nächste KI-Welle.",
+      "Plattformen und Hardware-Hersteller passen Preise und Produktlinien sichtbar an."
+    ],
+    "watchlist": [
+      "Wie schnell Adobe Topaz Labs in seine Apps integriert.",
+      "Ob Claude im Paid-Bereich weiter Marktanteile gewinnt.",
+      "Wie sich neue Investitionen in KI-Infrastruktur und Neoclouds auswirken.",
+      "Ob die Security-Fälle bei Polymarket und Klue weitere Folgen haben."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Infrastruktur",
+      "#Software",
+      "#Hardware"
+    ],
+    "stories": [
+      {
+        "title": "Adobe übernimmt Topaz Labs und integriert die Bild- und Video-Tools in seine Apps",
+        "originalTitle": "Adobe acquires image and video enhancement tool maker Topaz Labs",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Adobe hat Topaz Labs übernommen und angekündigt, die Tools über seine Apps hinweg zu integrieren. Topaz Labs ist auf Bild- und Video-Enhancement spezialisiert.",
+        "why": "Das ist direkt relevant für Video-Creator und Produkt-Content, weil Enhancements künftig noch tiefer in Standard-Workflows landen können. Für Denis könnte das bei Schnitt, Thumbnails oder Produktshots zu einem wichtigen Tool- und Positionierungs-Thema werden.",
+        "opportunity": "Eine Videoidee wäre: Was bedeutet der Topaz-Deal für Creator-Workflows in Adobe?",
+        "links": [
+          "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/"
+        ]
+      },
+      {
+        "title": "Patronus AI sammelt 50 Millionen Dollar für digitale Welten zum Testen von KI-Agenten ein",
+        "originalTitle": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Patronus AI hat 50 Millionen Dollar erhalten, um „digitale Welten“ für das Stresstesten von KI-Agenten zu bauen. Laut Investor ist die Nachfrage nahezu unersättlich.",
+        "why": "Mit mehr Agenten im Markt wird das Testen ihrer Zuverlässigkeit, Sicherheit und Robustheit zentral. Das betrifft auch Creator- und Produktivitäts-Tools, die zunehmend Agenten-Funktionen einbauen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/"
+        ]
+      },
+      {
+        "title": "Claude gewinnt im Premium-Segment bei zahlenden KI-Nutzern an Boden",
+        "originalTitle": "Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Trotz ChatGPTs Marktführerschaft wählen immer mehr zahlende Nutzer Anthropic's Claude, wie die Daten zeigen. Der Trend betrifft also vor allem das bezahlte Consumer-Segment.",
+        "why": "Das ist wichtig, weil es zeigt, dass im Premium-KI-Markt nicht nur Reichweite zählt, sondern wahrgenommener Nutzen. Für Creator und Medienleute kann das ein Hinweis sein, welche Assistenten sich für Recherche, Skriptarbeit oder Organisation durchsetzen.",
+        "opportunity": "Eine Videoidee wäre ein Vergleich der Bezahl-Abos: Claude vs. ChatGPT für Creator-Workflows.",
+        "links": [
+          "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/"
+        ]
+      },
+      {
+        "title": "General Intuition setzt 320 Millionen Dollar darauf, dass Videospiele KI-Agenten für die reale Welt trainieren können",
+        "originalTitle": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "General Intuition hat 320 Millionen Dollar eingesammelt, um KI mit Millionen Stunden Gameplay zu skalieren. Das Unternehmen wettet darauf, dass Action-Daten zu mehr „menschlicher Intuition“ führen.",
+        "why": "Für Video- und Game-nahe Creator ist spannend, dass Spiele immer stärker als Trainingsdaten für reale Agenten gedacht werden. Das zeigt, wie breit sich KI-Forschung über klassische Text- und Bilddaten hinaus ausdehnt.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
+        ]
+      },
+      {
+        "title": "Netris sammelt 15 Millionen Dollar ein, um AI-Neoclouds schneller live zu bringen",
+        "originalTitle": "Netris raises $15M Series A from a16z to help AI neoclouds go live faster",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Netris hat 15 Millionen Dollar in einer Series A von a16z erhalten. Die Software läuft auf Netzwerk-Switches und soll Neocloud-Betreibern helfen, schneller live zu gehen.",
+        "why": "Mehr KI-Infrastruktur bedeutet mehr Angebot für Tools, Modelle und Agentenprodukte. Für Creator-Tools kann das mittelfristig mehr Geschwindigkeit und bessere Verfügbarkeit von KI-Funktionen bedeuten.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/"
+        ]
+      },
+      {
+        "title": "Polymarket meldet, dass Hacker Nutzer-Gelder gestohlen haben",
+        "originalTitle": "Polymarket says hackers stole users’ funds",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Polymarket sagt, dass Nutzer-Gelder durch einen Angriff auf einen Drittanbieter gestohlen wurden. Das Unternehmen erstattet betroffenen Nutzern das Geld zurück.",
+        "why": "Auch wenn es kein Creator-Tool ist, ist der Fall ein weiteres Beispiel dafür, wie Angriffe über Zulieferer oder Drittanbieter durchschlagen können. Für digitale Geschäftsmodelle und Plattformen ist das ein relevantes Risikosignal.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/25/polymarket-says-hackers-stole-users-funds/"
+        ]
+      },
+      {
+        "title": "Notion Mail wird eingestellt, weil Notion stärker auf Agenten setzt",
+        "originalTitle": "Notion Mail shuts down amid agent takeover",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Notion stellt seinen E-Mail-Inbox-Dienst ein und fokussiert sich stattdessen auf das eigene KI-Agenten-Angebot. Das Unternehmen verweist darauf, dass Nutzer ihre E-Mail zunehmend Agenten überlassen.",
+        "why": "Das ist ein klares Signal, dass klassische Produktfunktionen in Richtung Agenten-Schicht verschoben werden. Für Creator und Solo-Worker kann das bedeuten, dass Tools künftig stärker Aufgaben statt Oberflächen verkaufen.",
+        "opportunity": "Eine Videoidee wäre: Warum Notion Mail verschwindet und was das über Agenten-Tools verrät.",
+        "links": [
+          "https://techcrunch.com/2026/06/25/notion-mail-shuts-down-amid-agent-takeover/"
+        ]
+      },
+      {
+        "title": "Apple erhöht Mac- und iPad-Preise, lässt das iPhone vorerst aus",
+        "originalTitle": "Apple raises Mac and iPad prices, spares iPhone for now",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Apple hat die Preise für MacBook Air und Pro sowie iPad Air und Pro angehoben. Das iPhone ist laut Quelle vorerst nicht betroffen.",
+        "why": "Für Creator ist das relevant, weil Mac und iPad oft zentrale Produktionsgeräte sind. Preisänderungen können Kaufentscheidungen bei Schnitt, Foto- und Video-Setups direkt beeinflussen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/25/apple-raises-mac-and-ipad-prices-spares-iphone-for-now/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-26T08:06:53.820Z",
+    "generatedAtBerlin": "26.06.2026, 10:06",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Adobe übernimmt Topaz Labs und integriert die Bild- und Video-Tools in seine Apps",
+      "Patronus AI sammelt 50 Millionen Dollar für digitale Welten zum Testen von KI-Agenten ein",
+      "Claude gewinnt im Premium-Segment bei zahlenden KI-Nutzern an Boden"
+    ],
+    "audioPath": "audio/briefing-2026-06-25.mp3",
+    "audioUrl": "audio/briefing-2026-06-25.mp3",
+    "audioGeneratedAt": "2026-06-26T08:07:38.912Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-24",
     "title": "KI- & Tech-Radar vom Mittwoch, 24. Juni 2026",
     "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (Expected ',' or '}' after property value in JSON at position 5412 (line 71 column 160)).",
