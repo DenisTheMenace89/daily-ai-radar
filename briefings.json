@@ -1,5 +1,146 @@
 [
   {
+    "date": "2026-06-26",
+    "title": "KI, Chips und Sicherheitsdruck prägen den Vortag",
+    "summary": "Am 26.06. dominierten bei KI vor allem OpenAI-News: der selektive Rollout von GPT-5.6, neue politische Hürden und die starke Ausrichtung auf eigene Chips. Dazu kamen relevante Signale zu Security, Plattform-Strategie und Creator-Relevanz wie YouTube Shorts.",
+    "topSummary": "Heute in 30 Sekunden: OpenAI gerät bei GPT-5.6 stärker unter regulatorischen und politischen Druck, während das Unternehmen zugleich international und infrastrukturell aggressiv weiter skaliert. Parallel wird sichtbar, wie Big Tech sich mit eigenen Chips von Nvidia unabhängiger machen will. Für Creator und Produkt-Teams sind besonders Plattformänderungen wie bei YouTube Shorts und die Security-Lage rund um große Marken relevant.",
+    "implications": [
+      "KI-Modelle werden zunehmend nicht nur technisch, sondern politisch und regulatorisch gesteuert.",
+      "Eigene Chips werden für große KI-Anbieter vom Luxus zur strategischen Absicherung gegen Liefer- und Kostenrisiken.",
+      "Plattformen wie YouTube optimieren weiter auf schnellere, kompaktere Nutzung – wichtig für Short-Form-Video.",
+      "Security bleibt ein reales Business-Risiko: große Angriffe können enorme Folgekosten und Reputationsschäden auslösen."
+    ],
+    "watchlist": [
+      "Wie stark schränkt die US-Regierung den Zugang zu GPT-5.6 tatsächlich ein?",
+      "Ob OpenAIs Chip-Strategie mit 'Jalapeño' weitere Anbieter zu eigenen Designs bewegt.",
+      "Welche Folgen die YouTube-Shorts-Änderung für Watchtime, Schnittstil und Hook-Design hat.",
+      "Ob sich weitere große Sicherheitsvorfälle mit hoher wirtschaftlicher Wirkung abzeichnen."
+    ],
+    "tags": [
+      "#OpenAI",
+      "#CreatorTools",
+      "#AIChips",
+      "#Security",
+      "#YouTubeShorts",
+      "#PlatformStrategy"
+    ],
+    "stories": [
+      {
+        "title": "OpenAI rollt GPT-5.6 nur eingeschränkt aus, nachdem die Regierung Zugriff verlangt hat",
+        "originalTitle": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI / Hacker News Frontpage",
+        "summary": "OpenAI sagt, dass GPT-5.6 zunächst nur eingeschränkt verfügbar gemacht wird, nachdem eine Regierungsanfrage den Rollout beeinflusst hat. OpenAI kritisiert, dass ein solcher Zugang nicht zum langfristigen Standard werden sollte.",
+        "why": "Das ist ein klares Signal dafür, dass Frontier-Modelle nicht mehr nur Produkt-, sondern auch Governance-Themen sind. Für Creator, Entwickler und Unternehmen kann das direkten Einfluss darauf haben, wann und wie neue KI-Tools verfügbar sind.",
+        "opportunity": "Ein kurzes Erklärvideo über „Wer kontrolliert den Zugang zu neuen KI-Modellen?“ wäre aktuell und anschlussfähig.",
+        "links": [
+          "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+          "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+          "https://openai.com/index/previewing-gpt-5-6-sol/"
+        ]
+      },
+      {
+        "title": "OpenAI holt den Indien-Chef von Uber an Bord und baut den größten Markt außerhalb der USA aus",
+        "originalTitle": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI hat einen hochrangigen Manager von Uber India verpflichtet, um das Geschäft in Indien zu führen. Die Personalie passt zu OpenAIs Ausbau von Büros, Partnerschaften und Hiring in dem Markt.",
+        "why": "Indien ist für KI-Plattformen ein zentraler Skalierungsmarkt mit großem Potenzial für Nutzer, Entwickler und lokale Partnerschaften. Solche Moves zeigen, wie stark OpenAI global auf Vertriebs- und Marktausbau setzt.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/"
+        ]
+      },
+      {
+        "title": "Ein Großangriff auf Jaguar Land Rover wird russischen Hackern zugeschrieben",
+        "originalTitle": "Russian hackers were behind $2.5B hack of Jaguar Land Rover: Report",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Ein Bericht ordnet den massiven Hack auf Jaguar Land Rover russischen Hackern zu. Der Vorfall wird als einer der störendsten, schädlichsten und teuersten Hacks der letzten Jahre beschrieben.",
+        "why": "Das unterstreicht, wie teuer Sicherheitsvorfälle für große Marken und Lieferketten werden können. Für Medien- und Creator-Workflows ist das relevant, weil Angriffe auch Produktivität, Veröffentlichung und Vertrauen beeinträchtigen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/26/russian-hackers-were-behind-2-5-billion-hack-of-jaguar-land-rover-report/"
+        ]
+      },
+      {
+        "title": "Tesla vergleicht sich in einer FSD-Klage, während Ermittlungen weiterlaufen",
+        "originalTitle": "Tesla settles FSD crash lawsuit as federal investigations continue",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Tesla hat sich in einer Klage zu einem tödlichen Unfall im Zusammenhang mit Full Self-Driving geeinigt. Gleichzeitig laufen bundesstaatliche Ermittlungen weiter.",
+        "why": "Der Fall zeigt erneut, dass autonome Fahrfunktionen nicht nur Produkt-, sondern auch Haftungs- und Regulierungsthemen sind. Für Tech- und Business-Beobachter bleibt das ein wichtiger Indikator für den Druck auf ADAS-Systeme.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/26/tesla-settles-fsd-crash-lawsuit-as-federal-investigations-continue/"
+        ]
+      },
+      {
+        "title": "YouTube Shorts werden noch kürzer und bekommen eine doppelte Wiedergabegeschwindigkeit",
+        "originalTitle": "YouTube Shorts are getting even shorter with an update that lets you double the playback speed",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "YouTube aktualisiert Shorts und erlaubt Nutzerinnen und Nutzern, die Wiedergabe doppelt so schnell abzuspielen. Die Funktion ist Teil einer weiteren Überarbeitung des Kurzvideo-Formats.",
+        "why": "Für Creator ist das direkt relevant, weil Aufmerksamkeit, Hook und Schnitt noch stärker auf Tempo optimiert werden müssen. Das beeinflusst auch, wie Produktvideos und Erklärclips im Short-Form-Format funktionieren.",
+        "opportunity": "Ein Testvideo zu „Was macht doppelte Abspielgeschwindigkeit mit Shorts?“ könnte praxisnah und nützlich sein.",
+        "links": [
+          "https://techcrunch.com/2026/06/25/youtube-shorts-are-getting-even-shorter-with-an-update-that-lets-you-double-the-playback-speed/"
+        ]
+      },
+      {
+        "title": "TikTok arbeitet offenbar an der Entwicklung einer Super-App",
+        "originalTitle": "TikTok’s road to becoming a super app",
+        "category": "Plattformen",
+        "priority": "niedrig",
+        "signal": "niedrig",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Laut Bericht könnte TikTok daran arbeiten, eine App zu werden, die Nutzer für möglichst viele digitale Aktivitäten verwenden. Es geht damit über reines Kurzvideo hinaus.",
+        "why": "Für Creator ist das relevant, weil Plattformen mit Super-App-Ambitionen neue Flächen für Distribution, Commerce und Community öffnen können. Gleichzeitig wächst die Abhängigkeit von einer einzelnen Plattform weiter.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/26/tiktoks-road-to-becoming-a-super-app/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-27T07:35:01.696Z",
+    "generatedAtBerlin": "27.06.2026, 09:35",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "OpenAI rollt GPT-5.6 nur eingeschränkt aus, nachdem die Regierung Zugriff verlangt hat",
+      "Ein Großangriff auf Jaguar Land Rover wird russischen Hackern zugeschrieben",
+      "OpenAI holt den Indien-Chef von Uber an Bord und baut den größten Markt außerhalb der USA aus"
+    ],
+    "audioPath": "audio/briefing-2026-06-26.mp3",
+    "audioUrl": "audio/briefing-2026-06-26.mp3",
+    "audioGeneratedAt": "2026-06-27T07:35:45.233Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-25",
     "title": "Daily-Briefing: KI-Tools, Video-Software, Infrastruktur und Security im Fokus",
     "summary": "Der Vortag war geprägt von frischem Geld für KI-Infrastruktur und Agenten-Testing, neuen Signalen im Wettbewerb um bezahlte KI-Nutzer sowie einem klaren Schub für Creator-Software durch Adobe. Dazu kamen mehrere Security-Meldungen und ein paar Hardware- und Plattformbewegungen, die vor allem für produktive Workflows und Medien-Tools relevant sind.",
