@@ -1,5 +1,165 @@
 [
   {
+    "date": "2026-06-27",
+    "title": "KI, Plattformen und Creator-Tools: ein Tag zwischen Rückkehr, Regulierung und neuen Workflows",
+    "summary": "Der Vortag stand im Zeichen von Anthropic/Mythos, Plattform-Tests bei Instagram und mehreren spannenden Creator- und Developer-Tools aus der Hacker-News-Ecke. Dazu kamen Signale zu OpenAI/Apple, KI-Hardware, Security und der Frage, wie sich KI-Software überhaupt sinnvoll messen und absichern lässt.",
+    "topSummary": "Heute in 30 Sekunden: Anthropic/Mythos ist nach regulatorischen Wirren wieder eingeschränkt nutzbar, während in Asien neue Wettbewerber auf ähnliche Modelle setzen. Parallel testet Instagram feinere Steuerung des Feeds, und mehrere HN-Posts zeigen, wie schnell sich rund um MCP, LLM-Workflows und Security neue Tooling-Ökosysteme bilden. Für Creator und Produktvideos bleibt vor allem spannend, wo KI direkt in Geräte, Plattformen und Arbeitsabläufe wandert.",
+    "implications": [
+      "Regulierung kann KI-Produktzugang direkt verändern — und damit Märkte, Partnerschaften und Go-to-Market-Strategien.",
+      "Creator- und Social-Plattformen geben Nutzern mehr Kontrolle über Inhalte, was Discovery und Reichweite beeinflussen kann.",
+      "MCP-, LLM- und Security-Tooling entwickelt sich weiter in Richtung Automatisierung, Testbarkeit und Kostenkontrolle.",
+      "Hardware- und Plattform-Verschiebungen zwischen Apple, OpenAI und anderen Akteuren könnten neue Video- und Demo-Themen liefern."
+    ],
+    "watchlist": [
+      "Wie weit Anthropic/Mythos in den USA tatsächlich wieder freigegeben wird und ob weitere Anbieter profitieren.",
+      "Ob Instagram die 'Your Algorithm'-Kontrollen breiter ausrollt.",
+      "Ob mehr Open-Source- und HN-Tools rund um MCP, LLM-Inferenz und Security in belastbare Produkte übergehen.",
+      "Ob die OpenAI-Hardware-Pläne nach dem angeblichen Apple-Abgang sichtbarer werden."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Plattformen",
+      "#Security",
+      "#DeveloperTools",
+      "#Regulierung"
+    ],
+    "stories": [
+      {
+        "title": "Anthropic Mythos 5 ist in den USA wieder für ausgewählte Organisationen nutzbar",
+        "originalTitle": "Anthropic’s Mythos 5 is back",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI, The Verge AI",
+        "summary": "Nach Verhandlungen mit der Trump-Administration ist Mythos 5 laut The Verge wieder in Aktion, allerdings nur für eine ausgewählte Gruppe von Organisationen. TechCrunch berichtet ergänzend, dass mehr als 100 US-Unternehmen und Behörden zur Nutzung autorisiert wurden, einschließlich nicht-amerikanischer Mitarbeitender.",
+        "why": "Das ist ein klares Signal dafür, wie stark KI-Zugang inzwischen von Regulierung und Genehmigungen abhängen kann. Für Creator- und Produktvideos ist relevant, dass Modellverfügbarkeit, Features und Zielgruppen sich kurzfristig ändern können.",
+        "opportunity": "Ein kurzes Update-Video zu „Wie Regulierung KI-Produktzugang verändert“ wäre naheliegend.",
+        "links": [
+          "https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations",
+          "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/"
+        ]
+      },
+      {
+        "title": "Asian AI-Startups bringen Mythos-ähnliche Modelle an den Markt",
+        "originalTitle": "Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch beschreibt, dass neue KI-Modelle in Asien starten, die Mythos-ähnliche Fähigkeiten versprechen und dabei nicht von einer Exportbeschränkung betroffen sind. Die Quelle deutet an, dass US-KI-Labs dadurch einen wichtigen Markt verlieren könnten.",
+        "why": "Für die KI-Industrie ist das ein Wettbewerbs- und Marktverschiebungs-Signal, nicht nur ein Produktlaunch. Wer Video-Tools, Agenten oder Creator-Workflows baut, sollte beobachten, wo die besten Modelle künftig verfügbar und einsetzbar sind.",
+        "opportunity": "Denis könnte daraus eine Marktbeobachtung zu globalen KI-Gewinnern machen.",
+        "links": [
+          "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/"
+        ]
+      },
+      {
+        "title": "Apple-Vision-Pro-Verantwortlicher soll zu OpenAIs Hardware-Team wechseln",
+        "originalTitle": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+        "category": "Hardware",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Laut TechCrunch verlässt Paul Meade, Apples Vizepräsident für die Vision Pro, das Unternehmen und wechselt offenbar zu OpenAIs Hardware-Team. Es geht dabei um eine Personalverschiebung an einer strategisch wichtigen Schnittstelle zwischen XR und KI-Hardware.",
+        "why": "Das ist relevant für Hardware- und Produktstrategien, weil Know-how aus einem Premium-AR/VR-Projekt in ein KI-Hardware-Team wandert. Für Medien- und Produktvideos ist das ein starkes Indiz, dass OpenAI hardwareseitig weiter ernst macht.",
+        "opportunity": "Ein kurzes Branchen-Update zu „Wer baut die nächste KI-Hardware?“ passt hier gut.",
+        "links": [
+          "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/"
+        ]
+      },
+      {
+        "title": "Instagram testet mehr Möglichkeiten, den eigenen Algorithmus zu steuern",
+        "originalTitle": "Instagram is testing more ways to customize ‘Your Algorithm’",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Instagram testet zusätzliche Wege, um den persönlichen Feed bzw. die eigene Content-Auswahl stärker zu beeinflussen. Laut TechCrunch könnten Nutzer bald mehr Möglichkeiten sehen, ihr Empfehlungssystem zu justieren.",
+        "why": "Für Creator ist das potenziell wichtig, weil sich Reichweite und Discovery stärker an Nutzerpräferenzen ausrichten könnten. Das kann Formate, Hooks und Nischen-Targeting auf Instagram beeinflussen.",
+        "opportunity": "Eine Beobachtung zu möglichen Folgen für Reichweite und Content-Strategie wäre sinnvoll.",
+        "links": [
+          "https://techcrunch.com/2026/06/27/instagram-is-testing-more-ways-for-users-to-customize-your-algorithm/"
+        ]
+      },
+      {
+        "title": "Ein Gründer beschreibt, wie er KI gegen Krebs einsetzte",
+        "originalTitle": "The fittest founder in the room got cancer. Here’s how he used AI to fight back.",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch berichtet über Connor Christou, der verschiedene Gesundheitsdaten wie Blutwerte, Scans, Wearables und Journaleinträge in Claude eingespeist hat, nachdem er mit Krebs konfrontiert wurde. Die Geschichte zeigt einen sehr persönlichen KI-Anwendungsfall außerhalb klassischer Produktivität.",
+        "why": "Für Denis ist das vor allem als menschlich erzählte KI-Story interessant, weniger als Plattform-News. Solche Use Cases zeigen, wie breit KI inzwischen in individuelle Entscheidungs- und Analyseprozesse hineinragt.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/"
+        ]
+      },
+      {
+        "title": "Hacker News diskutiert neue MCP-, LLM- und Inferenz-Tools",
+        "originalTitle": "Show HN: Ocarina – Automate and test MCP servers from YAML, no LLM",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News LLM",
+        "summary": "Auf Hacker News häufen sich Beiträge zu MCP- und LLM-Workflows, darunter Ocarina zum Automatisieren und Testen von MCP-Servern per YAML sowie weitere Projekte zu verteiltem Inferenz-Setup, kompakten Modellen auf Consumer-Hardware und neuen Spezifikationen für modulare LLM-Workflows. Insgesamt zeigt sich ein deutliches Tooling-Ökosystem rund um praktikable LLM-Nutzung.",
+        "why": "Das ist für Creator- und Produktvideos relevant, weil diese Werkzeuge zeigen, wie KI-Features hinter den Kulissen gebaut, getestet und operationalisiert werden. Besonders spannend ist die Verschiebung von „LLM als Chat“ hin zu robusten Workflow-, Test- und Inferenz-Stacks.",
+        "opportunity": "Ein Video über „Die nächste Schicht unter dem Chatbot: MCP, Tests und Inferenz“ wäre stark.",
+        "links": [
+          "https://github.com/msradam/ocarina",
+          "https://cefboud.com/posts/llm-d/",
+          "https://huggingface.co/OrbitAIEU/Apex-1-flash",
+          "https://github.com/RobertBateman/thoughttree-framework"
+        ]
+      },
+      {
+        "title": "Security-Posts auf Hacker News drehen sich um 0-Days und X11-Härtung",
+        "originalTitle": "Anonymous GitHub account mass-dropping undisclosed 0-days",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Hacker News zeigt großes Interesse an einem anonymen GitHub-Account, der offenbar nicht offengelegte 0-Days massenhaft veröffentlicht. Parallel wird ein Artikel zu X11-Anwendungssicherheit mit LXC stark diskutiert.",
+        "why": "Das ist ein klares Security-Signal für Entwickler, Plattformen und Teams, die mit alten Desktop-Stacks oder öffentlich sichtbaren Repositories arbeiten. Für Produktvideos ist es relevant, weil Sicherheitsrisiken und Hardening oft erst dann Aufmerksamkeit bekommen, wenn sie konkret demonstriert werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://github.com/bikini/exploitarium",
+          "https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-28T08:02:37.814Z",
+    "generatedAtBerlin": "28.06.2026, 10:02",
+    "mode": "ai",
+    "sourceCount": 26,
+    "highlights": [
+      "Anthropic Mythos 5 ist in den USA wieder für ausgewählte Organisationen nutzbar",
+      "Asian AI-Startups bringen Mythos-ähnliche Modelle an den Markt",
+      "Apple-Vision-Pro-Verantwortlicher soll zu OpenAIs Hardware-Team wechseln"
+    ],
+    "audioPath": "audio/briefing-2026-06-27.mp3",
+    "audioUrl": "audio/briefing-2026-06-27.mp3",
+    "audioGeneratedAt": "2026-06-28T08:03:22.846Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-26",
     "title": "KI, Chips und Sicherheitsdruck prägen den Vortag",
     "summary": "Am 26.06. dominierten bei KI vor allem OpenAI-News: der selektive Rollout von GPT-5.6, neue politische Hürden und die starke Ausrichtung auf eigene Chips. Dazu kamen relevante Signale zu Security, Plattform-Strategie und Creator-Relevanz wie YouTube Shorts.",
