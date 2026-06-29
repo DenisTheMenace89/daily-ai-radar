@@ -1,5 +1,177 @@
 [
   {
+    "date": "2026-06-28",
+    "title": "KI wird praktischer, regulatorischer und teurer im Betrieb",
+    "summary": "Die wichtigsten Meldungen drehen sich heute um den realen Einsatz von KI in Unternehmen, um neue Sicherheits- und Compliance-Fragen sowie um Plattform- und Regulierungsdruck. Dazu kommen einzelne Signale aus Hardware, Supercomputing und Creator-nahen Themen wie Streaming-Anzeigen und Musik-KI.",
+    "topSummary": "Heute in 30 Sekunden: KI verschiebt sich weiter von Demo-Use-Cases in den Betrieb, aber die Nachrichten zeigen auch Grenzen, Kosten und Risiken. Gleichzeitig ziehen Regulierung und Gerichte bei digitalen Produkten, Werbeformaten und Chat-Daten spürbar an. Für Creator, Entwickler und Produkt-Teams wird damit weniger die Modellfrage allein wichtig, sondern die Frage nach Integration, Sicherheit und Rechtsrahmen.",
+    "implications": [
+      "KI wird zunehmend an echter Produktivität gemessen, nicht an Versprechen.",
+      "Sicherheit, Datenzugriff und Compliance werden zu zentralen Produktanforderungen für KI-Tools.",
+      "Regulierung kann direkte Auswirkungen auf Streaming-, Ad- und Medienprodukte haben.",
+      "Infrastructure- und Hardware-Themen bleiben wichtig, weil KI-Performance und Kosten weiter über den Stack entschieden werden."
+    ],
+    "watchlist": [
+      "Wie schnell setzen Unternehmen KI wieder nur als Assistenz ein statt als Ersatz für erfahrene Fachkräfte?",
+      "Welche Folgen hat der California-Effekt bei lauten Streaming-Ads für Plattformen und Werbetreibende?",
+      "Wie reagieren Tool-Anbieter auf die offenen Sicherheits- und Dateizugriffsprobleme bei Codex und ähnlichen Systemen?",
+      "Ob GLM-5.2 in Cyber- und Open-Weight-Debatten mehr Druck auf westliche Anbieter ausübt."
+    ],
+    "tags": [
+      "#KI",
+      "#Security",
+      "#CreatorEconomy",
+      "#DeveloperTools",
+      "#Regulierung",
+      "#Hardware"
+    ],
+    "stories": [
+      {
+        "title": "Ford holt „grauhaarige“ Ingenieure zurück, weil KI nicht ausreicht",
+        "originalTitle": "Ford rehires ‘gray beard’ engineers after AI falls short",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Ford hat laut TechCrunch erfahrene Ingenieure zurückgeholt, nachdem der Einsatz von KI nicht die erwartete Qualität geliefert habe. In der Quelle wird das als Korrektur eines zu simplen „KI ersetzt Expertise“-Ansatzes beschrieben.",
+        "why": "Die Meldung ist ein starkes Signal dafür, dass KI in Unternehmen oft eher ergänzt als ersetzt. Für Video- und Produkt-Content ist das ein guter Aufhänger, um den Unterschied zwischen AI-Assistenz und echter Produktionsqualität zu erklären.",
+        "opportunity": "Eine Videoidee wäre: „Wann KI in der Produktentwicklung hilft – und wann nicht“.",
+        "links": [
+          "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/"
+        ]
+      },
+      {
+        "title": "Kalifornisches Gesetz gegen zu laute Streaming-Werbung tritt am 1. Juli in Kraft",
+        "originalTitle": "California law targeting loud streaming ads takes effect on July 1",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Ein neues kalifornisches Gesetz gegen zu laute Streaming-Werbung wird ab dem 1. Juli wirksam. TechCrunch deutet an, dass Streaming-Ads dadurch leiser werden könnten.",
+        "why": "Das ist direkt relevant für Creator, Plattformen und alle, die mit Video-Ads arbeiten: Lautstärke und Werbeerlebnis werden regulatorisch greifbarer. Für Deutschland ist das auch ein guter Vergleichspunkt für mögliche Diskussionen über Ad-Standards.",
+        "opportunity": "Denis könnte daraus ein kurzes Format zu „Warum Streaming-Ads lauter wirken als Content“ machen.",
+        "links": [
+          "https://techcrunch.com/2026/06/28/california-law-targeting-loud-streaming-ads-takes-effect-on-july-1/"
+        ]
+      },
+      {
+        "title": "Wall Street sieht Micron als möglichen nächsten großen KI-Gewinner",
+        "originalTitle": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch berichtet, dass Investoren bei Micron neue Chancen im KI-Markt sehen und das Unternehmen als möglichen „nächsten Nvidia“-Kandidaten einordnen. Der Fokus liegt dabei auf KI-bezogener Nachfrage nach Speicherhardware.",
+        "why": "Das zeigt, dass der KI-Boom nicht nur bei Modellen, sondern auch bei Speicher, Infrastruktur und Zulieferern weiterläuft. Für Produktvideos ist das ein nützlicher Kontext, wenn Hardware-Abhängigkeiten von KI erklärt werden sollen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/"
+        ]
+      },
+      {
+        "title": "HP startet mit OpenAI eine Frontier-Partnerschaft",
+        "originalTitle": "HP Inc. launches Frontier strategic partnership with OpenAI",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "OpenAI News",
+        "summary": "OpenAI meldet eine erweiterte Frontier-Partnerschaft mit HP Inc., die KI über Kundenerlebnisse, Softwareentwicklung und Unternehmensprozesse ausrollen soll. Es geht damit klar um operative Integration statt nur um ein Produkt-Showcase.",
+        "why": "Solche Partnerschaften zeigen, wie KI in klassische Unternehmensstrukturen eingebaut wird. Für Denis ist das relevant, wenn er über den Übergang von KI-Demos zu echten Enterprise-Workflows sprechen will.",
+        "opportunity": "Eine Beobachtung wert für ein Video über „Wie große Marken KI in ihre Prozesse einbauen“.",
+        "links": [
+          "https://openai.com/index/hp-frontier-partnership"
+        ]
+      },
+      {
+        "title": "GLM-5.2 soll in Cybersecurity-Benchmarks mit Claude mithalten",
+        "originalTitle": "GLM 5.2 beats Claude in our benchmarks",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "Hacker News Frontpage / The Verge AI",
+        "summary": "Semgrep berichtet, dass GLM 5.2 in ihren Cyber-Benchmarks Claude schlagen soll; The Verge greift das auf und schreibt, dass Z.ai in bestimmten Bug-Finding- und Cybersecurity-Szenarien mit Mythos mithalten könne. Beide Quellen drehen sich um denselben Sachverhalt: starke Ergebnisse eines Open-Weight-Modells im Security-Kontext.",
+        "why": "Das ist wichtig, weil Sicherheits-Use-Cases oft ein frühes Feld für Modellvergleiche sind und Open-Weight-Modelle hier strategisch an Bedeutung gewinnen. Für Creator und Produktteams ist das relevant, wenn sie KI-Tools für Code-Review, Threat-Analysis oder interne Security-Workflows bewerten.",
+        "opportunity": "Gute Vorlage für ein Video zu „Warum Cybersecurity-Benchmarks KI-Anbieter gerade neu sortieren“.",
+        "links": [
+          "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+          "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity"
+        ]
+      },
+      {
+        "title": "OpenAI-Codex hat weiter ein offenes Problem beim Ausschließen sensibler Dateien",
+        "originalTitle": "A way to exclude sensitive files issue still open for OpenAI Codex",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein GitHub-Issue zu OpenAI Codex bleibt offen, weil es eine Möglichkeit geben soll, sensible Dateien zuverlässig auszuschließen. Die Diskussion deutet auf anhaltende Sicherheits- und Datenschutzfragen bei Coding-Assistenten hin.",
+        "why": "Für Entwickler- und Creator-Workflows ist das hochrelevant, weil viele Tools heute Zugriff auf lokale Repos, Assets oder interne Dateien bekommen. Gerade bei Produktvideos, Kundenmaterial oder unveröffentlichten Inhalten ist Datei-Hygiene entscheidend.",
+        "opportunity": "Denis könnte daraus ein kurzes Security-Segment über „Welche Dateien KI-Tools nie sehen sollten“ machen.",
+        "links": [
+          "https://github.com/openai/codex/issues/2847"
+        ]
+      },
+      {
+        "title": "Prozesse nutzten ChatGPT-Logs im Palisades-Brandfall als Beweismittel",
+        "originalTitle": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "The Verge AI",
+        "summary": "The Verge berichtet, dass Staatsanwälte im Palisades-Brandfall auch ChatGPT-Logs als Beweismittel verwendet haben. Die Quelle ordnet das als Teil eines größeren Beweispakets ein, zu dem auch Standortdaten, Kameraaufnahmen und Zeugenaussagen gehörten.",
+        "why": "Das unterstreicht, dass KI-Chatverläufe rechtlich relevant werden können und nicht privat im luftleeren Raum stehen. Für Medien- und Creator-Teams ist das besonders wichtig, wenn KI für Recherche, Skripte oder interne Kommunikation genutzt wird.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial"
+        ]
+      },
+      {
+        "title": "Suno startet ein Inkubatorprogramm für unabhängige Künstler",
+        "originalTitle": "Suno launches Spark incubator program to feed independent artists to its AI machine",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "The Verge AI",
+        "summary": "Suno führt mit Spark ein Inkubatorprogramm ein, das unabhängigen Künstlern Grants, Mentoring und Marketing-Unterstützung bieten soll. Laut The Verge richtet sich das Programm an nicht unter Vertrag stehende Sänger und Songwriter.",
+        "why": "Das ist für Creator relevant, weil AI-Musikplattformen damit stärker Richtung Talentförderung und Distribution gehen. Für Medien- und Rechtefragen bleibt spannend, wie sich solche Programme auf Künstlervermarktung und Plattformmacht auswirken.",
+        "opportunity": "Eine Videoidee wäre: „Warum AI-Musikplattformen jetzt Künstlerprogramme starten“.",
+        "links": [
+          "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-29T09:14:56.848Z",
+    "generatedAtBerlin": "29.06.2026, 11:14",
+    "mode": "ai",
+    "sourceCount": 31,
+    "highlights": [
+      "Ford holt „grauhaarige“ Ingenieure zurück, weil KI nicht ausreicht",
+      "Kalifornisches Gesetz gegen zu laute Streaming-Werbung tritt am 1. Juli in Kraft",
+      "GLM-5.2 soll in Cybersecurity-Benchmarks mit Claude mithalten"
+    ],
+    "audioPath": "audio/briefing-2026-06-28.mp3",
+    "audioUrl": "audio/briefing-2026-06-28.mp3",
+    "audioGeneratedAt": "2026-06-29T09:15:38.170Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-27",
     "title": "KI, Plattformen und Creator-Tools: ein Tag zwischen Rückkehr, Regulierung und neuen Workflows",
     "summary": "Der Vortag stand im Zeichen von Anthropic/Mythos, Plattform-Tests bei Instagram und mehreren spannenden Creator- und Developer-Tools aus der Hacker-News-Ecke. Dazu kamen Signale zu OpenAI/Apple, KI-Hardware, Security und der Frage, wie sich KI-Software überhaupt sinnvoll messen und absichern lässt.",
