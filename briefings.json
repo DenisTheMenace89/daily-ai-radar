@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-06-29",
+    "title": "Daily-Briefing: KI-Tools werden persönlicher, Coding-Agenten mobiler und Musik-Plattformen härter gegen AI-Content",
+    "summary": "Google öffnet personalisierte Bildgenerierung in Gemini für freie US-Nutzer, während Cursor und mehrere Open-Source-Tools die Arbeit mit Coding-Agenten und LLMs weiter in den Alltag ziehen. Parallel setzen Plattformen und Institutionen neue Signale bei Monetarisierung, Privacy und Infrastruktur: von TIDALs Kurs gegen AI-Musik bis zu einem geänderten Umgang mit Geofence-Warrants und großen Investitionen in Speicher- und Rechenzentrums-Kapazitäten.",
+    "topSummary": "Heute zeigen die Quellen vor allem drei Bewegungen: KI-Tools werden zugänglicher und stärker in bestehende Workflows integriert, Plattformen schärfen ihre Regeln für AI-Content, und die Infrastruktur hinter KI bleibt ein Engpass-Thema. Für Creator und Produktvideos sind besonders Gemini, Cursor und die neuen Plattform-Regeln relevant.",
+    "implications": [
+      "KI-Funktionen wandern von Spezial-Features in Standardprodukte und werden damit für Creator-Workflows leichter testbar.",
+      "Plattformen setzen klarere Grenzen bei AI-generierten Inhalten, vor allem bei Musik und Monetarisierung.",
+      "Coding-Agenten und LLM-Tooling werden operativer: Mobile Steuerung, MCP-Integration und offene Agenten-Ansätze werden relevanter.",
+      "Infrastruktur bleibt ein strategischer Flaschenhals, sowohl bei Memory als auch bei Rechenzentren und Energie."
+    ],
+    "watchlist": [
+      "Wie schnell Gemini personalisierte Bildgenerierung außerhalb der USA ausrollt.",
+      "Ob TIDALs Anti-AI-Music-Politik Nachahmer bei anderen Streaming-Plattformen findet.",
+      "Wie Cursor die mobile Agentensteuerung in reale Entwickler-Workflows übersetzt.",
+      "Ob die Investitionen in Speicher und Rechenzentren die KI-Kapazitätsengpässe messbar entspannen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#DeveloperTools",
+      "#Security",
+      "#Plattformen",
+      "#Infrastruktur"
+    ],
+    "stories": [
+      {
+        "title": "Gemini macht personalisierte KI-Bildgenerierung für freie US-Nutzer verfügbar",
+        "originalTitle": "Gemini’s personalized AI image generation is now free for US users",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google erweitert Geminis personalisierte Bildgenerierung auf berechtigte kostenlose Nutzer in den USA. Das System kann Bilder auf Basis von Interessen und Daten aus verbundenen Google-Apps erstellen.",
+        "why": "Das senkt die Einstiegshürde für personalisierte Bild-KI deutlich und macht den Funktionsumfang für breite Nutzergruppen sichtbar. Für Creator und Produktvideo-Workflows ist das relevant, weil Bildideen, Visuals und Varianten schneller aus dem bestehenden Google-Ökosystem heraus entstehen können.",
+        "opportunity": "Eine kurze Video-Analyse zu „Was personalisierte Bild-KI im Creator-Alltag bringt“.",
+        "links": [
+          "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/"
+        ]
+      },
+      {
+        "title": "Cursor bietet jetzt eine mobile App zur Steuerung von Coding-Agenten unterwegs",
+        "originalTitle": "Cursor now has a mobile app for guiding your coding agent on the go",
+        "category": "Developer",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Cursor hat eine neue Mobile-App gestartet, mit der sich Coding-Agenten aus der Ferne überwachen und steuern lassen. Die App zielt auf Kontrolle und Begleitung von Agenten außerhalb des Desktop-Setups.",
+        "why": "Das ist ein klarer Schritt hin zu mehr Alltagsnutzung von Agenten in echten Entwicklungsprozessen. Für Produktvideos ist das spannend, weil sich damit ein „Agenten-Workflow auf dem Smartphone“ gut demonstrieren lässt.",
+        "opportunity": "Ein Demo-Video: Agent am Desktop starten, unterwegs per App prüfen und nachsteuern.",
+        "links": [
+          "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/"
+        ]
+      },
+      {
+        "title": "TIDAL stoppt Monetarisierung für AI-Musik und will imitationsartige Inhalte entfernen",
+        "originalTitle": "TIDAL cracks down on AI music by cutting off monetization",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "TIDAL schränkt die Monetarisierung von AI-Musik ein. Zusätzlich will das Unternehmen automatisierte Tools einsetzen, um AI-generierte Musik zu entfernen, die einen Künstler oder eine Gruppe imitiert.",
+        "why": "Das ist ein wichtiges Signal für Rechte-, Identitäts- und Monetarisierungsfragen rund um AI-Content. Für Medien- und Creator-Themen ist besonders relevant, dass Plattformen stärker zwischen legitimer Nutzung und möglicher Imitation unterscheiden.",
+        "opportunity": "Ein kurzes Briefing zu „Was AI-Music-Plattformregeln für Creator und Rechteinhaber bedeuten“.",
+        "links": [
+          "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/"
+        ]
+      },
+      {
+        "title": "Der Supreme Court stärkt den Datenschutz bei Geofence-Warrants",
+        "originalTitle": "In major privacy win, Supreme Court rules geofence warrants are protected by privacy rights",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Der Supreme Court hat eine Entscheidung getroffen, die Geofence-Warrants stärker unter Datenschutzrechte stellt. Privacy-Aktivisten bewerten das als wichtigen Sieg und hatten eine noch weitergehende Begrenzung gefordert.",
+        "why": "Das betrifft die rechtliche Schwelle für Standortdaten und digitale Überwachung. Für Creator und Medien ist das relevant, weil Datenschutz, Geräte- und Bewegungsdaten immer stärker zum Infrastruktur- und Rechts-Thema werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/29/in-major-privacy-win-supreme-court-rules-geofence-warrants-are-protected-by-privacy-rights/"
+        ]
+      },
+      {
+        "title": "South Koreanische Tech-Konzerne investieren über 550 Milliarden Dollar gegen den Memory-Engpass",
+        "originalTitle": "South Korean tech giants commit over $550B to ease ‘RAMageddon’",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Die weltweit zwei größten Memory-Chip-Unternehmen wollen mehr Speicher-Lab-Fabs bauen. Südkorea positioniert sich damit weiter als KI-Technologiestandort.",
+        "why": "Speicher bleibt ein zentraler Flaschenhals für KI-Infrastruktur und damit indirekt für neue Modelle, Agenten und Creator-Tools. Solche Investitionssignale wirken sich mittelbar auf Verfügbarkeit und Kosten aus.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/"
+        ]
+      },
+      {
+        "title": "Arena wird vom populären KI-Leaderboard zum 100-Millionen-Dollar-Business",
+        "originalTitle": "Arena, the AI leaderboard everyone uses, is now a $100M business",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Arena, das als kostenloses KI-Leaderboard breit genutzt wird, hat ein kommerzielles Geschäft aufgebaut und erreicht laut Quelle nun 100 Millionen Dollar Umsatz. Das kommerzielle Produkt wurde erst im vergangenen September gestartet.",
+        "why": "Das zeigt, wie aus einem kostenlosen Community-Tool ein ernstes KI-Business werden kann. Für Denis ist das interessant als Beispiel für Positionierung, Produktisierung und die Monetarisierung von Trust-Infrastruktur im KI-Markt.",
+        "opportunity": "Ein Video über „Wie aus einem Community-Tool ein KI-Geschäft wird“.",
+        "links": [
+          "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/"
+        ]
+      },
+      {
+        "title": "Chamath Palihapitiya sammelt 135 Millionen Dollar für ein AI-Coding-Startup ein und wird CEO",
+        "originalTitle": "Chamath Palihapitiya raises $135M Series A for his AI coding startup, takes CEO role",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Das von Investor Chamath Palihapitiya gegründete AI-Coding-Startup hat eine Series A über 135 Millionen Dollar abgeschlossen. Palihapitiya übernimmt dabei die CEO-Rolle.",
+        "why": "Das bestätigt den anhaltenden Kapitalfluss in AI-Coding-Tools, also genau den Bereich, in dem sich auch viele Creator- und Produktivitäts-Workflows verschieben. Solche Finanzierungsrunden zeigen, welche Segmente aktuell besonders hart umkämpft sind.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-06-30T08:06:15.046Z",
+    "generatedAtBerlin": "30.06.2026, 10:06",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Gemini macht personalisierte KI-Bildgenerierung für freie US-Nutzer verfügbar",
+      "Cursor bietet jetzt eine mobile App zur Steuerung von Coding-Agenten unterwegs",
+      "TIDAL stoppt Monetarisierung für AI-Musik und will imitationsartige Inhalte entfernen"
+    ],
+    "audioPath": "audio/briefing-2026-06-29.mp3",
+    "audioUrl": "audio/briefing-2026-06-29.mp3",
+    "audioGeneratedAt": "2026-06-30T08:06:59.001Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-28",
     "title": "KI wird praktischer, regulatorischer und teurer im Betrieb",
     "summary": "Die wichtigsten Meldungen drehen sich heute um den realen Einsatz von KI in Unternehmen, um neue Sicherheits- und Compliance-Fragen sowie um Plattform- und Regulierungsdruck. Dazu kommen einzelne Signale aus Hardware, Supercomputing und Creator-nahen Themen wie Streaming-Anzeigen und Musik-KI.",
