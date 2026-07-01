@@ -1,5 +1,178 @@
 [
   {
+    "date": "2026-06-30",
+    "title": "KI wird günstiger, agentischer und plattformnäher",
+    "summary": "Am 30.06. dominieren neue, günstigere Modell- und Tool-Ankündigungen rund um Anthropic und Google sowie mehr Infrastruktur für AI-Integrationen bei X und in Creator-Tools. Dazu kommen Signale, dass KI immer stärker direkt in Alltagsgeräte, Workflows und vertikale Produkte wandert.",
+    "topSummary": "Heute in 30 Sekunden: Die wichtigsten Signale sind günstigere KI-Modelle, mehr Agenten-Workflows und neue Integrationspunkte in Plattformen und Geräte. Für Creator und Produkt-Teams bedeutet das: KI-Funktionen werden breiter verfügbar und einfacher in bestehende Prozesse einzubauen. Gleichzeitig verschieben sich Differenzierungsfaktoren von „ein Modell“ hin zu Workflow, Distribution und Produktoberfläche.",
+    "implications": [
+      "Günstigere Modelle senken die Hürde für Creator-Tools, Automatisierung und Prototyping.",
+      "Agenten werden stärker als Produktfunktion verkauft, nicht nur als Modellmerkmal.",
+      "Plattformen wie X öffnen sich technischer für AI-Anwendungen und Integrationen.",
+      "Vertikale Tools gewinnen an Relevanz, wenn sie eigene Workflows statt nur Basis-Modelle bieten."
+    ],
+    "watchlist": [
+      "Wie schnell Claude Sonnet 5 und Nano Banana 2 Lite in Produkte und Creator-Workflows integriert werden.",
+      "Ob Xs MCP-Server echte Entwickleradoption auslöst oder nur ein PR-Signal bleibt.",
+      "Wie sich neue AI-Keingänge in Smartphones, Tastaturen und Publishing-Tools im Alltag bewähren.",
+      "Ob mehr Startups auf eigene Modelle setzen, um sich von Frontier-Modellen abzugrenzen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorAI",
+      "#DeveloperTools",
+      "#Plattformen",
+      "#Startups",
+      "#Agenten"
+    ],
+    "stories": [
+      {
+        "title": "Anthropic bringt Claude Sonnet 5 als günstigere Option für Agenten heraus",
+        "originalTitle": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Anthropic hat Claude Sonnet 5 vorgestellt. Das Modell soll stärkere Agenten-Fähigkeiten, niedrigere Preise und bessere Safety bieten und sich als günstigere Alternative zu Opus, GPT-5.5 und Gemini Pro positionieren.",
+        "why": "Für Denis ist das relevant, weil günstigere und leistungsfähigere Agenten-Modelle schneller in Video-, Edit- und Produktions-Workflows landen können. Wenn Kosten fallen, werden experimentelle Creator-Tools und Automationen viel leichter produktionsreif.",
+        "opportunity": "Testen, welche Creator- oder Produktivitäts-Workflows mit billigeren Agenten plötzlich wirtschaftlich werden.",
+        "links": [
+          "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+          "https://www.anthropic.com/news/claude-sonnet-5"
+        ]
+      },
+      {
+        "title": "Google macht seinen Bildgenerator mit Nano Banana 2 Lite schneller und günstiger",
+        "originalTitle": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI",
+        "summary": "Google aktualisiert seinen Bildgenerator mit Nano Banana 2 Lite, um ihn schneller und günstiger zu machen. Laut Quelle soll das Tool dadurch für Creator nützlicher werden, die KI-Inhalte produzieren.",
+        "why": "Das ist direkt relevant für Produktvideos, Thumbnails, Storyboards und schnelle visuelle Konzepte. Wenn Generierung billiger und schneller wird, steigen Tempo und Iterationsrate in kreativen Workflows.",
+        "opportunity": "Ein kurzes Vergleichsvideo zu „schneller und günstiger“ Bildgenerierung in Creator-Workflows wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+          "https://deepmind.google/models/gemini-image/flash-lite/"
+        ]
+      },
+      {
+        "title": "X startet einen gehosteten MCP-Server für einfachere AI-Integrationen",
+        "originalTitle": "X now offers an MCP server to make its platform easier for AI tools to use",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "X hat einen gehosteten MCP-Server gestartet, damit Entwickler AI-Anwendungen leichter mit der Plattform-API verbinden können. Das soll die Nutzung der Plattform durch AI-Tools vereinfachen.",
+        "why": "Für Creator und Tool-Bauer ist das relevant, weil Plattformen zunehmend über standardisierte Schnittstellen in Agenten-Workflows eingebunden werden. Das kann Reichweite, Automatisierung und Social-Workflows beeinflussen.",
+        "opportunity": "Beobachten, ob sich dadurch neue Social-Automation- oder Publishing-Tools bauen lassen.",
+        "links": [
+          "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/"
+        ]
+      },
+      {
+        "title": "Riverside steigt mit KI-gestützten Newslettern in das Publishing ein",
+        "originalTitle": "Podcasting platform Riverside enters the newsletter publishing game",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Die Podcasting-Plattform Riverside erweitert ihr Angebot um Newsletter-Publishing. Nutzer sollen mit KI aus ihren Aufnahmen Newsletter erstellen können.",
+        "why": "Das ist für Video- und Podcast-Creator interessant, weil Content stärker plattformübergreifend verwertbar wird. Aus einer Aufnahme kann damit schneller Text, Distribution und Folgecontent entstehen.",
+        "opportunity": "Prüfen, ob sich aus Video- oder Podcast-Material automatisiert Newsletter- oder Behind-the-Scenes-Content ableiten lässt.",
+        "links": [
+          "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/"
+        ]
+      },
+      {
+        "title": "Acti bringt AI-Agenten direkt in die Smartphone-Tastatur",
+        "originalTitle": "Acti puts AI agents directly into your smartphone keyboard",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Acti bringt eine neue iOS- und Android-Tastatur, die über Apps hinweg funktioniert und per natürlicher Sprache KI-gestützte Shortcuts ermöglicht. Das Startup sieht die Smartphone-Tastatur als neuen Ort für AI-Assistenten.",
+        "why": "Das ist ein guter Indikator dafür, wie tief KI in mobile Alltagsoberflächen wandert. Für Creator kann das interessant werden, wenn Eingaben, Textbausteine und kleine Workflows direkt aus der Tastatur steuerbar werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/"
+        ]
+      },
+      {
+        "title": "Base44 veröffentlicht ein eigenes Modell, um sich im Vibe-Coding zu differenzieren",
+        "originalTitle": "Vibe-coding platform Base44 launches own model as AI startups seek defensibility",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Die Wix-Tochter Base44 rollt ein eigenes KI-Modell für ihre Vibe-Coding-Plattform aus. Das Unternehmen hofft, dass es langfristig Frontier-Modelle übertreffen kann.",
+        "why": "Das zeigt, wie Startups versuchen, sich nicht nur über UX, sondern auch über eigene Modelle abzusichern. Für Produktteams ist das ein Signal, dass Defensibility zunehmend über integrierte Workflows und eigene Modellschichten gedacht wird.",
+        "opportunity": "Als Storyline für ein Video über „Warum KI-Startups eigene Modelle bauen“ geeignet.",
+        "links": [
+          "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/"
+        ]
+      },
+      {
+        "title": "OpenClaw ist jetzt auf Android und iOS verfügbar",
+        "originalTitle": "OpenClaw is finally available on Android and iOS",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Das freie Open-Source-Agentensystem OpenClaw ist nun auch auf Android und iOS verfügbar. Laut Quelle wandert damit ein agentisches Tool auf das Smartphone.",
+        "why": "Mobile Verfügbarkeit kann die Nutzung von Agenten deutlich erhöhen, weil sie näher am Alltag und an spontanen Workflows ist. Für Creator sind mobile KI-Tools besonders interessant, wenn schnelle Vorarbeiten unterwegs möglich werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/"
+        ]
+      },
+      {
+        "title": "Hacker-News-Signal: Claude Code soll Anfragen steganografisch markieren",
+        "originalTitle": "Claude Code is steganographically marking requests",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein stark diskutierter Hacker-News-Beitrag behauptet, Claude Code markiere Anfragen steganografisch. Die Quelle ist ein einzelner Blogpost, aber das Thema hat hohe Aufmerksamkeit in der Entwickler-Community ausgelöst.",
+        "why": "Das ist relevant, weil es um Transparenz, Prompt-Behandlung und mögliche Vertrauensfragen bei Coding-Tools geht. Für Creator und Produktteams, die AI-Coding einsetzen, ist das ein Hinweis auf die wachsende Sensibilität für Tool-Verhalten.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://thereallo.dev/blog/claude-code-prompt-steganography"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-01T08:36:53.717Z",
+    "generatedAtBerlin": "01.07.2026, 10:36",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Anthropic bringt Claude Sonnet 5 als günstigere Option für Agenten heraus",
+      "Google macht seinen Bildgenerator mit Nano Banana 2 Lite schneller und günstiger",
+      "X startet einen gehosteten MCP-Server für einfachere AI-Integrationen"
+    ],
+    "audioPath": "audio/briefing-2026-06-30.mp3",
+    "audioUrl": "audio/briefing-2026-06-30.mp3",
+    "audioGeneratedAt": "2026-07-01T08:37:35.201Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-29",
     "title": "Daily-Briefing: KI-Tools werden persönlicher, Coding-Agenten mobiler und Musik-Plattformen härter gegen AI-Content",
     "summary": "Google öffnet personalisierte Bildgenerierung in Gemini für freie US-Nutzer, während Cursor und mehrere Open-Source-Tools die Arbeit mit Coding-Agenten und LLMs weiter in den Alltag ziehen. Parallel setzen Plattformen und Institutionen neue Signale bei Monetarisierung, Privacy und Infrastruktur: von TIDALs Kurs gegen AI-Musik bis zu einem geänderten Umgang mit Geofence-Warrants und großen Investitionen in Speicher- und Rechenzentrums-Kapazitäten.",
