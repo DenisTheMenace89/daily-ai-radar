@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-07-01",
+    "title": "KI-, Plattform- und Infrastruktur-Update: mehr Geld, mehr Kontrolle, mehr Agenten",
+    "summary": "Der Vortag war geprägt von zwei klaren Linien: KI wird stärker zur Infrastruktur- und Plattformfrage, und große Anbieter verschärfen den Zugriff auf Daten, Compute und Assistenten. Dazu kamen relevante Produkt- und Sicherheitsmeldungen von Google, Apple, Cloudflare und mehreren AI-Scale-ups.",
+    "topSummary": "Heute in 30 Sekunden: Cloudflare zwingt die Debatte um KI-Crawling und Publisher-Payments in den Markt, während Cloud- und Compute-Anbieter wie Meta, Together AI und sogar SpaceX nach neuen Geschäftsmodellen rund um Rechenleistung suchen. Gleichzeitig landen neue Assistenten und Plattform-Features auf dem Mac, und Apple steht bei „Hide My Email“ wegen eines möglichen Bugs unter Druck. Für Creator und Video-Teams ist besonders relevant: Datenzugang, Plattformregeln und sichere Workflows werden gerade neu sortiert.",
+    "implications": [
+      "KI wird weniger nur ein Modellthema, sondern zunehmend eine Frage von Infrastruktur, Zugriff und Bezahlmodellen.",
+      "Für Creator und Publisher steigen die Risiken und Chancen rund um Crawling, Datenlizenzierung und Content-Nutzung.",
+      "Agentische Assistenten werden produktiver und näher an den Alltag von Mac- und Video-Workflows herangerückt.",
+      "Security- und Privacy-Features bleiben ein Verkaufsargument, können aber durch Bugs schnell an Vertrauen verlieren."
+    ],
+    "watchlist": [
+      "Wie viele AI-Unternehmen folgen Cloudflares Linie und zahlen künftig für Publisher-Zugriffe?",
+      "Ob Meta und andere große Player ihre Compute-Pläne tatsächlich zu Cloud-Geschäften ausbauen.",
+      "Wie schnell Gemini Spark auf Mac in echte Produktions-Workflows hineinwächst.",
+      "Ob der Apple-„Hide My Email“-Vorwurf bestätigt wird und welche Folgen das für Privacy-Features hat."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Cloud",
+      "#Plattformen",
+      "#DeveloperTools"
+    ],
+    "stories": [
+      {
+        "title": "Cloudflare drängt KI-Unternehmen dazu, für Publisher-Inhalte zu zahlen",
+        "originalTitle": "Cloudflare’s new policy pushes AI companies to pay for publishers’ content",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Cloudflare gibt KI-Unternehmen bis zum 15. September Zeit, Webcrawler für Suche von Crawling für KI-Training und Agents zu trennen. Andernfalls droht auf vielen Publisher-Seiten eine Blockade per Default.",
+        "why": "Das ist ein direkter Hebel in der Auseinandersetzung um Content, Training und Agenten-Zugriff. Für Creator, Publisher und Medienprojekte ist das relevant, weil sich damit die Frage zuspitzt, wer Inhalte kostenlos auslesen darf und wer zahlen muss.",
+        "opportunity": "Ein Video über das neue Kräfteverhältnis zwischen KI, Publishern und Content-Lizenzen könnte sehr anschlussfähig sein.",
+        "links": [
+          "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/"
+        ]
+      },
+      {
+        "title": "Google bringt Gemini Spark als agentischen Assistenten auf den Mac",
+        "originalTitle": "Gemini Spark, Google’s agentic assistant, is now available on Mac",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Gemini Spark ist jetzt auf dem Mac verfügbar. Google ergänzt den Assistenten um Echtzeit-Tracking und Unterstützung für mehr Apps.",
+        "why": "Ein Mac-Release macht agentische KI für viele Creator und Produktivitäts-Workflows praktisch testbar. Für Video- und Content-Produktion kann das interessant sein, wenn Assistenten über mehrere Apps hinweg Aufgaben übernehmen.",
+        "opportunity": "Denis könnte prüfen, ob Gemini Spark im Creator-Alltag besser funktioniert als klassische Chatbots.",
+        "links": [
+          "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/"
+        ]
+      },
+      {
+        "title": "Apple steht wegen eines Bugs in 'Hide My Email' unter Druck",
+        "originalTitle": "Apple’s Hide My Email feature has a bug that’s been exposing real email addresses, researcher claims",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Laut einem Forscher könnte ein Bug reale E-Mail-Adressen sichtbar machen und das Feature damit praktisch wirkungslos machen. Die Meldung betrifft ein Privacy-Feature, das eigentlich Adressen verbergen soll.",
+        "why": "Für Creator, die mit vielen Accounts, Marken-Deals oder öffentlichen Kontaktdaten arbeiten, ist das ein ernstes Privacy-Thema. Wenn ein Schutzmechanismus brüchig ist, betrifft das direkt die Verlässlichkeit von Apple-Ökosystem-Workflows.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/01/apples-hide-my-email-feature-has-a-bug-thats-been-exposing-real-email-addresses-researcher-claims/"
+        ]
+      },
+      {
+        "title": "Meta plant offenbar ein Cloud-Geschäft rund um überschüssige KI-Rechenleistung",
+        "originalTitle": "Meta, like SpaceX, looks to turn excess AI compute into cash",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Meta entwickelt Pläne für ein Cloud-Infrastrukturgeschäft, das Zugriff auf KI-Compute und Modelle verkauft. Damit würde das Unternehmen direkt in Konkurrenz zu AWS, Google Cloud und Microsoft Azure treten.",
+        "why": "Das zeigt, dass AI-Compute selbst zum Produkt wird und nicht nur ein interner Kostenblock bleibt. Für die Branche ist das relevant, weil sich die Macht weiter in Richtung weniger großer Infrastruktur-Player verschiebt.",
+        "opportunity": "Ein Video zu „Warum KI-Compute das nächste Cloud-Business wird“ hätte klaren Business- und Tech-Mehrwert.",
+        "links": [
+          "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/"
+        ]
+      },
+      {
+        "title": "Together AI sammelt 800 Millionen US-Dollar ein und steigt auf 8,3 Milliarden US-Dollar Bewertung",
+        "originalTitle": "Neocloud Together AI raises $800M, leaps to $8.3B valuation",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Der Neocloud-Anbieter Together AI hat 800 Millionen US-Dollar eingesammelt und wird nun mit 8,3 Milliarden US-Dollar bewertet. Das Unternehmen fokussiert sich auf das Hosting von Open-Source-Modellen.",
+        "why": "Das unterstreicht, wie stark Infrastruktur rund um Open-Source-Modelle finanziert wird. Für Developer- und Produkt-Teams ist das ein Signal, dass alternative AI-Stacks weiter professioneller und zugänglicher werden.",
+        "opportunity": "Denis könnte beobachten, ob sich daraus neue, günstigere Workflows für Video- und Produkt-Tools ergeben.",
+        "links": [
+          "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
+        ]
+      },
+      {
+        "title": "Venice AI wird mit 65 Millionen US-Dollar Series A zum Unicorn",
+        "originalTitle": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Venice AI hat mit einer 65-Millionen-US-Dollar-Series-A den Unicorn-Status erreicht. Laut CEO Erik Voorhees ist das Unternehmen bereits profitabel und kommt auf eine annualisierte Laufleistung von über 70 Millionen US-Dollar Umsatz.",
+        "why": "Privacy-first-KI bleibt offenbar ein tragfähiges Marktsegment. Für Creator und Medienarbeit ist das interessant, weil Datenschutz und Produktivität nicht mehr als Gegensätze verkauft werden müssen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/"
+        ]
+      },
+      {
+        "title": "SpaceX zeigt offenbar einen prototypischen, handyähnlichen KI-Device-Ansatz",
+        "originalTitle": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "SpaceX soll Investoren vor dem Börsengang ein „handset-like“ KI-Gerät gezeigt haben. Das könnte ein weiterer Hinweis sein, dass das Unternehmen in drahtlose Angebote expandieren will.",
+        "why": "Das ist spannend, weil es auf einen möglichen Vorstoß in ein hardware- und netzwerkbasiertes KI-Ökosystem hindeutet. Für Creator wären neue Geräteklassen relevant, wenn daraus neue Aufnahme-, Kommunikations- oder Assistenz-Workflows entstehen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-02T07:50:15.877Z",
+    "generatedAtBerlin": "02.07.2026, 09:50",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Cloudflare drängt KI-Unternehmen dazu, für Publisher-Inhalte zu zahlen",
+      "Google bringt Gemini Spark als agentischen Assistenten auf den Mac",
+      "Apple steht wegen eines Bugs in 'Hide My Email' unter Druck"
+    ],
+    "audioPath": "audio/briefing-2026-07-01.mp3",
+    "audioUrl": "audio/briefing-2026-07-01.mp3",
+    "audioGeneratedAt": "2026-07-02T07:50:58.284Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-06-30",
     "title": "KI wird günstiger, agentischer und plattformnäher",
     "summary": "Am 30.06. dominieren neue, günstigere Modell- und Tool-Ankündigungen rund um Anthropic und Google sowie mehr Infrastruktur für AI-Integrationen bei X und in Creator-Tools. Dazu kommen Signale, dass KI immer stärker direkt in Alltagsgeräte, Workflows und vertikale Produkte wandert.",
