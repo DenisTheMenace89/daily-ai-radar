@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-07-02",
+    "title": "Daily-Briefing KI & Tech – 2. Juli 2026",
+    "summary": "Die auffälligsten Themen gestern: noch mehr Geld, Chips und Infrastruktur rund um KI, dazu neue Experimente mit generativen Apps und ein paar klare Signale aus Regulierung und Security. Für Creator und Video-Workflows ist vor allem relevant, wie schnell KI-Funktionen in Plattformen und Tools eingebaut werden – und wie stark gleichzeitig Kosten, Kontrolle und Datenschutz diskutiert werden.",
+    "topSummary": "Heute in 30 Sekunden: KI bleibt das dominante Investitions- und Plattformthema, aber der Ton wird nüchterner – von Chips und Deployment über Governance bis hin zu echten Kosten. Für Denis besonders spannend: Meta testet generative Mini-Games, während die Open-Source-/Developer-Community stärker über saubere, überprüfbare und provider-unabhängige KI-Integrationen spricht.",
+    "implications": [
+      "KI wird nicht nur als Feature verkauft, sondern zunehmend als Infrastruktur-, Chip- und Deployment-Frage.",
+      "Plattformen experimentieren mit generativen Formaten, die direkt an Creator- und Social-Mechaniken andocken.",
+      "Security und Datenschutz bleiben ein Gegenpol zum KI-Hype – besonders bei Daten, Behörden und Plattformen.",
+      "Für Video- und Creator-Workflows wird wichtiger, ob Tools zuverlässig, austauschbar und auditierbar sind."
+    ],
+    "watchlist": [
+      "Wie schnell Meta Pocket und ähnliche KI-Experimente in größere Consumer-Produkte wandern.",
+      "Ob sich die neue Chip- und Deployment-Welle bei OpenAI, Anthropic und Microsoft konkretisiert.",
+      "Wie Regulierung und Datenschutzthemen, etwa in Virginia oder beim FTC-Fall Hopper, auf Plattformen durchschlagen.",
+      "Ob sich in der Developer-Community stabile Anti-Hype-Patterns für LLM-Einsatz und Abhängigkeiten durchsetzen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#DeveloperTools",
+      "#Regulierung",
+      "#Plattformen"
+    ],
+    "stories": [
+      {
+        "title": "Meta startet heimlich die KI-Gaming-App Pocket",
+        "originalTitle": "Meta quietly launches vibe-coded gaming app Pocket",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Meta hat Pocket gestartet, eine experimentelle KI-App, mit der Nutzer per Texteingabe interaktive Mini-Spiele erzeugen und teilen können. Der Start wirkt bewusst leise und testet ein neues, generatives Social-Format.",
+        "why": "Das ist relevant für die Creator-Ökonomie, weil Meta hier ein Format anfasst, das zwischen Spiel, Content und Community liegt. Solche generativen, teilbaren Experiences könnten für Promo, Fan-Interaktion oder kurze Videoformate interessant werden.",
+        "opportunity": "Beobachten, ob daraus ein Creator-taugliches Social-Format mit Video-Assets entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/"
+        ]
+      },
+      {
+        "title": "Anthropic spricht mit Samsung über einen eigenen Custom-Chip",
+        "originalTitle": "Anthropic is discussing a new custom chip with Samsung",
+        "category": "Hardware",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Anthropic führt Gespräche mit Samsung über einen neuen Custom-Chip. Der Hinweis kommt kurz nachdem OpenAI eine eigene Chip-Partnerschaft mit Broadcom angekündigt hat.",
+        "why": "Das zeigt, dass Frontier-KI immer stärker in Hardware- und Lieferkettenfragen kippt. Für alle, die KI-Tools in Video- oder Produktions-Workflows einsetzen, ist das ein Indikator für künftige Leistungs-, Kosten- und Verfügbarkeitsverschiebungen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/"
+        ]
+      },
+      {
+        "title": "OpenAI soll vorgeschlagen haben, 5 % der Unternehmensanteile an einen US-Sovereign-Wealth-Fund zu geben",
+        "originalTitle": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Laut Bericht hat OpenAI-CEO Sam Altman vorgeschlagen, 5 % der Firmenanteile an einen US-Staatsfonds zu geben. Damit wird die Debatte neu angestoßen, ob die Öffentlichkeit stärker an den Gewinnen des KI-Booms beteiligt werden soll.",
+        "why": "Das ist ein starkes Governance- und Verteilungsthema rund um KI-Macht und Wertschöpfung. Für Medien- und Creator-Perspektiven zeigt es, wie politisch und wirtschaftlich aufgeladen die OpenAI-Geschichte inzwischen ist.",
+        "opportunity": "Eine Story-Idee wäre: Wer profitiert eigentlich finanziell vom KI-Boom?",
+        "links": [
+          "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/"
+        ]
+      },
+      {
+        "title": "Microsoft startet eine eigene KI-Deployment-Firma mit 2,5 Milliarden Dollar Zusage",
+        "originalTitle": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Microsoft gründet eine eigene AI-Deployment-Organisation und sagt dafür 2,5 Milliarden Dollar zu. Der Schritt folgt einem breiteren Trend, bei dem große KI-Anbieter ihre Infrastruktur und Auslieferungstiefe ausbauen.",
+        "why": "Das unterstreicht, dass KI nicht nur Modell-Entwicklung ist, sondern vor allem Bereitstellung, Betrieb und Skalierung. Für Creator-Tools bedeutet das oft: schnellerer Funktionsausbau, aber auch stärkere Abhängigkeit von wenigen Plattformen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/"
+        ]
+      },
+      {
+        "title": "Hopper zahlt 35 Millionen Dollar im FTC-Vergleich wegen versteckter Gebühren",
+        "originalTitle": "Travel app Hopper to pay $35M in FTC settlement over ‘unfairly’ charging hidden fees",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Die Reise-App Hopper zahlt 35 Millionen Dollar, um FTC-Vorwürfe wegen irreführender Dark Patterns und versteckter Gebühren beizulegen. Die Behörde wirft dem Unternehmen vor, Preise und Vorteile von Diensten verschleiert zu haben.",
+        "why": "Das ist ein klares Signal gegen manipulative UX und versteckte Monetarisierung. Für Creator und Plattformen ist es relevant, weil ähnliche Muster auch in Abo-, Checkout- und Tool-Flows schnell zum Thema werden können.",
+        "opportunity": "Die Frage für ein Video: Wo endet clevere Conversion und wo beginnt Dark Pattern?",
+        "links": [
+          "https://techcrunch.com/2026/07/02/travel-app-hopper-to-pay-35m-in-ftc-settlement-over-unfairly-charging-hidden-fees/"
+        ]
+      },
+      {
+        "title": "Virginia verbietet den Verkauf von Geolocation-Daten",
+        "originalTitle": "Virginia bans sale of geolocation data",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "In Virginia ist der Verkauf von Geolocation-Daten verboten worden. Der Verweis auf die Frontpage zeigt, dass das Thema in der Tech-Community starke Aufmerksamkeit bekommt.",
+        "why": "Standortdaten sind für Werbe-, Tracking- und Sicherheitsfragen zentral. Für Medien- und Creator-Workflows ist das relevant, weil Location-Daten oft unbemerkt in Apps, Analytics und Plattformen mitlaufen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data"
+        ]
+      },
+      {
+        "title": "Die Entwickler-Community diskutiert bessere Regeln für den Umgang mit LLMs im Code",
+        "originalTitle": "No LLM Code in Dependencies",
+        "category": "Open Source",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News LLM",
+        "summary": "Ein viel diskutierter Beitrag fordert, keinen LLM-generierten Code als Abhängigkeit zu akzeptieren. Der Thread zeigt, dass viele Entwickler stärker auf Nachvollziehbarkeit und Kontrolle achten wollen.",
+        "why": "Das ist ein wichtiger Gegenentwurf zum bloßen AI-Hype und passt direkt zu professionellen Video- und Software-Workflows. Wer KI-Produktion ernsthaft einsetzt, braucht überprüfbare Ergebnisse statt nur schneller Autocomplete-Versprechen.",
+        "opportunity": "Gute Videoidee: Wann ist KI-Code Hilfe und wann ein Audit-Risiko?",
+        "links": [
+          "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-03T07:46:05.261Z",
+    "generatedAtBerlin": "03.07.2026, 09:46",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Meta startet heimlich die KI-Gaming-App Pocket",
+      "Anthropic spricht mit Samsung über einen eigenen Custom-Chip",
+      "OpenAI soll vorgeschlagen haben, 5 % der Unternehmensanteile an einen US-Sovereign-Wealth-Fund zu geben"
+    ],
+    "audioPath": "audio/briefing-2026-07-02.mp3",
+    "audioUrl": "audio/briefing-2026-07-02.mp3",
+    "audioGeneratedAt": "2026-07-03T07:46:47.489Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-01",
     "title": "KI-, Plattform- und Infrastruktur-Update: mehr Geld, mehr Kontrolle, mehr Agenten",
     "summary": "Der Vortag war geprägt von zwei klaren Linien: KI wird stärker zur Infrastruktur- und Plattformfrage, und große Anbieter verschärfen den Zugriff auf Daten, Compute und Assistenten. Dazu kamen relevante Produkt- und Sicherheitsmeldungen von Google, Apple, Cloudflare und mehreren AI-Scale-ups.",
