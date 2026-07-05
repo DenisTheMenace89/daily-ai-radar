@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-07-04",
+    "title": "KI-Briefing für Denis: Branding, Studio-Streit, Sicherheitsgrenzen und Creator-Konflikte",
+    "summary": "Google setzt KI in einer auffälligen Werbekampagne als Kultur- und Storytelling-Element ein, während Midjourney im Rechtsstreit mit Hollywood Studios mehr Transparenz über deren KI-Nutzung fordert. Parallel zeigen Hacker-News und The Verge die wachsende Reibung zwischen besseren Modellen, schlechteren Tools, Sicherheitsrisiken und kreativen Communities.",
+    "topSummary": "Heute in 30 Sekunden: KI wandert weiter in Marketing, Recht und Creator-Kultur hinein. Gleichzeitig wächst der Druck auf Unternehmen, offenzulegen, wie sie KI nutzen, und auf Teams, ihre Tools, Kosten und Sicherheitsprozesse sauber zu beherrschen. Für Creator und Medienmacher ist das vor allem ein Signal: KI ist nicht mehr nur Feature, sondern zunehmend auch Streitpunkt, Produktionsfaktor und Markenfrage.",
+    "implications": [
+      "KI wird stärker als öffentliches Marken- und Storytelling-Tool eingesetzt, nicht nur als Produktfunktion.",
+      "Rechtliche Auseinandersetzungen drehen sich zunehmend auch darum, wer KI wie verwendet und wer Transparenz schuldet.",
+      "Für Creator und Produktvideos wird Tool-Qualität wichtiger: bessere Modelle helfen wenig, wenn Workflows, Kosten oder Kontrolle schlecht bleiben.",
+      "Sicherheits- und Moderationsfragen rund um LLMs werden konkreter und betreffen sowohl Unternehmen als auch Communities."
+    ],
+    "watchlist": [
+      "Wie weit Midjourney im Streit mit den Hollywood Studios mit der Forderung nach KI-Transparenz kommt.",
+      "Ob sich die Hinweise auf mögliche Leistungsprobleme bei GPT-5.5 Codex bestätigen.",
+      "Ob mehr Tools auftauchen, die LLM-Kosten, Sicherheitsfilter und Produktionsfehler sichtbar machen.",
+      "Wie Creator-Communities künftig mit KI-Nutzung und KI-Detektion umgehen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorAI",
+      "#Security",
+      "#DeveloperTools",
+      "#Recht",
+      "#Video"
+    ],
+    "stories": [
+      {
+        "title": "Google inszeniert die Unabhängigkeitserklärung in einem KI-Spot als Workspace-Geschichte",
+        "originalTitle": "New Google commercial imagines a Declaration of Independence written with help from AI",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google hat einen neuen Werbespot veröffentlicht, der sich fragt, wie die Gründerväter mit Google Workspace und KI gearbeitet hätten. Anlass ist das 250-jährige Jubiläum der Unterzeichnung der Unabhängigkeitserklärung.",
+        "why": "Das zeigt, wie KI zunehmend als kulturelles und emotionales Marketing-Motiv eingesetzt wird. Für Creator und Produktvideo-Macher ist das ein gutes Beispiel dafür, wie man abstrakte KI-Funktionen in eine verständliche Story übersetzt.",
+        "opportunity": "Eine Videoidee wäre: Wie KI-Produkte über historische oder kulturelle Narrative erklärt werden.",
+        "links": [
+          "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/"
+        ]
+      },
+      {
+        "title": "Midjourney verlangt im Streit mit Hollywood-Studios mehr Transparenz über deren KI-Nutzung",
+        "originalTitle": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Im laufenden Rechtsstreit mit drei Hollywood-Studios versucht Midjourney, die Studios zur Offenlegung ihrer eigenen KI-Nutzung zu zwingen. Es geht damit nicht nur um Vorwürfe gegen Midjourney, sondern auch um die Frage, wie die Gegenseite selbst KI einsetzt.",
+        "why": "Für Medien- und Creator-Branchen ist das relevant, weil sich Rechtskonflikte um KI immer stärker um Transparenz, Datennutzung und Doppelmoral drehen. Das kann auch für Bild-, Video- und Rechtefragen in der Content-Produktion zum Präzedenzfall werden.",
+        "opportunity": "Beobachten, ob daraus neue Transparenzpflichten oder Argumentationsmuster für KI-Rechtsfälle entstehen.",
+        "links": [
+          "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/"
+        ]
+      },
+      {
+        "title": "Alibaba soll Mitarbeitenden die Nutzung von Claude Code untersagen",
+        "originalTitle": "Alibaba reportedly bans employees from using Claude Code",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Laut Bericht hat Alibaba Claude Code als Hochrisiko-Software eingestuft und die Nutzung durch Mitarbeitende untersagt. Die Entscheidung betrifft damit ein prominentes KI-Tool im Entwicklungsalltag.",
+        "why": "Das ist ein klares Signal, dass große Unternehmen KI-Coding-Tools nicht nur nach Produktivität, sondern auch nach Risiko und Kontrolle bewerten. Für Creator mit Software- oder Produktbezug ist das interessant, weil Tool-Auswahl zunehmend auch Compliance- und Sicherheitsfrage wird.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"
+        ]
+      },
+      {
+        "title": "HN-Debatte zu GPT-5.5 Codex deutet auf mögliche Leistungseinbußen durch Reasoning-Token-Clustering hin",
+        "originalTitle": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Auf Hacker News wird ein GitHub-Issue zu GPT-5.5 Codex diskutiert, in dem reasoning-token clustering als mögliche Ursache für schlechtere Performance genannt wird. Die Diskussion ist stark sichtbar, aber in den Quellen selbst nur als Community-Signal belegt.",
+        "why": "Für Entwickler und Produkt-Teams ist jede mögliche Verschlechterung bei Coding-Modellen relevant, weil sie direkt Workflows, Qualität und Vertrauen beeinflusst. Auch für Produktvideos ist das ein starkes Thema, weil Nutzer bei KI-Tools oft nicht nur Features, sondern Verlässlichkeit bewerten.",
+        "opportunity": "Ein kurzer Praxis-Check-Clip zu Codex-Qualität und Prompt-/Reasoning-Verhalten könnte gut funktionieren.",
+        "links": [
+          "https://github.com/openai/codex/issues/30364"
+        ]
+      },
+      {
+        "title": "Ein Essay warnt: Bessere Modelle führen nicht automatisch zu besseren Tools",
+        "originalTitle": "Better Models: Worse Tools",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein viel diskutierter Essay auf Hacker News argumentiert, dass KI-Modelle zwar besser werden können, die darüber gebauten Tools aber trotzdem schlechter nutzbar sein können. Der Fokus liegt damit auf Produktdesign, UX und realer Arbeitsqualität.",
+        "why": "Das ist für Creator und Produktvideo-Creator wichtig, weil gute KI-Produkte nicht nur an Modellleistung, sondern an Bedienbarkeit und Workflow-Klarheit gemessen werden. Gerade bei Video- und Produktionssoftware entscheidet oft der Tool-Flow über den tatsächlichen Nutzen.",
+        "opportunity": "Guter Ausgangspunkt für eine Einordnung: Warum KI-Features im Alltag an der Tool-Oberfläche gewinnen oder verlieren.",
+        "links": [
+          "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/"
+        ]
+      },
+      {
+        "title": "Ein Open-Source-Tool soll die Kosten von LLM-Chat-Apps sichtbar machen",
+        "originalTitle": "Calculator built to teach/experiment with costing LLM chat apps",
+        "category": "Open Source",
+        "priority": "niedrig",
+        "signal": "niedrig",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "Hacker News LLM",
+        "summary": "Auf Hacker News wird ein Rechner vorgestellt, der helfen soll, die Kosten von LLM-Chat-Apps zu verstehen und zu experimentieren. Die Meldung ist eher klein, aber thematisch klar auf Produktplanung und Kostentransparenz ausgerichtet.",
+        "why": "Für Produkt- und Creator-Workflows ist Kostenbewusstsein bei KI-Features zentral, besonders wenn Chat-, Assistenz- oder Automationsfunktionen in Videos oder Tools eingebaut werden. Das ist weniger News als nützliches Praxis-Signal.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://calc.ajinkya.ai/"
+        ]
+      },
+      {
+        "title": "The Verge beschreibt einen Konflikt in der Fanfiction-Szene über KI und Detektion",
+        "originalTitle": "The fanfiction community is at war with AI — and itself",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "The Verge AI",
+        "summary": "The Verge berichtet, dass in der Fanfiction-Community eine neue Bewegung entstanden ist, die generative KI in Fanworks aufspüren will. Gleichzeitig sind die eingesetzten Erkennungsmethoden fragwürdig, sodass auch unbeteiligte Autorinnen und Autoren betroffen sein könnten.",
+        "why": "Das ist direkt relevant für Creator-Kultur, Urhebergefühl und den Umgang mit KI in kreativen Communities. Für Denis ist es ein gutes Beispiel dafür, wie sich die Debatte von Tools auf Identität, Vertrauen und Gemeinschaft verschiebt.",
+        "opportunity": "Eine starke Beobachtungsfrage für ein Video wäre: Wie viel KI-Detektion verträgt eine kreative Community?",
+        "links": [
+          "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-05T07:44:43.177Z",
+    "generatedAtBerlin": "05.07.2026, 09:44",
+    "mode": "ai",
+    "sourceCount": 13,
+    "highlights": [
+      "Midjourney verlangt im Streit mit Hollywood-Studios mehr Transparenz über deren KI-Nutzung",
+      "The Verge beschreibt einen Konflikt in der Fanfiction-Szene über KI und Detektion",
+      "Google inszeniert die Unabhängigkeitserklärung in einem KI-Spot als Workspace-Geschichte"
+    ],
+    "audioPath": "audio/briefing-2026-07-04.mp3",
+    "audioUrl": "audio/briefing-2026-07-04.mp3",
+    "audioGeneratedAt": "2026-07-05T07:45:24.046Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-03",
     "title": "KI-Tools werden produktiver, Browser und Bots rücken näher an den Alltag",
     "summary": "Am 3. Juli dominierten vor allem praktische KI-Tools, neue Browser-Alternativen und Security-Themen. Auffällig sind außerdem mehr Bausteine für den KI-Alltag: bessere Interfaces, Team-Sharing, Datenschutz und Monitoring für LLMs.",
