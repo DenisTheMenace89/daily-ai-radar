@@ -1,5 +1,179 @@
 [
   {
+    "date": "2026-07-05",
+    "title": "Daily Briefing: KI-Tools, Plattformen und Creator-Signale",
+    "summary": "Heute dominieren neue KI- und Developer-Tools, ein bemerkenswerter Schritt bei Amazon Mechanical Turk und ein paar Plattform- und Medien-Signale. Für Creator und Produktvideos sind vor allem die Themen rund um AI-Workflows, Videoplattformen und die Google-Kampagne interessant.",
+    "topSummary": "Heute in 30 Sekunden: Amazon schließt Mechanical Turk offenbar für neue Kunden, was ein weiteres Zeichen für den Wandel klassischer Crowdwork-Infrastruktur ist. Gleichzeitig tauchen mehrere neue LLM-Tools und -Projekte auf, die zeigen, wie schnell sich der Markt für Agenten, Governance und Entwickler-Workflows weiter fragmentiert. Für Denis besonders relevant: Vimeo-/AOL-Eigner Bending Spoons, eine neue Google-AI-Kampagne und HN-Signale zu kreativen Open-Source-Tools.",
+    "implications": [
+      "KI-Tools werden stärker in konkrete Workflows eingebaut: Testing, Governance, IDEs und Suche statt nur Chatbots.",
+      "Plattform- und Medienbesitz verschiebt sich weiter; das ist wichtig für Creator, weil sich Produkt-, Video- und Monetarisierungsumfelder ändern können.",
+      "Security und Supply-Chain-Risiken rund um LLM-Agenten bleiben ein relevantes Thema für Teams und Tool-Builder.",
+      "Marketing mit generativer KI wird sichtbarer, aber auch angreifbarer, wenn die Inszenierung zu platt wirkt."
+    ],
+    "watchlist": [
+      "Ob Amazon Mechanical Turk für Bestandskunden nur eingeschränkt weiterläuft oder faktisch ausläuft.",
+      "Wie sich Bending Spoons bei AOL und Vimeo strategisch positioniert.",
+      "Ob die neuen LLM-Tools von HN als produktreife Bausteine oder eher als Demos stehen bleiben.",
+      "Ob Googles AI-Kampagnen mehr Gegenwind für Tonalität und Glaubwürdigkeit erzeugen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#DeveloperTools",
+      "#Plattformen",
+      "#Security",
+      "#Video"
+    ],
+    "stories": [
+      {
+        "title": "Amazon nimmt offenbar keine neuen Mechanical-Turk-Kunden mehr an",
+        "originalTitle": "Amazon will stop accepting new customers for Mechanical Turk",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Amazon will laut Quelle keine neuen Kunden mehr für Mechanical Turk annehmen. Das wirkt wie ein möglicher Endpunkt oder zumindest ein starker Rückbau des langjährigen Crowdwork-Angebots.",
+        "why": "Mechanical Turk war lange ein wichtiger Baustein für Datenarbeit und menschliche Bewertung in KI-Workflows. Für Creator- und Produktvideo-Teams ist das relevant, weil sich Trainings-, Labeling- und Testprozesse in Richtung anderer Anbieter verschieben können.",
+        "opportunity": "Eine kurze Einordnung zu „Was ersetzt Mechanical Turk in modernen AI-Pipelines?“ könnte gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/"
+        ]
+      },
+      {
+        "title": "Bending Spoons wird als wenig bekannter, aber großer Plattform-Eigner sichtbar",
+        "originalTitle": "What is Bending Spoons? The little-known AOL and Vimeo owner that’s now public",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "TechCrunch stellt Bending Spoons als wenig bekannte Firma vor, die inzwischen AOL und Vimeo besitzt und nun öffentlich ist. Der Artikel betont, dass das Portfolio des Unternehmens bereits mehr als eine Milliarde Menschen erreicht hat.",
+        "why": "Für Denis ist das besonders relevant wegen Vimeo: Eigentümerwechsel können Produktstrategie, Preismodelle und Creator-Funktionen beeinflussen. Auch bei Medien- und Video-Plattformen lohnt sich hier ein genauer Blick.",
+        "opportunity": "Ein Update-Video zu „Wer steuert Vimeo künftig und was könnte das für Creator bedeuten?“ wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/07/05/what-is-bending-spoons-everything-to-know-about-aols-acquirer/"
+        ]
+      },
+      {
+        "title": "TechCrunch meldet fast 90 neue Unicorns in diesem Jahr, getrieben von KI-Frenzy",
+        "originalTitle": "Almost 90 new unicorns have been minted so far this year — here they are",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Laut TechCrunch sind bis jetzt in diesem Jahr fast 90 neue Unicorns entstanden. Als Treiber wird ein anhaltender Investorenboom rund um KI genannt.",
+        "why": "Das ist ein guter Marker dafür, wie stark KI weiterhin Kapital anzieht. Für Creator und Medienmacher ist das relevant, weil es erklärt, warum ständig neue Tools, Startups und Pitch-Storys auftauchen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/"
+        ]
+      },
+      {
+        "title": "HN zeigt mehrere neue LLM-Tools für Governance, Editing und Testing",
+        "originalTitle": "AKM-CLR – pre-inference governance for vLLM-style LLM serving",
+        "category": "Developer",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News LLM",
+        "summary": "Auf Hacker News tauchten heute mehrere LLM-nahe Tools auf: ein Governance-Layer für vLLM-ähnliches Serving, ein Tool für LLM-gestützte Git-Diffs auf Blogs, ein Multi-Agent-Orchestrator und ein lokales Tool zum Reparieren kaputter Cypress-Selektoren.",
+        "why": "Die Themen zeigen klar, wohin sich der Markt bewegt: nicht mehr nur Modellzugang, sondern operative Kontrolle, Agentensteuerung und konkrete Dev-Workflows. Für Produktvideos ist das ein gutes Umfeld, weil solche Tools anschaulich demonstrierbar sind.",
+        "opportunity": "Ein Videoformat über „Neue AI-Tools, die echte Entwicklerarbeit betreffen“ passt hier sehr gut.",
+        "links": [
+          "https://github.com/irenee28/akm-clr-governance-layer",
+          "https://github.com/bharadwaj-pendyala/sidenote",
+          "https://github.com/SakanaAI/fugu",
+          "https://github.com/adam-s/goldseam"
+        ]
+      },
+      {
+        "title": "Ein neues Open-Source-Projekt will Spiele als JavaScript-basierte Plattform teilen",
+        "originalTitle": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
+        "category": "Open Source",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Homegames ist eine Open-Source-Spielplattform, auf der Spiele als JavaScript-Klassen laufen und deren Code offen einsehbar ist. Dazu gibt es einen In-Browser-Editor, um Spiele direkt im Browser zu bauen und zu veröffentlichen.",
+        "why": "Auch wenn es kein klassisches Creator-Tool ist, zeigt es einen interessanten Trend zu browserbasierten, offenen Publishing-Workflows. Für Video-Creator kann das spannend sein, wenn sie einfache interaktive Inhalte oder Technik-Storys suchen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://homegames.io"
+        ]
+      },
+      {
+        "title": "HN pusht ein Papier zu einem neuen AI-Tutor mit messbarem Lernerfolg",
+        "originalTitle": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein auf HN diskutiertes Paper berichtet über einen AI-Tutor mit einem Effektbereich von 0,71 bis 1,30 Standardabweichungen in einem Dartmouth-Kurs. Die Quelle ist ein PDF aus einem Workshop-Kontext.",
+        "why": "Das ist relevant, weil es KI-Anwendungen mit messbarem Nutzen statt nur Demo-Charakter zeigt. Für Denis kann das als Grundlage für ein Video über „Was bringt AI im Lernen wirklich?“ dienen.",
+        "opportunity": "Einklärendes Kurzvideo zu „AI-Tutoren: Marketingversprechen vs. messbarer Effekt“ wäre interessant.",
+        "links": [
+          "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf"
+        ]
+      },
+      {
+        "title": "Google zeigt eine neue, umstrittene AI-Werbung mit den Gründervätern",
+        "originalTitle": "Infuriating Google commercial imagines the founding fathers embracing AI",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "The Verge AI",
+        "summary": "The Verge beschreibt einen neuen Google-Workspace-Spot, der die Gründungsväter mit Google-Tools und Gemini beim Verfassen der Unabhängigkeitserklärung zeigt. Der Ton wird im Artikel deutlich als cringey und irritierend eingeordnet.",
+        "why": "Das ist für Creator und Medienmacher relevant, weil es zeigt, wie groß die Spannweite von KI-Marketing inzwischen ist: technisch ambitioniert, aber tonal schnell angreifbar. Solche Spots können leicht zum Meme oder zur Reibungsfläche werden.",
+        "opportunity": "Eine kurze Analyse zu „Wann AI-Werbung glaubwürdig wirkt und wann sie peinlich wird“ könnte gut funktionieren.",
+        "links": [
+          "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence"
+        ]
+      },
+      {
+        "title": "HN signalisiert Sicherheitsrisiken für LLM-Agenten-Supply-Chains",
+        "originalTitle": "Exploiting LLM Agent Supply Chains via Payload-Less Skills",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News LLM",
+        "summary": "Auf HN wurde eine Arbeit zu Angriffen auf LLM-Agenten-Supply-Chains hervorgehoben. Das Thema dreht sich um payload-less skills als möglicher Angriffsvektor.",
+        "why": "Mit mehr Agenten, Plugins und Toolchains steigt die Angriffsfläche für KI-Workflows. Für produktionsnahe Creator- und Developer-Setups ist das ein wichtiges Warnsignal.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://arxiv.org/abs/2605.14460"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-06T08:47:05.239Z",
+    "generatedAtBerlin": "06.07.2026, 10:47",
+    "mode": "ai",
+    "sourceCount": 25,
+    "highlights": [
+      "Amazon nimmt offenbar keine neuen Mechanical-Turk-Kunden mehr an",
+      "Bending Spoons wird als wenig bekannter, aber großer Plattform-Eigner sichtbar",
+      "HN zeigt mehrere neue LLM-Tools für Governance, Editing und Testing"
+    ],
+    "audioPath": "audio/briefing-2026-07-05.mp3",
+    "audioUrl": "audio/briefing-2026-07-05.mp3",
+    "audioGeneratedAt": "2026-07-06T08:47:46.767Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-04",
     "title": "KI-Briefing für Denis: Branding, Studio-Streit, Sicherheitsgrenzen und Creator-Konflikte",
     "summary": "Google setzt KI in einer auffälligen Werbekampagne als Kultur- und Storytelling-Element ein, während Midjourney im Rechtsstreit mit Hollywood Studios mehr Transparenz über deren KI-Nutzung fordert. Parallel zeigen Hacker-News und The Verge die wachsende Reibung zwischen besseren Modellen, schlechteren Tools, Sicherheitsrisiken und kreativen Communities.",
