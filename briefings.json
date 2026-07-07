@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-07-06",
+    "title": "Daily-Briefing: KI-Tools, Plattformen und Infrastruktur im Fokus",
+    "summary": "Heute dominieren produktionsnahe KI-Themen: Kosten, Agenten, LLM-Infrastruktur und Plattform-Strategien. Dazu kommen mehrere signifikante Bewegungen bei Apple, Google, Microsoft und Reddit, die für Creator, Software-Teams und Plattform-Strategien relevant sind.",
+    "topSummary": "Heute in 30 Sekunden: Die wichtigsten Signale drehen sich um den wirtschaftlichen Druck auf KI-Produkte, bessere Kontrolle über Assistenten und Modelle sowie um mehr Plattform- und Datenschutzfragen. Für Creator und Product-Video-Teams ist besonders spannend, wie sich Siri, Google-Datenzugriffe, WhatsApp-Usernames und LLM-Workflows in konkrete Funktionen übersetzen. Gleichzeitig zeigen Layoffs, Startup-Finanzierung und Open-Source-Tools, wohin sich der Markt gerade verschiebt.",
+    "implications": [
+      "KI wird stärker nach Kosten, Produktivität und Produktionsreife bewertet, nicht nur nach Demo-Effekt.",
+      "Plattformen ziehen KI tiefer in ihre Produkte und greifen dabei häufiger auf Nutzerdaten, Automatisierung und Moderation mit LLMs zurück.",
+      "Für Creator-Workflows werden Identität, Sprach-/Assistentensteuerung und Office-/Content-Automation weiter wichtiger.",
+      "Security und Governance bleiben ein Kernthema, vor allem bei Prompt Injection, Spam und Datenzugriffen."
+    ],
+    "watchlist": [
+      "Wie stark Apple Siri im Alltag personalisiert und ob das neue Beta-Tempo echte Nutzerszenarien verbessert.",
+      "Ob Google den Opt-out für Trainingsdaten sichtbar und einfach genug macht, um Kritik abzufedern.",
+      "Welche LLM-Tooling-Projekte aus HN sich zu produktionsreifen Creator- oder Dev-Workflows entwickeln.",
+      "Ob Microsofts Jobkürzungen und die AI-Narrative weitere große Tech-Runden nachziehen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Plattformen",
+      "#Security",
+      "#DeveloperTools",
+      "#OpenSource"
+    ],
+    "stories": [
+      {
+        "title": "Vercel-CEO Guillermo Rauch sieht den Konflikt zwischen Modellen und Agenten als Produktionsfrage",
+        "originalTitle": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+        "category": "Developer",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Guillermo Rauch spricht darüber, dass sich in der Produktion zunehmend Preis und Performance durchsetzen, wenn Teams Modelle und Agenten getrennt optimieren. Der Artikel ordnet das als Teil der praktischen AI-Entwicklung ein.",
+        "why": "Für Produktteams ist das relevant, weil es zeigt, dass KI-Architektur immer stärker nach Betriebskosten und Zuverlässigkeit bewertet wird. Das betrifft auch Creator- und Video-Tools, wenn Agenten-Workflows nicht nur klug, sondern auch skalierbar sein müssen.",
+        "opportunity": "Ein Video darüber, wie sich KI-Apps in der Praxis zwischen Modell, Agent und Kosten optimieren lassen.",
+        "links": [
+          "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/"
+        ]
+      },
+      {
+        "title": "Apple erlaubt im neuesten iOS-27-Beta mehr Kontrolle über Siris Tempo und Ausdruck",
+        "originalTitle": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Apple testet in iOS 27 Beta Optionen, mit denen sich Siris Sprechtempo und Ausdruck anpassen lassen. Das ist Teil von Apples größerem Umbau von Siri auf generative KI.",
+        "why": "Für Creator und Medienarbeit ist das spannend, weil Sprachassistenten damit persönlicher und natürlicher wirken könnten. Solche kleinen UI-Änderungen zeigen oft, wie Apple die neue Siri im Alltag positionieren will.",
+        "opportunity": "Eine kurze Beobachtung zu Apples Strategie: weniger Funktionsshow, mehr natürliche Interaktion.",
+        "links": [
+          "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/"
+        ]
+      },
+      {
+        "title": "Google nutzt mehr Nutzerdaten zum Training seiner KI, und es gibt einen Opt-out",
+        "originalTitle": "If you use Google, you’re training its AI. Here’s how to opt out.",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Eine Änderung bei Googles Privatsphäre-Einstellungen erlaubt es dem Unternehmen, mehr Daten zu speichern, darunter auch Bilder, Dateien sowie Audio- und Videoaufnahmen, um KI-Modelle zu verbessern. TechCrunch beschreibt auch, wie man widersprechen kann.",
+        "why": "Das ist besonders relevant für Creator, weil Audio- und Video-Uploads direkt betroffen sein können. Für Medien- und Produktvideos ist das auch ein gutes Beispiel dafür, wie Datenschutz und KI-Training im Alltag zusammenhängen.",
+        "opportunity": "Ein Praxis-Video oder Social-Post dazu, welche Google-Einstellungen Creator prüfen sollten.",
+        "links": [
+          "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/"
+        ]
+      },
+      {
+        "title": "Microsoft streicht fast 5.000 Stellen, vor allem bei Xbox und im Vertrieb",
+        "originalTitle": "Microsoft lays off nearly 5,000 employees across Xbox, commercial sales",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Microsoft hat am Montag rund 4.800 Stellen beziehungsweise 2,1 Prozent der globalen Belegschaft gestrichen. Besonders betroffen sind Xbox und der kommerzielle Vertrieb.",
+        "why": "Die Meldung verstärkt die Sorge, dass AI- und Effizienzdruck in der Tech-Branche weiter Jobs verändert. Für Creator und Video-Produktion ist das auch ein Signal, dass große Plattform- und Tool-Anbieter ihre Kostenstrukturen verschlanken.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/"
+        ]
+      },
+      {
+        "title": "Reddit setzt LLMs ein, um ein Spam-Problem zu lösen, das LLMs mitverursacht haben",
+        "originalTitle": "Reddit is using LLMs to solve a problem LLMs largely created",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Reddit nutzt große Sprachmodelle, um Spam zu erkennen und zu entfernen. Der Artikel beschreibt das als typischen KI-Reflex von Plattformen, die „mit Feuer gegen Feuer“ vorgehen müssen.",
+        "why": "Für Plattformen und Creator ist das relevant, weil Moderation und Sichtbarkeit im KI-Zeitalter stärker automatisiert werden. Das beeinflusst, wie Inhalte, Kommentare und Community-Signale zukünftig gefiltert werden.",
+        "opportunity": "Eine Analyse dazu, wie Plattformen KI gegen KI in Moderation und Trust einsetzen.",
+        "links": [
+          "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/"
+        ]
+      },
+      {
+        "title": "Station F baut seine Rolle als Launchpad für Europas heißeste KI-Startups aus",
+        "originalTitle": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Der Pariser Startup-Hub Station F bereitet eine neue Ausgabe seines F/ai-Accelerator-Programms vor. Ziel ist es, die Position als Sprungbrett für vielversprechende KI-Startups zu stärken.",
+        "why": "Das ist wichtig als Standortsignal für Europas KI-Ökosystem und damit indirekt auch für Tools, Partner und mögliche Kooperationen im Creator-Tech-Umfeld. Für Produktionen kann das später mehr europäische AI-Software bedeuten.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/"
+        ]
+      },
+      {
+        "title": "Bookshop.org will die Kobo-eReader-Unterstützung doch noch dieses Jahr bringen",
+        "originalTitle": "Amazon competitor Bookshop.org says Kobo eReader support will happen this year after all",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Bookshop.org sagt, dass die geplante Kobo-Integration nach geklärten Geschäftsbedingungen nun umgesetzt wird. Zuvor wirkte es so, als würde sich die Partnerschaft erneut verzögern.",
+        "why": "Das ist vor allem für digitale Buch- und Content-Plattformen interessant, weil es zeigt, wie wichtig Integrationen für Nutzerbindung sind. Für Creator kann es ein Beispiel für Plattformstrategie jenseits von Amazon sein.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/06/amazon-competitor-bookshop-org-says-kobo-e-reader-support-will-happen-this-year-after-all/"
+        ]
+      },
+      {
+        "title": "WhatsApp ermöglicht jetzt das Reservieren und Ändern von Benutzernamen",
+        "originalTitle": "How to reserve and change your WhatsApp username",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "WhatsApp erlaubt es Nutzern jetzt, Benutzernamen vor dem vollständigen Rollout zu reservieren. Damit wird eine Kontaktaufnahme ohne Telefonnummer möglich, sobald das Feature live ist.",
+        "why": "Für Creator, Creator-Communities und Business-Kommunikation ist das relevant, weil Identität und Auffindbarkeit leichter werden. Das kann auch für Kollaborationen, Casting und Direktkontakte praktischer sein.",
+        "opportunity": "Eine kurze How-to- oder News-Notiz für Creator: Warum WhatsApp-Usernames wichtig werden.",
+        "links": [
+          "https://techcrunch.com/2026/07/06/how-to-reserve-and-change-your-whatsapp-username/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-07T07:58:12.632Z",
+    "generatedAtBerlin": "07.07.2026, 09:58",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Vercel-CEO Guillermo Rauch sieht den Konflikt zwischen Modellen und Agenten als Produktionsfrage",
+      "Apple erlaubt im neuesten iOS-27-Beta mehr Kontrolle über Siris Tempo und Ausdruck",
+      "Google nutzt mehr Nutzerdaten zum Training seiner KI, und es gibt einen Opt-out"
+    ],
+    "audioPath": "audio/briefing-2026-07-06.mp3",
+    "audioUrl": "audio/briefing-2026-07-06.mp3",
+    "audioGeneratedAt": "2026-07-07T07:58:53.664Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-05",
     "title": "Daily Briefing: KI-Tools, Plattformen und Creator-Signale",
     "summary": "Heute dominieren neue KI- und Developer-Tools, ein bemerkenswerter Schritt bei Amazon Mechanical Turk und ein paar Plattform- und Medien-Signale. Für Creator und Produktvideos sind vor allem die Themen rund um AI-Workflows, Videoplattformen und die Google-Kampagne interessant.",
