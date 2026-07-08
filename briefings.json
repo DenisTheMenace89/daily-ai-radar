@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-07-07",
+    "title": "KI wird billiger, Creator-Tools werden direkter, und Plattformen kämpfen weiter mit Moderation",
+    "summary": "Der Vortag stand vor allem im Zeichen von effizienteren KI-Workflows, neuen Creator-Funktionen und den Folgen fehlerhafter Automatisierung. Gleichzeitig zeigen Security-Meldungen und neue Produktstarts, dass KI und Plattformen schneller in den Alltag von Nutzern, Entwicklern und Medien-Creatorn hineinwachsen.",
+    "topSummary": "Heute in 30 Sekunden: Microsoft setzt stärker auf eigene Modelle, während Open Source bei KI weiter an Bedeutung gewinnt. Für Creator und Video-Teams sind neue Editier-Tools bei X, Netflixs Kurzvideo-Deals und Claude Coworks Ausbau auf Mobile und Web interessant. Gleichzeitig bleibt das Thema Sicherheit präsent: Discord hat Nutzer wegen eines KI-Moderationsbugs fälschlich gesperrt, und neue Tools sollen KI-Betrug und Datenabfluss begrenzen.",
+    "implications": [
+      "KI-Kosten und Modellwahl werden strategischer: Wer eigene oder günstigere Modelle nutzt, kann Ausgaben senken.",
+      "Creator- und Video-Workflows verschieben sich weiter in Richtung integrierter Plattform-Tools statt externer Software.",
+      "Fehler in KI-Moderation oder AI-gestützter Sicherheit können direkte Reichweiten- und Vertrauensschäden auslösen.",
+      "Open Source, lokale LLMs und Kontrollschichten gewinnen als Gegenpol zu teuren Frontier-Modellen an Relevanz."
+    ],
+    "watchlist": [
+      "Wie weit Microsoft seine Nutzung eigener Modelle noch ausbaut und welche Produkte davon profitieren.",
+      "Ob Xs Video-Editor tatsächlich mehr Original-Content erzeugt oder nur ein neues Basis-Tool bleibt.",
+      "Wie schnell Netflixs Kurzvideo-Offensive mit Publisher-Partnern skaliert.",
+      "Ob weitere Fälle von KI-Moderationsfehlern oder AI-gestützten Scam-Apps öffentlich werden."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Plattformen",
+      "#DeveloperTools",
+      "#OpenSource"
+    ],
+    "stories": [
+      {
+        "title": "Microsoft setzt bei KI stärker auf eigene Modelle, um Kosten zu senken",
+        "originalTitle": "Microsoft joins AI cost-cutting trend by relying more on its own models",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Microsoft reduziert offenbar seine KI-Ausgaben und verlässt sich dabei stärker auf eigene Modelle. Laut Quelle ist der Konzern damit Teil eines breiteren Trends im Silicon Valley.",
+        "why": "Das ist ein wichtiges Signal für den Markt: Kostenoptimierung wird bei KI-Infrastruktur und Produktintegration zum zentralen Hebel. Für Creator- und Product-Video-Workflows kann das mittelfristig bedeuten, dass Features stärker auf interne Modell-Stacks statt auf externe APIs setzen.",
+        "opportunity": "Beobachte, ob Microsoft daraus neue, günstigere Copilot- oder Video-Features ableitet.",
+        "links": [
+          "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/"
+        ]
+      },
+      {
+        "title": "Discord räumt ein, dass ein KI-Moderationsfehler Nutzer wegen harmloser Bilder fälschlich gesperrt hat",
+        "originalTitle": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Discord bestätigt einen Fehler in der KI-Moderation, der seit Mai Konten betraf. Zusätzlich wurden laut Quelle am Wochenende weitere 200 Nutzer gesperrt, bevor das Problem gefunden und behoben wurde.",
+        "why": "Für Creator-Communities ist das relevant, weil Moderationsfehler direkt Accounts, Reichweite und Community-Vertrauen treffen können. Es zeigt auch, wie riskant automatisierte Content-Entscheidungen ohne saubere Kontrollen sind.",
+        "opportunity": "Ein gutes Thema für ein kurzes Video über die Risiken von KI-Moderation auf Plattformen.",
+        "links": [
+          "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/"
+        ]
+      },
+      {
+        "title": "Claude Cowork wird auf Mobile und Web erweitert",
+        "originalTitle": "Claude Cowork expands to mobile and web",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Claude Cowork lässt sich nun nicht mehr nur am Desktop nutzen, sondern auch auf Mobile und im Web. Nutzer können Aufgaben starten, Status-Updates aufs Handy bekommen und später das Ergebnis abrufen, selbst wenn das Laptop zugeklappt ist.",
+        "why": "Das verschiebt KI-Assistenten weiter in den Alltag und macht sie nützlicher für mobile, kreative und produktive Workflows. Für Video-Creator ist das interessant, weil Aufgaben stärker asynchron und geräteübergreifend organisiert werden können.",
+        "opportunity": "Testen, ob sich damit Schnitt-, Skript- oder Research-Workflows unterwegs besser organisieren lassen.",
+        "links": [
+          "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/"
+        ]
+      },
+      {
+        "title": "X führt einen Video-Editor ein, um Original-Content statt Reposts zu fördern",
+        "originalTitle": "X adds a video editor to encourage creators to post original content, not stolen reposts",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "X rollt für iOS einen neuen Video-Editor und Recorder aus. Dazu gehören unter anderem mehrsprachige Untertitel, Green-Screen-Effekte und weitere Bearbeitungsfunktionen.",
+        "why": "Das ist direkt relevant für Creator, weil Plattformen zunehmend selbst zu Schnitt- und Publishing-Tools werden. Für Social-Video-Formate kann das die Einstiegshürde senken und Veröffentlichungen schneller machen.",
+        "opportunity": "Gute Basis für ein Video: Wie gut sind Plattform-Editoren im Vergleich zu klassischen Tools?",
+        "links": [
+          "https://techcrunch.com/2026/07/07/x-adds-a-video-editor-to-encourage-creators-to-post-original-content-not-stolen-reposts/"
+        ]
+      },
+      {
+        "title": "Netflix testet mit Publisher-Deals kürzere Videos",
+        "originalTitle": "Netflix dabbles in shorter video content with its new set of publisher deals with Variety, others",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Netflix bringt über neue Partnerschaften mit digitalen Publishern wie Rolling Stone und Variety Videos im Bereich von 2 bis 20 Minuten auf die Plattform. Damit bewegt sich der Dienst stärker in Richtung kurzer Videoformate.",
+        "why": "Das ist für Medien- und Video-Märkte relevant, weil Netflix damit näher an Publisher- und Creator-Logiken heranrückt. Kurze, kuratierte Formate könnten auch für IP-, Lizenz- und Reichweitenstrategien wichtig werden.",
+        "opportunity": "Beobachten, ob daraus ein neues Umfeld für kurze, journalistische oder branded Videos entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/07/07/netflix-dabbles-in-shorter-video-content-with-its-new-set-of-publisher-deals-with-variety-others/"
+        ]
+      },
+      {
+        "title": "Figma übernimmt das Team hinter einer Vibe-Coding-App",
+        "originalTitle": "Figma acquires team behind a vibe-coding app",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Figma übernimmt das Team hinter einer Vibe-Coding-App, die ursprünglich als von Y Combinator unterstützte Plattform gestartet war und später ein Agenten-Produkt entwickelte.",
+        "why": "Das zeigt, dass Design- und Prototyping-Tools immer stärker mit KI-gestützter Code-Erzeugung zusammenwachsen. Für Produktvideos und schnelle Demos kann das die Strecke von Idee zu klickbarem Prototyp weiter verkürzen.",
+        "opportunity": "Interessant für einen Clip über die Verschmelzung von Design, Prototyping und AI-Development.",
+        "links": [
+          "https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/"
+        ]
+      },
+      {
+        "title": "Savi startet eine App gegen realistische KI-Betrügereien wie gefälschte Entführungsforderungen",
+        "originalTitle": "Savi’s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Savi hat 7 Millionen Dollar Seed-Finanzierung eingesammelt und startet seine App für iPhone und Android. Die Lösung soll Verbraucher vor realistisch wirkenden KI-Scams schützen, darunter gefälschte Entführungs- und Lösegeldszenarien.",
+        "why": "Solche Betrugsformen werden mit besseren generativen Modellen glaubwürdiger und damit gefährlicher. Für Creator und Personen des öffentlichen Lebens ist das besonders relevant, weil Stimmen, Bilder oder Familienbezüge missbraucht werden können.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
+        ]
+      },
+      {
+        "title": "KI-Open-Source-Modelle schaden Anthropic laut TechCrunch bislang nicht",
+        "originalTitle": "Why the rise of open source AI isn’t hurting Anthropic … yet",
+        "category": "Forschung",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch argumentiert, dass der Erfolg offener Modelle bisher nicht auf Kosten der Frontier-Labs wie Anthropic geht. Stattdessen scheinen beide in unterschiedlichen Phasen desselben Nutzungszyklus zu landen.",
+        "why": "Für die Einordnung des KI-Marktes ist das wichtig, weil Open Source und Frontier-Modelle offenbar nicht nur Konkurrenz, sondern auch Ergänzung sein können. Das beeinflusst, welche Modelle sich für Produkte, Workflows und Creator-Tools durchsetzen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-08T07:03:08.827Z",
+    "generatedAtBerlin": "08.07.2026, 09:03",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Microsoft setzt bei KI stärker auf eigene Modelle, um Kosten zu senken",
+      "Discord räumt ein, dass ein KI-Moderationsfehler Nutzer wegen harmloser Bilder fälschlich gesperrt hat",
+      "Claude Cowork wird auf Mobile und Web erweitert"
+    ],
+    "audioPath": "audio/briefing-2026-07-07.mp3",
+    "audioUrl": "audio/briefing-2026-07-07.mp3",
+    "audioGeneratedAt": "2026-07-08T07:03:46.709Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-06",
     "title": "Daily-Briefing: KI-Tools, Plattformen und Infrastruktur im Fokus",
     "summary": "Heute dominieren produktionsnahe KI-Themen: Kosten, Agenten, LLM-Infrastruktur und Plattform-Strategien. Dazu kommen mehrere signifikante Bewegungen bei Apple, Google, Microsoft und Reddit, die für Creator, Software-Teams und Plattform-Strategien relevant sind.",
