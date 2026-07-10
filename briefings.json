@@ -1,5 +1,177 @@
 [
   {
+    "date": "2026-07-09",
+    "title": "KI kippt von Modell-Debatten zu Produkt, Recht und Distribution",
+    "summary": "Am 9. Juli dominierten vier Themen: neue KI-Tools und Coding-Produkte, härtere Auseinandersetzungen um Copyright und Regulierung, mehr Transparenz bei KI-Werbung sowie frische Signale aus Voice-, Chips- und Open-Source-Ökosystemen. Für Creator und Produktvideos ist besonders relevant, dass KI immer stärker in Inhalte, Workflows und Plattformregeln hineinwirkt.",
+    "topSummary": "Heute in 30 Sekunden: Die KI-Branche bewegt sich weiter von reinen Modell-News hin zu konkreten Produkt-, Rechts- und Plattformfragen. Gleichzeitig kommen neue Tools für Entwickler, Voice und lokale Ausführung auf den Markt, während Google und Meta ihre Regeln und Infrastruktur nachschärfen. Für Denis heißt das: Mehr Stoff für praxisnahe Videos über KI-Workflows, Creator-Risiken und die nächste Welle an Tools.",
+    "implications": [
+      "KI wird nicht nur gebaut, sondern stärker reguliert, markiert und juristisch angegriffen.",
+      "Developer-Tools und lokale KI-Lösungen bleiben ein klarer Wachstumsbereich.",
+      "Creator und Medienhäuser müssen genauer auf Trainingsdaten, Bildnutzung und Plattformregeln achten.",
+      "Voice, Ads und Social-Plattformen werden für KI-getriebene Content- und Monetarisierungsfragen wichtiger."
+    ],
+    "watchlist": [
+      "Wie stark reagiert der Markt auf Googles neue KI-Anzeigen-Offenlegung?",
+      "Ob der Copyright-Streit um OpenAI neue Präzedenzwirkung bekommt.",
+      "Wie schnell sich Meta mit Muse Spark und neuen Chips im Entwickler- und Infrastrukturmarkt positioniert.",
+      "Ob Open-Source- und Local-First-Tools wie Ollama weiter Nutzer und Investoren anziehen."
+    ],
+    "tags": [
+      "#AI",
+      "#CreatorTools",
+      "#DeveloperTools",
+      "#Security",
+      "#Regulierung",
+      "#Platform"
+    ],
+    "stories": [
+      {
+        "title": "Meta steigt mit Muse Spark 1.1 in den überfüllten KI-Coding-Markt ein",
+        "originalTitle": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
+        "category": "Developer",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Meta hat Muse Spark 1.1 vorgestellt und bewirbt das Modell für große agentische Workloads, Bugfixing und umfangreiche Code-Migrationen. Damit greift Meta direkt in einen Markt ein, den Unternehmen zunehmend für Automatisierung nutzen.",
+        "why": "Das ist ein starkes Signal für den Markt rund um AI-Coding-Tools, CI/CD und Enterprise-Automation. Für Produktvideos oder Creator-Content ist das spannend, weil sich damit sehr konkret zeigen lässt, was KI in echten Dev-Workflows heute schon leisten soll.",
+        "opportunity": "Ein Videovergleich zwischen Muse Spark, Claude und OpenAI im Coding-Workflow wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+          "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        ]
+      },
+      {
+        "title": "OpenAI gerät im Copyright-Prozess mit der New York Times weiter unter Druck",
+        "originalTitle": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "News-Publisher werfen OpenAI vor, im ChatGPT-Copyright-Verfahren Tools und Datensätze verborgen zu haben, die urheberrechtlich geschützte Journalismus-Inhalte in ChatGPT-Ausgaben identifizieren könnten. Die Kläger verschärfen den Streit mit einem neuen Antrag auf Sanktionen.",
+        "why": "Für Medien-, Video- und Creator-Rechte ist das relevant, weil es um Beweise, Trainingsdaten und die Nutzung geschützter Inhalte in KI-Systemen geht. Solche Fälle können indirekt beeinflussen, wie Plattformen und Modelle mit Text-, Bild- und Videoquellen umgehen.",
+        "opportunity": "Ein Kurzformat zu den Folgen des Falls für Creator- und Medienrechte wäre sinnvoll.",
+        "links": [
+          "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/"
+        ]
+      },
+      {
+        "title": "Google muss künftig offenlegen, welche Anzeigen mit KI erstellt wurden",
+        "originalTitle": "Google will now disclose which ads are made with AI",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google führt eine Offenlegungspflicht für Anzeigen ein, die mit KI oder anderweitig synthetisch bzw. digital verändertem Inhalt arbeiten. Bisher galt diese Pflicht nur für Wahlwerbung.",
+        "why": "Das betrifft direkt Werbe-, Creator- und Plattform-Ökosysteme, weil sich Kennzeichnungspflichten für KI-generierte oder KI-gestützte Werbung ausweiten. Für Produktvideos und Social Ads wird Transparenz damit zu einem praktischen Thema.",
+        "opportunity": "Denis könnte zeigen, wie KI-Ads künftig gekennzeichnet werden müssen und was das für Creator-Werbung bedeutet.",
+        "links": [
+          "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/"
+        ]
+      },
+      {
+        "title": "Ollama sammelt 65 Millionen Dollar ein und wächst auf fast 9 Millionen Nutzer",
+        "originalTitle": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
+        "category": "Open Source",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Ollama hat 65 Millionen Dollar eingesammelt und soll inzwischen fast 9 Millionen Nutzer haben. Das Open-Source-Tool hilft Entwicklern dabei, KI-Modelle einfach auf dem eigenen PC laufen zu lassen.",
+        "why": "Das ist ein klares Signal für Local-First-KI und für Entwickler, die Kosten, Datenschutz und Kontrolle wichtiger nehmen als reine Cloud-Modelle. Für Denis ist das attraktiv, weil sich daraus leicht demonstrierbare Desktop- und Workflow-Videos machen lassen.",
+        "opportunity": "Ein Creator-Video zu lokaler KI auf dem eigenen Rechner wäre hier sehr passend.",
+        "links": [
+          "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/"
+        ]
+      },
+      {
+        "title": "Meta lässt neue KI-Chips ab September produzieren",
+        "originalTitle": "Meta’s new AI chips will begin production in September",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Meta will seine neuen KI-Chips im September in Produktion geben und verfolgt dabei einen modularen Ansatz. Das Unternehmen rechnet damit, dass sich die Anforderungen bis zur Fertigung weiter verändern werden.",
+        "why": "Das zeigt, wie schnell sich die Hardware-Anforderungen im KI-Markt verschieben und wie stark große Plattformen versuchen, Infrastruktur selbst zu kontrollieren. Für den breiteren Markt ist das ein wichtiger Hinweis auf den Druck in Richtung spezialisierter Chips.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/"
+        ]
+      },
+      {
+        "title": "Anthropic baut mit dem neuen Reflect-Dashboard stillschweigend mehr Produktbindung auf",
+        "originalTitle": "Anthropic’s new Claude feature is quietly selling you on AI",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Claude hat ein neues Reflect-Dashboard bekommen, das die Nutzung von KI visualisiert. Laut Quelle vermittelt es zugleich subtil, wie stark ein Teil der täglichen Arbeit inzwischen von Anthropics Chatbot abhängt.",
+        "why": "Solche UI-Änderungen sind wichtig, weil sie Produktbindung und Arbeitsgewohnheiten direkt beeinflussen. Für Creator und Produktvideos ist das interessant, wenn es darum geht, wie KI-Tools Nutzer über Design an sich binden.",
+        "opportunity": "Ein kurzes Analysevideo zu „UX als KI-Verkaufsstrategie“ wäre denkbar.",
+        "links": [
+          "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/"
+        ]
+      },
+      {
+        "title": "Gradium erhält 100 Millionen Dollar Seed-Finanzierung für KI-Sprachmodelle",
+        "originalTitle": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Das Pariser KI-Voice-Startup Gradium hat eine Seed-Runde über 100 Millionen Dollar abgeschlossen, mit Nvidia als Unterstützer. Das Unternehmen will das Geld nutzen, um ein Bay-Area-Büro zu eröffnen und Talente vor Ort anzuwerben.",
+        "why": "Voice bleibt ein wichtiger Baustein für Creator-Tools, Dubbing, Avatare und Produktvideos. Die Runde zeigt außerdem, dass der Wettbewerb um KI-Stimmen und Talente international weiter eskaliert.",
+        "opportunity": "Denis könnte beobachten, ob sich daraus neue Werkzeuge für Voiceover und Video-Workflow ergeben.",
+        "links": [
+          "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/"
+        ]
+      },
+      {
+        "title": "Meta-Nutzer können Instagram-Fotos gegen die Nutzung durch Metas KI schützen",
+        "originalTitle": "Instagram users: Here’s how to stop Meta’s AI from using your photos",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Muse Image erlaubt es, AI-Bilder mit Fotos von öffentlichen Instagram-Konten zu erzeugen. Solange ein Profil öffentlich ist, kann ein anderer Nutzer dieses Konto markieren und die Bilder als Teil einer KI-generierten Kreation verwenden.",
+        "why": "Das ist für Creator besonders relevant, weil öffentliche Social-Profile dadurch leichter in KI-Bildgenerierung einfließen können. Wer als Schauspieler oder Video-Creator mit eigener visueller Marke arbeitet, sollte die Plattformlogik genau kennen.",
+        "opportunity": "Ein praktischer Hinweis-Clip zu Social-Profilen und KI-Nutzung könnte hier gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-10T07:58:42.059Z",
+    "generatedAtBerlin": "10.07.2026, 09:58",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Meta steigt mit Muse Spark 1.1 in den überfüllten KI-Coding-Markt ein",
+      "OpenAI gerät im Copyright-Prozess mit der New York Times weiter unter Druck",
+      "Google muss künftig offenlegen, welche Anzeigen mit KI erstellt wurden"
+    ],
+    "audioPath": "audio/briefing-2026-07-09.mp3",
+    "audioUrl": "audio/briefing-2026-07-09.mp3",
+    "audioGeneratedAt": "2026-07-10T07:59:21.476Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-08",
     "title": "KI-Modelle werden günstiger, Video-Tools werden kreativer, und Vertrauen bleibt das Nadelöhr",
     "summary": "Die auffälligsten Themen des Tages drehen sich um neue KI-Modelle, mehr Creator- und Video-Funktionen sowie um die wachsende Frage, wie man KI-Inhalte, Plattformen und Daten noch glaubwürdig absichert. Dazu kommen starke Signale aus dem Markt für Agenten, Inference-Tools und KI-Infrastruktur.",
