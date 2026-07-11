@@ -1,5 +1,179 @@
 [
   {
+    "date": "2026-07-10",
+    "title": "Daily-Briefing KI & Tech",
+    "summary": "Der Vortag wurde klar von zwei Themen geprägt: OpenAI/Microsoft auf der einen Seite und die wachsende Bedeutung von Open-Source-KI auf der anderen. Dazu kommen ein großer Security-Fall, neue Regulierungssignale aus der EU und mehrere Plattform- und Infrastrukturbewegungen, die für Creator und Produktvideos relevant sind.",
+    "topSummary": "Heute in 30 Sekunden: OpenAI bleibt im Zentrum der KI-Berichterstattung, sowohl wegen neuer Modelle als auch wegen des Rechtsstreits mit Apple. Gleichzeitig sendet Hugging Face ein starkes Signal pro Open Source, während Microsoft Copilot weiter auf OpenAI-Modelle setzt. Im Plattform- und Regulierungsumfeld stechen Meta unter EU-Druck, Bluesky mit neuem CEO-Fokus und Disney+ mit möglichen Free-Tier-Plänen heraus.",
+    "implications": [
+      "OpenAI bleibt nicht nur technologisch, sondern auch rechtlich und strategisch der Taktgeber im Markt.",
+      "Open Source AI wirkt zunehmend wie eine ernsthafte Alternative für Unternehmen und Tool-Builder.",
+      "Regulierung und Plattformdesign werden für Reichweite, Engagement und Creator-Distribution noch wichtiger.",
+      "Security bleibt ein Top-Thema, vom Trade-Secret-Streit bis zu Linux-Schwachstellen und Ransomware-Fällen."
+    ],
+    "watchlist": [
+      "Wie sich der Streit Apple vs. OpenAI weiter entwickelt und ob daraus weitere Branchenklagen entstehen.",
+      "Ob Microsoft und OpenAI die Copilot-Partnerschaft nach außen weiter betonen, trotz Breakup-Gerüchten.",
+      "Wie stark Hugging Face Open-Source-Adoption in Unternehmen weiter ausbaut.",
+      "Ob die EU bei Meta tatsächlich harte Strafen durchsetzt und was das für Empfehlungs- und Feed-Design bedeutet."
+    ],
+    "tags": [
+      "#AI",
+      "#OpenSourceAI",
+      "#Security",
+      "#CreatorTools",
+      "#Plattformen",
+      "#Regulierung"
+    ],
+    "stories": [
+      {
+        "title": "Apple verklagt OpenAI wegen angeblichem Diebstahl von Geschäftsgeheimnissen",
+        "originalTitle": "Apple sues OpenAI over alleged trade secret theft",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI; Hacker News Frontpage",
+        "summary": "Apple wirft OpenAI vor, dass mutmaßliches Fehlverhalten von der OpenAI-Führung gesteuert worden sei, inklusive eines langjährigen Ex-Mitarbeiters. Der Fall tauchte parallel auch prominent auf Hacker News auf.",
+        "why": "Das ist ein schwerer Signalfall für den Wettbewerb im KI-Markt und zeigt, dass IP-, Talent- und Geheimnisschutz jetzt auch auf höchster Ebene ausgetragen werden. Für Medien- und Produkt-Content ist das relevant, weil sich daran sehr gut erklären lässt, wie hart der KI-Markt geworden ist.",
+        "opportunity": "Gute Analyse-Story über KI-Wettbewerb, Geheimnisschutz und die Machtkämpfe zwischen Big Tech.",
+        "links": [
+          "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+          "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/"
+        ]
+      },
+      {
+        "title": "OpenAI sagt, GPT-5.6 sei das bevorzugte Modell für Microsoft Copilot 365",
+        "originalTitle": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI betont, dass seine neue Modellfamilie weiterhin Microsofts Workplace- und Productivity-Apps antreiben wird. Die Meldung kommt ausdrücklich inmitten von Gerüchten über eine mögliche Trennung.",
+        "why": "Für Creator- und Produktivitäts-Workflows ist das wichtig, weil Copilot ein zentraler Einstiegspunkt für KI in Office, Dokumenten und Teamarbeit bleibt. Es zeigt auch, dass die OpenAI-Microsoft-Verbindung trotz Spekulationen operativ weiter stark ist.",
+        "opportunity": "Beobachten, ob sich daraus neue Workflows für Office-Video, Demos und Creator-Produktion ergeben.",
+        "links": [
+          "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/"
+        ]
+      },
+      {
+        "title": "OpenAI startet seine neue Modellfamilie mit GPT-5.6",
+        "originalTitle": "OpenAI launches its new family of models with GPT-5.6",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI hat eine neue Modellfamilie mit GPT-5.6 vorgestellt. Laut Quelle gibt es Verbesserungen in mehreren Bereichen, darunter Cybersecurity.",
+        "why": "Neue Modellgenerationen beeinflussen direkt, welche Tools, Assistenten und Video-Workflows Creator und Teams künftig nutzen. Gerade Sicherheits- und Produktivitätsverbesserungen sind für professionelle Anwendungen relevant.",
+        "opportunity": "Kurzvideo oder Vergleichsformat: Was bringt GPT-5.6 für Creator- und Produkt-Workflows?",
+        "links": [
+          "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+          "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf"
+        ]
+      },
+      {
+        "title": "Hugging Face sagt, dass Unternehmen ihre KI nicht mehr nur mieten wollen",
+        "originalTitle": "Hugging Face’s CEO on why companies are done renting their AI",
+        "category": "Open Source",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI",
+        "summary": "Hugging Face CEO Clem Delangue beschreibt Open-Source-KI als stark wachsend und verweist darauf, dass das Unternehmen für viele Firmen zu einer Art GitHub für KI geworden ist. Laut Quelle nutzen inzwischen ungefähr die Hälfte der Fortune 500 entsprechende Modelle und Datensätze.",
+        "why": "Das ist eines der klarsten Signale, dass offene Modelle in Unternehmen und Tool-Stacks immer wichtiger werden. Für Denis ist das besonders spannend, wenn es um Creator-Tools, lokale Workflows und unabhängige Produkt-Positionierung geht.",
+        "opportunity": "Gute Themenidee für ein Video über Open-Source-KI als Gegenmodell zu geschlossenen Plattformen.",
+        "links": [
+          "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+          "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/"
+        ]
+      },
+      {
+        "title": "SK Hynix erzielt den größten ausländischen IPO der US-Geschichte und wird zu neuen US-Fabs gedrängt",
+        "originalTitle": "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Der KI-Chip-Boom hat SK Hynix laut Quelle zu einem Rekordmoment an der Wall Street verholfen. Gleichzeitig wird das Unternehmen dazu gedrängt, neue Fabriken in den USA zu bauen.",
+        "why": "Halbleiter- und Fertigungsinfrastruktur bestimmen, wie schnell KI-Hardware skaliert und wie teuer Rechenleistung bleibt. Das betrifft indirekt auch Creator-Tools, weil Modelle, Dienste und Features davon abhängen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/"
+        ]
+      },
+      {
+        "title": "Die EU droht Meta mit Strafen wegen süchtig machender Features auf Facebook und Instagram",
+        "originalTitle": "EU threatens Meta with fines over addictive features on Facebook and Instagram",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Die Europäische Kommission sieht Meta laut Quelle im Verstoß gegen den Digital Services Act, unter anderem wegen Infinite Scroll, Autoplay, Push-Benachrichtigungen und stark personalisierter Empfehlungen. Es geht um mögliche Geldstrafen.",
+        "why": "Das ist direkt relevant für Reichweite, Feed-Design und die Mechanik hinter Aufmerksamkeit auf Plattformen, auf denen Creator leben. Für Medien- und Video-Strategien in Europa könnte das mittelfristig Folgen haben.",
+        "opportunity": "Analyse-Video über Regulierung, Algorithmen und was das für Creator-Reichweite bedeuten könnte.",
+        "links": [
+          "https://techcrunch.com/2026/07/10/eu-threatens-meta-with-fines-over-addictive-features-on-facebook-and-instagram/"
+        ]
+      },
+      {
+        "title": "Bluesky macht den Interims-Status von CEO Toni Schneider endgültig",
+        "originalTitle": "Bluesky’s interim CEO, Toni Schneider, drops the ‘interim’",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Toni Schneider bleibt nun dauerhaft CEO von Bluesky und sagt, er sei „all in“ für die unkonventionelle Social-Media-Plattform. Zuvor war er nur interimistisch im Amt.",
+        "why": "Für Creator ist Bluesky als alternative Social-Plattform interessant, auch wenn die Reichweite noch deutlich kleiner ist als bei den großen Playern. Ein klarer CEO-Fokus kann auf mehr Stabilität und Produktkontinuität hindeuten.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/10/blueskys-interim-ceo-toni-schneider-drops-the-interim/"
+        ]
+      },
+      {
+        "title": "Disney+ erwägt laut Bericht einen kostenlosen Streaming-Tarif",
+        "originalTitle": "Disney+ is considering a free streaming tier, report says",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Disney+ prüft laut Bericht einen kostenlosen Tarif, um besser mit kostenlosen Diensten wie YouTube und Tubi konkurrieren zu können. Anlass ist ein wachsender Anteil solcher Free-Angebote an der Sehdauer der Nutzer.",
+        "why": "Das ist besonders relevant für Video-Ökosysteme und Creator, weil Free-Streaming und YouTube weiterhin die Aufmerksamkeit umkämpfen. Ein möglicher Gratis-Tier könnte den Markt für Werbe- und Content-Strategien verändern.",
+        "opportunity": "Idee für ein Branchen-Update über Streaming vs. YouTube und Free-Tier-Strategien.",
+        "links": [
+          "https://techcrunch.com/2026/07/10/disney-is-considering-a-free-streaming-tier-report-says/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-11T06:34:18.022Z",
+    "generatedAtBerlin": "11.07.2026, 08:34",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Apple verklagt OpenAI wegen angeblichem Diebstahl von Geschäftsgeheimnissen",
+      "OpenAI sagt, GPT-5.6 sei das bevorzugte Modell für Microsoft Copilot 365",
+      "OpenAI startet seine neue Modellfamilie mit GPT-5.6"
+    ],
+    "audioPath": "audio/briefing-2026-07-10.mp3",
+    "audioUrl": "audio/briefing-2026-07-10.mp3",
+    "audioGeneratedAt": "2026-07-11T06:34:56.649Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-09",
     "title": "KI kippt von Modell-Debatten zu Produkt, Recht und Distribution",
     "summary": "Am 9. Juli dominierten vier Themen: neue KI-Tools und Coding-Produkte, härtere Auseinandersetzungen um Copyright und Regulierung, mehr Transparenz bei KI-Werbung sowie frische Signale aus Voice-, Chips- und Open-Source-Ökosystemen. Für Creator und Produktvideos ist besonders relevant, dass KI immer stärker in Inhalte, Workflows und Plattformregeln hineinwirkt.",
