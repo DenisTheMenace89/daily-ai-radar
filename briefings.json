@@ -1,5 +1,180 @@
 [
   {
+    "date": "2026-07-11",
+    "title": "KI-Tools, Creator-Plattformen und Infrastruktur unter Druck",
+    "summary": "Die wichtigsten Meldungen drehen sich heute um Plattform-Grenzen für KI-Features, neue Tools für Entwickler und LLM-Workflows sowie ein paar Signale aus Security und Infrastruktur. Für Creator und Produktvideos relevant sind vor allem Metas Rückzieher bei Instagram-AI, OpenAIs Fokus auf Familien und neue Hardware-/Produktivitätsansätze wie Smart Glasses ohne Kamera.",
+    "topSummary": "Heute in 30 Sekunden: Meta zieht ein umstrittenes Instagram-KI-Feature nach Gegenwind wieder zurück, während OpenAI offenbar ChatGPT stärker in Familien- und Haushaltskontexte bringt. Gleichzeitig zeigen mehrere Hacker-News- und TechCrunch-Meldungen, wohin sich KI-Tooling, LLM-Qualitätssicherung und Infrastruktur entwickeln: mehr Spezialtools, mehr Kontrolle, mehr Kostenbewusstsein. Für Denis besonders interessant: Creator-Workflows, Plattform-Regeln und neue Geräte für produktive Nutzung.",
+    "implications": [
+      "Plattformen setzen bei KI-Funktionen stärker auf Kontrolle und Rücknahme, wenn Nutzer- oder Rechtefragen kippen.",
+      "LLM-Tooling wird professioneller: Evaluierung, Grounding, technische Schulden und Performance-Monitoring rücken in den Vordergrund.",
+      "Creator- und Medien-Use-Cases verschieben sich von reinen Generierungsfeatures hin zu Produktivität, Präsentation und Assistenz.",
+      "Infrastruktur- und Finanzierungsfragen im KI-Markt bleiben relevant, weil sie die Skalierung der großen Modelle und Anbieter beeinflussen."
+    ],
+    "watchlist": [
+      "Wie OpenAI Familien- und Care-Use-Cases konkret in ChatGPT integriert.",
+      "Ob Meta weitere KI-Experimente auf Instagram oder anderen Plattformen nachschärft oder zurückzieht.",
+      "Welche der neuen LLM- und Entwickler-Tools in der Praxis echte Adoption bekommen.",
+      "Ob die Debatte um GPU-Finanzierung und Compute-Strukturen den Markt für KI-Infrastruktur weiter bewegt."
+    ],
+    "tags": [
+      "#CreatorAI",
+      "#Platformen",
+      "#Security",
+      "#DeveloperTools",
+      "#OpenAI",
+      "#LLM"
+    ],
+    "stories": [
+      {
+        "title": "OpenAI setzt ChatGPT stärker auf Familien und Haushalte aus",
+        "originalTitle": "OpenAI bets on families as ChatGPT goes deeper into households",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI sucht laut Stellenanzeige einen dedizierten Produktmanager, der ChatGPT-Erlebnisse für Familien, pflegende Angehörige und ältere Erwachsene entwickelt. Das deutet auf neue Zielgruppen jenseits klassischer Power-User hin.",
+        "why": "Für Creator und Produktvideo-Themen ist das spannend, weil KI damit stärker in den Alltag und in familiäre Assistenz-Szenarien rückt. Solche Use-Cases können die Art verändern, wie Menschen KI im Haushalt, bei Organisation und Kommunikation nutzen.",
+        "opportunity": "Ein kurzes Video über „ChatGPT als Haushalts- und Familienassistent“ könnte für Reichweite bei Alltags-KI sorgen.",
+        "links": [
+          "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/"
+        ]
+      },
+      {
+        "title": "Meta schaltet umstrittenes Instagram-KI-Feature nach Gegenwind ab",
+        "originalTitle": "Meta removes controversial AI feature on Instagram after backlash",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI, The Verge AI",
+        "summary": "Meta hat ein Instagram-Feature wieder entfernt, nachdem es Kritik ausgelöst hatte. Laut Meta sollte es ein nützliches Kreativ-Tool sein und den Nutzern Kontrolle geben, aber die Funktion habe den Punkt verfehlt und sei deshalb nicht mehr verfügbar.",
+        "why": "Das ist relevant für Creator, weil Plattformen KI-Features schnell wieder zurückziehen können, wenn sie Rechte-, Transparenz- oder Vertrauensprobleme auslösen. Für Medien- und Schauspielkontexte ist besonders wichtig, wie sensibel öffentliche Inhalte und AI-Referenzen behandelt werden.",
+        "opportunity": "Denis könnte ein Video zu „Warum Plattformen KI-Features wieder zurückdrehen“ machen.",
+        "links": [
+          "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+          "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
+        ]
+      },
+      {
+        "title": "Even Realities setzt bei Smart Glasses auf Produktivität statt auf Kameras",
+        "originalTitle": "Smart glasses without a camera? Even Realities bets productivity beats recording everyone",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Even Realities positioniert seine Smart Glasses ohne Kamera für Menschen, die häufig in Meetings sind, Präsentationen halten und in mehrsprachigen Umgebungen reisen. Der Fokus liegt klar auf Produktivität statt auf Aufnahmefunktionen.",
+        "why": "Für Creator und Presenter ist das interessant, weil Wearables damit eher als Assistenz- und Übersetzungs-Tool statt als Recording-Gerät gedacht werden. Das könnte ein Gegenmodell zu kamerazentrierten AR-Produkten sein.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/"
+        ]
+      },
+      {
+        "title": "CISA musste seinen Incident-Playbook-Prozess während des Vorfalls aufbauen",
+        "originalTitle": "US cybersecurity agency CISA had to build its incident playbook during the incident, agency reveals",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Laut Bericht wurde bei CISA ein Vorfall erst sichtbar, nachdem ein öffentlich zugängliches GitHub-Repository reihenweise Passwörter enthielt, die ein Mitarbeiter eines CISA-Auftragnehmers hochgeladen hatte. Die Agentur musste ihr Incident-Playbook dabei offenbar erst während des Vorfalls entwickeln.",
+        "why": "Das zeigt, wie schnell operative Security-Prozesse unter realem Druck scheitern können, selbst bei Behörden mit Cyber-Fokus. Für Software- und Plattformteams ist das ein Reminder, dass Reaktionsprozesse genauso wichtig sind wie Prävention.",
+        "opportunity": "Ein Short-Format zu „Warum gute Incident-Playbooks nicht erst im Incident entstehen sollten“ wäre sinnvoll.",
+        "links": [
+          "https://techcrunch.com/2026/07/10/us-cyber-agency-cisa-had-to-build-its-incident-playbook-during-the-incident-agency-reveals/"
+        ]
+      },
+      {
+        "title": "Phia wird vorgeworfen, Affiliate-Credit durch Cookie Stuffing erschlichen zu haben",
+        "originalTitle": "Phia accused of &#8216;cookie stuffing,’ taking affiliate credit on purchases it didn’t earn",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Das Shopping-Startup Phia steht laut Bloomberg-Recherche unter Verdacht, mit sogenanntem Cookie Stuffing Provisionen und Sales-Credit für Käufe erhalten zu haben, die es nicht selbst erzeugt hat. Die Firma wurde von Phoebe Gates und Sophia Kianni gegründet.",
+        "why": "Für Creator und Affiliate-getriebene Produktvideos ist das relevant, weil es die Grauzonen von Attribution, Tracking und Monetarisierung zeigt. Solche Fälle wirken direkt auf Vertrauen in Empfehlungs- und Sales-Modelle.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/10/phia-accused-of-cookie-stuffing-taking-affiliate-credit-on-purchases-it-didnt-earn/"
+        ]
+      },
+      {
+        "title": "Neue JavaScript-Plattform Ant will Runtime, Registry und Deployment vereinen",
+        "originalTitle": "Show HN: Ant – A JavaScript runtime and ecosystem",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ant stellt sich als JavaScript-Ökosystem mit eigener Runtime, Paketmanager, Registry, Deployment-Plattform und Desktop-Support vor. Ziel ist eine durchgängige Alternative zu bestehenden JavaScript-Stacks bei gleichzeitiger Kompatibilität zum breiteren Ökosystem.",
+        "why": "Das ist für Entwickler und Tooling-Beobachter spannend, weil hier ein Full-Stack-Ansatz gegen die Fragmentierung der JavaScript-Welt antritt. Für Produktvideo-Workflows kann eine integrierte Plattform gerade bei Prototyping und Deployment interessant sein.",
+        "opportunity": "Ein kurzes Update-Video zu „Neue JS-Runtime mit Komplett-Stack“ könnte Tech-affines Publikum abholen.",
+        "links": [
+          "https://antjs.org"
+        ]
+      },
+      {
+        "title": "Mehrere neue Tools zielen auf LLM-Qualität, Grounding und Monitoring",
+        "originalTitle": "Show HN: verbatimeter - check how grounded your LLM / RAG agent is in real-time",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News LLM",
+        "summary": "Mehrere Show-HN-Posts drehen sich um praktische LLM-Qualitätswerkzeuge: ein Tool zur Bewertung von Agent-Outputs, ein Monitor für CPU-Fallbacks bei lokalen LLMs, ein Echtzeit-Check für Grounding von RAG-Agenten und ein Security-Scanner für Web-Apps. Die Richtung ist klar: weniger Demo, mehr Betrieb und Kontrolle.",
+        "why": "Das ist für Creator relevant, wenn KI-Workflows stabil und verlässlich in Produktion oder Content-Pipelines laufen sollen. Gerade bei Produktvideos, Agenten-Demos oder automatisierten Skripten sind Evaluierung und Monitoring ein echtes Thema.",
+        "opportunity": "Ein Video über „Die neue Tool-Schicht rund um LLMs: testen, prüfen, überwachen“ bietet guten Praxisbezug.",
+        "links": [
+          "https://github.com/AntoineF23/verdict",
+          "https://github.com/logxio/picchio",
+          "https://pypi.org/project/verbatimeter/",
+          "https://github.com/jaurakunal/isitsecure"
+        ]
+      },
+      {
+        "title": "Die GPU-Boom-Debatte rückt die Finanzierung von Nvidia, CoreWeave und Nebius in den Fokus",
+        "originalTitle": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein viel diskutierter HN-Beitrag beleuchtet die zirkuläre Finanzierung rund um den GPU-Boom bei Nvidia, CoreWeave und Nebius. Der Fokus liegt auf den wirtschaftlichen Verflechtungen hinter der AI-Compute-Expansion.",
+        "why": "Für die KI-Branche ist das wichtig, weil Rechenkapazität, Finanzierung und Partnerstrukturen die nächste Ausbaustufe von Modellen und Plattformen prägen. Wer KI-Tools oder Video-KI nutzt, hängt indirekt an genau dieser Infrastruktur.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-12T07:06:48.200Z",
+    "generatedAtBerlin": "12.07.2026, 09:06",
+    "mode": "ai",
+    "sourceCount": 18,
+    "highlights": [
+      "OpenAI setzt ChatGPT stärker auf Familien und Haushalte aus",
+      "Meta schaltet umstrittenes Instagram-KI-Feature nach Gegenwind ab",
+      "Even Realities setzt bei Smart Glasses auf Produktivität statt auf Kameras"
+    ],
+    "audioPath": "audio/briefing-2026-07-11.mp3",
+    "audioUrl": "audio/briefing-2026-07-11.mp3",
+    "audioGeneratedAt": "2026-07-12T07:07:27.054Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-10",
     "title": "Daily-Briefing KI & Tech",
     "summary": "Der Vortag wurde klar von zwei Themen geprägt: OpenAI/Microsoft auf der einen Seite und die wachsende Bedeutung von Open-Source-KI auf der anderen. Dazu kommen ein großer Security-Fall, neue Regulierungssignale aus der EU und mehrere Plattform- und Infrastrukturbewegungen, die für Creator und Produktvideos relevant sind.",
