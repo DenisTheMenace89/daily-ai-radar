@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-07-12",
+    "title": "KI- und Tech-Briefing: Effizienz, Sicherheit und Infrastruktur treiben die Woche",
+    "summary": "Im Fokus standen heute vor allem praktische KI-Themen: effizientere Agenten, bessere Trainings- und Infrastruktur-Ansätze sowie neue Security-Tools für KI-generierte Apps. Daneben gab es Signale aus der Creator- und Plattform-Welt, etwa rund um KI-Brillen und die Debatte, wie nützlich LLMs wirklich sind.",
+    "topSummary": "Heute ging es weniger um große Produkt-Launches als um die nächste Reifephase von KI: schneller, günstiger, kontrollierbarer. Auffällig sind vor allem Tools und Forschung, die Kosten, Token-Verbrauch, Security und Infrastruktur adressieren. Für Creator und Produktvideos ist das relevant, weil sich daraus konkrete Workflows, Tool-Vergleiche und Erklärformate ableiten lassen.",
+    "implications": [
+      "KI wird stärker nach Effizienz bewertet: Tokenkosten, Cache-Verhalten und Infrastruktur-Engpässe rücken in den Vordergrund.",
+      "Sicherheit wird bei AI-Coding und Vibe-Coding zum Pflichtthema, nicht nur zum Nice-to-have.",
+      "Hardware- und Plattformthemen bleiben eng mit KI verknüpft, von On-device-AI-Chips bis zu AI-Brillen.",
+      "Die Debatte um den realen Nutzen von LLMs wird lauter und dürfte Produkte, Workflows und Erwartungen beeinflussen."
+    ],
+    "watchlist": [
+      "Ob weitere Benchmarks oder Praxisberichte zu Claude Code, OpenCode und GPT-5.6 auftauchen.",
+      "Wie sich Sicherheits-Scanner für KI-generierte Web-Apps in der Praxis bewähren.",
+      "Ob die Diskussion um AI-Brillen und Creator-/Festival-Kontexte breiter wird.",
+      "Welche neuen Ansätze es bei effizienten Trainings-, Offloading- und Distributed-Inference-Architekturen gibt."
+    ],
+    "tags": [
+      "#CreatorAI",
+      "#Security",
+      "#DeveloperTools",
+      "#LLM",
+      "#Hardware",
+      "#AIInfrastructure"
+    ],
+    "stories": [
+      {
+        "title": "Claude Code verbraucht laut Vergleich vor dem Prompt-Lesen deutlich mehr Tokens als OpenCode",
+        "originalTitle": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+        "category": "Developer",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein Praxisbericht misst den Token-Overhead von Claude Code und OpenCode und kommt zu dem Schluss, dass Claude Code deutlich ineffizienter mit Cache-Strategie und Harness-Tokens umgeht. Die Autoren haben Requests zwischen Tool und Anthropic-Endpoint mitgeloggt und die Nutzung empirisch verglichen.",
+        "why": "Für Entwickler-Teams und Creator, die KI-Coding-Tools in ihre Workflows integrieren, sind Tokenkosten direkt relevant. Wer mit Produktvideos oder Demos arbeitet, bekommt hier ein starkes Vergleichsthema mit klarer Praxisfrage: Was kostet welcher Agent wirklich?",
+        "opportunity": "Ein kurzer Vergleichsclip zu „Welches Coding-Tool spart wirklich Tokens?“ könnte gut funktionieren.",
+        "links": [
+          "https://systima.ai/blog/claude-code-vs-opencode-token-overhead"
+        ]
+      },
+      {
+        "title": "Ein Produktions-Agent wurde auf GPT-5.6 migriert und soll 2,2-mal schneller sowie 27 Prozent günstiger sein",
+        "originalTitle": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+        "category": "Developer",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein Praxisbericht beschreibt die Migration eines produktiven AI-Agents auf GPT-5.6. Laut Beitrag führte das zu 2,2-mal höherer Geschwindigkeit und 27 Prozent geringeren Kosten.",
+        "why": "Solche Migrationsberichte sind für Teams wichtig, die KI in echte Produkte oder Workflows bringen wollen. Für Denis ist das ein starkes Thema für eine verständliche Video-Analyse zu Performance- und Kostengewinnen im Alltag.",
+        "opportunity": "Als Videoidee eignet sich ein Format wie „Wann lohnt sich ein Modellwechsel wirklich?“",
+        "links": [
+          "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6"
+        ]
+      },
+      {
+        "title": "Ein Open-Source-Tool kombiniert SAST, DAST und LLM-Sicherheitschecks für Web-Apps",
+        "originalTitle": "Show HN: Isitsecure – 1-command SAST and DAST and LLM security scanner for web apps",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "Hacker News LLM",
+        "summary": "Das Projekt Isitsecure positioniert sich als Ein-Befehl-Scanner für Web-Apps und verbindet statische und dynamische Sicherheitsprüfung mit einem LLM-Sicherheitscheck. Laut Beschreibung ist das besonders für „vibe coded“ Apps gedacht.",
+        "why": "Mit immer mehr KI-generiertem Code wird Security schnell zum Kernproblem. Für Creator und Produktvideo-Formate ist das ein gutes Beispiel dafür, wie man „schnell bauen“ und „sicher bauen“ zusammen denkt.",
+        "opportunity": "Ein Erklärvideo zu „Warum KI-Code automatisch geprüft werden sollte“ bietet sich an.",
+        "links": [
+          "https://github.com/jaurakunal/isitsecure"
+        ]
+      },
+      {
+        "title": "NVIDIA erklärt, wie sich LLMs hardwarefreundlicher co-designen lassen",
+        "originalTitle": "AI Model Co-Design: Hardware-Friendly LLM Design",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "Hacker News LLM",
+        "summary": "NVIDIA hat einen Beitrag zu hardwarefreundlichem LLM-Design veröffentlicht. Das Thema zielt darauf, Modelle so mitzuentwickeln, dass sie besser zur zugrunde liegenden Hardware passen.",
+        "why": "Das ist relevant für die nächste Welle an AI-Infrastruktur und erklärt, warum Chips, Speicher und Modellarchitektur immer enger zusammenrücken. Für Produktvideos ist das ein gutes Hintergrundthema, wenn es um „Warum ist KI-Hardware so wichtig?“ geht.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/"
+        ]
+      },
+      {
+        "title": "Apple dürfte aus dem gescheiterten Autoprogramm leistungsfähige KI-Chips mitgenommen haben",
+        "originalTitle": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "The Verge AI",
+        "summary": "Der Beitrag argumentiert, dass Apples eingestelltes Self-Driving-Programm nicht nur ein Fehlschlag war, sondern auch die Entwicklung starker On-device-AI-Chips mitgeprägt haben könnte. Dabei ging es früh um leistungsfähige lokale KI-Verarbeitung.",
+        "why": "Das ist interessant für die Einordnung von Apples KI-Strategie und zeigt, wie gescheiterte Projekte langfristig Hardware-Roadmaps beeinflussen können. Für Creator ist das ein gutes Hintergrundlevel für Videos über Apple Silicon und KI.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra"
+        ]
+      },
+      {
+        "title": "Lorde kritisiert Ray-Ban Meta AI-Brillen als „nicht sexy“",
+        "originalTitle": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "The Verge AI",
+        "summary": "Lorde äußerte sich bei einem Auftritt in Madrid kritisch zu AI-Brillen und sprach sich gegen die Geräte aus. Der Beitrag deutet an, dass sich die Kritik möglicherweise gegen die Ray-Ban- und Meta-Kooperation richtet.",
+        "why": "Für Creator- und Medienkontexte ist das relevant, weil Wearables mit Kamera- und AI-Funktionen schnell zu Akzeptanz- und Imagefragen führen. Solche Statements können die öffentliche Wahrnehmung von AI-Hardware beeinflussen.",
+        "opportunity": "Ein kurzes Reaktionsformat zu „Warum AI-Brillen polarisieren“ wäre denkbar.",
+        "links": [
+          "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy"
+        ]
+      },
+      {
+        "title": "Ein HN-Post stellt den Nutzen von LLMs grundsätzlich infrage",
+        "originalTitle": "Against Usefulness",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Der Beitrag diskutiert kritisch, ob „Nützlichkeit“ bei LLMs oft überschätzt wird. Die Resonanz auf Hacker News zeigt, dass die Debatte um echte Produktivität und Hype weiterhin sehr lebendig ist.",
+        "why": "Das ist kein Produkt-Launch, aber ein guter Stimmungsindikator für den Markt. Für Denis kann das als Gegenpol zu den üblichen KI-Hype-Formaten dienen und für eine nüchterne Einordnung sorgen.",
+        "opportunity": "Ein Kommentarvideo zur Frage „Was sind LLMs wirklich gut darin?“ passt gut.",
+        "links": [
+          "https://www.motivenotes.ai/p/against-usefulness"
+        ]
+      },
+      {
+        "title": "Ein Praxisbericht zu Flash-MSA will Million-Token-Training mit Sparse Attention beschleunigen",
+        "originalTitle": "Flash-MSA: Accelerating Million-Token Training with Sparse Attention Kernels",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Das vorgestellte Flash-MSA-Paper beziehungsweise der zugehörige Beitrag zielt auf schnelleres Million-Token-Training mit Sparse Attention Kernels. Es ist vor allem ein Signal aus der Forschungs- und Infrastruktur-Ecke.",
+        "why": "Solche Ansätze zeigen, wohin sich große Kontextfenster und Trainingspipelines entwickeln. Für Creator ist das eher ein Trendthema als eine direkte Alltags-Story.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://nanduruganesh.github.io/flash-msa/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-13T07:47:58.689Z",
+    "generatedAtBerlin": "13.07.2026, 09:47",
+    "mode": "ai",
+    "sourceCount": 25,
+    "highlights": [
+      "Claude Code verbraucht laut Vergleich vor dem Prompt-Lesen deutlich mehr Tokens als OpenCode",
+      "Ein Produktions-Agent wurde auf GPT-5.6 migriert und soll 2,2-mal schneller sowie 27 Prozent günstiger sein",
+      "Ein Open-Source-Tool kombiniert SAST, DAST und LLM-Sicherheitschecks für Web-Apps"
+    ],
+    "audioPath": "audio/briefing-2026-07-12.mp3",
+    "audioUrl": "audio/briefing-2026-07-12.mp3",
+    "audioGeneratedAt": "2026-07-13T07:48:41.482Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-11",
     "title": "KI-Tools, Creator-Plattformen und Infrastruktur unter Druck",
     "summary": "Die wichtigsten Meldungen drehen sich heute um Plattform-Grenzen für KI-Features, neue Tools für Entwickler und LLM-Workflows sowie ein paar Signale aus Security und Infrastruktur. Für Creator und Produktvideos relevant sind vor allem Metas Rückzieher bei Instagram-AI, OpenAIs Fokus auf Familien und neue Hardware-/Produktivitätsansätze wie Smart Glasses ohne Kamera.",
