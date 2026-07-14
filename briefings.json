@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-07-13",
+    "title": "Daily-Briefing: KI, Plattformen und Content-Tools",
+    "summary": "Der Vortag war geprägt von weiteren KI-Produktbewegungen, neuen Reibungen rund um Apple und OpenAI sowie ein paar klaren Creator- und Plattform-Signalen. Für Denis besonders relevant: Video-Tools, mobile AI-Funktionen, rechtliche Konflikte und neue Workflows rund um Content-Produktion.",
+    "topSummary": "Heute in 30 Sekunden: Apple und OpenAI liefern gleich zwei Storylines mit Sicherheits- und IP-Bezug, während Anthropic und Waze eher Produkt- und Marktbewegung zeigen. Für Creator und Video-Teams sind vor allem neue AI-Features, lokale Preisstrategien und ein YouTube-Tool aus der Community interessant. Insgesamt wirkt der Tag weniger wie ein Durchbruch, mehr wie ein Blick darauf, wo KI-Produkte gerade in den Alltag und in die Regulierung hineinlaufen.",
+    "implications": [
+      "KI-Produkte werden stärker über Preis, Region und Plattformintegration entschieden, nicht nur über Modellleistung.",
+      "Sicherheits-, IP- und Arbeitsrechtsfragen rund um KI-Anbieter bleiben ein zentrales Geschäftsrisiko.",
+      "Creator-Workflows verschieben sich weiter in Richtung spezialisierter Tools, die bestehende Plattformen wie YouTube direkt auslesen oder umformen.",
+      "Medien- und Plattformdeals bleiben politisch angreifbar, was auch für Video- und Entertainment-Märkte relevant ist."
+    ],
+    "watchlist": [
+      "Wie Apple die Vorwürfe in Richtung OpenAI weiterverfolgt und ob daraus weitere öffentliche Details kommen.",
+      "Ob Anthropic die lokalisierte Claude-Bepreisung in weiteren Märkten ausrollt.",
+      "Welche konkreten neuen AI-Funktionen Waze nach und nach ausrollt und wie stark Gemini dort sichtbar wird.",
+      "Ob aus dem YouTube-Guitar-Tab-Parser ein wirklich robuster Creator-Workflow wird."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Plattformen",
+      "#Security",
+      "#Software",
+      "#Medien"
+    ],
+    "stories": [
+      {
+        "title": "Apple wirft einem ehemaligen Mitarbeiter vor, nach dem Wechsel zu OpenAI vertrauliche Dateien mit einem seltenen Bug heruntergeladen zu haben",
+        "originalTitle": "Apple says former employee exploited 'rare’ bug to download confidential files after leaving for OpenAI",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Apple sagt, ein ehemaliger Mitarbeiter habe nach seinem Wechsel zu OpenAI eine seltene Schwachstelle ausgenutzt und vertrauliche Dateien aus Apples Netzwerk heruntergeladen. Laut Quelle kommentierte Apple den angeblichen Sicherheitsvorfall nicht weiter.",
+        "why": "Der Fall verbindet Security, Talent-Migration und KI-Wettbewerb in einer besonders heiklen Konstellation. Für Medien- und Produktteams ist das ein Reminder, wie schnell IP- und Vertraulichkeitsthemen öffentlich werden können.",
+        "opportunity": "Als Beobachtung für ein Video zu Security-Risiken in der KI-Branche aufgreifen.",
+        "links": [
+          "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/"
+        ]
+      },
+      {
+        "title": "Apple und OpenAI liefern neue, zugespitzte Details in Apples Trade-Secrets-Klage",
+        "originalTitle": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch fasst die auffälligsten Vorwürfe aus Apples Trade-Secrets-Klage gegen OpenAI zusammen. Genannt werden unter anderem angebliche Witze über unautorisierten Zugriff auf Apple-Systeme und Behauptungen, Bewerber hätten Apple-Hardware zu Interviews mitbringen sollen.",
+        "why": "Das ist relevant, weil der Streit über einfache Produktmeldungen hinausgeht und IP-, Arbeits- und Plattformfragen berührt. Für Denis ist das vor allem interessant, weil solche Konflikte schnell zu großen Medien- und Markenstorys werden.",
+        "opportunity": "Eine kurze Analyse zu KI, Trade Secrets und Markenrisiko könnte hier gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/"
+        ]
+      },
+      {
+        "title": "Anthropic führt lokalisierte Claude-Preise in Indien ein",
+        "originalTitle": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Claude-Nutzer in Indien sehen laut TechCrunch inzwischen abonnementbasierte Preise in indischen Rupien. Anthropic setzt damit auf eine lokalisierte Preisstrategie in seinem wichtigsten Markt nach den USA.",
+        "why": "Das zeigt, dass KI-Produkte zunehmend über regionale Preisgestaltung skaliert werden. Für Creator- und Produkt-Teams ist das ein gutes Signal dafür, wie Anbieter den Massenmarkt außerhalb der USA erschließen.",
+        "opportunity": "Beobachten, wie andere KI-Tools ihre Preise international anpassen.",
+        "links": [
+          "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/"
+        ]
+      },
+      {
+        "title": "Waze erweitert seine App um neue KI-Funktionen und mehr Anpassungsmöglichkeiten",
+        "originalTitle": "Waze adds new AI-powered features and customization updates",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Waze bekommt neue AI-gestützte Funktionen und Anpassungsupdates. Einige Funktionen werden von Googles Gemini AI assistant angetrieben, während Waze damit auch im Wettbewerb mit Apple Maps positioniert wird.",
+        "why": "Für Creator, die viel unterwegs sind, ist Navigation nicht nur Convenience, sondern Teil des Produktions-Workflows. Außerdem zeigt das, wie breit Google Gemini inzwischen in Produkte eingebaut wird.",
+        "opportunity": "Als Beispiel für die stille Ausbreitung von Gemini in Alltags-Apps mitdenken.",
+        "links": [
+          "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/"
+        ]
+      },
+      {
+        "title": "YouTube-Guitar-Tab-Parser verwandelt Unterrichtsvideos in PDF-Notenblätter",
+        "originalTitle": "Show HN: YouTube Guitar Tab Parser",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein Show-HN-Projekt stellt eine CLI vor, die YouTube-Gitarren-Lernvideos in PDF-Tabulaturen umwandelt. Dafür werden Videos heruntergeladen, Frames mit Claude Vision analysiert, Tab-Bereiche ausgeschnitten und die Ergebnisse zu einem PDF zusammengesetzt.",
+        "why": "Das ist direkt relevant für Video- und Creator-Workflows, weil es YouTube-Inhalte in ein nutzbares Lern- und Produktionsformat überführt. Für Denis ist das ein spannendes Beispiel dafür, wie AI-Tools bestehende Videoinhalte extrahieren und umorganisieren.",
+        "opportunity": "Gute Vorlage für ein Creator-Tool-Spotlight oder einen Test im eigenen Workflow.",
+        "links": [
+          "https://github.com/marcelpanse/youtube-guitar-tab-parser"
+        ]
+      },
+      {
+        "title": "TV Time wird eingestellt, während der Gründer mit Bingers eine neue Fan-Heimat aufbaut",
+        "originalTitle": "As TV-tracking app TV Time shuts down, its founder builds Bingers, a new home for fans",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "TV Time wird laut TechCrunch eingestellt, während der Gründer mit Bingers eine Nachfolge-App aufbaut. Nutzer sollen ihre Seh-Historie importieren können, damit die Community rund um Serien und Filme erhalten bleibt.",
+        "why": "Das ist relevant für Medien- und Fan-Plattformen, weil Watch-History und Communitybindung hier direkt zusammenkommen. Für Schauspiel- und Entertainment-Kontexte ist das interessant, weil solche Apps oft die Sichtbarkeit von Serien und Stars mitprägen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/13/as-tv-tracking-app-tv-time-shuts-down-its-founder-builds-bingers-a-new-home-for-fans/"
+        ]
+      },
+      {
+        "title": "Paramounts geplanter Warner-Bros.-Deal gerät durch die Klage von 12 Bundesstaaten unter Druck",
+        "originalTitle": "12 states sue to block Paramount’s $110B Warner Bros. deal",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Zwölf Bundesstaaten klagen, um Paramounts geplanten 110-Milliarden-Dollar-Deal mit Warner Bros. zu stoppen. Die Staaten argumentieren laut TechCrunch, der Deal schade Kinos, Kabelanbietern und dem Publikum.",
+        "why": "Für Medien, Film und Distribution ist das ein klarer Regulierungs- und Struktur-Storyline. Denis könnte das indirekt interessieren, weil solche Deals auch Einfluss auf Inhalte, Rechte und Vermarktung haben.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/13/12-states-sue-to-block-paramounts-110b-warner-bros-deal/"
+        ]
+      },
+      {
+        "title": "Siri AI verändert laut The Verge bereits die iPhone-Nutzung",
+        "originalTitle": "Siri AI is already changing how I use my iPhone",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "The Verge AI",
+        "summary": "The Verge berichtet über erste Eindrücke zur Public Beta von iOS 27 und beschreibt, dass Siri AI die iPhone-Nutzung bereits spürbar verändert. Der Fokus liegt auf den neuen Verhaltensweisen und nicht auf einem einzelnen Feature-Launch.",
+        "why": "Mobile AI wird damit weiter zum Alltagswerkzeug, was für Video-Creator und Produktivitäts-Workflows wichtig ist. Wenn Apple hier nachlegt, könnte das den Einsatz von Sprach- und Assistentenfunktionen im mobilen Arbeiten deutlich beschleunigen.",
+        "opportunity": "Als kleines Update im Blick behalten, ob Siri AI für Creator praktisch wird.",
+        "links": [
+          "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-14T06:34:24.475Z",
+    "generatedAtBerlin": "14.07.2026, 08:34",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Apple wirft einem ehemaligen Mitarbeiter vor, nach dem Wechsel zu OpenAI vertrauliche Dateien mit einem seltenen Bug heruntergeladen zu haben",
+      "Apple und OpenAI liefern neue, zugespitzte Details in Apples Trade-Secrets-Klage",
+      "Anthropic führt lokalisierte Claude-Preise in Indien ein"
+    ],
+    "audioPath": "audio/briefing-2026-07-13.mp3",
+    "audioUrl": "audio/briefing-2026-07-13.mp3",
+    "audioGeneratedAt": "2026-07-14T06:35:05.226Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-12",
     "title": "KI- und Tech-Briefing: Effizienz, Sicherheit und Infrastruktur treiben die Woche",
     "summary": "Im Fokus standen heute vor allem praktische KI-Themen: effizientere Agenten, bessere Trainings- und Infrastruktur-Ansätze sowie neue Security-Tools für KI-generierte Apps. Daneben gab es Signale aus der Creator- und Plattform-Welt, etwa rund um KI-Brillen und die Debatte, wie nützlich LLMs wirklich sind.",
