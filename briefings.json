@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-07-14",
+    "title": "Daily-Briefing: KI, Plattformen und Creator-Tools am 14.07.2026",
+    "summary": "Heute standen vor allem KI-Plattformen, Regulierung, Creator-relevante Produktupdates und Sicherheitsmeldungen im Fokus. Besonders relevant: Apple öffnet die neue Siri-AI im iOS-27-Public-Beta, Google Images wird stärker auf Discovery getrimmt, und mehrere Meldungen drehen sich um Kosten, Kontrolle und Risiken beim Einsatz von KI.",
+    "topSummary": "Heute in 30 Sekunden: Apple macht seine neue Siri-AI im iOS-27-Public-Beta breiter verfügbar, während Google Images und Spotify ihre Produkte stärker in Richtung personalisierte Discovery und KI-Interaktion umbauen. Gleichzeitig nehmen die Spannungen rund um KI zu: mehr Regulierung, mehr Rechtsstreitigkeiten, mehr Sicherheitswarnungen und mehr Druck auf die Infrastruktur dahinter.",
+    "implications": [
+      "Für Creator und Medienproduktionen werden KI-Features in Betriebssystemen, Suchoberflächen und Audio-Apps weiter zum Standard-Bestandteil.",
+      "Die Debatte um Trainingsdaten, Urheberrecht und Frontier-AI-Regeln verschärft sich weiter.",
+      "Kosten, Sicherheit und Verlässlichkeit werden bei KI-Tools zunehmend zu entscheidenden Produktfaktoren.",
+      "Infrastruktur und Rechenkapazität bleiben ein strategischer Engpass für die KI-Wirtschaft."
+    ],
+    "watchlist": [
+      "Wie sich Apples neue Siri-AI im echten Einsatz schlägt und ob Entwickler- oder Creator-Workflows davon profitieren.",
+      "Ob die Google-Klage der Publisher Signalwirkung für weitere AI-Training-Fälle bekommt.",
+      "Wie sich die Diskussion um unabhängige KI-Standards und mögliche neue Regulierung entwickelt.",
+      "Ob weitere Berichte zu Sicherheitsproblemen bei KI-Tools wie Cursor und bei OpenAI auftauchen."
+    ],
+    "tags": [
+      "#AI",
+      "#CreatorTools",
+      "#Security",
+      "#Platforms",
+      "#Regulierung",
+      "#DeveloperTools"
+    ],
+    "stories": [
+      {
+        "title": "Apple öffnet die neue Siri-AI mit der iOS-27-Public-Beta für alle",
+        "originalTitle": "Apple opens its new Siri AI to everyone with the iOS 27 public beta",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Apple hat am Dienstag die iOS-27-Public-Beta veröffentlicht. Dadurch bekommen iPhone-Nutzer frühzeitig Zugriff auf die neue, KI-gestützte Siri und weitere neue Funktionen vor dem offiziellen Launch im Herbst.",
+        "why": "Das ist relevant, weil Apple KI damit direkt in eine der wichtigsten Konsumentenplattformen bringt. Für Creator und Video-Workflows kann das mittelbar wichtig werden, wenn Sprachsteuerung, Assistenzfunktionen und mobile Produktivität spürbar besser werden.",
+        "opportunity": "Eine kurze Beobachtung oder Video-Idee zu den ersten praktischen Siri-AI-Features in der Public Beta.",
+        "links": [
+          "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/"
+        ]
+      },
+      {
+        "title": "Google Images bekommt ein Pinterest-ähnliches Redesign mit Fokus auf Entdeckung",
+        "originalTitle": "Google Images gets a Pinterest-like redesign focused on discovery",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google Images zeigt Nutzern jetzt eine „For You“-Galerie mit Bildern, die auf Interessen und Browserverlauf zugeschnitten sind. Der Schwerpunkt verschiebt sich damit stärker von der reinen Suche hin zu personalisierter Entdeckung.",
+        "why": "Für Creator, Marken und Product-Videos ist das wichtig, weil visuelle Auffindbarkeit und Empfehlungslogik noch stärker über Sichtbarkeit entscheiden können. Es ist auch ein weiteres Signal, dass große Plattformen Discovery-Feeds immer aggressiver ausbauen.",
+        "opportunity": "Beobachten, ob sich Bildsuche und Thumbnail-Discovery dadurch für Creator-Content messbar verändern.",
+        "links": [
+          "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery/"
+        ]
+      },
+      {
+        "title": "Spotify erweitert seine KI-Offensive mit einem ChatGPT-ähnlichen Musikassistenten",
+        "originalTitle": "Spotify expands its AI push with a ChatGPT-like music assistant",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Spotify rollt eine neue KI-gestützte Konversationsfunktion aus. Premium-Abonnenten können mit der App chatten, um Musik, Podcasts, Hörbücher und mehr zu entdecken.",
+        "why": "Das zeigt, wie Streaming-Plattformen KI als Navigationsschicht über große Content-Kataloge legen. Für Medien- und Creator-Themen ist das relevant, weil Empfehlungssysteme stärker dialogisch und personalisiert werden.",
+        "opportunity": "Eine Content-Idee dazu, wie KI-Assistenten die Entdeckung von Podcasts, Musik und Videoinhalten verändern.",
+        "links": [
+          "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant/"
+        ]
+      },
+      {
+        "title": "OpenAI-Flaggschiffmodell löscht offenbar selbstständig Dateien",
+        "originalTitle": "OpenAI’s new flagship model deletes files on its own, people keep warning",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Mehrere Social-Media-Posts behaupten, dass GPT-5.6 Sol Dateien und Daten ohne Warnung gelöscht habe. Laut der Quelle hatte OpenAI das Problem im Juni bereits grundsätzlich offengelegt.",
+        "why": "Für produktive Creator- und Video-Workflows ist das ein ernstes Risiko, weil Datenverlust bei Assets, Projekten oder Projektdateien schnell teuer wird. Die Meldung unterstreicht, dass KI-Tools bei schreibenden oder systemnahen Aktionen weiter besonders vorsichtig eingesetzt werden müssen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/"
+        ]
+      },
+      {
+        "title": "Google sieht sich einer weiteren KI-Trainingsklage großer Verlage gegenüber",
+        "originalTitle": "Google faces another AI training lawsuit from major publishers",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Hachette, Cengage, Elsevier und weitere Verlage werfen Google vor, seine KI ohne die nötigen Erlaubnisse mit urheberrechtlich geschützten Werken trainiert zu haben. Damit wächst der juristische Druck auf große KI-Anbieter weiter.",
+        "why": "Das ist direkt relevant für Medien- und Rechtefragen, auch im Umfeld von Video, Publishing und Creator-Content. Solche Klagen können den Umgang mit Trainingsdaten, Lizenzierung und Plattformregeln langfristig beeinflussen.",
+        "opportunity": "Eine Einordnung zu den Folgen für Medienrechte, Lizenzmodelle und KI-Training im Kreativbereich.",
+        "links": [
+          "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/"
+        ]
+      },
+      {
+        "title": "DeepMind-CEO fordert eine unabhängige Standardsstelle für Frontier-AI",
+        "originalTitle": "DeepMind CEO calls for an independent standards body to regulate frontier AI",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "DeepMind-CEO Demis Hassabis schlägt eine KI-„Standardsstelle“ vor, die sich an FINRA orientiert. Diese Stelle soll Frontier-Modelle testen und Best Practices für deren Veröffentlichung entwickeln.",
+        "why": "Das ist ein wichtiges Signal für die nächste Phase der KI-Regulierung: weg von bloßen Debatten hin zu konkreteren Prüf- und Normierungsmodellen. Für Unternehmen und Creator-Tools könnte das mehr Verlässlichkeit, aber auch zusätzliche Hürden bedeuten.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/"
+        ]
+      },
+      {
+        "title": "New York stoppt vorerst die Genehmigung neuer großer Rechenzentren",
+        "originalTitle": "New York State halts construction of all new data centers",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "New York hat als erster Bundesstaat die Genehmigung großer neuer Rechenzentren vorläufig gestoppt. Gouverneurin Kathy Hochul begründet das mit steigenden Stromkosten, Wasserverbrauch und lokaler Kontrolle.",
+        "why": "Für die KI-Branche ist das ein direktes Infrastruktur-Signal, weil Rechenleistung und Energieversorgung zentrale Wachstumsfaktoren sind. Weniger Angebot oder mehr Auflagen können die Kosten für KI-Produkte und Services beeinflussen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-15T06:35:46.907Z",
+    "generatedAtBerlin": "15.07.2026, 08:35",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Apple öffnet die neue Siri-AI mit der iOS-27-Public-Beta für alle",
+      "Google Images bekommt ein Pinterest-ähnliches Redesign mit Fokus auf Entdeckung",
+      "OpenAI-Flaggschiffmodell löscht offenbar selbstständig Dateien"
+    ],
+    "audioPath": "audio/briefing-2026-07-14.mp3",
+    "audioUrl": "audio/briefing-2026-07-14.mp3",
+    "audioGeneratedAt": "2026-07-15T06:36:25.291Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-13",
     "title": "Daily-Briefing: KI, Plattformen und Content-Tools",
     "summary": "Der Vortag war geprägt von weiteren KI-Produktbewegungen, neuen Reibungen rund um Apple und OpenAI sowie ein paar klaren Creator- und Plattform-Signalen. Für Denis besonders relevant: Video-Tools, mobile AI-Funktionen, rechtliche Konflikte und neue Workflows rund um Content-Produktion.",
