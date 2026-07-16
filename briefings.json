@@ -1,5 +1,178 @@
 [
   {
+    "date": "2026-07-15",
+    "title": "KI-Briefing: Open-Weights, Creator-Tools, Security und Plattformen",
+    "summary": "Der Vortag war geprägt von neuen KI-Produkten und -Modellen, aber auch von Sicherheits- und Urheberrechtsfragen rund um Trainingsdaten, Code und Plattformen. Dazu kamen auffällige Moves bei Creator- und Consumer-Tools, von Video-Editing über Musik-KI bis hin zu Apple-, Microsoft- und OpenAI-News.",
+    "topSummary": "Heute in 30 Sekunden: Die spannendsten Signale kamen aus dem KI-Ökosystem selbst: Thinking Machines veröffentlicht sein erstes Open-Weights-Modell, OpenAI bringt Hardware für Codex und mehrere Startups setzen auf konkrete KI-Anwendungen statt allgemeiner Chatbots. Gleichzeitig zeigen Suno, Microsoft und OpenAI/Apple, dass Datenherkunft, Security und Regulierung weiter die größten Reibungspunkte bleiben.",
+    "implications": [
+      "Creator- und Video-Tools werden weiter KI-gestützter, aber auch stärker von Rechte- und Trainingsdaten-Fragen begleitet.",
+      "Open-Weights-Modelle und lokale Agenten bleiben ein wichtiges Thema für Entwickler- und Produkt-Workflows.",
+      "Security bleibt ein Kernthema: KI hilft beim Finden von Lücken, kann aber auch neue Angriffsflächen schaffen.",
+      "Plattformen und Ökosysteme differenzieren sich stärker über eigene Regeln, Hardware und Distribution."
+    ],
+    "watchlist": [
+      "Wie sich Inkling und andere Open-Weights-Modelle im Markt gegen proprietäre Anbieter positionieren.",
+      "Ob die Suno-Enthüllung rechtliche oder produktseitige Folgen für KI-Musik-Tools hat.",
+      "Wie stark OpenAIs Hardware- und Codex-Strategie wirklich auf Entwickler und Creator zielt.",
+      "Ob Apple Maps Ads und Apple Intelligence in China neue Plattform- und Regulierungsdebatten auslösen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#OpenWeights",
+      "#Plattformen",
+      "#DeveloperTools"
+    ],
+    "stories": [
+      {
+        "title": "OpenAI bringt ein $230-Keyboard für Codex heraus – trotz Hardware-Rechtsstreit",
+        "originalTitle": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI hat eine beleuchtete Tastatur vorgestellt, die für die Nutzung mit seiner agentischen Coding-App Codex gedacht ist. Der Launch kommt laut Quelle mitten in einem Hardware-Rechtsstreit mit Apple.",
+        "why": "Das ist relevant, weil OpenAI hier Software, Hardware und Entwickler-Workflow enger zusammenbringt. Für Creator und Produkt-Video-Creator ist das ein starkes Signal für neue KI-Tools, die nicht nur auf dem Bildschirm, sondern auch im physischen Setup sichtbar werden.",
+        "opportunity": "Eine kurze Video-Idee: „Warum KI-Hardware gerade wieder wichtig wird“.",
+        "links": [
+          "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/"
+        ]
+      },
+      {
+        "title": "Thinking Machines veröffentlicht sein erstes Open-Weights-Modell Inkling",
+        "originalTitle": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
+        "category": "Open Source",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI, Hacker News Frontpage, Hacker News LLM",
+        "summary": "Thinking Machines hat mit Inkling sein erstes öffentliches Open-Weights-Modell vorgestellt. Laut Quelle ist das das erste klare öffentliche Signal des Unternehmens nach längerer, weitgehend verdeckter Aufbauarbeit an der KI-Infrastruktur.",
+        "why": "Open-Weights-Modelle sind für Entwickler, Teams und Tool-Anbieter besonders relevant, weil sie Anpassung, Integration und Kontrolle erleichtern können. Für Denis ist das interessant als Zeichen, dass sich der Markt weiter in Richtung offenerer, anpassbarer KI-Angebote bewegt.",
+        "opportunity": "Als Vergleichsvideo eignet sich ein Blick auf Open-Weights vs. Closed-Modelle für Creator-Workflows.",
+        "links": [
+          "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+          "https://thinkingmachines.ai/news/introducing-inkling/",
+          "https://thinkingmachines.ai/inkling/"
+        ]
+      },
+      {
+        "title": "Ein Hack deutet darauf hin, dass Suno YouTube als Trainingsquelle genutzt hat",
+        "originalTitle": "Hack suggests AI music generator Suno scraped YouTube for training data",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Nach einem Hack, bei dem ein Angreifer Zugriff auf den Source Code über Mitarbeiter-Zugangsdaten erlangte, deuten die veröffentlichten Informationen darauf hin, dass Suno über Jahre Audio von YouTube beziehungsweise aus vergleichbaren Quellen für Training genutzt haben könnte.",
+        "why": "Das Thema ist direkt relevant für Medien-, Musik- und Creator-Rechte, weil es um die Herkunft von Trainingsdaten geht. Für Video- und Content-Creator ist das ein wichtiger Marker dafür, wie heikel KI-Tools im Umgang mit Plattforminhalten bleiben.",
+        "opportunity": "Gut für ein kurzes Erklärvideo über Trainingsdaten, Rechte und Creator-Schutz.",
+        "links": [
+          "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/"
+        ]
+      },
+      {
+        "title": "Microsoft patcht rekordverdächtig viele Sicherheitslücken – auch dank KI",
+        "originalTitle": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Im monatlichen Patch Tuesday hat Microsoft 570 Sicherheitslücken geschlossen, ein Rekordwert für das Unternehmen. Laut Quelle wurden die Schwachstellen unter anderem durch KI-gestützte Entdeckungen identifiziert.",
+        "why": "Für alle, die mit Software, Video-Workflows oder Creator-Tools arbeiten, zeigt das: KI hilft zunehmend beim Finden von Sicherheitsproblemen. Gleichzeitig steigt die Komplexität in großen Produkt-Ökosystemen weiter an.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/"
+        ]
+      },
+      {
+        "title": "Reelful nutzt KI, um die Kamerarolle in kurze Social-Videos zu verwandeln",
+        "originalTitle": "Reelful’s AI turns your camera roll into short-form videos for social media",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Die App richtet sich an Menschen, die Social Content erstellen wollen, aber klassische Video-Tools als zu kompliziert oder zu zeitaufwendig empfinden. Reelful will aus vorhandenen Fotos und Clips automatisch kurze Social-Formate bauen.",
+        "why": "Das ist direkt relevant für Creator-Workflows, vor allem bei schnell produziertem Social- und Kurzvideo-Content. Für Denis ist das ein klarer Trend: weniger manuelle Timeline-Arbeit, mehr KI-gestützte Vorproduktion und Schnitt.",
+        "opportunity": "Eine Testidee: Wie gut können solche Tools aus Handy-Material wirklich publishbare Shorts machen?",
+        "links": [
+          "https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media/"
+        ]
+      },
+      {
+        "title": "Whatnot kauft Shaped für Echtzeit-Empfehlungen im Live-Shopping",
+        "originalTitle": "Whatnot acquires Shaped to power real-time live shopping recommendations",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Die Livestream-Shopping-Plattform Whatnot hat das KI-Startup Shaped übernommen. Damit will Whatnot seine Personalisierungs- und Entdeckungsfunktionen für neue Produktkategorien ausbauen.",
+        "why": "Das zeigt, wie stark KI in Discovery- und Commerce-Flows integriert wird, besonders in Live-Formaten. Für Creator- und Produktvideos ist das relevant, weil Empfehlungen und Kaufimpulse immer enger mit Content verknüpft werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/15/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations/"
+        ]
+      },
+      {
+        "title": "Apple lässt keine Home-Services-Anzeigen in Apple Maps zu",
+        "originalTitle": "Apple bans home services from its upcoming Maps ads",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Apple hat die Regeln für seine kommenden Maps-Anzeigen veröffentlicht. Dabei werden bestimmte sensible Kategorien ausgeschlossen, darunter Home-Services wie Klempner, Elektriker, Schlosser und Dachdecker.",
+        "why": "Das ist ein Signal dafür, dass Apple bei Werbung in Maps einen stärker kuratierten Ansatz wählt als Google. Für Plattform- und Business-Beobachter zeigt das, wie Apple seine Anzeigenprodukte bewusst eng definiert.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/15/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles/"
+        ]
+      },
+      {
+        "title": "Apple Intelligence startet in China mit Alibabas Qwen AI",
+        "originalTitle": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Apple Intelligence wurde laut Quelle für den Start in China genehmigt und soll dort mit Alibaba’s Qwen AI arbeiten. Der Schritt gilt als wichtiger Meilenstein für Apples KI-Pläne in einem Schlüsselmarkt.",
+        "why": "Das ist vor allem ein Plattform- und Regulierungs-Signal: Globale KI-Produkte brauchen zunehmend lokale Partner und Freigaben. Für Medien- und Produktbeobachter zeigt das, wie regional KI-Features ausgerollt werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-16T06:41:21.533Z",
+    "generatedAtBerlin": "16.07.2026, 08:41",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "OpenAI bringt ein $230-Keyboard für Codex heraus – trotz Hardware-Rechtsstreit",
+      "Thinking Machines veröffentlicht sein erstes Open-Weights-Modell Inkling",
+      "Ein Hack deutet darauf hin, dass Suno YouTube als Trainingsquelle genutzt hat"
+    ],
+    "audioPath": "audio/briefing-2026-07-15.mp3",
+    "audioUrl": "audio/briefing-2026-07-15.mp3",
+    "audioGeneratedAt": "2026-07-16T06:41:56.273Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-14",
     "title": "Daily-Briefing: KI, Plattformen und Creator-Tools am 14.07.2026",
     "summary": "Heute standen vor allem KI-Plattformen, Regulierung, Creator-relevante Produktupdates und Sicherheitsmeldungen im Fokus. Besonders relevant: Apple öffnet die neue Siri-AI im iOS-27-Public-Beta, Google Images wird stärker auf Discovery getrimmt, und mehrere Meldungen drehen sich um Kosten, Kontrolle und Risiken beim Einsatz von KI.",
