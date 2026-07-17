@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-07-16",
+    "title": "Daily-Briefing: KI wird mehr Video-, App- und Creator-Workflow",
+    "summary": "Heute dominieren praktische KI-Features für Video, Apps und Publishing sowie einige klare Signale für Plattformkontrolle und Security. Dazu kommen mehrere HN-Themen rund um Open-Source, LLM-Performance und lokale Modelle, die vor allem für Entwickler und Creator-Tools relevant sind.",
+    "topSummary": "Heute in 30 Sekunden: Google, Roblox, DoorDash und Beehiiv zeigen, wie KI immer stärker in konkrete Arbeitsabläufe wandert — von Videoerstellung über Game-Templates bis zu Terminal-Bestellungen und Newsletter-Analytics. Gleichzeitig zieht X bei Content-Diebstahl an, während Security-Vorfälle und Forschungsthemen weiter zeigen, dass Vertrauen, Rechte und Performance zentrale Baustellen bleiben.",
+    "implications": [
+      "KI verschiebt sich von Chat zu erledigten Aufgaben: Videos, Bestellungen, Apps und Publishing werden direkt in Workflows eingebaut.",
+      "Creator- und Plattform-Themen werden operativer: Content-Diebstahl, Payouts und Engagement-Bait werden stärker technisch durchgesetzt.",
+      "Open-Modelle und lokale Tools bleiben relevant, aber Latenz, Qualität und Bedienbarkeit sind weiterhin große Differenzierungsmerkmale.",
+      "Security bleibt ein Basisthema: Ransomware und Datenweitergabe treffen weiterhin auch Alltagsprodukte und große Marken."
+    ],
+    "watchlist": [
+      "Wie schnell Google Vids, AI Mode und Gemini Notebook in echte Massen-Nutzung kommen.",
+      "Ob Xs Maßnahmen gegen Content-Klau tatsächlich messbar Original-Creator begünstigen.",
+      "Ob Entwickler-Tools wie dd-cli und LM Studio Bionic neue Standards für Agenten-Workflows setzen.",
+      "Ob weitere Plattformen ähnliche Creator- und Rechte-Mechanismen nachziehen."
+    ],
+    "tags": [
+      "#CreatorAI",
+      "#Security",
+      "#DeveloperTools",
+      "#Plattformen",
+      "#OpenSource",
+      "#VideoAI"
+    ],
+    "stories": [
+      {
+        "title": "Google Vids lässt Nutzer in eigenen KI-Videos auftreten",
+        "originalTitle": "Google Vids now lets you star in your own AI videos",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google ergänzt Vids um personalisierte KI-Avatare, mit denen Nutzer Videos mit einer digitalen Version von sich selbst erstellen können. Dazu kommen Gemini-Omni-Funktionen zum Erzeugen und Bearbeiten von Videos aus Prompts und Referenzbildern.",
+        "why": "Das ist direkt relevant für Creator, Product-Videos und Social-Content, weil sich damit Sprecher-, Demo- und Trainingsvideos schneller produzieren lassen. Gleichzeitig verschiebt es die Frage, wie authentisch und markenkonform KI-Video künftig wirkt.",
+        "opportunity": "Eine Test-Session dazu, wie gut sich KI-Avatare für Produkt- und Erklärvideos einsetzen lassen.",
+        "links": [
+          "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/"
+        ]
+      },
+      {
+        "title": "Google verbindet AI Mode mit ausgewählten Apps und kann Aufgaben direkt ausführen",
+        "originalTitle": "Google’s AI Mode now lets you link and interact with select apps",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google erweitert AI Mode über reine Antworten hinaus und lässt ihn mit ausgewählten Apps verbinden. Damit soll das System Aufgaben in den genutzten Apps übernehmen können.",
+        "why": "Für Creator und Medienarbeit ist das spannend, weil Such- und Assistenzfunktionen damit näher an echte Workflow-Automation rücken. Es ist auch ein Signal dafür, dass Plattformen künftig stärker über Aktionen statt nur über Antworten definiert werden.",
+        "opportunity": "Beobachten, ob daraus ein nützlicher Assistent für Recherche-, Planungs- oder Publishing-Workflows wird.",
+        "links": [
+          "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/"
+        ]
+      },
+      {
+        "title": "Roblox bringt ein KI-Feature zum Erstellen einfacher Spiele in die Mobile-App",
+        "originalTitle": "Roblox launches an AI-powered game-creation feature in its mobile app",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Mit der neuen Build-Funktion können Nutzer in Roblox per Texteingabe grundlegende Spiele erzeugen. Das Feature startet in der mobilen App.",
+        "why": "Das senkt die Einstiegshürde für interaktive Inhalte weiter und zeigt, wie Plattformen KI direkt in Creator-Frontends integrieren. Für Video- und Social-Creator ist das ein starkes Signal, weil sich damit schneller spielbare Begleit- oder Promo-Erlebnisse bauen lassen.",
+        "opportunity": "Ein Vergleichsclip zu den schnellsten KI-Content-Engines für einfache Games und interaktive Fan-Erlebnisse.",
+        "links": [
+          "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/"
+        ]
+      },
+      {
+        "title": "DoorDash startet eine Kommandozeilen-Beta für Bestellungen",
+        "originalTitle": "Yes, you can now order DoorDash from the command line",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "DoorDash testet mit dd-cli ein Terminal-Tool, mit dem Entwickler und KI-Agenten Restaurants suchen, Warenkörbe bauen und Bestellungen auslösen können. Die Beta ist limitiert.",
+        "why": "Das ist ein klares Zeichen dafür, dass Software immer stärker für Agenten statt nur für Menschen gebaut wird. Für Denis ist es vor allem ein gutes Indiz dafür, wohin sich KI-Workflows und API-getriebene Produktvideos entwickeln könnten.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/"
+        ]
+      },
+      {
+        "title": "Beehiiv fügt Chat zwischen Abonnenten hinzu und ergänzt einen KI-Copilot",
+        "originalTitle": "Newsletter platform Beehiiv now lets subscribers chat with each other, adds AI",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Beehiiv führt eine Funktion ein, mit der Abonnenten miteinander chatten können, und ergänzt einen KI-Copilot. Der Copilot soll Publisher bei Wachstum und Analytics unterstützen.",
+        "why": "Für Creator und Newsletter-Publisher ist das direkt relevant, weil Community-Bindung und Auswertung enger zusammenrücken. Das ist auch interessant für alle, die eigene Medienprodukte aufbauen und Community-Engagement monetarisieren wollen.",
+        "opportunity": "Eine Videoidee zu den besten KI-Features für Newsletter-Wachstum und Community-Aufbau.",
+        "links": [
+          "https://techcrunch.com/2026/07/16/newsletter-platform-beehiiv-now-lets-subscribers-chat-with-each-other-adds-ai/"
+        ]
+      },
+      {
+        "title": "X geht mit Grok AI stärker gegen Content-Diebstahl und Engagement-Bait vor",
+        "originalTitle": "X cracks down on creators who steal content",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "X will mit Grok AI gestohlene Inhalte besser erkennen, Auszahlungen an Original-Creator umlenken und Engagement-Bait stärker bekämpfen. Die Plattform setzt damit technisch auf mehr Durchsetzung von Urheber- und Originalitätsregeln.",
+        "why": "Für Creator ist das besonders wichtig, weil Monetarisierung und Attribution direkt betroffen sind. Für Denis ist es relevant, weil solche Plattformänderungen Content-Strategien, Reichweite und Rechtefragen unmittelbar beeinflussen.",
+        "opportunity": "Ein kurzes Analyseformat dazu, wie Plattformen künftig Original-Content gegen Reposts bevorzugen könnten.",
+        "links": [
+          "https://techcrunch.com/2026/07/16/x-cracks-down-on-creators-who-steal-content/"
+        ]
+      },
+      {
+        "title": "OpenAI verkauft überraschend auch einen ChatGPT-Basketball",
+        "originalTitle": "Why is OpenAI selling a ChatGPT basketball?",
+        "category": "Hardware",
+        "priority": "niedrig",
+        "signal": "niedrig",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI hat diese Woche sein erstes Hardware-Produkt vorgestellt, und dazu gehört offenbar auch ein ChatGPT-Basketball. TechCrunch stellt das Produkt als ungewöhnliche Randnotiz hervor.",
+        "why": "Das ist weniger wegen des Produkts selbst spannend als wegen des Signals, dass KI-Marken zunehmend in physische Produkte und Merch-Formate expandieren. Für Creator kann das als Beispiel für Markeninszenierung und Community-Ökonomie dienen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/"
+        ]
+      },
+      {
+        "title": "Coca-Cola stoppt die Produktion bei Fairlife nach einem Ransomware-Angriff",
+        "originalTitle": "Coca-Cola suspended production at its Fairlife dairy after a ransomware attack",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Coca-Cola sagt, die Milchproduktion bei Fairlife in den USA bleibe nach einem Hack ausgesetzt. TechCrunch ordnet den Vorfall als Ransomware-Angriff ein.",
+        "why": "Der Vorfall zeigt erneut, wie schnell Cyberangriffe reale Produktionsprozesse treffen können. Für Medien- und Creator-Teams ist das ein Reminder, Sicherheits- und Ausfallszenarien ernst zu nehmen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-17T06:37:01.550Z",
+    "generatedAtBerlin": "17.07.2026, 08:37",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Google Vids lässt Nutzer in eigenen KI-Videos auftreten",
+      "Google verbindet AI Mode mit ausgewählten Apps und kann Aufgaben direkt ausführen",
+      "Roblox bringt ein KI-Feature zum Erstellen einfacher Spiele in die Mobile-App"
+    ],
+    "audioPath": "audio/briefing-2026-07-16.mp3",
+    "audioUrl": "audio/briefing-2026-07-16.mp3",
+    "audioGeneratedAt": "2026-07-17T06:37:43.199Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-15",
     "title": "KI-Briefing: Open-Weights, Creator-Tools, Security und Plattformen",
     "summary": "Der Vortag war geprägt von neuen KI-Produkten und -Modellen, aber auch von Sicherheits- und Urheberrechtsfragen rund um Trainingsdaten, Code und Plattformen. Dazu kamen auffällige Moves bei Creator- und Consumer-Tools, von Video-Editing über Musik-KI bis hin zu Apple-, Microsoft- und OpenAI-News.",
