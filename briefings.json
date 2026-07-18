@@ -1,5 +1,147 @@
 [
   {
+    "date": "2026-07-17",
+    "title": "Daily-Briefing KI & Tech – 17.07.2026",
+    "summary": "Die auffälligsten Themen drehen sich heute um KI-Rechte und Plattformkontrolle: Patreon blockiert KI-Scraper, während Apple rechtlich gegen OpenAI vorgeht. Dazu kommen Sicherheits- und Infrastrukturthemen von Steam-Malware bis zu einem AWS-Abrechnungsbug sowie mehrere Signale rund um Robotaxis und KI-Hardware.",
+    "topSummary": "Heute in 30 Sekunden: Die Debatte um KI-Nutzung verschiebt sich von „bitte nicht scrapen“ zu aktivem Blocken und juristischem Gegenwind. Parallel zeigen Security- und Cloud-Meldungen, wie fehleranfällig digitale Plattformen bleiben. Für Creator und Medienmacher ist besonders relevant, wie hart Plattformen jetzt ihre Inhalte, Daten und Rechte absichern.",
+    "implications": [
+      "Creator-Plattformen setzen stärker auf technische Sperren gegen KI-Scraping statt nur auf Hinweise wie robots.txt.",
+      "Rechtsstreitigkeiten um KI-Unternehmen können Finanzierung, IPO-Pläne und Partnerbeziehungen direkt beeinflussen.",
+      "Security bleibt ein praktisches Risiko: von Malware in Game-Plattformen bis zu falschen Cloud-Abrechnungen.",
+      "Robotaxis und autonome Systeme geraten weiter unter regulatorischen Druck, wenn sie in echten Einsatzsituationen versagen."
+    ],
+    "watchlist": [
+      "Wie konsequent andere Creator-Plattformen Patreons Anti-Scraping-Kurs übernehmen.",
+      "Ob der Apple-gegen-OpenAI-Streit echte Folgen für OpenAIs IPO-Story hat.",
+      "Wie schnell AWS den Billing-Bug vollständig einordnet und behebt.",
+      "Ob die neuen Regeln für Robotaxis und App-Store-„Nudify“-Apps regulatorische Nachahmer finden."
+    ],
+    "tags": [
+      "#CreatorAI",
+      "#Security",
+      "#Platforms",
+      "#AIRegulation",
+      "#Cloud",
+      "#Robotaxi"
+    ],
+    "stories": [
+      {
+        "title": "Patreon blockiert KI-Bots statt sie nur zu bitten, nicht zu scrapen",
+        "originalTitle": "Patreon stops asking AI bots not to scrape — and starts blocking them",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Patreon arbeitet mit Cloudflare zusammen, um Bots zu blockieren, die Creator-Inhalte ohne Erlaubnis für KI-Modelle abgreifen. Damit geht die Plattform über bloße Hinweise wie robots.txt hinaus und setzt auf aktive technische Abwehr.",
+        "why": "Das ist direkt relevant für Creator-Ökosysteme, weil es zeigt, wie Plattformen ihre Inhalte gegen ungefragtes AI-Training schützen wollen. Für Video- und Mediencreators ist das ein starkes Signal, dass Content-Rechte und Zugriffskontrolle 2026 härter durchgesetzt werden.",
+        "opportunity": "Ein Video über den Wandel von „Bitte nicht scrapen“ zu aktivem AI-Blocking könnte für Denis sehr anschlussfähig sein.",
+        "links": [
+          "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/"
+        ]
+      },
+      {
+        "title": "Amazon behebt einen AWS-Bug, der Kunden Rechnungen in Milliardenhöhe anzeigte",
+        "originalTitle": "Amazon fixing bug that billed some AWS customers billions of dollars",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Einige AWS-Kunden sahen am Freitag überraschende Kostenschätzungen über Milliardenbeträge. Amazon arbeitet laut Quelle an der Behebung des Bugs.",
+        "why": "Das ist ein starkes Signal für die Abhängigkeit von Cloud-Infrastruktur und die Risiken fehlerhafter Abrechnung. Für Creator- und SaaS-Workflows ist das direkt relevant, weil schon kleine Cloud-Probleme massive operative Verunsicherung auslösen können.",
+        "opportunity": "Eine kurze Einordnung zu Cloud-Vertrauen und Billing-Risiken wäre ein nützliches Tech-Video-Thema.",
+        "links": [
+          "https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/"
+        ]
+      },
+      {
+        "title": "Apple und Google sollen „Nudify“-Apps aus ihren App Stores entfernen",
+        "originalTitle": "Apple and Google ordered to purge ‘nudify’ apps from App Stores",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "San Franciscos City Attorney David Chiu hat Apple und Google in Briefen aufgefordert, Apps zu entfernen, die laut ihm gegen staatliches Recht verstoßen. Beide Unternehmen sollen seit Langem über die Hosting-Probleme informiert sein.",
+        "why": "Das ist relevant für Plattform- und Medienrechte, weil App-Store-Verantwortung und KI-Missbrauch hier direkt zusammenlaufen. Für Creator ist das ein Hinweis darauf, dass regulatorischer Druck auf Distribution und AI-Missbrauch wächst.",
+        "opportunity": "Ein Video über Plattformhaftung bei schädlichen KI-Apps könnte gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/07/17/apple-and-google-ordered-to-purge-nudify-apps-from-app-stores/"
+        ]
+      },
+      {
+        "title": "Zoox startet nach einem Rauch-Vorfall einen Software-Rückruf",
+        "originalTitle": "Zoox issues software recall after a robotaxi got confused by heavy smoke",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Zoox hat einen Software-Rückruf angekündigt, nachdem ein Robotaxi durch starken Rauch verwirrt wurde. Die Meldung fällt in eine Phase, in der US-Sicherheitsbehörden AV-Unternehmen wegen Behinderungen von Ersthelfern warnen.",
+        "why": "Das zeigt, wie sensibel autonome Systeme auf reale Umgebungen reagieren und wie schnell daraus Sicherheits- und Regulierungsthemen werden. Für Tech- und Videoformate ist das ein gutes Beispiel für die Lücke zwischen Demo und Praxis.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/17/zoox-issues-software-recall-after-a-robotaxi-got-confused-by-heavy-smoke/"
+        ]
+      },
+      {
+        "title": "Die KI-Welle verändert Indiens Smartphone-Markt und drückt auf Speicher",
+        "originalTitle": "AI-driven memory crunch jolts India’s smartphone market",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Laut Bericht führt der KI-Boom zu einem Speichermangel, der Indiens Smartphone-Markt trifft. Der Rückgang dort zeigt, wie KI inzwischen Preisbildung, Nachfrage und Unternehmensstrategien in Consumer Electronics beeinflusst.",
+        "why": "Das ist interessant, weil KI-Effekte hier nicht nur Software, sondern auch Hardware und Lieferketten betreffen. Für Produktvideos kann das als Beispiel dienen, wie sich KI-Trends in ganz anderen Märkten auswirken.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/"
+        ]
+      },
+      {
+        "title": "Open-Source- und LLM-Signale drehen sich um lokale Modelle, Sicherheit und Verifikation",
+        "originalTitle": "The state of open source AI",
+        "category": "Open Source",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage / HN LLM",
+        "summary": "Mehrere HN-Items zeigen ein klares Muster: Interesse an Open-Source-AI, lokalen LLM-Setups und Sicherheitsfragen rund um Prompt-, Code- und Datenkontrolle. Dazu gehören unter anderem ein Überblick zu Open-Source-AI, lokale Dictation-Tools und Beiträge zu LLM-Verifikation und Sandboxing.",
+        "why": "Das ist für Developer und produktnahe Creator relevant, weil lokale und kontrollierbare KI-Workflows offenbar weiter an Bedeutung gewinnen. Gleichzeitig wird deutlich, dass Absicherung und Verifikation bei LLM-gestützten Tools ein Kernproblem bleiben.",
+        "opportunity": "Ein kurzes Trend-Video zu lokaler KI, Datenschutz und Verifikation könnte gut passen.",
+        "links": [
+          "https://stateofopensource.ai/",
+          "https://github.com/sushilk1991/velora",
+          "https://arxiv.org/abs/2607.05391",
+          "https://velyr.io/blog/validating-llm-code-edits-without-running-the-code"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-18T06:27:47.261Z",
+    "generatedAtBerlin": "18.07.2026, 08:27",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Patreon blockiert KI-Bots statt sie nur zu bitten, nicht zu scrapen",
+      "Amazon behebt einen AWS-Bug, der Kunden Rechnungen in Milliardenhöhe anzeigte",
+      "Apple und Google sollen „Nudify“-Apps aus ihren App Stores entfernen"
+    ],
+    "audioPath": "audio/briefing-2026-07-17.mp3",
+    "audioUrl": "audio/briefing-2026-07-17.mp3",
+    "audioGeneratedAt": "2026-07-18T06:28:25.836Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-16",
     "title": "Daily-Briefing: KI wird mehr Video-, App- und Creator-Workflow",
     "summary": "Heute dominieren praktische KI-Features für Video, Apps und Publishing sowie einige klare Signale für Plattformkontrolle und Security. Dazu kommen mehrere HN-Themen rund um Open-Source, LLM-Performance und lokale Modelle, die vor allem für Entwickler und Creator-Tools relevant sind.",
