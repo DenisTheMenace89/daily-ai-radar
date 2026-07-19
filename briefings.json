@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-07-18",
+    "title": "Daily-Briefing: KI-Modelle, Creator-Workflows und Plattform-Risiken",
+    "summary": "Heute dominieren drei Themen: neue KI-Modelle und Tools, praktische Creator-Workflows mit LLMs und ein paar Plattform- bzw. Sicherheitsmeldungen mit unmittelbarer Relevanz. Dazu kommen Signale aus dem Markt, dass KI weiter Geld, Macht und Regulierung verschiebt.",
+    "topSummary": "Heute in 30 Sekunden: Moonshot AI bringt mit Kimi ein neues Modell auf den Markt, während mehrere LLM- und Creator-Tools zeigen, wie schnell KI-Workflows in die Praxis wandern. Gleichzeitig sorgen Themen wie TikTok auf Regierungsgeräten, LG-Software über Windows Update und Waymo-Ausfälle für neue Fragen rund um Plattformkontrolle, Security und Zuverlässigkeit. Für Creator und Produktvideo-Macher ist vor allem spannend, wie schnell sich KI von der Demo in echte Produktions-Workflows verschiebt.",
+    "implications": [
+      "KI wird stärker als Produktionswerkzeug statt nur als Demo-Thema sichtbar.",
+      "Creator-Workflows mit Audio, Video, Telemetrie und Schnitt werden weiter automatisiert.",
+      "Plattformen und Gerätehersteller greifen teils tief in Systeme ein — das erhöht das Sicherheits- und Vertrauensrisiko.",
+      "Regulierung und politische Debatten bleiben eng mit KI- und Plattformnutzung verknüpft."
+    ],
+    "watchlist": [
+      "Wie sich Kimi im Wettbewerb mit westlichen Modellen positioniert.",
+      "Ob weitere Creator-Tools mit automatischem Highlight-Schnitt oder LLM-Assistenz auftauchen.",
+      "Wie Behörden und Hersteller auf Softwareverteilung und Gerätesteuerung reagieren.",
+      "Ob TikTok-Zugänge auf Dienstgeräten erneut politisch oder regulatorisch diskutiert werden."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Plattformen",
+      "#LLM",
+      "#Productivity"
+    ],
+    "stories": [
+      {
+        "title": "Moonshot AI bringt Kimi in eine neue Debatte um Macht, Modelle und Kontrolle",
+        "originalTitle": "Kimi: Threat or menace?",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Moonshot AI hat diese Woche eine neue Version seines Kimi-Modells veröffentlicht. Der Bericht löst damit eine Diskussion über die politische und wirtschaftliche Bedeutung des Modells aus.",
+        "why": "Neue Foundation-Modelle verschieben den Wettbewerb bei KI-Tools, Workflows und Kosten schnell. Für Creator und Produktvideos ist relevant, welche Modelle künftig schnell, günstig und lokal einsetzbar werden.",
+        "opportunity": "Vergleiche Kimi mit den bekannten westlichen Modellen in einem Creator-Workflow-Test.",
+        "links": [
+          "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/"
+        ]
+      },
+      {
+        "title": "Ein VC erwartet, dass sich das KI-Geld in Silicon Valley wieder umverteilt",
+        "originalTitle": "Neil Rimer thinks the AI money is coming back out",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Neil Rimer, Mitgründer von Index Ventures, erwartet, dass der historische KI-Wohlstand in Silicon Valley freiwillig oder unfreiwillig wieder verteilt wird.",
+        "why": "Das ist ein Signal dafür, dass KI nicht nur Technologie-, sondern auch Verteilungs- und Bewertungsfrage bleibt. Für Startups und Creator-Tools kann das bedeuten, dass Kapital und Aufmerksamkeit selektiver werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/"
+        ]
+      },
+      {
+        "title": "Vertu verkauft ein Luxus-Foldable mit KI-Agent für 6.880 Dollar, der Praxistest bleibt ernüchternd",
+        "originalTitle": "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Vertu bewirbt ein Luxus-Foldable mit KI-Agent und einem Preis von 6.880 Dollar. Im Test standen unter anderem KI-Workflows, Akkulaufzeit und Sicherheit im Fokus.",
+        "why": "Das zeigt, wie KI als Premium-Feature vermarktet wird, auch wenn der Nutzwert nicht automatisch klar ist. Für Video-Creator ist das interessant als Beispiel für KI-gestützte High-End-Geräte und deren tatsächliche Alltagstauglichkeit.",
+        "opportunity": "Eine Einordnung bauen: „KI-Handy für 6.880 Dollar — Hype oder echtes Profi-Tool?“",
+        "links": [
+          "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/"
+        ]
+      },
+      {
+        "title": "Databricks erreicht 188 Milliarden Dollar Bewertung und bleibt ein zentraler KI-Infrastrukturplayer",
+        "originalTitle": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Databricks hat eine Bewertung von 188 Milliarden Dollar erreicht und positioniert sich weiter als KI-Unternehmen. Das Unternehmen veröffentlichte außerdem Forschung zu Kostenvorteilen von Open-Weight-Modellen beim Coden.",
+        "why": "Databricks ist ein gutes Signal dafür, wohin KI-Infrastruktur, Datenplattformen und Coding-Modelle wirtschaftlich laufen. Für Product-Video- und Software-Themen ist das relevant, weil Kosten und Modellwahl immer stärker zusammenhängen.",
+        "opportunity": "Ein Short-Format zur Frage machen, warum Datenplattformen zu KI-Plattformen werden.",
+        "links": [
+          "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/"
+        ]
+      },
+      {
+        "title": "Waymo unterbricht den Dienst in San Francisco kurzzeitig und nimmt ihn wieder auf",
+        "originalTitle": "Waymo says San Francisco service has resumed after one-hour pause",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Waymo hat den San-Francisco-Dienst nach einer einstündigen Pause wieder aufgenommen. Laut Bericht ist das nicht das erste Mal, dass ein Stromausfall den Betrieb beeinträchtigt.",
+        "why": "Autonome Dienste sind nur so zuverlässig wie ihre Infrastruktur- und Ausfallreserven. Das ist ein guter Realitätscheck für den Unterschied zwischen Demo und skaliertem Betrieb.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/18/waymo-appears-to-pause-san-francisco-service-amidst-power-outage/"
+        ]
+      },
+      {
+        "title": "US-Bundesbeschäftigte dürfen TikTok wieder auf Diensthandys herunterladen",
+        "originalTitle": "Federal employees can download TikTok on their work phones again",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Das Justizministerium sagt, dass Bundesbeschäftigte TikTok wieder auf ihren Regierungsgeräten herunterladen dürfen. Damit lockert sich eine bisherige Einschränkung.",
+        "why": "Das ist relevant für Plattformpolitik, Mediennutzung und Content-Verbreitung auf Arbeits- und Regierungsgeräten. Für Creator zeigt es, wie eng Plattformzugang und Regulierung inzwischen miteinander verknüpft sind.",
+        "opportunity": "Ein kurzes Video zur Frage drehen, was die Lockerung praktisch für Plattformpolitik bedeutet.",
+        "links": [
+          "https://techcrunch.com/2026/07/18/federal-employees-can-download-tiktok-on-their-work-phones-again/"
+        ]
+      },
+      {
+        "title": "Ein LLM-Workflow verwandelt GoPro- und Fitnessdaten in ein 60-Sekunden-Highlight-Video",
+        "originalTitle": "Show HN: ride-recap, teaching a LLM my taste to automate cycling highlights",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News LLM",
+        "summary": "Ein Tool verarbeitet Stunden an GoPro-Material und eine .fit-Datei zu einem 60-Sekunden-Highlight-Reel mit eingeblendeter Telemetrie. Der Workflow nutzt Gemini 3.5 Flash für Scan, Ranking und Kuratierung und kostet laut Beschreibung etwa 0,04 Dollar pro Fahrt.",
+        "why": "Das ist direkt relevant für Creator, Produktvideos und Social-Shorts, weil es automatisierten Schnitt mit Daten-Overlays kombiniert. Es zeigt, wie schnell KI aus Rohmaterial konsumierbare Clips machen kann.",
+        "opportunity": "Sehr gute Vorlage für ein Creator-Workflow-Video: „Aus 3 Stunden Rohmaterial wird ein 60-Sekunden-Clip“.",
+        "links": [
+          "https://www.iandmacomber.com/blog/gopro-garmin-gemini-ride-recap/"
+        ]
+      },
+      {
+        "title": "LG-Monitore installieren laut Bericht Software ungefragt über Windows Update",
+        "originalTitle": "LG monitors silently install software through Windows Update without consent",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein Bericht behauptet, dass LG-Monitore Software über Windows Update installieren, ohne dass Nutzer zustimmen. Das Thema hat auf Hacker News sehr starke Resonanz erzeugt.",
+        "why": "Für Workflows, Creator-Setups und Produktionsrechner ist ungefragte Softwareinstallation ein echtes Vertrauens- und Sicherheitsproblem. Es betrifft auch die Frage, wie viel Kontrolle Nutzer über ihre Hardware und Peripherie behalten.",
+        "opportunity": "Ein Security-Hinweis-Video mit Praxisblick auf Peripherie-Software und Update-Kontrolle wäre naheliegend.",
+        "links": [
+          "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-19T07:04:47.737Z",
+    "generatedAtBerlin": "19.07.2026, 09:04",
+    "mode": "ai",
+    "sourceCount": 21,
+    "highlights": [
+      "Moonshot AI bringt Kimi in eine neue Debatte um Macht, Modelle und Kontrolle",
+      "Databricks erreicht 188 Milliarden Dollar Bewertung und bleibt ein zentraler KI-Infrastrukturplayer",
+      "US-Bundesbeschäftigte dürfen TikTok wieder auf Diensthandys herunterladen"
+    ],
+    "audioPath": "audio/briefing-2026-07-18.mp3",
+    "audioUrl": "audio/briefing-2026-07-18.mp3",
+    "audioGeneratedAt": "2026-07-19T07:05:24.848Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-17",
     "title": "Daily-Briefing KI & Tech – 17.07.2026",
     "summary": "Die auffälligsten Themen drehen sich heute um KI-Rechte und Plattformkontrolle: Patreon blockiert KI-Scraper, während Apple rechtlich gegen OpenAI vorgeht. Dazu kommen Sicherheits- und Infrastrukturthemen von Steam-Malware bis zu einem AWS-Abrechnungsbug sowie mehrere Signale rund um Robotaxis und KI-Hardware.",
