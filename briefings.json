@@ -1,5 +1,180 @@
 [
   {
+    "date": "2026-07-19",
+    "title": "KI-Hardware, Creator-AI und Plattform-Strategien prägen den Tag",
+    "summary": "Am 19.07. dominieren KI-Infrastruktur, Medien-/Creator-Anwendungen und die Frage, wie sich große Plattformen in Hardware und Regulierung positionieren. Dazu kommen mehrere HN-Signale zu LLM-Routing, Benchmarks, Kosten und On-Device-Workflows.",
+    "topSummary": "Heute in 30 Sekunden: Netflix investiert massiv in KI-Filmtechnik, OpenAI steht weiter im Spannungsfeld zwischen Hardware-Ambitionen und Apple-Rechtsstreit, und die Diskussion um KI im Kreativbereich bleibt kulturell und wirtschaftlich heiß. Parallel zeigt sich auf der Entwicklerseite: LLMs werden stärker über Router, Benchmarks, Kostenvergleiche und In-house-Serving operationalisiert.",
+    "implications": [
+      "KI wird weniger als einzelnes Modell, sondern als Infrastruktur- und Workflowschicht sichtbar.",
+      "Creator- und Medienjobs werden stärker von KI-Tools, Rechten und Plattformentscheidungen beeinflusst.",
+      "Für Produktvideos und Creator-Workflows werden On-Device-, Routing- und Meeting-Note-Tools interessanter."
+    ],
+    "watchlist": [
+      "Wie sich der Apple-OpenAI-Konflikt auf OpenAIs Hardware-Pläne auswirkt.",
+      "Ob Netflix nach dem Zukauf seine KI-Filmpipeline oder Produktstrategie öffentlich ausbaut.",
+      "Welche Creator- und Musiktools aus der Suno-Debatte mehr Aufmerksamkeit bekommen.",
+      "Ob sich LLM-Routing und Preisvergleichs-Tools zu Standard-Bausteinen entwickeln."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorAI",
+      "#TechNews",
+      "#DeveloperTools",
+      "#Hardware",
+      "#Plattformen"
+    ],
+    "stories": [
+      {
+        "title": "Netflix zahlt 587 Millionen Dollar für Ben Afflecks KI-Film-Startup",
+        "originalTitle": "Netflix paid $587M for Ben Affleck’s AI filmmaking startup",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Netflix hat laut eigener Angabe 587 Millionen Dollar in bar für InterPositive gezahlt, ein von Ben Affleck mitgegründetes Startup. Der Deal macht deutlich, dass KI-Filmemachen für große Plattformen strategisch geworden ist.",
+        "why": "Für Creator, Film und Produktvideo ist das ein klares Signal: KI-gestützte Produktionsprozesse werden nicht nur experimentell, sondern enterprise-tauglich und teuer. Für Medienrechte und Schauspiel ist relevant, dass große Plattformen sich früh in diese Wertschöpfungskette einkaufen.",
+        "opportunity": "Beobachten, ob daraus ein Video über KI in Filmproduktion und die neue Macht großer Plattformen wird.",
+        "links": [
+          "https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/"
+        ]
+      },
+      {
+        "title": "OpenAIs Hardware-Pläne geraten durch Apples Klage unter Druck",
+        "originalTitle": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch diskutiert, ob Apples Klage OpenAIs oft genannte Pläne für Hardware und einen Börsengang beeinflussen könnte. Die Meldung ordnet den Streit als mögliches Risiko für OpenAIs nächste Wachstumsphase ein.",
+        "why": "Für die Branche ist wichtig, dass sich KI-Anbieter nicht mehr nur über Modelle, sondern auch über Hardware und Kapitalmärkte definieren. Für Denis ist das relevant, weil Hardware-Strategien bei KI-Produkten oft direkt in Creator-Tools und Workflow-Geräte übersetzen.",
+        "opportunity": "Ein kurzes Analyse-Video zu OpenAIs Hardware-Ambitionen und den Risiken aus dem Apple-Konflikt wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/"
+        ]
+      },
+      {
+        "title": "Christopher Nolan nennt KI einen offensichtlichen trojanischen Pferd",
+        "originalTitle": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Christopher Nolan beschreibt KI als offensichtliches „Trojan horse“ und liefert damit eine klare kulturpolitische Einordnung. Die Aussage steht im Kontext der Debatte, wie KI in Film und Kreativarbeit wahrgenommen wird.",
+        "why": "Prominente Stimmen wie Nolan prägen die öffentliche Wahrnehmung von KI in der Medienproduktion stark. Für Schauspieler und Creator ist das relevant, weil es die Debatte über Kontrolle, Authentizität und Arbeitsrollen weiter verschärft.",
+        "opportunity": "Gut als Meinungs-/Kommentar-Clip: Wie denkt die Filmbranche wirklich über KI?",
+        "links": [
+          "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/"
+        ]
+      },
+      {
+        "title": "Current AI will ein offenes, gemeinnütziges World Wide Web der KI bauen",
+        "originalTitle": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+        "category": "Open Source",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Current AI arbeitet laut TechCrunch als Nonprofit an einer offenen KI-Infrastruktur, die für alle frei zugänglich sein soll. Genannt werden Fortschritte über Geräte, Chat und weitere Bereiche hinweg.",
+        "why": "Das ist relevant, weil sich hier eine Gegenbewegung zu proprietären KI-Plattformen abzeichnet. Für Creator-Tools und Medienarbeit könnten offene KI-Bausteine langfristig mehr Wahlfreiheit bringen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/"
+        ]
+      },
+      {
+        "title": "Netflix betreibt sein LLM-Serving künftig inhouse",
+        "originalTitle": "In-House LLM Serving at Netflix",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "Hacker News LLM",
+        "summary": "Ein Netflix-Techblog-Beitrag beschreibt das In-House-Serving von LLMs bei Netflix. Das deutet darauf hin, dass das Unternehmen KI-Betrieb stärker selbst kontrolliert.",
+        "why": "Für Plattformen mit hohem Content- und Produktivitätsdruck ist eigene KI-Infrastruktur oft ein Kosten-, Kontroll- und Qualitätshebel. Für Denis ist das spannend, weil genau solche Setups später in Creator- und Medien-Tools herunterbrechen können.",
+        "opportunity": "Ein Video über die Frage, warum große Medienplattformen LLMs selbst betreiben, wäre gut anschlussfähig.",
+        "links": [
+          "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c?source=rss-c3aeaf49d8a4------2"
+        ]
+      },
+      {
+        "title": "Neue LLM-Tools drehen sich um Routing, Preise, Benchmarks und lokale Workflows",
+        "originalTitle": "Show HN: FlexInference LLM Router",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "Hacker News LLM",
+        "summary": "Auf Hacker News tauchten mehrere Tools und Beiträge rund um LLM-Betrieb auf: ein Router mit Fallbacks für Bedrock und Vertex, ein Preisvergleich für 145 Modelle sowie ein lokal ausgerichtetes Meeting-Notes-Tool. Dazu kommen Benchmarking- und Kosten-Diskussionen.",
+        "why": "Das zeigt, dass der Markt von „welches Modell ist am besten?“ zu „wie orchestriere ich Modelle effizient?“ kippt. Für Creator- und Produktvideo-Workflows ist das relevant, weil Stabilität, Kosten und lokale Verarbeitung wichtiger werden.",
+        "opportunity": "Sehr gut für ein Praxis-Video über LLM-Routing, Kosten und lokale KI-Workflows.",
+        "links": [
+          "https://www.flexinference.com",
+          "https://hail.so/costs",
+          "https://callbro.ai/",
+          "https://www.wolfram.com/llm-benchmarking-project/"
+        ]
+      },
+      {
+        "title": "Diskussionen auf Hacker News drehen sich um Hardware, das Ökonomie-Modell von LLMs und analoge Produktivität",
+        "originalTitle": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein viel beachteter HN-Beitrag über den Verkauf von 2.500 MIDI-Recordern und die These, dass Hardware nicht so schwer sei, bekam starke Aufmerksamkeit. Parallel liefen Diskussionen zur LLM-Ökonomie und zu KI-gestütztem Lernen.",
+        "why": "Für Creator und Produktentwickler ist das interessant, weil Hardware wieder als machbarer Teil der eigenen Produktstrategie erscheint. Gleichzeitig bleibt der ökonomische Unterbau von LLMs ein zentrales Thema für alle, die KI-Produkte bauen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
+          "https://davidmanheim.com/AI-Economics/",
+          "https://calculus.academa.ai/"
+        ]
+      },
+      {
+        "title": "The Verge diskutiert ein mit Suno erstelltes Lied und die Rolle von KI in der Musik",
+        "originalTitle": "I hate that I don’t hate this song made with Suno",
+        "category": "Creator",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "The Verge AI",
+        "summary": "The Verge veröffentlicht einen persönlichen Text über einen mit Suno erstellten Song und die ambivalente Reaktion darauf. Der Beitrag ordnet generative KI-Musik als kulturell schwer einzuordnen ein.",
+        "why": "Das ist für Creator relevant, weil Musik-KI direkt an Fragen von Geschmack, Authentizität und Nutzung im Content hängt. Für Video-Produktion kann das auch auf Soundtracks und schnelle Musikideen einzahlen.",
+        "opportunity": "Ein kurzer Kommentar zur Frage, wann KI-Musik im Creator-Alltag hilft und wann sie nur austauschbar wirkt.",
+        "links": [
+          "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-20T07:40:18.526Z",
+    "generatedAtBerlin": "20.07.2026, 09:40",
+    "mode": "ai",
+    "sourceCount": 17,
+    "highlights": [
+      "Netflix zahlt 587 Millionen Dollar für Ben Afflecks KI-Film-Startup",
+      "OpenAIs Hardware-Pläne geraten durch Apples Klage unter Druck",
+      "Christopher Nolan nennt KI einen offensichtlichen trojanischen Pferd"
+    ],
+    "audioPath": "audio/briefing-2026-07-19.mp3",
+    "audioUrl": "audio/briefing-2026-07-19.mp3",
+    "audioGeneratedAt": "2026-07-20T07:40:57.642Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-18",
     "title": "Daily-Briefing: KI-Modelle, Creator-Workflows und Plattform-Risiken",
     "summary": "Heute dominieren drei Themen: neue KI-Modelle und Tools, praktische Creator-Workflows mit LLMs und ein paar Plattform- bzw. Sicherheitsmeldungen mit unmittelbarer Relevanz. Dazu kommen Signale aus dem Markt, dass KI weiter Geld, Macht und Regulierung verschiebt.",
