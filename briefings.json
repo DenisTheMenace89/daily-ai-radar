@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-07-20",
+    "title": "KI, Creator-Plattformen und Security: Das Wichtigste vom 20. Juli 2026",
+    "summary": "Heute dominierten drei Themen: mehr Effizienz und Infrastruktur für KI-Modelle, neue Regeln und Werkzeuge für Creator-Plattformen, sowie konkrete Security-Risiken bei beliebten Open-Source- und Web-Stacks. Dazu kamen einige relevante Signale aus dem Startup-Markt rund um AI-Agents, Inference und Payments.",
+    "topSummary": "Heute in 30 Sekunden: Google arbeitet offenbar an einem neuen KI-Chip für Gemini, während mehrere neue Tools und Startups auf günstigere, schnellere und kontrollierbarere AI-Infrastruktur setzen. Für Creator besonders relevant: YouTube schärft seine Monetarisierungsregeln für AI-Slop und problematische Videos, und Adobe baut KI-Funktionen in seine Kamera-App aus. Auf der Risikoseite stechen aktiv ausgenutzte WordPress-Lücken und ein bestätigter Hugging-Face-Einbruch hervor.",
+    "implications": [
+      "Effizientere KI-Infrastruktur wird zum Wettbewerbsvorteil – sowohl bei großen Plattformen als auch bei Startups.",
+      "Creator-Plattformen ziehen die Linie bei KI-Content und Monetarisierung stärker nach, was Reichweite und Einnahmen direkt beeinflussen kann.",
+      "Security bleibt operativ relevant: WordPress und Hugging Face zeigen, dass Supply-Chain- und Account-Schutz weiter Priorität haben.",
+      "AI-Agenten werden produktiver gedacht, aber auch wirtschaftlich und regulatorisch stärker beobachtet."
+    ],
+    "watchlist": [
+      "Ob Google den neuen Gemini-Chip offiziell bestätigt und welche Effekte er auf Kosten und Latenz hat.",
+      "Wie YouTube seine Anti-AI-Slop-Regeln in der Praxis anwendet und ob Creator-Reichweiten betroffen sind.",
+      "Ob WordPress-Angriffe und die Hugging-Face-Breach Folgevorfälle oder neue Warnungen nach sich ziehen.",
+      "Wie schnell sich Agenten-Startups wie Natural, Infinity oder Ramp im Markt für KI-Infrastruktur positionieren."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorEconomy",
+      "#Security",
+      "#AIInfrastructure",
+      "#YouTube",
+      "#Startups"
+    ],
+    "stories": [
+      {
+        "title": "Google arbeitet an neuem KI-Chip, um Gemini effizienter zu machen",
+        "originalTitle": "Google is working on a new AI chip designed to make Gemini more efficient",
+        "category": "Hardware",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Alphabet arbeitet laut Bericht an einem neuen Chip, der die Gemini-Modelle deutlich effizienter laufen lassen soll. Der Fokus liegt dabei auf besserer Rechenleistung pro Kosten- und Energieeinsatz.",
+        "why": "Eigenes Silizium kann KI-Produkte günstiger, schneller und besser skalierbar machen. Das ist relevant für alle, die KI-Features in Video-, Creator- oder Produkt-Workflows nutzen oder bauen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/"
+        ]
+      },
+      {
+        "title": "YouTube präzisiert Regeln gegen AI-Slop und verstörende Videos",
+        "originalTitle": "YouTube clarifies policies around AI slop and upsetting videos",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "YouTube hat seine Monetarisierungsrichtlinien aktualisiert, um klarer festzulegen, welche KI-generierten und minderwertigen Videos keine Werbeeinnahmen mehr erzielen können. Dabei geht es auch um Inhalte, die als verstörend eingestuft werden.",
+        "why": "Das ist direkt relevant für Creator, Publisher und Produktvideo-Formate, weil Monetarisierung und Content-Strategie davon betroffen sein können. Für KI-generierte Kurzvideos und skalierte Content-Produktion wird die Plattform damit riskanter und definierter.",
+        "opportunity": "Ein Video oder Post über „Welche AI-Videos auf YouTube künftig riskant sind“ könnte relevant sein.",
+        "links": [
+          "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/"
+        ]
+      },
+      {
+        "title": "Adobe erweitert Project Indigo um KI-gestützte Bildkritik und Hintergrundentfernung",
+        "originalTitle": "Adobe camera app’s new feature will critique your photos using AI",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Adobes Project Indigo kann jetzt verschiedene Hintergründe aus Fotos entfernen, die direkt in der App aufgenommen wurden. Die Beschreibung der Quelle verweist zudem auf eine neue KI-Funktion zur Kritik von Fotos.",
+        "why": "Solche Funktionen verschieben Mobile-Editing und Content-Produktion weiter in Richtung „capture to publish“. Für Creator und Video-Produzenten sind schnelle Bild-Workflows oft ein direkter Produktivitätsgewinn.",
+        "opportunity": "Prüfen, ob sich daraus ein kurzer Demo-Clip für Foto-/Video-Workflow-Content machen lässt.",
+        "links": [
+          "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai/"
+        ]
+      },
+      {
+        "title": "WordPress-Bugs werden aktiv ausgenutzt und gefährden Millionen Websites",
+        "originalTitle": "Hackers are exploiting recently patched WordPress bugs, putting millions of websites at risk",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Laut Bericht nutzen Angreifer kürzlich gepatchte Schwachstellen in WordPress aktiv aus. Ein Sicherheitsforscher schätzt, dass dadurch zig Millionen Websites kompromittiert werden könnten.",
+        "why": "WordPress ist für viele Creator, Medienseiten und kleine Businesses ein Kernsystem. Wer Websites, Landingpages oder Video-Hubs betreibt, sollte Updates und Hardening jetzt besonders ernst nehmen.",
+        "opportunity": "Ein kurzer Sicherheitscheck-Reminder für eigene Webseiten und Kundenprojekte wäre sinnvoll.",
+        "links": [
+          "https://techcrunch.com/2026/07/20/hackers-are-exploiting-recently-patched-wordpress-bugs-putting-millions-of-websites-at-risk/"
+        ]
+      },
+      {
+        "title": "Hugging Face bestätigt Einbruch in interne Daten und Zugangsdaten",
+        "originalTitle": "Hugging Face confirms breach affected internal datasets and credentials, urges users to take action",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Hugging Face hat bestätigt, dass ein Einbruch interne Datensätze und Zugangsdaten betroffen hat. Nutzer sollen Zugriffstokens rotieren und Konten aktiv prüfen.",
+        "why": "Für Entwickler und KI-Teams ist das relevant, weil Hugging Face oft als zentrale Plattform für Modelle, Daten und Tokens dient. Ein Vorfall dort kann direkt den sicheren Betrieb von KI-Workflows betreffen.",
+        "opportunity": "Unbedingt die eigenen Tokens und Account-Aktivitäten prüfen.",
+        "links": [
+          "https://techcrunch.com/2026/07/20/hugging-face-confirms-breach-affected-internal-datasets-and-credentials-urges-users-to-take-action/"
+        ]
+      },
+      {
+        "title": "Natural sammelt 30 Millionen Dollar für KI-Agenten-Zahlungen ein",
+        "originalTitle": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Das ein Jahr alte Startup Natural hat eine Finanzierungsrunde über 30 Millionen Dollar bei einer Bewertung von 100 Millionen Dollar bekanntgegeben. Das Ziel ist eine Zahlungsinfrastruktur für autonome KI-Transaktionen.",
+        "why": "Wenn AI-Agents wirklich eigenständig handeln, brauchen sie auch passende Payment- und Abrechnungslogik. Das ist ein wichtiges Signal für alle, die Agenten-Workflows oder Produktautomatisierung bauen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/"
+        ]
+      },
+      {
+        "title": "Infinity erhält 15 Millionen Dollar für Inference-Infrastruktur mit prominenter Forscherbeteiligung",
+        "originalTitle": "Inference startup Infinity raises $15M from Touring Capital, OpenAI and Anthropic researchers",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Infinity hat 15 Millionen Dollar bei einer Bewertung von 100 Millionen Dollar eingesammelt. Zu den Geldgebern zählen Touring Capital, Principal VC und Forscher aus Unternehmen wie OpenAI und Anthropic.",
+        "why": "Inference bleibt einer der heißesten Bereiche in der KI-Infrastruktur, weil dort Kosten und Geschwindigkeit entschieden werden. Für produktionsnahe Creator- und Software-Tools ist das ein relevantes Fundament-Thema.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers/"
+        ]
+      },
+      {
+        "title": "X veröffentlicht nach einem Jahr eine neu aufgebaute Android-App",
+        "originalTitle": "X relaunches a rebuilt Android app after year-long effort",
+        "category": "Plattformen",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "X sagt, dass die neu aufgebaute Android-Version seiner App jetzt weltweit verfügbar ist. Die Entwicklung soll laut Quelle ein Jahr gedauert haben.",
+        "why": "Für Creator ist X weiterhin eine relevante Distributions- und Reichweitenplattform, auch wenn der Newswert hier eher technisch als strategisch ist. Der Relaunch kann auf Stabilität, Performance und Nutzungserlebnis einzahlen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-21T07:05:59.514Z",
+    "generatedAtBerlin": "21.07.2026, 09:05",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Google arbeitet an neuem KI-Chip, um Gemini effizienter zu machen",
+      "YouTube präzisiert Regeln gegen AI-Slop und verstörende Videos",
+      "WordPress-Bugs werden aktiv ausgenutzt und gefährden Millionen Websites"
+    ],
+    "audioPath": "audio/briefing-2026-07-20.mp3",
+    "audioUrl": "audio/briefing-2026-07-20.mp3",
+    "audioGeneratedAt": "2026-07-21T07:06:39.383Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-19",
     "title": "KI-Hardware, Creator-AI und Plattform-Strategien prägen den Tag",
     "summary": "Am 19.07. dominieren KI-Infrastruktur, Medien-/Creator-Anwendungen und die Frage, wie sich große Plattformen in Hardware und Regulierung positionieren. Dazu kommen mehrere HN-Signale zu LLM-Routing, Benchmarks, Kosten und On-Device-Workflows.",
