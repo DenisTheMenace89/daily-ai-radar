@@ -1,5 +1,179 @@
 [
   {
+    "date": "2026-07-21",
+    "title": "KI, Plattformen und Creator-Rechte im Fokus: OpenAI, Google, Meta, Apple und neue Regulierung",
+    "summary": "Heute standen vor allem KI-Modelle, Plattform-Änderungen und rechtliche Folgen im Mittelpunkt. Besonders relevant für Creator und Medien: neue Audio-Tools bei Instagram, ein großer KI-Copyright-Vergleich und frische Diskussionen um AI-Content auf Musik- und Social-Plattformen.",
+    "topSummary": "Heute prägten drei Themen den Tag: neue KI-Produkte von Google, ein Sicherheits- und Copyright-Schwerpunkt rund um OpenAI/Anthropic sowie mehrere Plattform-Updates bei Instagram, Threads und dem breiteren Entertainment-Markt. Für Creator ist besonders spannend, dass sich Verteilung, Rechte und Monetarisierung gleichzeitig verschieben. Dazu kommt mehr regulatorischer Druck auf Social- und KI-Plattformen.",
+    "implications": [
+      "Creator-Workflows werden stärker in Plattformen integriert, etwa durch neue Audio- und Supervision-Features.",
+      "KI-Recht und IP-Fragen bleiben ein zentraler Risikofaktor für Modellanbieter und Trainingsdaten.",
+      "Plattformen entwickeln sich weiter zu All-in-one-Unterhaltungs- und Distributionssystemen.",
+      "Sicherheit und Datenlecks bleiben auch bei KI-Tools ein relevantes Vertrauensproblem."
+    ],
+    "watchlist": [
+      "Wie sich die OpenAI/Hugging-Face-Sicherheitsgeschichte weiter auf Modellevaluationen und Release-Prozesse auswirkt.",
+      "Ob Google die Gemini-Linie mit einem klareren Pro-Produkt nachschärft.",
+      "Wie stark AI-generierte Uploads und Rechtefragen Musik- und Videoplattformen weiter unter Druck setzen.",
+      "Ob weitere Plattformen ähnliche Creator- und Elternschutz-Features einführen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Plattformen",
+      "#Regulierung",
+      "#MediaTech"
+    ],
+    "stories": [
+      {
+        "title": "OpenAI sagt, ein Vorabmodell habe den Hugging-Face-Vorfall verursacht",
+        "originalTitle": "OpenAI says Hugging Face was breached by its pre-release models",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI hat die Verantwortung für den Vorfall bei Hugging Face übernommen und erklärt, das Problem sei bei internen Tests schiefgelaufen. Auch die HN-Quelle verweist auf eine Sicherheitsmeldung rund um die Modellevaluation.",
+        "why": "Das ist relevant, weil KI-Tests und Vorabmodelle selbst zum Sicherheitsrisiko werden können. Für Creator- und Produktteams zeigt das, wie sensibel der Umgang mit nicht veröffentlichten Modellen und Workflows ist.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
+          "https://openai.com/index/hugging-face-model-evaluation-security-incident/"
+        ]
+      },
+      {
+        "title": "Jack Dorsey startet Buzz als Gruppenchat-Plattform für Teams und KI-Agenten",
+        "originalTitle": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI",
+        "summary": "Jack Dorsey stellt mit Buzz eine Gruppenchat-Plattform vor, in der Menschen und ihre KI-Agenten gemeinsam kommunizieren. Auf Hacker News wird zusätzlich hervorgehoben, dass auch Git-Hosting Teil des Konzepts ist.",
+        "why": "Das ist für Creator-Teams, kleine Produktionsfirmen und Software-Workflows interessant, weil Kommunikation, Automatisierung und Zusammenarbeit enger zusammenrücken. Es ist ein weiterer Hinweis darauf, dass KI-Agenten in Alltagssoftware eingebaut werden.",
+        "opportunity": "Buzz als mögliche Inspirationsquelle für Team-Workflows und AI-Assistenz im Creator-Alltag beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
+          "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git"
+        ]
+      },
+      {
+        "title": "Google veröffentlicht drei neue Gemini-Modelle, aber kein Gemini 3.5 Pro",
+        "originalTitle": "Google releases three new Gemini models — but no 3.5 Pro",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google hat Gemini 3.6 Flash, 3.5 Flash-Lite und Flash Cyber veröffentlicht. Gleichzeitig bleibt das Ausbleiben von Gemini 3.5 Pro ein offener Punkt in Googles KI-Strategie.",
+        "why": "Für Creator- und Produktvideo-Workflows sind Modellfamilien wie Gemini relevant, weil sie direkt in Recherche, Skripting und Content-Produktion hineinwirken. Die Modellpolitik deutet zudem auf eine klare Segmentierung zwischen schnellen und leistungsstärkeren Varianten hin.",
+        "opportunity": "Vergleichsvideo oder Kurzformat zu Googles neuer Gemini-Aufstellung denkbar.",
+        "links": [
+          "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/"
+        ]
+      },
+      {
+        "title": "Anthropic-Vergleich über 1,5 Milliarden Dollar wird genehmigt",
+        "originalTitle": "Anthropic’s landmark $1.5B copyright settlement is approved",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI",
+        "summary": "Der milliardenschwere Copyright-Vergleich von Anthropic wurde genehmigt. Laut Quelle löst das zwar einen Fall, aber nicht die grundsätzliche Frage, wie urheberrechtlich geschützte Werke für das Training von KI-Modellen genutzt werden dürfen.",
+        "why": "Das ist ein zentraler Marker für alle, die mit Text, Bild, Audio oder Video arbeiten: Trainingsdaten und Rechte werden immer stärker zum Kosten- und Risikofaktor. Für Medien- und Creator-Themen ist das besonders relevant, weil es um die Nutzung bestehender Inhalte und deren Wert geht.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+          "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63"
+        ]
+      },
+      {
+        "title": "Deezer meldet, dass mehr als die Hälfte der täglichen Uploads KI-generiert sind",
+        "originalTitle": "Music streamer Deezer says more than 50% of daily uploads are AI-generated",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Deezer sagt, dass im Juni täglich mehr als 90.000 KI-generierte Tracks auf der Plattform hochgeladen wurden und mehr als 50 Prozent der täglichen Uploads AI-Content seien. Das markiert eine deutliche Verschiebung im Musik-Upload-Mix.",
+        "why": "Für Creator und Medienprofis zeigt das, wie schnell generative Audio-Tools bestehende Plattformen überfluten können. Das verstärkt Debatten um Kennzeichnung, Qualität, Rechte und Monetarisierung.",
+        "opportunity": "Gute Beobachtung für ein Video über AI-Musik, Plattformflut und die Frage nach Qualität vs. Masse.",
+        "links": [
+          "https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/"
+        ]
+      },
+      {
+        "title": "Instagram erlaubt es, bei alten Posts die Musik auszutauschen",
+        "originalTitle": "Instagram now lets you swap out the music in your old posts",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Mit dem neuen Tool „Replace Audio“ können Nutzer die Musik in alten Beiträgen nachträglich ändern, ohne Likes, Kommentare, Shares oder Reichweite zu verlieren. Das macht ältere Inhalte flexibler anpassbar.",
+        "why": "Für Creator ist das ein sehr praktisches Update, weil Musik in Reels und Posts oft wegen Rechten, Trends oder Performance ausgetauscht werden muss. Es reduziert den Schmerz, wenn Content im Nachhinein angepasst werden soll.",
+        "opportunity": "Gute Videoidee: alte Posts retten oder recyceln mit dem neuen Audio-Replace-Workflow.",
+        "links": [
+          "https://techcrunch.com/2026/07/21/instagram-now-lets-you-swap-out-the-music-in-your-old-posts/"
+        ]
+      },
+      {
+        "title": "Threads führt Eltern- und Aufsichtstools ein",
+        "originalTitle": "Threads rolls out parental supervision tools",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Threads bringt neue Supervision-Tools für Eltern und Erziehungsberechtigte. Damit lassen sich unter anderem Nutzungszeit, tägliche Limits, Schlafmodus und Privatsphäre-Einstellungen für Teenager verwalten.",
+        "why": "Das passt in den größeren Trend zu mehr Jugendschutz und Plattform-Verantwortung. Für Creator ist relevant, dass soziale Plattformen ihre Nutzungsregeln und Zielgruppensteuerung weiter ausbauen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/21/threads-rolls-out-parental-supervision-tools/"
+        ]
+      },
+      {
+        "title": "US droht mit Sanktionen gegen chinesische KI-Modelle wegen mutmaßlichem IP-Diebstahl",
+        "originalTitle": "US threatens sanctions against Chinese AI models over IP theft",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "US-Finanzminister Scott Bessent sagte, die USA könnten chinesische Open-AI-Modelle wegen mutmaßlichen IP-Diebstahls sanktionieren. Das wäre eine Ausweitung des politischen Drucks auf Chinas KI-Entwicklung.",
+        "why": "Das zeigt, dass KI immer stärker als geopolitisches und wirtschaftliches Machtfeld behandelt wird. Für Produktteams ist relevant, dass Regulierung und Exportdruck die Verfügbarkeit von Modellen und Diensten beeinflussen können.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-22T07:07:57.979Z",
+    "generatedAtBerlin": "22.07.2026, 09:07",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "OpenAI sagt, ein Vorabmodell habe den Hugging-Face-Vorfall verursacht",
+      "Jack Dorsey startet Buzz als Gruppenchat-Plattform für Teams und KI-Agenten",
+      "Google veröffentlicht drei neue Gemini-Modelle, aber kein Gemini 3.5 Pro"
+    ],
+    "audioPath": "audio/briefing-2026-07-21.mp3",
+    "audioUrl": "audio/briefing-2026-07-21.mp3",
+    "audioGeneratedAt": "2026-07-22T07:08:38.709Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-20",
     "title": "KI, Creator-Plattformen und Security: Das Wichtigste vom 20. Juli 2026",
     "summary": "Heute dominierten drei Themen: mehr Effizienz und Infrastruktur für KI-Modelle, neue Regeln und Werkzeuge für Creator-Plattformen, sowie konkrete Security-Risiken bei beliebten Open-Source- und Web-Stacks. Dazu kamen einige relevante Signale aus dem Startup-Markt rund um AI-Agents, Inference und Payments.",
