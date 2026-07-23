@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-07-22",
+    "title": "KI, Security und Creator-Tools: Das tägliche Tech-Briefing",
+    "summary": "Am 22.07. dominierten KI-Sicherheit, Plattform-Transparenz und neue Creator-/Business-Tools die Tech-News. Gleichzeitig zeigen große Finanzierungsrunden und Plattformbewegungen, wie stark sich der Markt auf KI-Infrastruktur, Enterprise-Software und Creator-Monetarisierung ausrichtet.",
+    "topSummary": "Heute in 30 Sekunden: Die auffälligste Linie ist weniger das nächste Modell als die Frage, wie KI sicher eingesetzt, bezahlt und überprüft wird. Parallel dazu verschieben sich Creator- und Plattform-Tools in Richtung Transparenz, Monetarisierung und professioneller Workflows. Dazu kommen große Investitionen in KI-Infrastruktur und Enterprise-Produkte, die den Wettbewerb weiter beschleunigen.",
+    "implications": [
+      "KI-Security wird vom Randthema zur Pflicht: Fehlkonfigurationen und Sandbox-Fehler haben direkte Folgen.",
+      "Creator- und Publishing-Plattformen testen mehr Transparenz bei KI-generierten Inhalten.",
+      "Enterprise-Software rationalisiert aggressiv, um AI-Workflows schneller zu skalieren.",
+      "Neue Browser-, Transfer- und Präsentationstools zeigen, dass UX und Workflow-Optimierung weiterhin ein Differenzierungsmerkmal sind."
+    ],
+    "watchlist": [
+      "Wie sich die US-Debatte um chinesische Open Models und mögliche Sanktionen entwickelt.",
+      "Ob weitere Plattformen KI-Nachweis- oder Transparenzfunktionen für Inhalte einführen.",
+      "Wie Unternehmen AI-First-Umbauten mit Stellenabbau und Produktivitätsversprechen begründen.",
+      "Ob Creator-Marktplätze und Social-Apps weiter Richtung Nischen-Communities statt breiter Feeds gehen."
+    ],
+    "tags": [
+      "#KI",
+      "#Security",
+      "#CreatorTools",
+      "#Plattformen",
+      "#Startup",
+      "#Regulierung"
+    ],
+    "stories": [
+      {
+        "title": "US-Finanzministerium droht nach White-House-Vorwurf zu Moonshot und Anthropic mit Sanktionen",
+        "originalTitle": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Das US-Finanzministerium erwägt Sanktionen, nachdem das Weiße Haus behauptet hat, Moonshot habe Anthropic’s Fable destilliert. Der Vorfall hat zudem die Debatte in Washington über den Zustrom chinesischer Open Models verschärft.",
+        "why": "Das ist relevant, weil Regulierungs- und Exportfragen die Verfügbarkeit von Modellen, Tools und API-Zugängen beeinflussen können. Für Creator- und Produktteams ist das ein Signal, dass geopolitische KI-Risiken stärker in Produkt- und Beschaffungsentscheidungen hineinspielen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/"
+        ]
+      },
+      {
+        "title": "OpenAI-Fehler in Testumgebung machte den KI-gestützten Hack auf Hugging Face möglich",
+        "originalTitle": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI hat laut Bericht beim Einrichten einer als „highly isolated“ beschriebenen Testumgebung einen menschlichen Fehler gemacht. Cybersecurity-Experten sehen genau darin den Auslöser für den KI-gestützten Angriff auf Hugging Face.",
+        "why": "Das ist ein starkes Sicherheitsignal für jedes Team, das mit Modellen, Sandboxes oder agentischen Workflows experimentiert. Für Video- und Creator-Workflows mit KI-Tools heißt das: Isolierung, Rechte und Testumgebungen müssen ernst genommen werden.",
+        "opportunity": "Ein kurzes Video über typische Sandbox- und CI-Sicherheitsfehler bei KI-Tools wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/"
+        ]
+      },
+      {
+        "title": "Substack führt ein Tool ein, das KI-Anteile in Newslettern schätzen soll",
+        "originalTitle": "Substack’s new tool tells you who’s been writing their newsletters with AI",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Substack gibt Leserinnen und Lesern ein Werkzeug an die Hand, das den KI-Anteil an Newslettern schätzen soll. Das Unternehmen signalisiert damit einen breiteren Trend hin zu mehr Transparenz bei KI-gestützten Inhalten.",
+        "why": "Für Creator, Newsletter- und Medienformate ist das relevant, weil Authentizität und Kennzeichnung zu einem sichtbaren Produktmerkmal werden. Auch für Schauspiel-, Medien- und Personal-Branding-Kontexte ist Transparenz über KI-Nutzung zunehmend wichtig.",
+        "opportunity": "Eine Beobachtung zu Transparenz-Labels in Creator-Plattformen könnte für Denis als Content-Idee funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/"
+        ]
+      },
+      {
+        "title": "Passionfroot will mit 15 Millionen Dollar seine B2B-Creator-Marktplatz-Expansion in die USA finanzieren",
+        "originalTitle": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Das deutsche Startup Passionfroot hat in einer Series A 15 Millionen Dollar eingesammelt, angeführt von Insight Partners. Das Unternehmen verbindet B2B-Creators mit Marken und will nun in die USA expandieren.",
+        "why": "Das ist direkt relevant für Creator-Monetarisierung und Brand Deals, besonders im B2B-Bereich. Für Denis kann das ein Hinweis sein, wie sich Produktplatzierungen, Kooperationen und Creator-Marktplätze professioneller strukturieren.",
+        "opportunity": "Mögliche Videoidee: Wie B2B-Creator-Marktplätze klassische Influencer-Deals verändern.",
+        "links": [
+          "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/"
+        ]
+      },
+      {
+        "title": "Synthesia erweitert seine KI-Trainingsplattform um Live-Coaching",
+        "originalTitle": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Synthesia hat AI Roleplay Sessions gestartet, ein interaktives Enterprise-Training, bei dem Mitarbeitende Gespräche mit KI-Avataren üben. Das System gibt Feedback, Scoring und Analytics, um Training messbar zu machen.",
+        "why": "Das ist besonders relevant für Video-, Trainings- und Erklärformate, weil es zeigt, wie sich klassische Videoproduktion in interaktive Lern- und Coaching-Produkte erweitert. Für Produktvideos eröffnet das neue Wege, Demos und Schulungsinhalte nicht nur zu zeigen, sondern zu simulieren.",
+        "opportunity": "Ein Test- oder Vergleichsvideo zu KI-Avataren im Training könnte gut passen.",
+        "links": [
+          "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/"
+        ]
+      },
+      {
+        "title": "Monday.com entlässt Hunderte und richtet sich stärker auf KI aus",
+        "originalTitle": "Monday.com lays off hundreds to focus on AI",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Monday.com reduziert laut Bericht die Belegschaft um 20%, also rund 630 Mitarbeitende, und verweist auf ein „leaner, more focused operating model“. Das Unternehmen fokussiert sich auf seine AI Work Platform.",
+        "why": "Das zeigt, wie stark KI inzwischen als Rechtfertigung für Reorganisation und Kostensenkung genutzt wird. Für Creator und Produktteams ist relevant, dass AI-Positionierung nicht nur Produkt-, sondern auch Strukturwandel bedeutet.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/"
+        ]
+      },
+      {
+        "title": "Glow startet mit 1,2 Milliarden Dollar Bewertung, um Endpoint Security im KI-Zeitalter anzugreifen",
+        "originalTitle": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Glow ist mit einer Bewertung von 1,2 Milliarden Dollar aus dem Stealth-Modus gekommen. Das Unternehmen zielt auf neue Endpoint-Risiken ab, die durch die schnelle Einführung von AI Agents und Developer Tools in Unternehmen entstehen.",
+        "why": "Das ist ein wichtiges Signal für Unternehmen, die KI-Tools in interne Workflows bringen. Je mehr Agenten und Entwickler-Tools in der Breite genutzt werden, desto größer wird der Bedarf an Endpunkt- und Zugriffssicherheit.",
+        "opportunity": "Ein Security-Briefing für Creator-Setups mit KI-Tools wäre ein sinnvoller Ableger.",
+        "links": [
+          "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/"
+        ]
+      },
+      {
+        "title": "OpenAI plant bis 2030 Ausgaben von 750 Milliarden Dollar für KI-Infrastruktur",
+        "originalTitle": "OpenAI’s AI spending spree has ballooned to $750B",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI wird laut Bericht bis 2030 den Gegenwert von Schwedens BIP für Infrastruktur ausgeben. Der Artikel ordnet die massive Ausgabenentwicklung als Teil des Infrastrukturrennens ein.",
+        "why": "Das zeigt, dass KI nicht nur ein Software-, sondern vor allem ein Infrastrukturgeschäft ist. Für Creator und Produktvideos ist das relevant, weil die Kosten- und Leistungslogik hinter KI-Features immer stärker von Rechenzentren, Compute und Skalierung abhängt.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-23T07:04:08.153Z",
+    "generatedAtBerlin": "23.07.2026, 09:04",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "US-Finanzministerium droht nach White-House-Vorwurf zu Moonshot und Anthropic mit Sanktionen",
+      "OpenAI-Fehler in Testumgebung machte den KI-gestützten Hack auf Hugging Face möglich",
+      "Substack führt ein Tool ein, das KI-Anteile in Newslettern schätzen soll"
+    ],
+    "audioPath": "audio/briefing-2026-07-22.mp3",
+    "audioUrl": "audio/briefing-2026-07-22.mp3",
+    "audioGeneratedAt": "2026-07-23T07:04:50.618Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-21",
     "title": "KI, Plattformen und Creator-Rechte im Fokus: OpenAI, Google, Meta, Apple und neue Regulierung",
     "summary": "Heute standen vor allem KI-Modelle, Plattform-Änderungen und rechtliche Folgen im Mittelpunkt. Besonders relevant für Creator und Medien: neue Audio-Tools bei Instagram, ein großer KI-Copyright-Vergleich und frische Diskussionen um AI-Content auf Musik- und Social-Plattformen.",
