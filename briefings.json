@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-07-23",
+    "title": "KI, Chips, Creator-Tools und Plattformdruck: Das Daily-Briefing für Denis",
+    "summary": "Heute dominieren drei Linien: mehr Infrastruktur- und Chip-Rennen rund um KI, neue Creator- und Video-Tools mit AI-Fokus sowie Plattform- und Sicherheitsbewegungen bei großen Playern. Für Creator und Produktvideos ist besonders spannend, dass sich KI zunehmend direkt in Editing-, Voice- und Workflow-Tools integriert.",
+    "topSummary": "Heute in 30 Sekunden: AMD und Nvidia schieben den nächsten Infrastruktur-Wettlauf an, während Runway und Anthropic ihre KI-Tools weiter in Richtung produktiver Alltagsnutzung ausbauen. Gleichzeitig zeigen Patreon, Google und Sicherheitsmeldungen, dass Plattformen, Authentifizierung und Trust gerade neu justiert werden. Für Denis ist vor allem relevant, wie sich AI-Features in Video-Workflows, Creator-Monetarisierung und Login/Security-Mechaniken verschieben.",
+    "implications": [
+      "KI-Features wandern von der Demo in echte Arbeitsabläufe: Voice, Editing, Routing und Auth werden produktiver.",
+      "Creator-Plattformen stehen unter Kostendruck und müssen Geschäftsmodelle, Produkt und Monetarisierung anpassen.",
+      "Security und Identität bleiben ein Kernthema, besonders bei AI-gestützter Kommunikation und Zugriffskontrolle.",
+      "Der Chip- und Infrastrukturmarkt bleibt ein zentraler Hebel für alle KI-Produkte."
+    ],
+    "watchlist": [
+      "Wie schnell Runways Model Router von Generative-Media-Teams angenommen wird.",
+      "Ob Patreons Stellenabbau auf Creator-Produkte, Support oder Monetarisierungs-Features durchschlägt.",
+      "Ob Googles Selfie-Video-Login und Gemini-Expansion neue Standards für Auth und Alltags-KI setzen.",
+      "Wie sich AMDs Helios-System und Etcheds Chip-Story im Wettbewerb zu Nvidia entwickeln."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Plattformen",
+      "#Infrastruktur",
+      "#VideoAI"
+    ],
+    "stories": [
+      {
+        "title": "AMD greift Nvidia mit seinem Helios-KI-Rack-Scale-System an",
+        "originalTitle": "AMD takes on Nvidia with its Helios AI rack-scale system",
+        "category": "Hardware",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "AMD stellt ein neues Rack-Scale-System namens Helios vor, das später in diesem Jahr an Kunden ausgeliefert werden soll. Damit verschärft sich der Wettbewerb im KI-Infrastrukturmarkt direkt gegen Nvidia.",
+        "why": "Für alle KI-Anwendungen ist Hardware der Flaschenhals. Wer Videos, generative Medien oder große Modell-Workflows baut, spürt solche Verschiebungen bei Preis, Verfügbarkeit und Performance zuerst.",
+        "opportunity": "Eine kurze Video-Analyse über den nächsten KI-Hardware-Wettlauf wäre sehr anschlussfähig.",
+        "links": [
+          "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/"
+        ]
+      },
+      {
+        "title": "Runway startet einen AI-Model-Router, während generative Medien voller werden",
+        "originalTitle": "Runway launches AI model router as generative media gets crowded",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Runway hat den Media Router vorgestellt, der automatisch das passende Bild-, Video- oder Audiomodell für eine Anfrage auswählt. Das System priorisiert je nach Bedarf Qualität, Geschwindigkeit oder Kosten.",
+        "why": "Das ist direkt relevant für Creator-Workflows: Statt Modelle manuell zu vergleichen, übernimmt ein Router die Auswahl und senkt Reibung in der Produktion. Für Produktvideos und Social-Content kann das den Workflow deutlich vereinfachen.",
+        "opportunity": "Guter Stoff für ein Creator-Tool-Update oder einen Praxisvergleich in einem Produktvideo.",
+        "links": [
+          "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/"
+        ]
+      },
+      {
+        "title": "Anthropic aktualisiert den Claude-Sprachmodus mit leistungsfähigeren Modellen",
+        "originalTitle": "Anthropic updates Claude voice mode with more capable models",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Claude Voice bekommt ein Update mit leistungsfähigeren Modellen. Laut Quelle kann der Modus nun zum Beispiel helfen, Meetings umzulegen oder E-Mails zu entwerfen.",
+        "why": "Voice wird damit stärker zum produktiven Interface statt zur Spielerei. Für Creator und Medienschaffende ist das interessant, weil Spracheingabe, Vorproduktion und schnelle Textarbeit näher zusammenrücken.",
+        "opportunity": "Eine Demo-Idee: Welche Creator-Aufgaben kann Voice-KI heute schon sinnvoll übernehmen?",
+        "links": [
+          "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/"
+        ]
+      },
+      {
+        "title": "Patreon baut 20 Prozent der Belegschaft ab",
+        "originalTitle": "Patreon lays off 20% of its workforce",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Patreon trennt sich von 20 Prozent der Belegschaft. Laut Memo ist das Kerngeschäft zwar stark, das Unternehmen passe aber Kostenstruktur und Organisation an Marktveränderungen an.",
+        "why": "Für Creator ist Patreon eine wichtige Monetarisierungsplattform, daher hat jede strukturelle Anpassung potenziell Auswirkungen auf Produktentwicklung und Support. Solche Signale sind relevant für die Stabilität von Creator-Infrastruktur.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
+        ]
+      },
+      {
+        "title": "Google erlaubt jetzt die Anmeldung mit einem Selfie-Video",
+        "originalTitle": "Google will now let you sign in to your account with a selfie video",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Google führt Selfie-Video als zusätzliche Login-Option ein, falls Nutzer ausgesperrt sind oder kein normales Gerät zur Hand haben. Das Verfahren soll mehr Flexibilität bei der Kontowiederherstellung bieten.",
+        "why": "Das ist ein spannender Schritt bei Identität und Account-Sicherheit, gerade in einer Welt mit mehr KI-gestütztem Betrug und stärkeren Verifikationsanforderungen. Für Video-Creator ist interessant, wie Video als Auth-Faktor normalisiert wird.",
+        "opportunity": "Eine kurze Beobachtung zu Video-Identität und Login-Sicherheit könnte für Denis als Tech-Thema gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/07/23/google-will-now-let-you-sign-in-to-your-account-with-a-selfie-video/"
+        ]
+      },
+      {
+        "title": "AegisAI sammelt 36 Millionen Dollar, um KI-gestütztes Spearphishing zu stoppen",
+        "originalTitle": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "AegisAI, gegründet von ehemaligen Google-Sicherheitsverantwortlichen, hat 36 Millionen Dollar eingesammelt. Das Unternehmen setzt auf KI-Agenten, die Nachrichten schnell und detailgenau analysieren, um Spearphishing zu erkennen.",
+        "why": "KI macht Angriffe schneller und überzeugender, deshalb werden neue Abwehrmechanismen wichtiger. Das betrifft auch Creator und Medienleute, die oft Ziel von Phishing, Account-Übernahmen und Social-Engineering sind.",
+        "opportunity": "Gut für ein Security-Segment mit Fokus auf Creator- und Account-Schutz.",
+        "links": [
+          "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/"
+        ]
+      },
+      {
+        "title": "OpenAI macht ChatGPT Health für alle US-Nutzer verfügbar",
+        "originalTitle": "OpenAI makes ChatGPT Health available to all US users",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "ChatGPT Health ist nun für alle US-Nutzer verfügbar. Laut Quelle lassen sich auch persönliche Daten aus Diensten wie Apple Health, Function und MyFitnessPal integrieren.",
+        "why": "Das zeigt, wie KI-Assistenten tiefer in persönliche Daten- und Alltags-Workflows wandern. Für Denis ist es eher ein Signal für die Richtung von Consumer-KI als ein direktes Creator-Thema.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/"
+        ]
+      },
+      {
+        "title": "Tesla-Door-Handles könnten neue US-Sicherheitsregeln auslösen",
+        "originalTitle": "Tesla’s door handles may spur new US safety rules",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Ein neues Regelungsverfahren könnte auf Teslas Türgriffe folgen, nachdem es mehrere Vorfälle gab, darunter tödliche, bei denen Menschen in Autos eingeschlossen wurden.",
+        "why": "Das ist vor allem ein Regulierungssignal: Designentscheidungen bei Tech-Produkten können schnell zu Sicherheitsauflagen führen. Für Medienformate mit Technik- und Produktfokus ist das ein gutes Beispiel für den Konflikt zwischen Innovation und Alltagssicherheit.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/23/teslas-door-handles-may-spur-new-u-s-safety-rules/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-24T07:05:26.149Z",
+    "generatedAtBerlin": "24.07.2026, 09:05",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "AMD greift Nvidia mit seinem Helios-KI-Rack-Scale-System an",
+      "Runway startet einen AI-Model-Router, während generative Medien voller werden",
+      "Anthropic aktualisiert den Claude-Sprachmodus mit leistungsfähigeren Modellen"
+    ],
+    "audioPath": "audio/briefing-2026-07-23.mp3",
+    "audioUrl": "audio/briefing-2026-07-23.mp3",
+    "audioGeneratedAt": "2026-07-24T07:06:07.884Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-22",
     "title": "KI, Security und Creator-Tools: Das tägliche Tech-Briefing",
     "summary": "Am 22.07. dominierten KI-Sicherheit, Plattform-Transparenz und neue Creator-/Business-Tools die Tech-News. Gleichzeitig zeigen große Finanzierungsrunden und Plattformbewegungen, wie stark sich der Markt auf KI-Infrastruktur, Enterprise-Software und Creator-Monetarisierung ausrichtet.",
