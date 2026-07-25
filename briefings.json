@@ -1,5 +1,178 @@
 [
   {
+    "date": "2026-07-24",
+    "title": "KI- und Tech-Briefing vom 24.07.2026",
+    "summary": "Heute dominieren neue Modell- und Produktstarts bei Anthropic und OpenAI, dazu eine klare politische Debatte um Open-Weight-Modelle. Für Creator und Produktvideos besonders relevant: mehr KI in Desktop-Workflows, soziale Forschungstools und ein stärkerer Fokus auf die „Persönlichkeit“ von Assistenten.",
+    "topSummary": "Heute in 30 Sekunden: Anthropic, OpenAI und Cognition setzen weiter auf KI-Produkte, die nicht nur leistungsfähig, sondern auch besser in den Alltag integriert sind. Gleichzeitig zieht die Regulierung an: In den USA wird über Open-Weight-Modelle diskutiert, und in mehreren Ländern werden Social-Media-Regeln für Kinder verschärft. Für Denis sind vor allem die Themen Voice-Workflows, Creator-Tools und die Frage spannend, wie sich KI-Interfaces und Plattformregeln auf Medienarbeit und Produktkommunikation auswirken.",
+    "implications": [
+      "KI-Produkte werden stärker über Bedienung, Workflow und Persönlichkeit differenziert, nicht nur über Modellleistung.",
+      "Open-Weight-Modelle stehen politisch stärker unter Druck, was für Entwickler- und Startup-Strategien wichtig ist.",
+      "Voice- und Desktop-Integration macht KI-Assistenten alltagstauglicher für Kreativ- und Produktivitäts-Workflows.",
+      "Plattform- und Jugendschutzregeln könnten Social-, Video- und Messaging-Ökosysteme in mehreren Märkten verändern."
+    ],
+    "watchlist": [
+      "Wie stark Anthropic Opus 5 im Vergleich zu anderen Modellen im Markt angenommen wird.",
+      "Ob die US-Debatte um Open-Weight-Modelle in konkrete Regeln mündet.",
+      "Wie OpenAI Voice in Desktop-Workflows und Agentensteuerung eingebunden wird.",
+      "Ob weitere Länder Social-Media-Restriktionen für Minderjährige nachziehen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Regulierung",
+      "#DeveloperTools",
+      "#Security",
+      "#Plattformen"
+    ],
+    "stories": [
+      {
+        "title": "Anthropic startet Opus 5 und positioniert es als günstiger und weniger restriktiv als Fable",
+        "originalTitle": "Anthropic launches Opus 5",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Anthropic hat Opus 5 vorgestellt. Laut Quelle soll es günstiger und weniger restriktiv als Fable sein und dadurch in vielen Anwendungsfällen attraktiver werden.",
+        "why": "Das ist relevant für alle, die KI-Tools in Produktion, Content-Erstellung oder Prototyping einsetzen, weil Kosten und Nutzungsgrenzen oft über den praktischen Einsatz entscheiden. Für Creator- und Produktvideo-Workflows kann ein weniger restriktives Modell die Experimentiergeschwindigkeit erhöhen.",
+        "opportunity": "Opus 5 als Vergleichs-Case für ein kurzes Video zu Preis, Freiheiten und Workflows beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+          "https://www.anthropic.com/news/claude-opus-5"
+        ]
+      },
+      {
+        "title": "Cognition kauft Poke, weil KI-Persönlichkeit zum Wettbewerbsfaktor wird",
+        "originalTitle": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Cognition übernimmt Poke und bringt dessen Gesprächsstil und Interaktionsmodell in den Coding-Agenten Devin ein. Die Story ordnet das als Zeichen ein, dass „wie“ ein Assistent interagiert, immer wichtiger wird.",
+        "why": "Für Creator und Produktvideos ist das wichtig, weil KI-Assistenten zunehmend als Marke und Erlebnis wahrgenommen werden, nicht nur als Tool. Gerade bei Demos, Tutorials und Agenten-Workflows kann eine stärkere Persönlichkeit die Nutzung und Vermarktung beeinflussen.",
+        "opportunity": "Ein Video über den Trend zu „charakterstarken“ KI-Assistenten könnte gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/"
+        ]
+      },
+      {
+        "title": "OpenAI bringt den neuen Voice-Modus in die ChatGPT-Desktop-App",
+        "originalTitle": "OpenAI’s new voice mode makes it to the ChatGPT desktop app",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI hat den neuen Voice-Modus in die ChatGPT-Desktop-App gebracht. Laut Quelle kann ChatGPT Voice auf dem Desktop mit ChatGPT Work und Codex zusammenarbeiten, um Aufgaben zu erledigen und Agenten zu steuern.",
+        "why": "Das ist für produktive Creator-Workflows besonders relevant, weil Spracheingabe und Desktop-Automation die Hürde für schnelle Aufgaben senken. Für Denis ist das ein guter Aufhänger für Content über praktische KI-Assistenz statt reiner Modell-Demos.",
+        "opportunity": "Eine kurze Demo-Idee: Wie Voice am Desktop einen Creator- oder Schnitt-Workflow beschleunigen kann.",
+        "links": [
+          "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/"
+        ]
+      },
+      {
+        "title": "Blueskys Assistent Attie wird zu einem offenen Social-Research-Tool",
+        "originalTitle": "Bluesky’s AI assistant Attie expands into an open social research tool",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Bluesky erweitert Attie zu einem offenen Tool, mit dem Nutzer Fragen zu Nachrichten, Trends und Gesprächen auf Bluesky und anderen Apps auf dem AT Protocol stellen können. Damit wird der Assistent stärker als Recherche- und Analysewerkzeug positioniert.",
+        "why": "Für Creator ist das interessant, weil Trendbeobachtung, Themenrecherche und Community-Analyse direkt in Plattform-Tools wandern. Das könnte die Art verändern, wie man Themen für Videos, Reels oder Social Posts identifiziert.",
+        "opportunity": "Als Beobachtung für Social-Research-Tools im Creator-Alltag merken.",
+        "links": [
+          "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/"
+        ]
+      },
+      {
+        "title": "Die USA debattieren Open-Weight-Regeln, während die Industrie vor pauschalen Beschränkungen warnt",
+        "originalTitle": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI / Hacker News Frontpage",
+        "summary": "TechCrunch berichtet, dass KI-Firmen wie Nvidia und Mistral Politiker auffordern, breite Beschränkungen für Open-Weight-Modelle zu vermeiden. Auf Hacker News trendet dazu die Meldung über einen entsprechenden Warnbrief von Nvidia, Microsoft und Meta.",
+        "why": "Das betrifft die Verfügbarkeit offener Modelle, die für Entwickler, kleinere Startups und experimentelle Creator-Workflows wichtig sind. Für Denis ist das relevant, weil sich damit mittelbar auch die Tool-Landschaft für Video-, Audio- und Automations-Setups verändern kann.",
+        "opportunity": "Ein kurzes Update-Video zur Frage, warum offene Modelle politisch umkämpft sind.",
+        "links": [
+          "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+          "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html"
+        ]
+      },
+      {
+        "title": "Midjourney kauft die Astrologie-App Co-Star und weitet sich über Bild und Video hinaus aus",
+        "originalTitle": "Midjourney acquired the astrology app Co-Star",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Midjourney hat die Astrologie-App Co-Star übernommen. Laut Quelle zeigt das, dass das Unternehmen seinen Fokus über Bild- und Videogenerierung hinaus ausdehnt.",
+        "why": "Für Creator-Ökosysteme ist das ein Signal, dass KI-Produktfirmen stärker in Lifestyle-, Persona- und Content-Erlebnisse expandieren. Das kann Hinweise geben, wohin sich kreative KI-Produkte als Marke entwickeln.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/"
+        ]
+      },
+      {
+        "title": "Mehr Länder schränken Social Media für Kinder ein, Vietnam erwägt neue Regeln",
+        "originalTitle": "Vietnam is looking to restrict social media for kids; here are the growing number of other countries doing the same",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Vietnam prüft offenbar Einschränkungen für Social Media bei Kindern. TechCrunch ordnet das als Teil einer wachsenden Liste ähnlicher Regeln in anderen Ländern ein.",
+        "why": "Das ist relevant für Plattformen, Creator und Medienarbeit, weil Alterszugang, Reichweite und Community-Aufbau von solchen Regeln betroffen sein können. Gerade für Video- und Social-Strategien lohnt es sich, die internationale Entwicklung im Blick zu behalten.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/24/social-media-ban-children-countries-list/"
+        ]
+      },
+      {
+        "title": "Offensive Security-Researcher geraten durch KI-Guardrails stärker unter Druck",
+        "originalTitle": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch spricht mit mehreren Cybersecurity-Forschern darüber, wie Guardrails von OpenAI und Anthropic ihre Arbeit behindern. Gemeint sind Forscher, die Schwachstellen suchen und Tools zur Ausnutzung entwickeln.",
+        "why": "Für Security- und Dev-Workflows ist das wichtig, weil Sicherheitsforschung und Modellschutz zunehmend miteinander kollidieren. Für Denis kann das als Stoff für ein Video über die Schattenseite von KI-Sicherheitsmaßnahmen taugen.",
+        "opportunity": "Ein Erklärstück über den Zielkonflikt zwischen KI-Guardrails und Security-Research könnte stark sein.",
+        "links": [
+          "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-25T06:37:31.817Z",
+    "generatedAtBerlin": "25.07.2026, 08:37",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Anthropic startet Opus 5 und positioniert es als günstiger und weniger restriktiv als Fable",
+      "Cognition kauft Poke, weil KI-Persönlichkeit zum Wettbewerbsfaktor wird",
+      "OpenAI bringt den neuen Voice-Modus in die ChatGPT-Desktop-App"
+    ],
+    "audioPath": "audio/briefing-2026-07-24.mp3",
+    "audioUrl": "audio/briefing-2026-07-24.mp3",
+    "audioGeneratedAt": "2026-07-25T06:38:14.355Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-23",
     "title": "KI, Chips, Creator-Tools und Plattformdruck: Das Daily-Briefing für Denis",
     "summary": "Heute dominieren drei Linien: mehr Infrastruktur- und Chip-Rennen rund um KI, neue Creator- und Video-Tools mit AI-Fokus sowie Plattform- und Sicherheitsbewegungen bei großen Playern. Für Creator und Produktvideos ist besonders spannend, dass sich KI zunehmend direkt in Editing-, Voice- und Workflow-Tools integriert.",
