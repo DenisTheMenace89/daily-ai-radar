@@ -1,5 +1,165 @@
 [
   {
+    "date": "2026-07-25",
+    "title": "Daily-Briefing KI & Tech für Denis",
+    "summary": "Heute dominieren KI-Infrastruktur, Open-Source-LLMs und zwei regulative bzw. mediennahe Konflikte: von Debatten um LLM-Nutzung in Debian bis zu einem Streit zwischen Kalshi und Netflix. Dazu kommen Signale aus der Creator- und Produktwelt rund um OpenAI, Open-Weight-Modelle und neue KI-Workflows.",
+    "topSummary": "Heute in 30 Sekunden: Die spannendsten Signale kommen aus der KI-Tool- und Plattform-Ecke: Open-Source-LLMs werden leichter, kleiner und stärker in bestehende Entwickler-Workflows integriert. Gleichzeitig wächst der Gegenwind: bei Datenzentren, bei LLM-Nutzung in Open-Source-Projekten und bei juristischen Auseinandersetzungen rund um Medieninhalte.",
+    "implications": [
+      "Open-Source- und kleinere LLMs werden praktischer für konkrete Workflows statt nur als Demo-Objekte.",
+      "KI-Infrastruktur wird zum Engpass-Thema: Strom, Rechenzentren und Ausfallsicherheit rücken stärker in den Fokus.",
+      "Creator-, Medien- und Plattformfragen bleiben konfliktgeladen, besonders bei Trailer-, Rechte- und Inhaltsschutz.",
+      "Für Produktvideos und Tech-Content sind klare, kleine Use Cases derzeit oft spannender als große Modell-Announcements."
+    ],
+    "watchlist": [
+      "Wie sich die Debian-Debatte um LLM-Beiträge entwickelt.",
+      "Ob weitere Fälle rund um Medienrechte und KI-/Plattform-Content folgen.",
+      "Ob die Rechenzentrums- und Stromnetzprobleme bei AI weiter öffentlich eskalieren.",
+      "Welche praktischen Tools aus der Open-Weight- und LLM-Optimierungs-Ecke echten Adoption-Pull bekommen."
+    ],
+    "tags": [
+      "#KI",
+      "#LLM",
+      "#CreatorTools",
+      "#Security",
+      "#OpenSource",
+      "#Plattformen"
+    ],
+    "stories": [
+      {
+        "title": "Open-Source-LLMs und LLM-Workflows werden pragmatischer: von Debian-Regeln bis Tool-Optimierung",
+        "originalTitle": "LLM Usage in Debian: Three Proposals",
+        "category": "Open Source",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "Hacker News Frontpage, Hacker News LLM",
+        "summary": "Auf Hacker News ziehen mehrere Beiträge in dieselbe Richtung: Debian diskutiert drei Vorschläge zur LLM-Nutzung, Codeberg blockiert LLM-generierten Code, und Toolgz will Token bei LLM-Tool-Definitionen um rund 80% reduzieren. Dazu passen Beiträge über kleinere Modelle, Code-Mode und lokales LLM-Performance-Tuning.",
+        "why": "Das zeigt, dass die Debatte um KI in der Entwicklerwelt von abstrakter Begeisterung zu konkreten Regeln und Effizienzthemen kippt. Für Creator und Product-Videos ist das relevant, weil „Wie arbeite ich mit KI sinnvoll?“ oft stärker zieht als reine Modell-News.",
+        "opportunity": "Ein Video oder Short über „Was Open-Source-Projekte gerade von KI-Nutzung erwarten“ könnte gut funktionieren.",
+        "links": [
+          "https://www.debian.org/vote/2026/vote_002",
+          "https://codeberg.org/Codeberg/org/compare/17bdb39b0c1ecd0e423f3ba592650ce57fcdfbf5..71149c7fc95ccfeae36109b5cddca339e4aa1473?files=TermsOfUse.md#diff-d760d688bb9b929b62db808bfc76abe4493d095a",
+          "https://github.com/dperussina/toolgz",
+          "https://instavm.io/blog/how-code-mode-can-help-smaller-llm-models"
+        ]
+      },
+      {
+        "title": "KI-Rechenzentren werden zum Infrastruktur- und Ausfallrisiko",
+        "originalTitle": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Ein Zwischenfall in Nord-Virginia hat gezeigt, wie schlecht viele Rechenzentren auf Netzstörungen reagieren. Der Artikel macht daraus ein breiteres Infrastrukturproblem mit Blick auf KI-Rechenzentren und deren Resilienz.",
+        "why": "Für die KI-Branche ist das ein wichtiges Gegenstück zum Modell-Hype: Ohne robuste Strom- und Netz-Infrastruktur skaliert auch die beste KI nur begrenzt. Das ist relevant für alle, die KI-Produkte, Cloud-Services oder Video-Workflows auf Infrastruktur aufbauen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/"
+        ]
+      },
+      {
+        "title": "OpenAI-nahe Infrastruktur- und Automatisierungswette: Prentis will offenbar 100 Millionen Dollar aufnehmen",
+        "originalTitle": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Das neue AI-Lab Prentis, mitgegründet von Reid Hoffman und Mark Pincus, soll in Gesprächen über eine 100-Millionen-Dollar-Finanzierungsrunde sein. Das Labor setzt offenbar auf Automatisierung routinemäßiger Computeraufgaben als zentrale KI-Anwendung.",
+        "why": "Das ist interessant, weil sich hier die Investoren-Erzählung klar in Richtung praktische Automatisierung statt nur Modellgröße verschiebt. Für Creator- und Business-Content ist das ein sauberes Beispiel dafür, wie KI-Startups heute positioniert werden.",
+        "opportunity": "Als Marktbeobachtung für ein Video über die nächste Welle von KI-Startups geeignet.",
+        "links": [
+          "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/"
+        ]
+      },
+      {
+        "title": "Warner Bros. verklagt Amazon wegen angeblich unrechtmäßiger Abwerbung von Führungskräften",
+        "originalTitle": "Warner Bros. lawsuit accuses Amazon of illegally poaching executives",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Warner Bros. hat Amazon laut TechCrunch verklagt und wirft dem Konzern vor, Führungskräfte rechtswidrig abgeworben zu haben. Der Fall dürfte auch Debatten über die Durchsetzbarkeit von Arbeitsverträgen in Kalifornien neu anstoßen.",
+        "why": "Für Medien- und Creator-Kontexte ist das relevant, weil es zeigt, wie hart um Talente und Wissen zwischen großen Plattform- und Medienhäusern gekämpft wird. Solche Fälle beeinflussen, wie sich Kreativ- und Tech-Teams in der Praxis organisieren.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/25/warner-bros-lawsuit-accuses-amazon-of-illegally-poaching-executives/"
+        ]
+      },
+      {
+        "title": "Kalshi fordert Netflix auf, den Trailer zur Dokumentation „Prediction Games“ zu entfernen",
+        "originalTitle": "Kalshi demands Netflix take down trailer for ‘Prediction Games’ documentary",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Kalshi verlangt von Netflix die Entfernung des Trailers zu einer Dokumentation über „Prediction Games“ und bezeichnet ihn laut TechCrunch als diffamierend. Das Unternehmen behauptet außerdem, der Trailer enthalte gefälschte Dokumente sowie falsche und irreführende Aussagen.",
+        "why": "Das ist für Medienrechte, Plattformen und Creator besonders relevant, weil es die Grenze zwischen Dokumentation, Plattformverbreitung und rechtlicher Auseinandersetzung berührt. Für Denis ist das ein gutes Beispiel dafür, wie schnell Content- und Rechtefragen eskalieren können.",
+        "opportunity": "Gutes Thema für ein kurzes Update zu Content-Streitigkeiten zwischen Plattformen und Unternehmen.",
+        "links": [
+          "https://techcrunch.com/2026/07/25/kalshi-demands-netflix-take-down-trailer-for-prediction-games-documentary/"
+        ]
+      },
+      {
+        "title": "Hacker News diskutiert starke Open-Weight- und Edge-KI-Trends",
+        "originalTitle": "Open-weight AI is having its Kubernetes moment",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage, Hacker News LLM",
+        "summary": "Auf Hacker News sind mehrere stark diskutierte Beiträge rund um Open-Weight-AI, kleine Modelle auf Mikrocontrollern und Forschung zu LLM-Attention sichtbar. Die Richtung ist klar: Effizienz, lokale Ausführung und praktische Umsetzbarkeit stehen im Vordergrund.",
+        "why": "Für Creator-Content ist das ein gutes Indiz, dass technische Tiefe und konkrete Anwendungsfälle gerade besonders gut resonieren. Gleichzeitig zeigt es, dass KI nicht nur in der Cloud, sondern immer stärker am Rand des Systems stattfindet.",
+        "opportunity": "Ein erklärendes Video zu „Warum kleine Modelle und Edge-KI gerade wieder wichtiger werden“ wäre naheliegend.",
+        "links": [
+          "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+          "https://github.com/slvDev/esp32-ai",
+          "https://zenodo.org/records/21566453"
+        ]
+      },
+      {
+        "title": "Ein unbekannter Hacker bleibt Symbolfigur für Spyware-Gegenwehr",
+        "originalTitle": "The hacker who humiliated spyware makers and was never caught",
+        "category": "Security",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "TechCrunch porträtiert Phineas Fisher als möglicherweise produktivsten Hacker, der nie gefasst wurde, und beschreibt seine Hacks gegen zwei umstrittene staatliche Spyware-Hersteller. Der Beitrag ist eher ein Hintergrundstück als eine aktuelle Sicherheitsmeldung.",
+        "why": "Für Security-Interesse und Medienwahrnehmung ist die Story relevant, weil sie zeigt, wie stark Spyware- und Gegenhacking-Narrative bis heute wirken. Für Denis ist es eher ein Randthema mit Storytelling-Potenzial als eine direkte Produkt- oder Creator-News.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/25/the-hacker-who-humiliated-spyware-makers-and-was-never-caught/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-26T07:09:18.730Z",
+    "generatedAtBerlin": "26.07.2026, 09:09",
+    "mode": "ai",
+    "sourceCount": 24,
+    "highlights": [
+      "Open-Source-LLMs und LLM-Workflows werden pragmatischer: von Debian-Regeln bis Tool-Optimierung",
+      "KI-Rechenzentren werden zum Infrastruktur- und Ausfallrisiko",
+      "Kalshi fordert Netflix auf, den Trailer zur Dokumentation „Prediction Games“ zu entfernen"
+    ],
+    "audioPath": "audio/briefing-2026-07-25.mp3",
+    "audioUrl": "audio/briefing-2026-07-25.mp3",
+    "audioGeneratedAt": "2026-07-26T07:09:58.552Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-24",
     "title": "KI- und Tech-Briefing vom 24.07.2026",
     "summary": "Heute dominieren neue Modell- und Produktstarts bei Anthropic und OpenAI, dazu eine klare politische Debatte um Open-Weight-Modelle. Für Creator und Produktvideos besonders relevant: mehr KI in Desktop-Workflows, soziale Forschungstools und ein stärkerer Fokus auf die „Persönlichkeit“ von Assistenten.",
