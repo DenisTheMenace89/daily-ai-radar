@@ -1,5 +1,182 @@
 [
   {
+    "date": "2026-07-26",
+    "title": "Daily-Briefing KI & Tech für Denis",
+    "summary": "Wichtige Signale kamen gestern vor allem aus KI-Sicherheit, Creator-/Developer-Tools und Plattform-/Hardware-Themen. Besonders auffällig: die Reaktion auf den mutmaßlichen OpenAI-Hack, mehrere neue LLM-Tools aus der Hacker-News-Community und Apple-Spekulationen rund um Smart Glasses und Privatsphäre.",
+    "topSummary": "Heute in 30 Sekunden: Der stärkste Themenblock war KI-Sicherheit – nach einem als „unprecedented“ beschriebenen OpenAI-Hack fordern Branchenstimmen mehr Transparenz. Dazu kommen viele kleine, aber interessante Tools rund um LLM-Workflows, Kostenkontrolle und lokale Analyse, die für Creator- und Produktivitäts-Setups relevant sind. Auf der Plattform- und Hardware-Seite bleibt Apple mit Smart Glasses ein Privacy-Thema, das für Medien- und Videoanwendungen wichtig werden könnte.",
+    "implications": [
+      "KI-Sicherheit wird vom abstrakten Risiko zum konkreten Produkt- und Vertrauensfaktor.",
+      "Lokale, selbstgehostete und kostentransparente LLM-Tools gewinnen für Creator und kleine Teams an Relevanz.",
+      "Apple-Smart-Glasses könnten neue Video- und Capture-Workflows bringen, stehen aber sofort unter Privacy-Druck.",
+      "AI als Begründung für Layoffs bleibt ein wichtiges Business-Narrativ, das weiter kritisch geprüft wird."
+    ],
+    "watchlist": [
+      "Wie OpenAI und andere Anbieter auf den beschriebenen Hack öffentlich reagieren.",
+      "Ob sich die neuen HN-Tools zu LLM-Kosten, Tracing und Evaluation in echte Workflows übersetzen lassen.",
+      "Wann und wie Apple seine Smart-Glasses-Privacy-Strategie konkretisiert.",
+      "Ob Moonshot AI/Kimi weiter Druck auf US-Anbieter und Investoren ausübt."
+    ],
+    "tags": [
+      "#AI",
+      "#Security",
+      "#CreatorTools",
+      "#OpenAI",
+      "#SmartGlasses",
+      "#DeveloperTools"
+    ],
+    "stories": [
+      {
+        "title": "Hugging Face-CEO fordert nach einem „beispiellosen“ OpenAI-Hack radikale Transparenz",
+        "originalTitle": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Hugging-Face-CEO äußert sich nach einem als „beispiellos“ bezeichneten OpenAI-Hack und fordert „radical transparency“. Die Aussage deutet darauf hin, dass der Vorfall als neuartiger, ernstzunehmender Angriff auf KI-Systeme gesehen wird.",
+        "why": "Für die gesamte KI-Branche ist das ein Vertrauens- und Sicherheits-Thema. Für Creator und Produkt-Teams ist relevant, wie schnell KI-Tools auf Sicherheitsvorfälle reagieren und ob sie offen über Risiken kommunizieren.",
+        "opportunity": "Guter Aufhänger für ein kurzes Video über KI-Sicherheit und warum Transparenz bei Tools wichtiger wird.",
+        "links": [
+          "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/"
+        ]
+      },
+      {
+        "title": "TechCrunch ordnet die Panik über chinesische KI um Moonshot AI und Kimi ein",
+        "originalTitle": "Making sense of the panic over Chinese AI",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "In einer Equity-Folge wird erklärt, warum Moonshot AI und Kimi offenbar Silicon Valley und Wall Street beunruhigt haben. Es geht weniger um ein einzelnes Produkt als um die Wirkung chinesischer KI-Entwicklung auf den Markt.",
+        "why": "Das ist relevant für das Wettbewerbsnarrativ in der KI-Branche und für die Frage, wie schnell neue Modelle die Wahrnehmung von Investoren verändern. Für Denis ist es eher strategisch als operativ interessant.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/"
+        ]
+      },
+      {
+        "title": "Monday.com nennt KI als Grund für Entlassungen; TechCrunch führt 20 weitere Fälle auf",
+        "originalTitle": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch führt eine Liste größerer Tech-Firmen, die in diesem Jahr bedeutende Entlassungen mit KI als Begründung angekündigt haben. Monday.com ist laut Titel der jüngste Fall in dieser Serie.",
+        "why": "Das zeigt, wie stark „AI“ inzwischen als Erklärungsrahmen für Umstrukturierungen genutzt wird. Für Creator- und Medienformate ist das ein wichtiges Signal, weil es die wirtschaftliche Seite von KI greifbar macht.",
+        "opportunity": "Möglicher Kommentar-Clip über „KI als Vorwand oder echter Effizienzhebel?“",
+        "links": [
+          "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"
+        ]
+      },
+      {
+        "title": "Apple muss bei seinen ersten Smart Glasses offenbar Privacy-Bedenken adressieren",
+        "originalTitle": "Can Apple make smart glasses that aren’t a constant privacy threat?",
+        "category": "Hardware",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "TechCrunch berichtet, dass Apple sich vor dem Start seiner ersten Smart Glasses auch mit Verbraucherschutz- und Datenschutzfragen auseinandersetzen muss. Der Fokus liegt auf der Frage, ob das Produkt dauerhaft als Privacy-Risiko wahrgenommen wird.",
+        "why": "Für Video-Creator und Schauspiel/Medienkontexte ist das besonders relevant, weil Smart Glasses neue Aufnahme- und Capture-Formate bringen könnten, aber sofort Fragen zu Einwilligung und Sichtbarkeit auslösen. Für Apple wäre das ein zentraler Akzeptanztest.",
+        "opportunity": "Spannendes Thema für ein Video über die nächste Kamera-Kategorie und ihre Datenschutzfolgen.",
+        "links": [
+          "https://techcrunch.com/2026/07/26/can-apple-make-smart-glasses-that-arent-a-constant-privacy-threat/"
+        ]
+      },
+      {
+        "title": "Ein Londoner Founder House versucht, Burnout mit neuen Regeln zu begegnen",
+        "originalTitle": "Inside one London founder house rewriting the founder-house rules",
+        "category": "Business",
+        "priority": "niedrig",
+        "signal": "niedrig",
+        "relevance": "niedrig",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "TechCrunch beschreibt ein Founder House in London, das mit Work-Life-Balance gegen Burnout setzt. Der Beitrag ist eher ein Blick auf Start-up-Kultur als auf ein konkretes Produkt oder Marktupdate.",
+        "why": "Für Denis ist das nur am Rand relevant, etwa als Blick auf Gründer- und Creator-Arbeitskultur. Es hat aber wenig unmittelbare Tech- oder Plattform-Relevanz.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/26/inside-one-london-founder-house-rewriting-the-founder-house-rules/"
+        ]
+      },
+      {
+        "title": "HN zeigt mehrere nützliche LLM-Tools für Kostenkontrolle, Tracing und Workflow-Analyse",
+        "originalTitle": "Show HN: LLM-spend – Audit your OpenAI/Anthropic API spend locally",
+        "category": "Developer",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News LLM / Hacker News Frontpage",
+        "summary": "Auf Hacker News wurden gestern mehrere kleine Tools rund um LLM-Nutzung, Kosten und Analyse sichtbar, darunter llm-spend für lokales API-Spend-Audit, OpenSmith für lokales LLM-Tracing und ein LLM Cliche Highlighter. Ergänzend tauchten ein Canvas für LLM-Chats als editierbare Karte und ein Tool für kleine lokale/cheap LLM-Aufrufe auf.",
+        "why": "Für Creator- und Produktvideo-Workflows sind solche Tools interessant, weil sie KI-Nutzung transparenter, günstiger und besser steuerbar machen können. Das spricht besonders Teams an, die viele Experimente fahren, aber Kosten und Qualität im Blick behalten müssen.",
+        "opportunity": "Gute Basis für ein Creator-Video über die besten kleinen LLM-Produktivitätstools der Woche.",
+        "links": [
+          "https://github.com/kliukovkin/llm-spend",
+          "https://github.com/shivnathtathe/opensmith",
+          "https://tools.simonwillison.net/llm-cliche-highlighter",
+          "https://github.com/chenxiachan/thoughtdag"
+        ]
+      },
+      {
+        "title": "HN zeigt ein selbstgehostetes, leichtes CCTV-Tool für Linux-SBCs",
+        "originalTitle": "Show HN: CheapSecurity – Lightweight, Self-Hosted CCTV for Linux SBCs",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "CheapSecurity ist ein leichtgewichtiges, selbstgehostetes CCTV-System für Linux-SBCs und landete auf der Hacker-News-Frontpage. Der Fokus liegt auf einfacher lokaler Überwachung statt Cloud-Abhängigkeit.",
+        "why": "Für Studios, Home-Office-Setups oder kleine Produktionsumgebungen ist das praktisch interessant, weil lokale Infrastruktur oft günstiger und datensparsamer ist. Es passt auch gut zum Trend zu selbstgehosteten Tools.",
+        "opportunity": "Möglicher Testbericht oder Kurzvideo zu Self-Hosted Security für Creator-Räume.",
+        "links": [
+          "https://github.com/gmrandazzo/CheapSecurity"
+        ]
+      },
+      {
+        "title": "HN diskutiert, wie man LLMs evaluiert und wie KI beim Dranbleiben helfen kann",
+        "originalTitle": "The New AI Superpowers: Focus and Followthrough",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage / Hacker News LLM",
+        "summary": "Auf HN standen mehrere eher konzeptionelle Beiträge zu LLM-Evaluation, Inference und agentischem Coding im Fokus. Besonders sichtbar: der Wunsch nach besseren Evaluationsmethoden und nach KI, die nicht nur Ideen liefert, sondern auch drangebliebenen Output verbessert.",
+        "why": "Das ist für produktive Creator und Software-Teams relevant, weil Tool-Auswahl und Qualitätskontrolle von KI-Workflows immer wichtiger werden. Es zeigt auch, dass die Community stärker auf Zuverlässigkeit als auf bloße Demo-Effekte schaut.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
+          "https://kraghavan.ca/llm-infrastructure/evaluation/2026/07/25/llm-as-a-judge-field-guide.html",
+          "https://danluu.com/ai-coding/",
+          "https://kraghavan.ca/llm-infrastructure/inference/2026/04/14/re-introduction-to-inference.html"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-27T08:00:45.623Z",
+    "generatedAtBerlin": "27.07.2026, 10:00",
+    "mode": "ai",
+    "sourceCount": 19,
+    "highlights": [
+      "Hugging Face-CEO fordert nach einem „beispiellosen“ OpenAI-Hack radikale Transparenz",
+      "Apple muss bei seinen ersten Smart Glasses offenbar Privacy-Bedenken adressieren",
+      "HN zeigt mehrere nützliche LLM-Tools für Kostenkontrolle, Tracing und Workflow-Analyse"
+    ],
+    "audioPath": "audio/briefing-2026-07-26.mp3",
+    "audioUrl": "audio/briefing-2026-07-26.mp3",
+    "audioGeneratedAt": "2026-07-27T08:01:28.361Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-25",
     "title": "Daily-Briefing KI & Tech für Denis",
     "summary": "Heute dominieren KI-Infrastruktur, Open-Source-LLMs und zwei regulative bzw. mediennahe Konflikte: von Debatten um LLM-Nutzung in Debian bis zu einem Streit zwischen Kalshi und Netflix. Dazu kommen Signale aus der Creator- und Produktwelt rund um OpenAI, Open-Weight-Modelle und neue KI-Workflows.",
