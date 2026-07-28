@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-07-27",
+    "title": "Daily-Briefing: AI wird stärker in Produkte, Suche und Infrastruktur eingebaut",
+    "summary": "Gestern dominierten vor allem drei Themen: mehr KI direkt in Plattformen und Produkten, mehr Fokus auf Sicherheits- und Kontrollfragen sowie neue Infrastruktur- und Startup-Signale rund um AI, Robotics und Energie. Für Creator und Produktteams ist besonders relevant, dass KI-Features immer tiefer in Sucherlebnisse, DMs und Workflows wandern.",
+    "topSummary": "Heute in 30 Sekunden: KI wird weniger als Einzeltool gedacht und immer stärker als Schicht über Plattformen, Search und Unternehmens-Workflows. Gleichzeitig häufen sich Warnsignale bei Datenschutz, Freigabe-Links und Account-Sicherheit. Für Creator und Product-Video-Macher heißt das: Mehr Stoff für Features, aber auch für Erklärvideos zu Risiken, Workflows und Tool-Auswahl.",
+    "implications": [
+      "KI-Funktionen werden stärker in bestehende Plattformen integriert statt als separate Apps genutzt.",
+      "Sicherheits- und Kontrollthemen werden bei AI-Produkten wichtiger, weil Sharing, Suche und DMs neue Angriffsflächen schaffen.",
+      "Für Creator-Tools wächst der Markt für lokale, schnelle und workflow-nahe KI-Funktionen.",
+      "Infrastruktur, Energie und Compute bleiben ein zentraler Engpass für die nächste KI-Phase."
+    ],
+    "watchlist": [
+      "Wie sich Googles AI Search und Plattform-Integrationen auf Reichweite und Klickpfade auswirken.",
+      "Ob weitere Datenschutz- oder Leakseffekte bei Freigabe- und Sharing-Funktionen auftauchen.",
+      "Wie Microsoft, Nvidia und andere Anbieter ihre AI-Infrastruktur-Story weiter ausbauen.",
+      "Welche Creator- und Local-AI-Tools aus HN- und OSS-Szene echte Nutzersignale bekommen."
+    ],
+    "tags": [
+      "#AI",
+      "#CreatorTools",
+      "#Security",
+      "#Platformen",
+      "#Infrastruktur",
+      "#OpenSource"
+    ],
+    "stories": [
+      {
+        "title": "Satya Nadella sagt, dass Unternehmen ohne eigene KI-Schicht auf Dauer nicht bestehen könnten",
+        "originalTitle": "Satya Nadella says companies that trust one AI for everything may not survive",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Satya Nadella warnt, dass Unternehmen, die sich nur auf ein einziges KI-Modell verlassen, Probleme bekommen könnten. Laut Beschreibung sind eigene Modelle oder eine AI-Gateway-Schicht wichtig, um Prompts vom Modell zu entkoppeln.",
+        "why": "Das ist relevant für alle, die KI in Produkte oder Creator-Workflows integrieren: Multi-Model-Setups und Kontrollschichten werden zum Wettbewerbsfaktor. Für Video- und Medienprodukte ist das auch ein Argument für mehr Robustheit bei KI-Funktionen.",
+        "opportunity": "Gute Videoidee: „Warum AI-Gateways für Creator-Tools plötzlich wichtig werden“.",
+        "links": [
+          "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/"
+        ]
+      },
+      {
+        "title": "Claude-Shared-Chats und Artifacts könnten in der Google-Suche gelandet sein",
+        "originalTitle": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Ein Hinweisartikel meldet, dass geteilte Claude-Chats und Artifacts möglicherweise bei Google auffindbar waren. Als Ursache wird die Share-Chat-Funktion genannt, die Links erzeugt, mit denen jeder mit der URL eine Unterhaltung oder ein Projekt ansehen kann.",
+        "why": "Das ist direkt relevant für Creator, Teams und Agenturen, die KI-Links teilen: Aus Versehen können interne oder sensible Inhalte öffentlich auffindbar werden. Gerade bei Produktvideos, Konzepten und Kundenmaterial ist das ein reales Risiko.",
+        "opportunity": "Kurzes Sicherheitsvideo oder Checkliste: „So teilst du KI-Chats, ohne Inhalte versehentlich zu veröffentlichen“.",
+        "links": [
+          "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/"
+        ]
+      },
+      {
+        "title": "Microsoft bringt sein erstes Cybersecurity-Modell und ein agentisches Sicherheits-System heraus",
+        "originalTitle": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Microsoft hat laut Quelle sein erstes KI-Sicherheitsmodell und eine neue Sicherheitsplattform vorgestellt. Damit baut das Unternehmen seine AI-Security-Angebote deutlich aus.",
+        "why": "Das zeigt, dass Security-Use-Cases ein zentrales KI-Geschäftsfeld werden. Für Creator und Produktteams ist interessant, wie stark solche Systeme künftig in Enterprise- und Plattform-Workflows eindringen.",
+        "opportunity": "Beobachten, ob daraus eine neue Microsoft-Story für Enterprise-Videos oder Tool-Vergleiche wird.",
+        "links": [
+          "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/"
+        ]
+      },
+      {
+        "title": "Google AI Search wird laut neuen Daten schnell zum Standard",
+        "originalTitle": "Google’s AI search is rapidly becoming the default, new data shows",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Laut den neuen Daten erscheinen Google AI Overviews inzwischen bei 43% der Suchanfragen. Das unterstreicht, wie schnell KI-generierte Antworten zur Standardform des Suchens werden.",
+        "why": "Für Creator, Medien und Produktvideos ist das eine wichtige Verschiebung: Sichtbarkeit, Klicks und Informationspfade verändern sich. Inhalte werden nicht nur für Menschen, sondern auch für KI-Antworten optimiert werden müssen.",
+        "opportunity": "Ein Video über die Frage, wie KI-Suche YouTube-, Blog- und Produkt-Discovery verändert.",
+        "links": [
+          "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/"
+        ]
+      },
+      {
+        "title": "Meta bringt Meta AI in die DMs von Threads",
+        "originalTitle": "Threads users can now chat with Meta AI in their DMs",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Meta rollt Meta AI in den Direktnachrichten von Threads aus. Nutzer können den Assistenten nun direkt in DMs ansprechen.",
+        "why": "Das ist ein weiteres Beispiel dafür, wie KI in soziale Plattformen integriert wird, statt als separate App zu bleiben. Für Creator ist das relevant, weil Interaktion, Support und Community-Workflows sich dadurch verschieben können.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/"
+        ]
+      },
+      {
+        "title": "Safe Superintelligence arbeitet für seine AI-Forschung mit Nvidia zusammen",
+        "originalTitle": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Safe Superintelligence hat nach zwei Jahren im Stealth-Modus eine langfristige Partnerschaft mit Nvidia angekündigt. Ziel ist es, die nächste Phase der Forschung zu skalieren.",
+        "why": "Die Meldung zeigt, wie eng Frontier-AI-Forschung und Compute-Infrastruktur zusammenhängen. Für den Markt ist das ein weiteres Signal, dass Chip-Partnerschaften strategisch bleiben.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/"
+        ]
+      },
+      {
+        "title": "Yap bringt lokale Sprachdiktion auf den Mac ohne eigenes Modell-Download",
+        "originalTitle": "Show HN: Yap – OSS on-device voice dictation for macOS with no model to download",
+        "category": "Open Source",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Yap ist ein Open-Source-Menüleisten-Tool für macOS, das Spracheingabe lokal auf dem Gerät verarbeitet. Laut Beschreibung lädt es kein eigenes Modell, sondern nutzt neue Apple-APIs für On-Device Speech-to-Text.",
+        "why": "Das ist für Creator sehr spannend, weil lokale, schnelle Diktier- und Transkriptions-Workflows direkt in den Alltag passen. Solche Tools können Drehbuch, Schnittnotizen und Ideensammlung deutlich vereinfachen.",
+        "opportunity": "Gute Test- oder Kurzvideo-Idee: lokale Diktation als Creator-Workflow auf dem Mac.",
+        "links": [
+          "https://github.com/FrigadeHQ/yap"
+        ]
+      },
+      {
+        "title": "Peacock setzt mit einem neuen Deal auf YouTube statt nur auf Übernahmen",
+        "originalTitle": "As rivals chase acquisitions, Peacock bets on bundles through a new deal with YouTube",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Peacock schließt einen neuen Deal mit YouTube, durch den Inhalte in das YouTube-Erlebnis integriert werden. Zuschauer können Peacock-Inhalte damit sehen, ohne die Plattform zu verlassen.",
+        "why": "Das ist für Video- und Medienstrategien relevant, weil Verteilung immer stärker über Plattform-Bundles und integrierte Discovery läuft. Für Creator zeigt sich erneut, wie wichtig die Plattform selbst als Ausspielkanal bleibt.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/27/as-rivals-chase-acquisitions-peacock-bets-on-bundles-through-a-new-deal-with-youtube/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-28T07:11:11.426Z",
+    "generatedAtBerlin": "28.07.2026, 09:11",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Satya Nadella sagt, dass Unternehmen ohne eigene KI-Schicht auf Dauer nicht bestehen könnten",
+      "Claude-Shared-Chats und Artifacts könnten in der Google-Suche gelandet sein",
+      "Microsoft bringt sein erstes Cybersecurity-Modell und ein agentisches Sicherheits-System heraus"
+    ],
+    "audioPath": "audio/briefing-2026-07-27.mp3",
+    "audioUrl": "audio/briefing-2026-07-27.mp3",
+    "audioGeneratedAt": "2026-07-28T07:11:51.553Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-26",
     "title": "Daily-Briefing KI & Tech für Denis",
     "summary": "Wichtige Signale kamen gestern vor allem aus KI-Sicherheit, Creator-/Developer-Tools und Plattform-/Hardware-Themen. Besonders auffällig: die Reaktion auf den mutmaßlichen OpenAI-Hack, mehrere neue LLM-Tools aus der Hacker-News-Community und Apple-Spekulationen rund um Smart Glasses und Privatsphäre.",
