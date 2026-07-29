@@ -1,5 +1,177 @@
 [
   {
+    "date": "2026-07-28",
+    "title": "KI, Creator-Tools und Plattformen: wichtige Signale vom 28. Juli 2026",
+    "summary": "Am Vortag dominierten große KI-Finanzierungsrunden, neue Creator- und Voice-Tools sowie mehrere Plattform- und Infrastrukturbewegungen. Dazu kamen Sicherheits- und Regulierungssignale rund um OpenAI, Rechenzentren, Robotaxi-Sicherheit und Web-Apps großer Plattformen.",
+    "topSummary": "Heute in 30 Sekunden: KI bleibt investitionsstark, aber Sicherheits- und Infrastrukturfragen werden sichtbarer. Für Creator und Medienmacher sind vor allem neue Voice-Tools, vertikale Video-Feeds und der Ausbau von Plattform-Funktionen relevant. Gleichzeitig zeigen Deals, Rechtsstreitigkeiten und Energiefragen, dass die nächste Phase von KI stärker von Skalierung, Kontrolle und Distribution geprägt ist.",
+    "implications": [
+      "Creator-Tools werden professioneller: Voice, Notizen und lokale AI-Workflows bekommen mehr Substanz.",
+      "Plattformen setzen stärker auf neue Formate wie Shorts/Vertical Video und Web-Funktionen, um Nutzerbindung zu erhöhen.",
+      "Sicherheit und Infrastruktur rücken in den Vordergrund: von Bot-Erkennung über Rechenzentrumsstrom bis zu AI-Security.",
+      "Investitionen verschieben sich klar in Richtung Unternehmen mit echter Distribution, ARPU und Enterprise-Potenzial."
+    ],
+    "watchlist": [
+      "Wie sich Sam Altmans angekündigte Verlangsamung konkret auf OpenAI-Produkte und Releases auswirkt.",
+      "Ob die Energie- und Netzthemen bei Rechenzentren zu weiteren politischen Eingriffen führen.",
+      "Wie stark Creator- und Voice-Tools wie Fish Audio tatsächlich im Markt angenommen werden.",
+      "Ob mehr Plattformen vertikale Kurzformate direkt in ihre Kernprodukte integrieren."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Plattformen",
+      "#Infrastruktur",
+      "#Video"
+    ],
+    "stories": [
+      {
+        "title": "Spur holt 200 Millionen Dollar für Bot-Erkennung",
+        "originalTitle": "Bot-detection startup Spur nabs $200M from Insight",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Spur Intelligence hat eine Finanzierungsrunde über 200 Millionen Dollar von Insight Partners erhalten. Das Unternehmen entwickelt Technologie, um echten menschlichen Traffic von Bots zu unterscheiden.",
+        "why": "Bot-Erkennung ist ein zentrales Thema für Ad-Tech, Plattformen, Creator-Monetarisierung und Missbrauchsschutz. Für alles, was Reichweite, Traffic oder Interaktionen bewertet, ist das strategisch relevant.",
+        "opportunity": "Vielleicht ein Video zu Bot-Traffic, Fake-Views und den Folgen für Creator-Einnahmen.",
+        "links": [
+          "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/"
+        ]
+      },
+      {
+        "title": "Runlayer wirft Rippling vor, eine MCP-Idee übernommen zu haben",
+        "originalTitle": "MCP startup Runlayer accuses Rippling of stealing its product idea",
+        "category": "Developer",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Runlayer verklagt Rippling, nachdem Rippling das MCP-Gateway-Produkt des Startups geprüft und danach offenbar selbst so etwas bauen wollte. Der Vorwurf lautet, die Produktidee gestohlen zu haben.",
+        "why": "Der Fall zeigt, wie umkämpft die MCP-/Agenten-Infrastruktur geworden ist und wie eng Produktvalidierung und Copycat-Risiken zusammenliegen. Für Tool-Bauer ist das ein wichtiger Hinweis auf IP-, Vertriebs- und Differenzierungsfragen.",
+        "opportunity": "Ein kurzer Kommentar zu Produktschutz, NDA-Risiken und Copycat-Gefahren bei AI-Tools wäre stark.",
+        "links": [
+          "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/"
+        ]
+      },
+      {
+        "title": "Sam Altman will die Entwicklung offenbar verlangsamen",
+        "originalTitle": "Sam Altman is ready to decelerate",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Sam Altman hat seine Haltung geändert und sagt, er sei nach dem, was er als „first security incident“ sehr unmittelbar erlebt habe, bereit zu verlangsamen. Die Meldung deutet auf einen vorsichtigeren Kurs hin.",
+        "why": "Wenn einer der wichtigsten KI-Player Tempo herausnimmt, ist das ein Signal für den gesamten Markt. Für Creator und Medien ist das relevant, weil Produktzyklen, Sicherheitsstandards und Release-Strategien davon beeinflusst werden können.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/"
+        ]
+      },
+      {
+        "title": "Rechenzentren könnten auf dem größten US-Stromnetz kurzzeitig abgeschaltet werden",
+        "originalTitle": "Data centers may face temporary power cuts to prevent blackouts on largest US grid",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Grid-Operatoren auf dem größten US-Stromnetz ziehen temporäre Stromabschaltungen für Rechenzentren in Betracht, um Blackouts zu verhindern. Hintergrund ist der schnelle Ausbau neuer Data Centers und der Druck auf die Stromversorgung.",
+        "why": "Das ist ein harter Realitätscheck für die KI-Skalierung: Compute braucht nicht nur Chips, sondern auch Strom und Netzkapazität. Für alles rund um AI-Infra ist das ein zentraler Engpass.",
+        "opportunity": "Ein Erklärvideo zu „Warum KI nicht nur ein Chip-, sondern auch ein Stromproblem ist“ passt hier gut.",
+        "links": [
+          "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/"
+        ]
+      },
+      {
+        "title": "Fish Audio sammelt 52 Millionen Dollar für KI-Stimmen für Creator und Unternehmen",
+        "originalTitle": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Fish Audio hat 52 Millionen Dollar Seed-Finanzierung eingesammelt und baut KI-Voice-Modelle für Creator und Unternehmen. Das Startup sagt, dass bereits mehr als 8 Millionen Menschen die Open-Source- oder Hosted-Version nutzen und dass der jährliche wiederkehrende Umsatz 21 Millionen Dollar beträgt.",
+        "why": "Das ist direkt relevant für Creator-Workflows, Lokalisierung, Voiceover und Produktvideos. Wer professionell Inhalte produziert, sollte solche Voice-Tools im Blick haben.",
+        "opportunity": "Eine Videoidee wäre ein Vergleich: KI-Voice für YouTube, Produktvideos und Dubbing im Creator-Alltag.",
+        "links": [
+          "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/"
+        ]
+      },
+      {
+        "title": "Cursor baut seine Präsenz in Indien mit lokalisierten Preisen aus",
+        "originalTitle": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Cursor plant mit lokalisierten Preisen, mehr lokaler Einstellung und Enterprise-Sales seinen bisher größten Vorstoß in Indien. Das Unternehmen sagt, Indien sei inzwischen sein drittgrößter Markt weltweit.",
+        "why": "Das zeigt, wie stark AI-Entwickler-Tools über Preisgestaltung und lokale Märkte wachsen. Für Creator mit technischen Workflows ist Cursor als Infrastruktur im Hintergrund weiterhin relevant.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/"
+        ]
+      },
+      {
+        "title": "HBO Max testet vertikales Video mit neuem Shorts-Feed",
+        "originalTitle": "HBO Max embraces vertical video with a new ‘Shorts’ feed",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "HBO Max führt einen neuen Shorts-Feed ein und übernimmt damit stärker die Logik von TikTok und Instagram Reels. Die Plattform reagiert damit auf die Herausforderung, große Bibliotheken besser auffindbar zu machen.",
+        "why": "Für Creator und Medienmacher ist das ein klares Signal, dass Short-Form-Discovery weiter in klassische Streaming- und Medienprodukte wandert. Das betrifft auch die Frage, wie Inhalte geschnitten, verpackt und distribuiert werden.",
+        "opportunity": "Ein gutes Video-Thema: Wie Streamingdienste TikTok-Mechaniken übernehmen, um Zuschauer zu halten.",
+        "links": [
+          "https://techcrunch.com/2026/07/28/hbo-max-embraces-vertical-video-with-a-new-shorts-feed/"
+        ]
+      },
+      {
+        "title": "Apple ersetzt das iPhone Upgrade Program durch Apple Upgrade",
+        "originalTitle": "The iPhone Upgrade Program is being replaced by Apple Upgrade",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch; Hacker News Frontpage",
+        "summary": "Apple ersetzt das bisherige iPhone Upgrade Program durch Apple Upgrade. Der Schritt kommt parallel zu einem Programm in Partnerschaft mit Klarna und in einer Phase angespannter Hardware-Lieferketten.",
+        "why": "Das ist für Hardware-Käufe und Leasing-Modelle relevant und zeigt, wie Apple Finanzierung und Distribution neu organisiert. Für Creator, die regelmäßig Geräte austauschen, kann das praktisch interessant sein.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/28/apple-launches-upgrade-device-leasing-program-in-partnership-with-klarna/",
+          "https://www.apple.com/shop/iphone/iphone-upgrade-program"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-29T07:17:21.594Z",
+    "generatedAtBerlin": "29.07.2026, 09:17",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Spur holt 200 Millionen Dollar für Bot-Erkennung",
+      "Runlayer wirft Rippling vor, eine MCP-Idee übernommen zu haben",
+      "Sam Altman will die Entwicklung offenbar verlangsamen"
+    ],
+    "audioPath": "audio/briefing-2026-07-28.mp3",
+    "audioUrl": "audio/briefing-2026-07-28.mp3",
+    "audioGeneratedAt": "2026-07-29T07:18:09.230Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-27",
     "title": "Daily-Briefing: AI wird stärker in Produkte, Suche und Infrastruktur eingebaut",
     "summary": "Gestern dominierten vor allem drei Themen: mehr KI direkt in Plattformen und Produkten, mehr Fokus auf Sicherheits- und Kontrollfragen sowie neue Infrastruktur- und Startup-Signale rund um AI, Robotics und Energie. Für Creator und Produktteams ist besonders relevant, dass KI-Features immer tiefer in Sucherlebnisse, DMs und Workflows wandern.",
