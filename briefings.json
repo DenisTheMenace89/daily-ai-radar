@@ -1,5 +1,163 @@
 [
   {
+    "date": "2026-07-30",
+    "title": "Daily Briefing: KI, Plattformen, Security und Creator-Tools",
+    "summary": "Am 30.07.2026 dominierten drei Themen: KI wird produktiver und gleichzeitig stärker reguliert, Plattformen versuchen gegen KI-„Slop“ und Sicherheitsrisiken gegenzusteuern, und große Tech-Firmen bauen ihre KI-Stacks weiter aus. Für Creator und Medienmacher ist besonders relevant, wie sich KI-Tools, Plattformregeln und Rechtefragen parallel verschieben.",
+    "topSummary": "Heute in 30 Sekunden: KI-Tools werden schneller, günstiger und in mehr Produkte eingebaut — aber Plattformen und Gerichte ziehen zugleich Grenzen. LinkedIn geht gegen KI-Müll vor, Google meldet mehr per KI gefundene Chrome-Fixes, und Okta kauft sich für den Schutz nicht-menschlicher Identitäten ein. Dazu kommen starke Signale aus dem Markt: Meta, Microsoft und Nscale bauen weiter an der KI-Infrastruktur und dem App-Ökosystem.",
+    "implications": [
+      "KI wird nicht nur als Feature verkauft, sondern als Infrastruktur- und Sicherheitsfrage.",
+      "Plattformen werden strenger bei Low-Quality-Content und AI-Output.",
+      "Creator-Workflows profitieren von besseren Tools, müssen aber mit mehr Plattformregeln rechnen.",
+      "Security rund um AI-Agents, Identitäten und Supply-Chain-Risiken wird ein Kernthema."
+    ],
+    "watchlist": [
+      "Wie sich das Gerichtsurteil zu Anthropic auf staatliche KI-Beschränkungen auswirkt.",
+      "Ob LinkedIns Anti-Slop-Maßnahmen die Sichtbarkeit von AI-Content verändern.",
+      "Welche Folgen Okta und andere Security-Anbieter aus dem Agenten-Trend ziehen.",
+      "Ob die neuen Google- und OpenAI-Signale echte Produktivitätsgewinne in Tools übersetzen."
+    ],
+    "tags": [
+      "#KI",
+      "#Security",
+      "#CreatorTools",
+      "#Plattformen",
+      "#DeveloperTools",
+      "#Regulierung"
+    ],
+    "stories": [
+      {
+        "title": "Gericht zweifelt an Trump-Admin-Label für Anthropic als Supply-Chain-Risiko",
+        "originalTitle": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Ein Bundesrichter sagte, die Trump-Regierung habe nicht genug Beweise vorgelegt, um Anthropic als Supply-Chain-Risiko zu labeln. Damit gerät das staatliche Verbot bzw. die Beschränkung von Anthropic-Technologie weiter ins Wanken.",
+        "why": "Das ist ein klarer Regulierungs- und Governance-Fall mit Signalwirkung für den KI-Markt. Für Creator und Medien ist relevant, weil solche Entscheidungen darüber mitbestimmen, welche Modelle und Tools künftig verfügbar sind.",
+        "opportunity": "Ein kurzes Erklärvideo zu KI-Regulierung und den Folgen für Tool-Verfügbarkeit könnte gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/"
+        ]
+      },
+      {
+        "title": "Google meldet mehr Chrome-Fixes im Juni als in den zwei Jahren davor dank KI",
+        "originalTitle": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google sagt, es habe im Juni mehr Chrome-Bugs behoben als in den vergangenen zwei Jahren zusammen, und führt das auf KI zurück. Die Meldung passt zu einem breiteren Trend, dass LLMs und AI-Tools Bugfinding und Patching beschleunigen.",
+        "why": "Für Browser, Softwarequalität und Developer-Workflows ist das ein starkes Signal. Für Denis ist es spannend, weil schnelleres Debugging und zuverlässigere Tools direkt in Produktions- und Video-Workflows hineinspielen.",
+        "opportunity": "Gutes Thema für ein Video über KI als „unsichtbaren Helfer“ in Produktentwicklung und QA.",
+        "links": [
+          "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/"
+        ]
+      },
+      {
+        "title": "LinkedIn führt eine Meldetaste gegen KI-generierten „Slop“ ein",
+        "originalTitle": "LinkedIn adds a button to report AI-generated ‘slop’",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "LinkedIn führt eine neue Report-Funktion ein, mit der Nutzer KI-generierte Low-Quality-Posts als „seems like AI slop“ melden können. Gleichzeitig ersetzt LinkedIn sein eigenes KI-Writing-Feature durch ein Proofreading-Tool.",
+        "why": "Das ist direkt relevant für Creator, Personal Brands und Business-Content auf Plattformen. Es zeigt, dass Plattformen KI-Output nicht nur fördern, sondern jetzt auch aktiv begrenzen und kuratieren.",
+        "opportunity": "Beobachten, wie Plattformen künftig AI-Content labeln und bestrafen — das ist ein starkes Thema für Social- und Creator-Strategie.",
+        "links": [
+          "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/"
+        ]
+      },
+      {
+        "title": "Okta kauft Permiso für rund 200 Millionen Dollar, um AI- und Identity-Security auszubauen",
+        "originalTitle": "Okta buys AI security startup Permiso — source says for about $200M",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Okta übernimmt laut Quelle das AI-Security-Startup Permiso für etwa 200 Millionen Dollar. Der Deal soll Okta helfen, Identitätsbedrohungen und nicht-menschliche Identitäten wie AI-Agents in Cloud-Umgebungen besser abzusichern.",
+        "why": "Mit AI-Agents wächst die Angriffsfläche rund um Identitäten, Zugriffe und Rechteverwaltung. Für Unternehmen ist das ein wichtiger Hinweis, dass Security künftig stärker auf Agenten- und Maschinenidentitäten ausgerichtet wird.",
+        "opportunity": "Thema für ein Business-/Tech-Video: Warum „Identity Security for AI Agents“ zum neuen Standard wird.",
+        "links": [
+          "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/"
+        ]
+      },
+      {
+        "title": "Meta sagt, KI mache App-Entwicklung leichter, und weitere Consumer-Produkte seien in Arbeit",
+        "originalTitle": "Meta says AI is making it easier to build new apps — and more are coming",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Meta sagt, dass KI es deutlich leichter mache, neue Consumer-Apps zu bauen und zu launchen. Mark Zuckerberg deutete vor Investoren an, dass weitere Consumer-Produkte auf dem Weg sind.",
+        "why": "Das ist ein starkes Indiz, dass Meta KI nicht nur als Infrastruktur, sondern als Produktmaschine sieht. Für Creator und Video-Formate interessant, weil neue Apps oft neue Distributions- und Monetarisierungsmodelle erzeugen.",
+        "opportunity": "Denis könnte beobachten, welche neuen Meta-Produkte für Content, Social oder Creator-Workflows relevant werden.",
+        "links": [
+          "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/"
+        ]
+      },
+      {
+        "title": "Nscale übernimmt Anyscale, um mehr vom KI-Compute-Stack zu kontrollieren",
+        "originalTitle": "Nscale buys Anyscale as it seeks to own more of the AI compute stack",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Der britische AI-Neocloud-Anbieter Nscale kauft Anyscale, ein Startup für das Skalieren von AI-Workloads über Rechenzentren und Server hinweg. Der Deal ist ein weiterer Schritt, mehr Teile des Compute-Stacks unter ein Dach zu bringen.",
+        "why": "Das zeigt, wie stark der Markt von Infrastruktur-Konsolidierung geprägt ist. Für Teams, die KI-Tools bauen oder einsetzen, kann das Auswirkungen auf Kosten, Skalierung und Verfügbarkeit haben.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/"
+        ]
+      },
+      {
+        "title": "Tech-Briefing: OpenAI, Microsoft, GPT-5.6 und offene Sicherheitsfragen aus der Community",
+        "originalTitle": "Advancing the price-performance frontier with GPT‑5.6",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News / OpenAI",
+        "summary": "Auf Hacker News wurde OpenAIs Beitrag zu GPT-5.6 stark diskutiert; parallel rankten Beiträge zu Prompt Injection, LLM-Security-Reviews und OpenTelemetry für LLM-Agents. Das deutet auf anhaltenden Fokus auf Preis-Leistung, Observability und Sicherheit bei LLM-Anwendungen hin.",
+        "why": "Für Creator- und Produkt-Workflows ist wichtig, dass LLMs nicht nur besser, sondern auch kontrollierbarer und messbarer werden. Die Community diskutiert bereits die praktische Implementierung statt nur die Modellleistung.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+          "https://pantsyr.dev/blog/why-prompt-injection-is-still-possible-in-llm-applications/",
+          "https://blog.triplecloud.tech/posts/instrument-llm-agent-opentelemetry",
+          "https://www.isgroup.biz/en/cyber-security/llm-based-code-security-review-costs-findings-methodology.html"
+        ]
+      }
+    ],
+    "generatedAt": "2026-07-31T07:21:42.186Z",
+    "generatedAtBerlin": "31.07.2026, 09:21",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Gericht zweifelt an Trump-Admin-Label für Anthropic als Supply-Chain-Risiko",
+      "Google meldet mehr Chrome-Fixes im Juni als in den zwei Jahren davor dank KI",
+      "LinkedIn führt eine Meldetaste gegen KI-generierten „Slop“ ein"
+    ],
+    "audioPath": "audio/briefing-2026-07-30.mp3",
+    "audioUrl": "audio/briefing-2026-07-30.mp3",
+    "audioGeneratedAt": "2026-07-31T07:22:25.263Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-07-29",
     "title": "Daily-Briefing: KI-Sicherheit, Agenten-Risiken und neue Creator-Tools",
     "summary": "Am 29.07. dominierten KI-Sicherheit, neue Agenten- und Browser-Tools sowie Plattform- und Regulierungsthemen. Für Creator und Medienmacher besonders relevant: ein neuer KI-Browser, Age-Assurance für Android, mehr Druck auf AI-Content und ein Security-Deal rund um AI-Agenten.",
