@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-08-02",
+    "title": "KI- & Tech-Radar vom Sonntag, 02. August 2026",
+    "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "topSummary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "implications": [
+      "Prüfe die wichtigsten Meldungen direkt in den Quellen."
+    ],
+    "watchlist": [
+      "Morgen beobachten, ob es Follow-ups zu den stärksten Themen gibt."
+    ],
+    "tags": [
+      "#KI",
+      "#Tech"
+    ],
+    "stories": [
+      {
+        "title": "Sam Altman and AI’s decel debate",
+        "originalTitle": "Sam Altman and AI’s decel debate",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to \"pace the rate of AI development.\"",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/"
+        ]
+      },
+      {
+        "title": "The global memory shortage hits the MacBook Air",
+        "originalTitle": "The global memory shortage hits the MacBook Air",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "The global memory chip shortage appears to be affecting the availability of Apple’s most popular Mac.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/02/the-global-memory-shortage-hits-the-macbook-air/"
+        ]
+      },
+      {
+        "title": "Malaysia is reportedly shutting down Balaji Srinivasan’s Network School",
+        "originalTitle": "Malaysia is reportedly shutting down Balaji Srinivasan’s Network School",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Let's see how this \"frontier community for techno-optimists\" is doing ...",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/02/malaysia-is-reportedly-shutting-down-balaji-srinivasans-network-school/"
+        ]
+      },
+      {
+        "title": "TechCrunch Mobility: Two roads diverged — for robotaxis",
+        "originalTitle": "TechCrunch Mobility: Two roads diverged — for robotaxis",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/02/techcrunch-mobility-two-roads-diverged-for-robotaxis/"
+        ]
+      },
+      {
+        "title": "These App Store hidden gems prove there’s still room for great software in the AI era",
+        "originalTitle": "These App Store hidden gems prove there’s still room for great software in the AI era",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and nature journals, here are the latest App Store finds worth adding to your Home Screen.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/"
+        ]
+      },
+      {
+        "title": "Show HN: Make your Framework 12 sound like a creaky door",
+        "originalTitle": "Show HN: Make your Framework 12 sound like a creaky door",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News Frontpage",
+        "summary": "I was poking through the iio devices on my Framework the other day and turns out Framework 12s have a pretty accurate hinge angle sensor! So I made a version of LidAngleSensor ( https://github.com/samhenrigold/LidAngleSensor ) but for the Framework 12 on Linux, so you can make your hinge sound rusty Comments URL: https://news.ycombinator.com/item?id=49148048 Points: 81 # Comments: 12",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://github.com/ArcaEge/creakwork12"
+        ]
+      },
+      {
+        "title": "My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
+        "originalTitle": "My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News Frontpage",
+        "summary": "Article URL: https://frogs.vaguespac.es/ Comments URL: https://news.ycombinator.com/item?id=49147622 Points: 136 # Comments: 69",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://frogs.vaguespac.es/"
+        ]
+      },
+      {
+        "title": "Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark",
+        "originalTitle": "Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News Frontpage",
+        "summary": "Try DGX Spark playbooks using Nix on DGX OS, or install NixOS on your DGX Spark for the full Nix experience. The repository provides USB images and a NixOS module with settings for DGX Spark systems. This works on the NVIDIA DGX Spark itself and also on the Asus Ascent GX10. See my 5 minute lightning talk from Planet Nix for an intro: https://youtu.be/AvK_gi_snJE?si=MPKv3iiuS9B5elIE Comments URL: https://news.ycombinator.com/item?id=49146267 Points: 115 # Comments: 33",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://github.com/graham33/nixos-dgx-spark"
+        ]
+      }
+    ],
+    "generatedAt": "2026-08-03T07:56:52.304Z",
+    "generatedAtBerlin": "03.08.2026, 09:56",
+    "mode": "fallback",
+    "sourceCount": 25,
+    "highlights": [
+      "Sam Altman and AI’s decel debate",
+      "The global memory shortage hits the MacBook Air",
+      "Malaysia is reportedly shutting down Balaji Srinivasan’s Network School"
+    ]
+  },
+  {
     "date": "2026-08-01",
     "title": "KI, Creator-Sorgen und autonome Systeme: Das war gestern wichtig",
     "summary": "Am 1. August dominierten vor allem KI-Regulierung, Creator- und Nutzungsfragen sowie neue Signale rund um autonome Systeme und Hardware-Trends. Auffällig sind dabei sowohl die Debatte um problematische KI-Anwendungen als auch praktische Tools gegen Ablenkung und Burnout.",
