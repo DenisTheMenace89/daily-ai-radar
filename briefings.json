@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-08-07",
+    "title": "KI- & Tech-Radar vom Freitag, 07. August 2026",
+    "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "topSummary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "implications": [
+      "Prüfe die wichtigsten Meldungen direkt in den Quellen."
+    ],
+    "watchlist": [
+      "Morgen beobachten, ob es Follow-ups zu den stärksten Themen gibt."
+    ],
+    "tags": [
+      "#KI",
+      "#Tech"
+    ],
+    "stories": [
+      {
+        "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+        "originalTitle": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/"
+        ]
+      },
+      {
+        "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+        "originalTitle": "Cloudflare launches Kitesurf, a browser built for AI agents",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/"
+        ]
+      },
+      {
+        "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+        "originalTitle": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Airbnb will debut a new AI-powered search experience with a toggle.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/"
+        ]
+      },
+      {
+        "title": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers",
+        "originalTitle": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products —&#160;almost as&#160;if&#160;they’re&#160;forming a new government. And whether&#160;you’re&#160;thinking of Twitter’s old “town hall in your pocket” or&#160;Anthropic’s Claude constitution,&#160;it’s&#160;a theory that&#160;doesn’t&#160;paint Silicon Valley in a very flattering light.&#160;&#160; In&#160;Lepore’s&#160;upcoming book,&#160;The Rise and Fall of the Artificial State, the&#160;Pulitzer [&#8230;]",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/"
+        ]
+      },
+      {
+        "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+        "originalTitle": "New Mexico court orders Meta to pay additional $567M in child safety case",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Meta's total fine has racked up to $942 million in this case.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/"
+        ]
+      },
+      {
+        "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+        "originalTitle": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/"
+        ]
+      },
+      {
+        "title": "Wacom’s MovinkPad 11 is a fun, midpriced entry point for digital artists",
+        "originalTitle": "Wacom’s MovinkPad 11 is a fun, midpriced entry point for digital artists",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "The MovinkPad 11 a versatile little graphics tablet that can help make your wildest digital art dreams come true.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/07/wacoms-movinkpad-11-is-a-fun-and-mid-priced-entry-point-for-digital-artists/"
+        ]
+      },
+      {
+        "title": "Security researchers scanned the Polish web and found courts, hospitals, and airports at risk of hacks",
+        "originalTitle": "Security researchers scanned the Polish web and found courts, hospitals, and airports at risk of hacks",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Researchers found common points of failure, like software used to organize and display web content, could have allowed hackers to run riot through government websites.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/07/security-researchers-scanned-the-polish-web-and-found-courts-hospitals-and-airports-at-risk-of-hacks/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-08-08T05:15:02.042Z",
+    "generatedAtBerlin": "08.08.2026, 07:15",
+    "mode": "fallback",
+    "sourceCount": 32,
+    "highlights": [
+      "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "Airbnb says AI is helping it ship features faster as it tests a new search function"
+    ]
+  },
+  {
     "date": "2026-08-06",
     "title": "KI- & Tech-Radar vom Donnerstag, 06. August 2026",
     "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
