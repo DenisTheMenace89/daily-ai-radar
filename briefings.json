@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-08-15",
+    "title": "KI- & Tech-Radar vom Samstag, 15. August 2026",
+    "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "topSummary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "implications": [
+      "Prüfe die wichtigsten Meldungen direkt in den Quellen."
+    ],
+    "watchlist": [
+      "Morgen beobachten, ob es Follow-ups zu den stärksten Themen gibt."
+    ],
+    "tags": [
+      "#KI",
+      "#Tech"
+    ],
+    "stories": [
+      {
+        "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+        "originalTitle": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/"
+        ]
+      },
+      {
+        "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+        "originalTitle": "Anthropic shares more details about how Claude’s new watermarks will work",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/"
+        ]
+      },
+      {
+        "title": "SpaceX officially closes its Cursor acquisition",
+        "originalTitle": "SpaceX officially closes its Cursor acquisition",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "AI coding startup Cursor is now officially a part of SpaceX.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/"
+        ]
+      },
+      {
+        "title": "How to tell if your AI platforms’ accounts have been hacked",
+        "originalTitle": "How to tell if your AI platforms’ accounts have been hacked",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "A guide on how to check if hackers have broken into your accounts on the most popular AI platforms.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/"
+        ]
+      },
+      {
+        "title": "Every fusion startup that has raised over $100M",
+        "originalTitle": "Every fusion startup that has raised over $100M",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Fusion startups have raised $7.1 billion to date, with the majority of it going to a handful of companies.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
+        ]
+      },
+      {
+        "title": "Talks to sell PayPal to Stripe and Advent are heating up",
+        "originalTitle": "Talks to sell PayPal to Stripe and Advent are heating up",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "PayPal is still reportedly negotiating a potential sale to Stripe and private equity firm Advent, as the fintech firm's new CEO attempts to turn the company around.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/"
+        ]
+      },
+      {
+        "title": "Tracking down a Zsh history data loss bug",
+        "originalTitle": "Tracking down a Zsh history data loss bug",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News Frontpage",
+        "summary": "Article URL: https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/ Comments URL: https://news.ycombinator.com/item?id=49314579 Points: 53 # Comments: 17",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/"
+        ]
+      },
+      {
+        "title": "AI in drug discovery – what it is, where we stand and the path forward",
+        "originalTitle": "AI in drug discovery – what it is, where we stand and the path forward",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News Frontpage",
+        "summary": "https://www.nature.com/articles/s41573-026-01496-2 Comments URL: https://news.ycombinator.com/item?id=49313367 Points: 116 # Comments: 61",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really"
+        ]
+      }
+    ],
+    "generatedAt": "2026-08-16T05:00:06.980Z",
+    "generatedAtBerlin": "16.08.2026, 07:00",
+    "mode": "fallback",
+    "sourceCount": 32,
+    "highlights": [
+      "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "Anthropic shares more details about how Claude’s new watermarks will work",
+      "SpaceX officially closes its Cursor acquisition"
+    ]
+  },
+  {
     "date": "2026-08-14",
     "title": "KI- & Tech-Radar vom Freitag, 14. August 2026",
     "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
