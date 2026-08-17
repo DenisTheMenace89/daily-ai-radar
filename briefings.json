@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-08-16",
+    "title": "KI- & Tech-Radar vom Sonntag, 16. August 2026",
+    "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "topSummary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "implications": [
+      "Prüfe die wichtigsten Meldungen direkt in den Quellen."
+    ],
+    "watchlist": [
+      "Morgen beobachten, ob es Follow-ups zu den stärksten Themen gibt."
+    ],
+    "tags": [
+      "#KI",
+      "#Tech"
+    ],
+    "stories": [
+      {
+        "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+        "originalTitle": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "OpenRouter's CEO recently described the startup as Stripe for AI.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+        ]
+      },
+      {
+        "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
+        "originalTitle": "Why people aren’t buying Mark Zuckerberg’s AI future",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/"
+        ]
+      },
+      {
+        "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+        "originalTitle": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"
+        ]
+      },
+      {
+        "title": "TechCrunch Mobility: The shifting flight path of electric air taxis",
+        "originalTitle": "TechCrunch Mobility: The shifting flight path of electric air taxis",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/16/techcrunch-mobility-the-shifting-flight-path-of-electric-air-taxis/"
+        ]
+      },
+      {
+        "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+        "originalTitle": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News Frontpage",
+        "summary": "Article URL: https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/ Comments URL: https://news.ycombinator.com/item?id=49323686 Points: 160 # Comments: 64",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/"
+        ]
+      },
+      {
+        "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
+        "originalTitle": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News Frontpage",
+        "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion Comments URL: https://news.ycombinator.com/item?id=49323381 Points: 247 # Comments: 175",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion"
+        ]
+      },
+      {
+        "title": "An open-source, candle-only crypto pump detector–looking for ML contributors",
+        "originalTitle": "An open-source, candle-only crypto pump detector–looking for ML contributors",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News Frontpage",
+        "summary": "Article URL: https://github.com/aleks-ent/pump-dump-crypto-screener Comments URL: https://news.ycombinator.com/item?id=49323256 Points: 3 # Comments: 0",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://github.com/aleks-ent/pump-dump-crypto-screener"
+        ]
+      },
+      {
+        "title": "Red queen hypothesis – a new way forward for self-improving AI",
+        "originalTitle": "Red queen hypothesis – a new way forward for self-improving AI",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News Frontpage",
+        "summary": "Article URL: https://www.cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai Comments URL: https://news.ycombinator.com/item?id=49323136 Points: 29 # Comments: 2",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://www.cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai"
+        ]
+      }
+    ],
+    "generatedAt": "2026-08-17T05:07:33.783Z",
+    "generatedAtBerlin": "17.08.2026, 07:07",
+    "mode": "fallback",
+    "sourceCount": 30,
+    "highlights": [
+      "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "Why people aren’t buying Mark Zuckerberg’s AI future",
+      "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’"
+    ]
+  },
+  {
     "date": "2026-08-15",
     "title": "KI- & Tech-Radar vom Samstag, 15. August 2026",
     "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
