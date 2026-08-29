@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-08-28",
+    "title": "KI- & Tech-Radar vom Freitag, 28. August 2026",
+    "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "topSummary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "implications": [
+      "Prüfe die wichtigsten Meldungen direkt in den Quellen."
+    ],
+    "watchlist": [
+      "Morgen beobachten, ob es Follow-ups zu den stärksten Themen gibt."
+    ],
+    "tags": [
+      "#KI",
+      "#Tech"
+    ],
+    "stories": [
+      {
+        "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+        "originalTitle": "Neocloud Lambda secures $1B in debt to buy more chips",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/"
+        ]
+      },
+      {
+        "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+        "originalTitle": "An Anthropic researcher just gave us a peek at self-improving AI",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/"
+        ]
+      },
+      {
+        "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+        "originalTitle": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "There's a lot of capital pouring into the business of giving models away.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/"
+        ]
+      },
+      {
+        "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+        "originalTitle": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/"
+        ]
+      },
+      {
+        "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+        "originalTitle": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/"
+        ]
+      },
+      {
+        "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+        "originalTitle": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        ]
+      },
+      {
+        "title": "Brave’s browser one-ups Chrome with its new support for email aliases",
+        "originalTitle": "Brave’s browser one-ups Chrome with its new support for email aliases",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "The feature, announced this week, allows Brave's users to sign up for websites and other online services without having to share their personal email addresses.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/28/braves-browser-one-ups-chrome-with-its-new-support-for-email-aliases/"
+        ]
+      },
+      {
+        "title": "How Sweden built one of Europe’s hottest startup ecosystems",
+        "originalTitle": "How Sweden built one of Europe’s hottest startup ecosystems",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Sophia Bendz, general partner at Cherry Ventures, stopped by Equity to break down the latest in the Swedish tech ecosystem.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-08-29T11:17:23.838Z",
+    "generatedAtBerlin": "29.08.2026, 13:17",
+    "mode": "fallback",
+    "sourceCount": 30,
+    "highlights": [
+      "Neocloud Lambda secures $1B in debt to buy more chips",
+      "An Anthropic researcher just gave us a peek at self-improving AI",
+      "Open-weight AI companies are the Valley’s hottest acquisition targets"
+    ]
+  },
+  {
     "date": "2026-08-27",
     "title": "KI- & Tech-Radar vom Donnerstag, 27. August 2026",
     "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
