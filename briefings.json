@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-08-29",
+    "title": "KI- & Tech-Radar vom Samstag, 29. August 2026",
+    "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "topSummary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "implications": [
+      "Prüfe die wichtigsten Meldungen direkt in den Quellen."
+    ],
+    "watchlist": [
+      "Morgen beobachten, ob es Follow-ups zu den stärksten Themen gibt."
+    ],
+    "tags": [
+      "#KI",
+      "#Tech"
+    ],
+    "stories": [
+      {
+        "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+        "originalTitle": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/"
+        ]
+      },
+      {
+        "title": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
+        "originalTitle": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally expensive, and why he thinks open, shared datasets (not walled-off ones) are what will actually let AI transform medicine.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/"
+        ]
+      },
+      {
+        "title": "Nvidia’s AI advantage is moving beyond the GPU",
+        "originalTitle": "Nvidia’s AI advantage is moving beyond the GPU",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"
+        ]
+      },
+      {
+        "title": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
+        "originalTitle": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/"
+        ]
+      },
+      {
+        "title": "Hollywood celebs are getting into microdrama apps",
+        "originalTitle": "Hollywood celebs are getting into microdrama apps",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Several Hollywood celebs are ditching the massive eight-figure checks and exotic movie sets for a rising format: microdramas.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/29/hollywood-celebs-are-getting-into-microdrama-apps/"
+        ]
+      },
+      {
+        "title": "The Theragun Sense makes everyday recovery surprisingly easy",
+        "originalTitle": "The Theragun Sense makes everyday recovery surprisingly easy",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "As my 20s are set to come to an end later this year, I’ve officially reached the age where sleeping in the wrong position or stretching just a little too far can cause aches and pains. I’ve always been somewhat skeptical of massage guns, mostly because I’ve tried a few off-brand ones and just assumed [&#8230;]",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/29/the-theragun-sense-makes-everyday-recovery-surprisingly-easy/"
+        ]
+      },
+      {
+        "title": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+        "originalTitle": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots. And they're all Chinese automakers.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/"
+        ]
+      },
+      {
+        "title": "Is the best way to watch a movie on a pair of sunglasses?",
+        "originalTitle": "Is the best way to watch a movie on a pair of sunglasses?",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Are XREAL's smart glasses the way of the future for home entertainment?",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/28/is-the-best-way-to-watch-a-movie-on-a-pair-of-sunglasses/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-08-30T10:02:22.154Z",
+    "generatedAtBerlin": "30.08.2026, 12:02",
+    "mode": "fallback",
+    "sourceCount": 26,
+    "highlights": [
+      "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+      "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
+      "Nvidia’s AI advantage is moving beyond the GPU"
+    ]
+  },
+  {
     "date": "2026-08-28",
     "title": "KI- & Tech-Radar vom Freitag, 28. August 2026",
     "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
