@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-08-30",
+    "title": "KI- & Tech-Radar vom Sonntag, 30. August 2026",
+    "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "topSummary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "implications": [
+      "Prüfe die wichtigsten Meldungen direkt in den Quellen."
+    ],
+    "watchlist": [
+      "Morgen beobachten, ob es Follow-ups zu den stärksten Themen gibt."
+    ],
+    "tags": [
+      "#KI",
+      "#Tech"
+    ],
+    "stories": [
+      {
+        "title": "Musk’s faster path to more gas turbines comes with pollution problem",
+        "originalTitle": "Musk’s faster path to more gas turbines comes with pollution problem",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Elon Musk says a secretive new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster than anyone else — but it's a bet on a fuel source that's already triggering lawsuits and health studies everywhere his (and others') turbines have gone in.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/"
+        ]
+      },
+      {
+        "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+        "originalTitle": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/"
+        ]
+      },
+      {
+        "title": "Liux’s Big microcar bets on sustainability to take on Chinese rivals",
+        "originalTitle": "Liux’s Big microcar bets on sustainability to take on Chinese rivals",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "The Liux Big microcar is made in Spain. The startup thinks it can compete in a crowded market with its tiny electric car built around sustainability.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/30/liuxs-big-microcar-bets-on-sustainability-to-take-on-chinese-rivals/"
+        ]
+      },
+      {
+        "title": "TechCrunch Mobility: The hidden human cost of robotaxis",
+        "originalTitle": "TechCrunch Mobility: The hidden human cost of robotaxis",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/30/techcrunch-mobility-the-hidden-human-cost-of-robotaxis/"
+        ]
+      },
+      {
+        "title": "The LLM is not Intelligence",
+        "originalTitle": "The LLM is not Intelligence",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News LLM",
+        "summary": "Article URL: https://www.vivekv.info/posts/llm-is-not-intelligent Comments URL: https://news.ycombinator.com/item?id=49500275 Points: 5 # Comments: 3",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://www.vivekv.info/posts/llm-is-not-intelligent"
+        ]
+      },
+      {
+        "title": "Poll: What will a better LLM do for me?",
+        "originalTitle": "Poll: What will a better LLM do for me?",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News LLM",
+        "summary": "Comments URL: https://news.ycombinator.com/item?id=49499871 Points: 2 # Comments: 0",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://news.ycombinator.com/item?id=49499871"
+        ]
+      },
+      {
+        "title": "Revision Prompting asks the LLM for a patch when the input changes",
+        "originalTitle": "Revision Prompting asks the LLM for a patch when the input changes",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News LLM",
+        "summary": "Article URL: https://revisionprompting.info/home Comments URL: https://news.ycombinator.com/item?id=49499115 Points: 1 # Comments: 0",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://revisionprompting.info/home"
+        ]
+      },
+      {
+        "title": "Scaling Domain Data Repetition in LLM Pretraining",
+        "originalTitle": "Scaling Domain Data Repetition in LLM Pretraining",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News LLM",
+        "summary": "Article URL: https://arxiv.org/abs/2608.14071 Comments URL: https://news.ycombinator.com/item?id=49499067 Points: 1 # Comments: 0",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://arxiv.org/abs/2608.14071"
+        ]
+      }
+    ],
+    "generatedAt": "2026-08-31T11:02:17.145Z",
+    "generatedAtBerlin": "31.08.2026, 13:02",
+    "mode": "fallback",
+    "sourceCount": 15,
+    "highlights": [
+      "Musk’s faster path to more gas turbines comes with pollution problem",
+      "Caterpillar is bringing to AI deployment what it learned from automating mining",
+      "Liux’s Big microcar bets on sustainability to take on Chinese rivals"
+    ]
+  },
+  {
     "date": "2026-08-29",
     "title": "KI- & Tech-Radar vom Samstag, 29. August 2026",
     "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
