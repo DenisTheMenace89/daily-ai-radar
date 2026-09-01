@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-08-31",
+    "title": "KI- & Tech-Radar vom Montag, 31. August 2026",
+    "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "topSummary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "implications": [
+      "Prüfe die wichtigsten Meldungen direkt in den Quellen."
+    ],
+    "watchlist": [
+      "Morgen beobachten, ob es Follow-ups zu den stärksten Themen gibt."
+    ],
+    "tags": [
+      "#KI",
+      "#Tech"
+    ],
+    "stories": [
+      {
+        "title": "The Pentagon now has its own version of ChatGPT and Grok",
+        "originalTitle": "The Pentagon now has its own version of ChatGPT and Grok",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/"
+        ]
+      },
+      {
+        "title": "Instagram puts new limits on undisclosed AI profiles",
+        "originalTitle": "Instagram puts new limits on undisclosed AI profiles",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/"
+        ]
+      },
+      {
+        "title": "Harvard Law dropout raises $6M for Blue Voice to build a &#8216;Harvey for police officers’",
+        "originalTitle": "Harvard Law dropout raises $6M for Blue Voice to build a &#8216;Harvey for police officers’",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/"
+        ]
+      },
+      {
+        "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
+        "originalTitle": "Clipto uses AI to search terabytes of video and is now valued at $250M",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/"
+        ]
+      },
+      {
+        "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+        "originalTitle": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/"
+        ]
+      },
+      {
+        "title": "Meeting note-taker Circleback adds a free tier to attract more customers",
+        "originalTitle": "Meeting note-taker Circleback adds a free tier to attract more customers",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Circleback is also introducing new pricing plans starting from $14 per month.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/"
+        ]
+      },
+      {
+        "title": "The US is building barriers around drones and robots, but China has scale to get around them",
+        "originalTitle": "The US is building barriers around drones and robots, but China has scale to get around them",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "The U.S. is shutting out more foreign-made drones and robots. China’s scale means the global competition may simply move elsewhere.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/"
+        ]
+      },
+      {
+        "title": "FTC accuses Amazon of running a ‘secret ad surcharge scheme’ in new lawsuit",
+        "originalTitle": "FTC accuses Amazon of running a ‘secret ad surcharge scheme’ in new lawsuit",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Amazon is facing a new lawsuit from the FTC and 22 states for allegedly secretly charging businesses more for advertising.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/08/31/ftc-accuses-amazon-of-running-a-secret-ad-surcharge-scheme-in-new-lawsuit/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-09-01T09:31:59.178Z",
+    "generatedAtBerlin": "01.09.2026, 11:31",
+    "mode": "fallback",
+    "sourceCount": 29,
+    "highlights": [
+      "The Pentagon now has its own version of ChatGPT and Grok",
+      "Instagram puts new limits on undisclosed AI profiles",
+      "Harvard Law dropout raises $6M for Blue Voice to build a &#8216;Harvey for police officers’"
+    ]
+  },
+  {
     "date": "2026-08-30",
     "title": "KI- & Tech-Radar vom Sonntag, 30. August 2026",
     "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
