@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-09-07",
+    "title": "KI- & Tech-Radar vom Montag, 07. September 2026",
+    "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "topSummary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "implications": [
+      "Prüfe die wichtigsten Meldungen direkt in den Quellen."
+    ],
+    "watchlist": [
+      "Morgen beobachten, ob es Follow-ups zu den stärksten Themen gibt."
+    ],
+    "tags": [
+      "#KI",
+      "#Tech"
+    ],
+    "stories": [
+      {
+        "title": "Opaque recurrence, and other AI terms that you should probably know",
+        "originalTitle": "Opaque recurrence, and other AI terms that you should probably know",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
+        ]
+      },
+      {
+        "title": "A secret new Elizabeth Holmes documentary stuns Telluride",
+        "originalTitle": "A secret new Elizabeth Holmes documentary stuns Telluride",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Nathan Fielder and Lance Oppenheim's secret Elizabeth Holmes documentary, \"You Can See Everything,\" stunned Telluride audiences Sunday night with its generous access to the Theranos founder.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/09/07/a-secret-new-elizabeth-holmes-documentary-stuns-telluride/"
+        ]
+      },
+      {
+        "title": "What we expect from the upcoming Apple launch",
+        "originalTitle": "What we expect from the upcoming Apple launch",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "While Apple's first foldable iPhone Ultra will headline the September 9 launch, we're also expecting news about AirPods and HomePods.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/09/07/what-we-expect-from-the-upcoming-apple-launch/"
+        ]
+      },
+      {
+        "title": "DoodleIQ – Rent your idle local-LLM machine to others by the second",
+        "originalTitle": "DoodleIQ – Rent your idle local-LLM machine to others by the second",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News LLM",
+        "summary": "Article URL: https://www.doodleiq.com/ Comments URL: https://news.ycombinator.com/item?id=49603149 Points: 1 # Comments: 0",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://www.doodleiq.com/"
+        ]
+      },
+      {
+        "title": "Peer-to-peer LLM inference in browser tabs, Qwen 3.8 27B",
+        "originalTitle": "Peer-to-peer LLM inference in browser tabs, Qwen 3.8 27B",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News LLM",
+        "summary": "Article URL: https://github.com/Nehanth/swarmllm Comments URL: https://news.ycombinator.com/item?id=49602451 Points: 2 # Comments: 0",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://github.com/Nehanth/swarmllm"
+        ]
+      },
+      {
+        "title": "El Yayster – a resident LLM that inhabits Emacs",
+        "originalTitle": "El Yayster – a resident LLM that inhabits Emacs",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News LLM",
+        "summary": "Article URL: https://github.com/yayster/yayster.el Comments URL: https://news.ycombinator.com/item?id=49602258 Points: 35 # Comments: 6",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://github.com/yayster/yayster.el"
+        ]
+      },
+      {
+        "title": "Show HN: LLM Council: survival-of-the-fittest multi-modal deliberation",
+        "originalTitle": "Show HN: LLM Council: survival-of-the-fittest multi-modal deliberation",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News LLM",
+        "summary": "Inspired by how bee swarms find the best nest - scouts argue for their picks, strongest conviction wins. Same here: models independently respond, then anonymously review each other (no playing favorites), vouch/challenge/build on ideas, and a chairman synthesizes the survivor. The cross-pollination between different model biases is where the magic is. Gets outputs none of them produce alone. Comments URL: https://news.ycombinator.com/item?id=49599973 Points: 1 # Comments: 0",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://github.com/Moiz-I/council-of-claude"
+        ]
+      },
+      {
+        "title": "Is your LLM Biased? Making ChatGPT evaluate itself",
+        "originalTitle": "Is your LLM Biased? Making ChatGPT evaluate itself",
+        "category": "Hacker News",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "Hacker News LLM",
+        "summary": "Article URL: https://think-twice.me/is-ai-biased-or-sexist-making-chatgpt-evaluate-itself/ Comments URL: https://news.ycombinator.com/item?id=49597745 Points: 1 # Comments: 0",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://think-twice.me/is-ai-biased-or-sexist-making-chatgpt-evaluate-itself/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-09-08T08:58:16.896Z",
+    "generatedAtBerlin": "08.09.2026, 10:58",
+    "mode": "fallback",
+    "sourceCount": 15,
+    "highlights": [
+      "Opaque recurrence, and other AI terms that you should probably know",
+      "A secret new Elizabeth Holmes documentary stuns Telluride",
+      "What we expect from the upcoming Apple launch"
+    ]
+  },
+  {
     "date": "2026-09-06",
     "title": "KI- & Tech-Radar vom Sonntag, 06. September 2026",
     "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
