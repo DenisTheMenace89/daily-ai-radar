@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-10-03",
+    "title": "KI- & Tech-Radar vom Samstag, 03. Oktober 2026",
+    "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "topSummary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "implications": [
+      "Prüfe die wichtigsten Meldungen direkt in den Quellen."
+    ],
+    "watchlist": [
+      "Morgen beobachten, ob es Follow-ups zu den stärksten Themen gibt."
+    ],
+    "tags": [
+      "#KI",
+      "#Tech"
+    ],
+    "stories": [
+      {
+        "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+        "originalTitle": "Amazon responds to data center backlash, says it no longer uses NDAs",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/"
+        ]
+      },
+      {
+        "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+        "originalTitle": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/"
+        ]
+      },
+      {
+        "title": "All the AI agents that can live in your text messages",
+        "originalTitle": "All the AI agents that can live in your text messages",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/"
+        ]
+      },
+      {
+        "title": "Meta wants your next gadget to be Muse-infused",
+        "originalTitle": "Meta wants your next gadget to be Muse-infused",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/"
+        ]
+      },
+      {
+        "title": "Federal judge calls Flock ‘indiscriminate mass surveillance’",
+        "originalTitle": "Federal judge calls Flock ‘indiscriminate mass surveillance’",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "A federal judge ruled that a sheriff’s deputy violated a woman’s Fourth Amendment rights when using Flock to search for her license plate without a warrant.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/"
+        ]
+      },
+      {
+        "title": "Jack Dorsey’s Bitchat disappears from app stores in India after government order",
+        "originalTitle": "Jack Dorsey’s Bitchat disappears from app stores in India after government order",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Bitchat has become largely unavailable in India as a result of the restrictions.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/03/jack-dorseys-bitchat-disappears-from-app-stores-in-india-after-government-order/"
+        ]
+      },
+      {
+        "title": "Vessev built an electric ferry that almost flies",
+        "originalTitle": "Vessev built an electric ferry that almost flies",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Vessev hopes its electric hydrofoil ferry will change the way people and cities think about boats.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/03/vessev-built-an-electric-ferry-that-almost-flies/"
+        ]
+      },
+      {
+        "title": "Spotify billionaire’s body scan startup has come to America",
+        "originalTitle": "Spotify billionaire’s body scan startup has come to America",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch",
+        "summary": "Farooq Abbasi, an investor in Neko Health, talked to Equity about the hot health tech company and what's next for it.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/03/spotify-billionaires-body-scan-startup-has-come-to-america/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-10-04T10:41:41.033Z",
+    "generatedAtBerlin": "04.10.2026, 12:41",
+    "mode": "fallback",
+    "sourceCount": 12,
+    "highlights": [
+      "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "All the AI agents that can live in your text messages"
+    ]
+  },
+  {
     "date": "2026-10-02",
     "title": "KI- & Tech-Radar vom Freitag, 02. Oktober 2026",
     "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
