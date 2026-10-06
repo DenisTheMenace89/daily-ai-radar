@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-10-05",
+    "title": "KI- & Tech-Radar vom Montag, 05. Oktober 2026",
+    "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "topSummary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
+    "implications": [
+      "Prüfe die wichtigsten Meldungen direkt in den Quellen."
+    ],
+    "watchlist": [
+      "Morgen beobachten, ob es Follow-ups zu den stärksten Themen gibt."
+    ],
+    "tags": [
+      "#KI",
+      "#Tech"
+    ],
+    "stories": [
+      {
+        "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+        "originalTitle": "OpenAI will start watermarking ChatGPT’s text in the EU",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+        ]
+      },
+      {
+        "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+        "originalTitle": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
+        ]
+      },
+      {
+        "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+        "originalTitle": "Instinct brings its AI agent to group chats, even for friends without an account",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/"
+        ]
+      },
+      {
+        "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+        "originalTitle": "TikTok rolls out an AI shopping assistant and one-click checkout",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/"
+        ]
+      },
+      {
+        "title": "Hot Girl Hotline is like &#8216;Dear Abby’ for the AI era",
+        "originalTitle": "Hot Girl Hotline is like &#8216;Dear Abby’ for the AI era",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoiding emotional dependency.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/"
+        ]
+      },
+      {
+        "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+        "originalTitle": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "HackerRank’s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/"
+        ]
+      },
+      {
+        "title": "OpenAI launches visual ads that appear alongside image generation results",
+        "originalTitle": "OpenAI launches visual ads that appear alongside image generation results",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+        ]
+      },
+      {
+        "title": "Open or closed AI? How founders are choosing what to build on at TechCrunch Disrupt 2026",
+        "originalTitle": "Open or closed AI? How founders are choosing what to build on at TechCrunch Disrupt 2026",
+        "category": "KI & Tech",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle / Feed",
+        "source": "TechCrunch AI",
+        "summary": "Learn how founders are choosing between building on open or closed AI at TechCrunch Disrupt 2026. Register now to save up to $100 and get a second pass at 50% off.",
+        "why": "Dieser Eintrag wurde im Fallback-Modus aus RSS-/Feed-Daten übernommen.",
+        "opportunity": "Manuell prüfen, ob daraus eine Video-, Tool- oder Business-Idee entsteht.",
+        "links": [
+          "https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-10-06T11:25:22.309Z",
+    "generatedAtBerlin": "06.10.2026, 13:25",
+    "mode": "fallback",
+    "sourceCount": 32,
+    "highlights": [
+      "OpenAI will start watermarking ChatGPT’s text in the EU",
+      "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "Instinct brings its AI agent to group chats, even for friends without an account"
+    ]
+  },
+  {
     "date": "2026-10-04",
     "title": "KI- & Tech-Radar vom Sonntag, 04. Oktober 2026",
     "summary": "Fallback-Briefing: KI-Zusammenfassung fehlgeschlagen (OpenAI API Fehler: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.).",
