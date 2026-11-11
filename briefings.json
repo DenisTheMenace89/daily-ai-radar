@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-11-10",
+    "title": "KI-Plattformen, Creator-Tools und Regulierung prägen den Tag",
+    "summary": "Die stärksten Signale kommen heute aus dem KI-Markt: OpenAI und Anthropic stehen gleichzeitig unter regulatorischem, produktseitigem und kapitalmarktbezogenem Druck. Dazu kommen neue Creative-Features von Adobe, ein frischer Vorstoß von Spotify und mehrere Plattform-Updates, die für Creator und Produktteams relevant sind.",
+    "topSummary": "Heute in 30 Sekunden: OpenAI und Anthropic stehen im Fokus, weil New Yorks neue KI-Sicherheitsregeln greifen und Anthropic gleichzeitig IPO-Schlagzeilen macht. Für Creator besonders interessant: Adobe baut Photoshop, Premiere und Firefly weiter in Richtung KI-Workflows aus, während Spotify und Apple neue Funktionen für Audio, Accessibility und Content-Nutzung bringen.",
+    "implications": [
+      "KI-Anbieter müssen sich stärker auf Aufsicht, Reporting und Compliance einstellen.",
+      "Creator- und Video-Workflows werden weiter in Plattform- und Office-Tools integriert statt nur in Spezial-Apps.",
+      "Plattformen wie Reddit, Spotify, Apple und WhatsApp testen neue KI-Funktionen, die Content-Discovery und Produktion verändern können.",
+      "Security und Vertrauen bleiben ein zentrales Thema, vor allem bei Open-Source-KI und Remote-Access-Infrastruktur."
+    ],
+    "watchlist": [
+      "Wie streng New Yorks neue KI-Sicherheitslaw in der Praxis durchgesetzt wird.",
+      "Ob Anthropic die IPO-Pläne weiter konkretisiert und wie der Markt darauf reagiert.",
+      "Wie schnell Adobe seine neuen KI-Agents und Creative-Tools in reale Workflows bringt.",
+      "Ob weitere Security-Vorfälle bei Remote-Access- und Open-Source-KI-Plattformen folgen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Regulierung",
+      "#Plattformen",
+      "#OpenSource"
+    ],
+    "stories": [
+      {
+        "title": "New York verschärft die Aufsicht über OpenAI und Anthropic mit neuem KI-Sicherheitsgesetz",
+        "originalTitle": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "New York setzt ein umfangreiches KI-Sicherheitsgesetz in Kraft, das große Entwickler wie OpenAI und Anthropic zur Registrierung, zur Offenlegung von Sicherheitspraktiken und zum Melden kritischer Vorfälle verpflichtet. Bei Verstößen drohen Strafen.",
+        "why": "Das ist ein klarer Regulierungs-Shift für große KI-Anbieter und könnte ähnliche Anforderungen auch in anderen Regionen nach sich ziehen. Für Creator und Medienprodukte ist relevant, dass Sicherheits- und Transparenzpflichten bei KI-Features künftig stärker mitgedacht werden müssen.",
+        "opportunity": "Eine kurze Analyse dazu, was KI-Regulierung für Creator-Tools und Video-Workflows bedeutet.",
+        "links": [
+          "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+        ]
+      },
+      {
+        "title": "Anthropic treibt seinen IPO-Kurs voran und legt eine Bewertungsspanne fest",
+        "originalTitle": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Anthropic hat eine Preisspanne von 70 bis 78 US-Dollar je Aktie gesetzt. Auf Basis dieser Spanne käme das Unternehmen auf eine implizite Bewertung von bis zu 1,404 Billionen US-Dollar.",
+        "why": "Das zeigt, wie stark der Markt KI-Infrastruktur und Frontier-Modelle weiter bepreist. Für alle, die Creator- oder Produkt-Features auf Basis großer Modelle bauen, ist das ein wichtiger Indikator für Kapitalzugang und Wettbewerbsdruck.",
+        "opportunity": "Denis könnte die Frage aufgreifen, was eine solche Bewertung für die nächste Welle von KI-Produkten bedeutet.",
+        "links": [
+          "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+        ]
+      },
+      {
+        "title": "Adobe erweitert Photoshop, Premiere und Firefly um neue KI-Agents und Kreativfunktionen",
+        "originalTitle": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Adobe bringt neue KI-Agenten und zusätzliche Kreativwerkzeuge in Photoshop, Premiere und Firefly. Außerdem stellt das Unternehmen ein neues Prototype-Builder-Tool in Firefly vor.",
+        "why": "Das ist direkt relevant für Video-Creator, Cutter und Produktvideo-Teams, weil sich Bearbeitung, Prototyping und Content-Erstellung weiter in etablierte Adobe-Workflows verlagern. Besonders interessant ist der Wettbewerb mit anderen Design- und Prototyping-Tools.",
+        "opportunity": "Eine Creator-Update-Story: Welche Adobe-KI-Features im Alltag wirklich Zeit sparen könnten.",
+        "links": [
+          "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/"
+        ]
+      },
+      {
+        "title": "Spotify gibt seinem AI DJ neue Stimmen und mehr Kontrolle über den Stil",
+        "originalTitle": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Spotify Premium-Nutzer können den AI DJ mit neuen Stimmen und Persönlichkeiten anpassen oder die Zwischenmoderationen reduzieren. Damit wird die Funktion flexibler und individueller.",
+        "why": "Das zeigt, wie Streaming-Plattformen KI zunehmend als Form der Personalisierung einsetzen. Für Audio- und Video-Creator ist interessant, wie stark sich Stimme, Tonalität und Kommentarstil als Produktmerkmal durchsetzen.",
+        "opportunity": "Ein kurzer Vergleich, wie Personalisierung durch KI die Nutzung von Medienprodukten verändert.",
+        "links": [
+          "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/"
+        ]
+      },
+      {
+        "title": "OpenAI macht ChatGPT mit neuen Business-Profilen stärker zu einer Such- und Entdeckungsplattform",
+        "originalTitle": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI führt neue Business-Profile ein und will ChatGPT stärker als Consumer-Discovery-Engine positionieren. Die neuen Funktionen sollen Unternehmen dabei helfen, in dieser Suche besser sichtbar zu werden.",
+        "why": "Für Creator und Produktmarken ist das relevant, weil Sichtbarkeit in KI-Such- und Antwortsystemen wichtiger wird. Wer Reichweite, Produktvideos oder Medienmarken aufbaut, sollte beobachten, wie sich solche Profile auf Auffindbarkeit auswirken.",
+        "opportunity": "Eine Videoidee zu der Frage, wie Marken künftig für KI-Suche optimiert werden müssen.",
+        "links": [
+          "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/"
+        ]
+      },
+      {
+        "title": "Anthropic startet Claude Meetings für Protokolle, Pläne und Aufgaben aus Besprechungen",
+        "originalTitle": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Claude Meetings kann laufende Gespräche zusammenfassen, einen Plan entwerfen, Zeitachsen auf einem Whiteboard skizzieren, Fragen im Meeting-Chat beantworten und verbundene Work-Apps anzapfen. Ziel ist es, Diskussionen direkt in umsetzbare Arbeitsschritte zu übersetzen.",
+        "why": "Das ist ein typisches Beispiel dafür, wie KI vom Chatbot zum Arbeitsassistenten wird. Für Produktions- und Kreativteams könnte das später auch bei Abstimmungen zu Drehs, Skripten und Postproduktion helfen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/"
+        ]
+      },
+      {
+        "title": "Google erweitert sein KI-Chip-Portfolio mit zwei spezialisierten Chips",
+        "originalTitle": "Google broadens its AI hardware portfolio with two new specialized chips",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google erweitert seine TPU-Familie um zwei neue Chips für speziellere Anwendungsfälle. Genannt werden vertrauliches Model-Training und mehr Speicherkapazität.",
+        "why": "Das unterstreicht den Hardware-Wettlauf im KI-Markt, bei dem Rechenleistung und Trainingsinfrastruktur immer stärker differenziert werden. Für alle, die KI-Produkte oder -Workflows bauen, ist das ein Zeichen für weiter wachsende Infrastrukturoptionen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/"
+        ]
+      },
+      {
+        "title": "N-able nimmt seinen Remote-Access-Dienst nach veröffentlichten Zero-Day-Lücken offline",
+        "originalTitle": "N-able takes its remote access service offline after researcher publishes dozens of zero-day bugs",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "N-able hat seinen Remote-Access-Dienst abgeschaltet, nachdem ein Forscher Dutzende Zero-Day-Bugs veröffentlicht hatte. Das Unternehmen warnte zudem Self-Hosted-Kunden, ihre Server vorsorglich herunterzufahren.",
+        "why": "Das ist ein ernster Hinweis darauf, wie fragil Fernzugriff und Infrastruktur-Sicherheit bleiben. Für Creator-Teams, Agenturen und Produktionen mit Remote-Workflows ist so ein Ausfall direkt geschäftskritisch.",
+        "opportunity": "Ein kurzer Security-Hinweis für Teams, die auf Remote-Tools und Self-Hosting setzen.",
+        "links": [
+          "https://techcrunch.com/2026/11/10/n-able-takes-its-remote-access-service-offline-after-researcher-publishes-dozens-of-zero-day-bugs/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-11T12:00:46.660Z",
+    "generatedAtBerlin": "11.11.2026, 13:00",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "New York verschärft die Aufsicht über OpenAI und Anthropic mit neuem KI-Sicherheitsgesetz",
+      "Anthropic treibt seinen IPO-Kurs voran und legt eine Bewertungsspanne fest",
+      "Adobe erweitert Photoshop, Premiere und Firefly um neue KI-Agents und Kreativfunktionen"
+    ],
+    "audioPath": "audio/briefing-2026-11-10.mp3",
+    "audioUrl": "audio/briefing-2026-11-10.mp3",
+    "audioGeneratedAt": "2026-11-11T12:01:27.268Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-09",
     "title": "KI-Modelle, Nvidia-Krise und Creator-Distribution bewegen den Markt",
     "summary": "Am 9.11. dominierten neue Modell-Starts von Anthropic und Meta, während sich rund um Nvidia eine schwerwiegende Unternehmens- und Regulierungsstory zuspitzte. Für Creator und Produkt-Teams besonders relevant: YouTube ändert die Datenbasis bei Billboard, und OpenAI sowie Apple schieben KI-Features stärker in Business- und Kreativ-Workflows.",
