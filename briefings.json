@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-11-11",
+    "title": "Daily-Briefing: KI-Infrastruktur unter Druck, Plattformen testen Creator-Features",
+    "summary": "Am 11.11. dominierten zwei Themen: Der massive Ausbau von KI-Infrastruktur stößt auf Finanzierung, Genehmigung und Governance-Hürden, während Plattformen und Anbieter neue Tools für Agents, Clips und Dev-Workflows nachschieben. Dazu kamen frische Signale zu OpenAIs Umsatz, mehreren AI-Startups und einem regulatorisch heiklen Nvidia-Komplex.",
+    "topSummary": "Heute in 30 Sekunden: Der KI-Boom ist nicht nur ein Modell-, sondern vor allem ein Infrastruktur- und Finanzierungsproblem. Gleichzeitig bauen Plattformen und Tool-Anbieter die nächste Schicht für Creator, Entwickler und AI-Agents aus. Für Denis ist vor allem relevant, wo sich neue Video- und Produktdemo-Themen ergeben: Clips, Voice-ID, Agenten-Workflows und die Frage, wie viel von der KI-Wertschöpfung wirklich auf die Straße kommt.",
+    "implications": [
+      "AI-Infrastruktur wird zum Engpass-Thema: Strom, Genehmigungen, Vorfinanzierung und Vertragsmodelle entscheiden zunehmend über Tempo und Kosten.",
+      "Creator- und Plattform-Features rund um Clipping, Voice und Agents werden konkreter und können neue Workflows für Video, Social und Produktion auslösen.",
+      "OpenAI, Databricks und Google zeigen: Der Markt bewegt sich von Demo-Features hin zu produktiven, unternehmensnahen Agenten- und Entwickler-Tools.",
+      "Regulatorik und Governance bleiben ein Risikofaktor, besonders bei Nvidia und sensiblen internationalen Verflechtungen."
+    ],
+    "watchlist": [
+      "Ob die Datenzentrums-Projekte tatsächlich gebaut werden oder weiter an Widerstand und Bürokratie scheitern.",
+      "Wie sich der Nvidia-Konflikt politisch und unternehmensintern entwickelt.",
+      "Welche Reichweite das neue Clipping-Feature von X bekommt und ob andere Plattformen nachziehen.",
+      "Ob Google, AWS und Apple ihre Entwickler- und RAG-Tools rasch in echte Produktiv-Use-Cases übersetzen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Infrastruktur",
+      "#Plattformen",
+      "#DeveloperTools",
+      "#Security"
+    ],
+    "stories": [
+      {
+        "title": "KI-Datenzentren scheitern oft schon vor dem Baubeginn",
+        "originalTitle": "Why the data center you dread might never even be built",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Der Artikel beschreibt, dass der Boom bei Datenzentren auf reale Hürden trifft: lokale Opposition, lange Genehmigungsprozesse und der Kampf um Strom. Zusätzlich seien viele der angekündigten Projekte womöglich nie baureif.",
+        "why": "Für den KI-Markt ist das zentral, weil Rechenleistung nur dann skaliert, wenn Infrastruktur, Energie und Genehmigungen mitziehen. Für Creator und Video-Teams heißt das indirekt: mehr Druck auf Preise, Verfügbarkeit und Tool-Performance.",
+        "opportunity": "Ein kurzes Erklärvideo zu den echten Bottlenecks hinter dem KI-Boom wäre stark.",
+        "links": [
+          "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
+        ]
+      },
+      {
+        "title": "Meta verliert seinen langjährigen Infrastrukturchef",
+        "originalTitle": "Meta is losing its longtime head of infrastructure",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Santosh Janardhan, seit 2009 bei Meta, gibt seine Rolle als Infrastrukturchef auf.",
+        "why": "Der Abgang ist relevant, weil Infrastrukturführung bei großen Plattformen direkt mit Skalierung, Stabilität und KI-Betrieb verknüpft ist. Solche Personalwechsel können strategische Prioritäten und technische Roadmaps beeinflussen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/"
+        ]
+      },
+      {
+        "title": "CoreWeave setzt auf Vorauszahlungen und kürzere Verträge, um KI-Wachstum zu finanzieren",
+        "originalTitle": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "CoreWeave verlangt laut Quartalszahlen zunehmend Vorauszahlungen von Kunden, leiht sich gegen konkrete Verträge Geld und prüft kürzere Deals, die zu höheren Preisen führen könnten.",
+        "why": "Das zeigt, wie kapitalintensiv der KI-Infrastrukturmarkt geworden ist und wie Anbieter versuchen, das Finanzierungsrisiko auf Kunden zu verteilen. Für Creator- und Produktvideo-Themen ist das interessant, weil die Kostenstruktur von KI-Tools direkt davon beeinflusst wird.",
+        "opportunity": "Eine Analyse dazu, wie KI-Infrastruktur aktuell finanziert wird, könnte als Business-Content funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
+        ]
+      },
+      {
+        "title": "Fractile erhält mit 720 Millionen Dollar Rückenwind im Wettlauf um KI-Chips",
+        "originalTitle": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Fractile gehört nach einer Finanzierungsrunde über 720 Millionen Dollar nun zu den am stärksten finanzierten Unternehmen im Bereich spezialisierter KI-Chips.",
+        "why": "Der Chip-Markt bleibt einer der strategisch wichtigsten Engpässe für KI. Wer Rechenleistung kontrolliert, beeinflusst Tempo, Kosten und die Verfügbarkeit neuer Modelle und Tools.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
+        ]
+      },
+      {
+        "title": "Der US-Kongress will Jensen Huang wegen einer angeblichen China-Spionageaffäre anhören",
+        "originalTitle": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "House Republicans wollen Nvidia-CEO Jensen Huang bis Mittwochabend in einer geschlossenen Anhörung zu einer angeblichen Affäre mit einer mutmaßlichen chinesischen Spionin befragen.",
+        "why": "Das ist relevant, weil es Governance, geopolitische Risiken und die politische Verwundbarkeit eines der wichtigsten KI-Unternehmen berührt. Für die Branche ist das ein Signal, dass Führungs- und Sicherheitsfragen unmittelbare Marktfolgen haben können.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/"
+        ]
+      },
+      {
+        "title": "OpenAIs Quartalsumsatz überschreitet laut Bericht erstmals 10 Milliarden Dollar",
+        "originalTitle": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Laut Bericht hat OpenAI im Quartal erstmals mehr als 10 Milliarden Dollar Umsatz gemacht, rund 50 Prozent mehr als die 6,7 Milliarden Dollar aus dem Vorquartal.",
+        "why": "Das ist ein starkes Signal für die Monetarisierung von KI-Produkten und die Zahlungsbereitschaft des Marktes. Für Creator und Unternehmen ist das ein Indikator, dass KI-Tools weiter in Richtung Massenmarkt und Enterprise wachsen.",
+        "opportunity": "Ein kurzer Marktcheck zu OpenAIs Umsatzentwicklung und Bedeutung für den KI-Wettbewerb wäre naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/"
+        ]
+      },
+      {
+        "title": "Databricks setzt einen neuen AI-Agenten ein, der dem CEO ungeschminkt die Wahrheit sagt",
+        "originalTitle": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Databricks nutzt seinen überarbeiteten Genie-Agenten, um als interne Informationsquelle zu dienen, weil der CEO bei 12.000 Mitarbeitern nicht alles selbst wissen kann.",
+        "why": "Das zeigt, wie AI-Agents intern als Management- und Monitoring-Tool eingesetzt werden können, nicht nur als Frontend für Endnutzer. Für Produktvideos ist das ein gutes Beispiel für „AI im operativen Alltag“ statt reiner Demo.",
+        "opportunity": "Eine Videoidee zu internen KI-Agenten in großen Firmen wäre sehr passend.",
+        "links": [
+          "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/"
+        ]
+      },
+      {
+        "title": "X startet eine eigene Clip-Funktion, um Creator-Engagement zu steigern",
+        "originalTitle": "X launches its own clipping feature to spur influencer engagement",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "X führt ein eigenes Clipping-Feature ein, das lange Videos in kurze, teilbare Clips verwandeln soll. Ziel ist es, virale Verbreitung und Influencer-Engagement zu fördern.",
+        "why": "Das ist direkt relevant für Creator-Workflows, weil Short-Form-Distribution und Clip-Recycling zentrale Hebel für Reichweite sind. Für Video-Creator eröffnet das neue Möglichkeiten, Inhalte schneller plattformgerecht zu verwerten.",
+        "opportunity": "Sehr gut geeignet für eine kurze Analyse zu Clip-Strategien auf Plattformen.",
+        "links": [
+          "https://techcrunch.com/2026/11/10/x-launches-its-own-clipping-feature-to-spur-influencer-engagement"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-12T13:03:34.275Z",
+    "generatedAtBerlin": "12.11.2026, 14:03",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "KI-Datenzentren scheitern oft schon vor dem Baubeginn",
+      "CoreWeave setzt auf Vorauszahlungen und kürzere Verträge, um KI-Wachstum zu finanzieren",
+      "Der US-Kongress will Jensen Huang wegen einer angeblichen China-Spionageaffäre anhören"
+    ],
+    "audioPath": "audio/briefing-2026-11-11.mp3",
+    "audioUrl": "audio/briefing-2026-11-11.mp3",
+    "audioGeneratedAt": "2026-11-12T13:04:14.106Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-10",
     "title": "KI-Plattformen, Creator-Tools und Regulierung prägen den Tag",
     "summary": "Die stärksten Signale kommen heute aus dem KI-Markt: OpenAI und Anthropic stehen gleichzeitig unter regulatorischem, produktseitigem und kapitalmarktbezogenem Druck. Dazu kommen neue Creative-Features von Adobe, ein frischer Vorstoß von Spotify und mehrere Plattform-Updates, die für Creator und Produktteams relevant sind.",
