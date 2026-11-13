@@ -1,5 +1,177 @@
 [
   {
+    "date": "2026-11-12",
+    "title": "KI, Infrastruktur und Creator-Tools unter Druck und im Ausbau",
+    "summary": "Am Vortag prägten vor allem Nvidia-Wirbel, neue KI-Produktivitätstools, Infrastrukturfragen und ein relevanter Security-Vorfall die Lage. Für Creator und Produkt-Teams sind besonders die Entwicklung bei Google Search, automatisierte Creator-Outreach-Tools und die Microsoft-365-Störung relevant.",
+    "topSummary": "Heute in 30 Sekunden: Der größte Aufreger ist die Nvidia-Krise rund um Jensen Huang, die inzwischen auch Regulierung, Governance und die KI-Infrastruktur betrifft. Parallel schiebt Google seine Suche mit Gemini weiter nach vorn, während neue Tools für Creator-Marketing und KI-gestützte Calls zeigen, wie schnell Agenten-Workflows in den Alltag rücken. Dazu kommen Sicherheits- und Verfügbarkeitsprobleme bei Fireworks AI und Microsoft 365.",
+    "implications": [
+      "KI-Infrastruktur bleibt ein politisches und unternehmerisches Risiko, nicht nur ein Tech-Thema.",
+      "Creator- und Marketing-Workflows werden stärker durch Agenten automatisiert, was Outreach und Discovery verändert.",
+      "Ausfälle bei Plattformen und Cloud-Diensten treffen Produktivitäts- und Video-Workflows direkt.",
+      "Security und Datenzugriff bleiben ein zentrales Vertrauenssignal für B2B-KI-Produkte."
+    ],
+    "watchlist": [
+      "Wie sich die Nvidia-Untersuchungen und die Nachfolgefrage weiterentwickeln.",
+      "Ob Google die neue Search-/AI-Mode-Qualität spürbar ausrollt.",
+      "Ob Microsoft die Outlook-/365-Störung vollständig einordnet und behebt.",
+      "Ob weitere Sicherheitsdetails zum Fireworks-Angriff öffentlich werden."
+    ],
+    "tags": [
+      "#AI",
+      "#CreatorTools",
+      "#Security",
+      "#Infrastructure",
+      "#PlatformNews",
+      "#Search"
+    ],
+    "stories": [
+      {
+        "title": "Demokraten leiten Untersuchung zu Nvidia ein und kritisieren Huangs angebliches „Trump-Schema“",
+        "originalTitle": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Der Kongress untersucht Nvidias China-Geschäfte und die Beziehungen zu Trump erneut. Laut Quelle ist dies bereits die zweite Untersuchung seit Bekanntwerden des angeblichen Spionage-Falls.",
+        "why": "Das ist relevant für die gesamte KI-Branche, weil Nvidias Rolle in der KI-Infrastruktur politisch und wirtschaftlich zentral ist. Für Medien- und Business-Beobachtung zeigt der Fall, wie schnell Führung, Regulierung und Lieferketten zu einem Risiko für die gesamte Branche werden.",
+        "opportunity": "Einordnungsvideo zu „Wie politisch ist die KI-Infrastruktur wirklich?“",
+        "links": [
+          "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/"
+        ]
+      },
+      {
+        "title": "Nvidia steht nach Huangs Abgang vor einer Führungs- und Vertrauenskrise",
+        "originalTitle": "The unfolding Jensen Huang scandal: a timeline",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch zeichnet die Eskalation um Jensen Huang nach, der laut Quelle als CEO zurückgetreten ist. Der Fall wird als möglicher nationaler Sicherheits- und Governance-Schock für die KI-Branche beschrieben.",
+        "why": "Nvidia ist ein Kernplayer für KI-Rechenleistung, daher hat die Personalie Auswirkungen weit über das Unternehmen hinaus. Für Creator und Produkt-Videos ist das ein gutes Thema für einen verständlichen Überblick über Macht, Chips und KI-Industrie.",
+        "opportunity": "Kurzvideo zur Frage, was Nvidias Führungswechsel für die KI-Welt bedeutet.",
+        "links": [
+          "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+        ]
+      },
+      {
+        "title": "Nebius testet den Neocloud-Ansatz mit 40 Milliarden Dollar geplantem Investitionsvolumen",
+        "originalTitle": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Nebius will seinen Ausbau der AI-Infrastruktur mit 40 Milliarden Dollar über Kunden-Vorauszahlungen und Kredite finanzieren. Verzögerungen an einem Microsoft-Rechenzentrum werfen Fragen zum Modell auf.",
+        "why": "Das ist wichtig für die KI-Infrastruktur, weil es zeigt, wie teuer Rechenleistung geworden ist und wie fragil die Finanzierung sein kann. Wer KI-Produkte oder Videotools baut, hängt indirekt an genau solchen Kapazitäten.",
+        "opportunity": "Beobachten, ob dieses Finanzierungsmodell Schule macht oder scheitert.",
+        "links": [
+          "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+        ]
+      },
+      {
+        "title": "Google verbessert die Suche mit Gemini 4 Hydrogen für komplexe Anfragen",
+        "originalTitle": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google rüstet seinen AI Mode mit Gemini 4 Hydrogen auf. Die Suche soll komplexere Fragen besser verstehen, passendere Links finden und visuell reichere Antworten liefern.",
+        "why": "Das betrifft direkt die Sichtbarkeit von Content, Recherche und Discovery für Creator und Medien. Wer Videos, Erklärformate oder Produktseiten produziert, sollte beobachten, wie sich Suchverhalten und Klickpfade verändern.",
+        "opportunity": "Videoidee: Was Google AI Search für SEO, Creator und Produktrecherche bedeutet.",
+        "links": [
+          "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+        ]
+      },
+      {
+        "title": "Nectar startet einen KI-Agenten für Creator-Discovery und Outreach für Marken",
+        "originalTitle": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+        "category": "Creator",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Nectar automatisiert Influencer-Marketing: Marken sollen damit Creator finden, Outreach und Partnerschaften verwalten und Kampagnenergebnisse tracken können. Das Produkt zielt auf eine stärkere Automatisierung im Creator-Marketing.",
+        "why": "Das ist direkt relevant für Creator-Ökosysteme und Brand-Deals, also auch für Video-Creator und Schauspieler mit Markenkooperationen. Solche Tools können Akquise und Deal-Management deutlich effizienter machen.",
+        "opportunity": "Als Testthema für „Wie KI Creator-Deals automatisiert“ vormerken.",
+        "links": [
+          "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
+        ]
+      },
+      {
+        "title": "United Airlines blockiert AI-Agenten beim Buchen von Flügen wegen Cybersecurity-Risiken",
+        "originalTitle": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "United Airlines erlaubt Kundinnen und Kunden nicht, AI-Agenten für Buchungen und Reservierungen zu nutzen. Als Begründung nennt die Airline Cybersecurity-Risiken.",
+        "why": "Das ist ein gutes Signal dafür, dass AI-Agenten im Alltag auf harte Plattformgrenzen stoßen können. Für Creator, die mit Automatisierung arbeiten, ist das ein Hinweis auf die wachsende Reibung zwischen Komfort und Risiko.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/"
+        ]
+      },
+      {
+        "title": "Fireworks AI wird nach Cyberangriff erneut kompromittiert, Notion-Kundendaten betroffen",
+        "originalTitle": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Ein Cyberangriff auf Fireworks AI ermöglichte Hackern Zugriff auf Chat-Transkripte von Notion-Kunden. Laut Quelle ist es bereits der zweite Datenvorfall bei Fireworks in zwei Monaten.",
+        "why": "Das ist für alle relevant, die KI-Tools mit sensiblen Daten nutzen oder an Creator- und Team-Workflows andocken. Es unterstreicht, wie wichtig Datenschutz und Sicherheitsarchitektur bei B2B-KI geworden sind.",
+        "opportunity": "Ein Video oder Post zu „Was B2B-KI-Tools beim Thema Datenschutz beweisen müssen“.",
+        "links": [
+          "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+        ]
+      },
+      {
+        "title": "Outlook und Microsoft 365 erleben erneut eine Störung",
+        "originalTitle": "Microsoft’s Outlook email hit by new outage",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch; Hacker News Frontpage",
+        "summary": "Microsoft Outlook ist von einer neuen Störung betroffen, eine Ursache wurde zunächst nicht genannt. Auf Hacker News wird parallel eine Beeinträchtigung von Microsoft 365 diskutiert.",
+        "why": "Das trifft alltägliche Arbeitsabläufe direkt, von E-Mail bis Teamkommunikation. Für Video- und Creator-Teams ist das relevant, weil Produktions- und Abstimmungsprozesse oft an Microsoft-Dienste gekoppelt sind.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/",
+          "https://status.cloud.microsoft/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-13T12:28:32.763Z",
+    "generatedAtBerlin": "13.11.2026, 13:28",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Demokraten leiten Untersuchung zu Nvidia ein und kritisieren Huangs angebliches „Trump-Schema“",
+      "Nvidia steht nach Huangs Abgang vor einer Führungs- und Vertrauenskrise",
+      "Nebius testet den Neocloud-Ansatz mit 40 Milliarden Dollar geplantem Investitionsvolumen"
+    ],
+    "audioPath": "audio/briefing-2026-11-12.mp3",
+    "audioUrl": "audio/briefing-2026-11-12.mp3",
+    "audioGeneratedAt": "2026-11-13T12:29:11.764Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-11",
     "title": "Daily-Briefing: KI-Infrastruktur unter Druck, Plattformen testen Creator-Features",
     "summary": "Am 11.11. dominierten zwei Themen: Der massive Ausbau von KI-Infrastruktur stößt auf Finanzierung, Genehmigung und Governance-Hürden, während Plattformen und Anbieter neue Tools für Agents, Clips und Dev-Workflows nachschieben. Dazu kamen frische Signale zu OpenAIs Umsatz, mehreren AI-Startups und einem regulatorisch heiklen Nvidia-Komplex.",
