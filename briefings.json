@@ -1,5 +1,148 @@
 [
   {
+    "date": "2026-11-13",
+    "title": "Daily Briefing: Agent-Tools, Nvidia-Turbulenzen und Cloud-Ausfälle dominieren",
+    "summary": "Gestern drehte sich viel um AI-Agenten mit echten Kauf- und Workflow-Funktionen, während die Unsicherheit rund um Nvidia/Jensen Huang die Startup- und Infrastruktur-Szene beschäftigt. Dazu kamen ein großer Microsoft-Cloud-Ausfall, ein Uber-Datenvorfall und neue Hinweise auf Security-Risiken bei mobilen Plattformen und Unternehmenssystemen.",
+    "topSummary": "Heute in 30 Sekunden: OpenAI bringt mit ChatGPT Wallet Agenten näher an reale Transaktionen, während ElevenLabs und LangChain weiter zeigen, wie schnell Agenten- und Workflow-Tools reifen. Gleichzeitig sorgt die Nvidia-Krise für Unsicherheit bei Startup-Finanzierung und AI-Infrastruktur. Auf der anderen Seite erinnern Microsofts Ausfall und der Uber-Vorfall daran, wie fragil zentrale Plattformen und Datenketten bleiben.",
+    "implications": [
+      "AI-Agenten rücken von der Demo in Richtung echter Nutzung mit Bezahl- und Arbeitsfunktionen.",
+      "Die Unsicherheit bei Nvidia kann Bewertungen, Finanzierung und Lieferketten im AI-Ökosystem beeinflussen.",
+      "Cloud- und Identity-Security bleiben operative Risiken für Unternehmen und Creator-nahe Tools.",
+      "Produkt- und Videoformate zu Agenten, Checkout, Notetaking und Automatisierung haben aktuell hohe Relevanz."
+    ],
+    "watchlist": [
+      "Wie schnell ChatGPT Wallet außerhalb der ersten US-Pro-Rollout-Stufe verfügbar wird.",
+      "Ob die Nvidia-Turbulenzen konkrete Effekte auf Startups, Chips und Bewertungen zeigen.",
+      "Ob Microsoft den Ausfall vollständig stabilisiert und Ursachen nachliefert.",
+      "Ob weitere Details zum Uber-Datenvorfall und zu Fireworks AI bekannt werden."
+    ],
+    "tags": [
+      "#CreatorAI",
+      "#Security",
+      "#AIAgents",
+      "#Cloud",
+      "#Startups",
+      "#Regulierung"
+    ],
+    "stories": [
+      {
+        "title": "OpenAI rollt ChatGPT Wallet für Agenten aus, damit sie mit Nutzerfreigabe Einkäufe abschließen können",
+        "originalTitle": "Introducing ChatGPT Wallet",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "OpenAI News",
+        "summary": "OpenAI führt ChatGPT Wallet ein, eine sichere Bezahlfunktion für Agenten in ChatGPT Work, Codex und dots. Der Start erfolgt mit Nutzerfreigabe und bestehenden Karten-Schutzmechanismen für US-Nutzer.",
+        "why": "Das ist ein klarer Schritt von Chatbots hin zu ausführbaren Agenten, die nicht nur beraten, sondern auch Transaktionen anstoßen können. Für Creator und Produkterklärungen ist das ein starkes Thema, weil es den Sprung von KI-Assistenz zu KI-Handel sichtbar macht.",
+        "opportunity": "Ein Video zu „Was bedeutet AI mit Checkout?“ könnte sehr gut funktionieren.",
+        "links": [
+          "https://openai.com/index/introducing-chatgpt-wallet",
+          "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+          "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+        ]
+      },
+      {
+        "title": "Unsicherheit um Jensen Huang belastet die AI-Startup-Finanzierung",
+        "originalTitle": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI",
+        "summary": "Mehrere Quellen berichten, dass Huang-Nachfolge und Abgang bei Nvidia bereits Druck auf AI-Startup-Finanzierung, Checkgrößen und Bewertungen erzeugen. Zusätzlich wird beschrieben, dass Investoren und Gründer mit weniger Kapital rechnen.",
+        "why": "Nvidia ist ein zentraler Taktgeber für AI-Infrastruktur, und Unsicherheit dort wirkt schnell auf Startups, Hardware-Nachfrage und Investorensentiment. Für Business- und Technik-Formate ist das relevant, weil sich hier die gesamte AI-Landschaft verschiebt.",
+        "opportunity": "Ein kurzes Update-Video zu „Warum Nvidia die AI-Finanzierung mitsteuert“ wäre sinnvoll.",
+        "links": [
+          "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+          "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+          "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow"
+        ]
+      },
+      {
+        "title": "Microsofts E-Mail-Ausfall entwickelt sich zu einer globalen Cloud-Krise",
+        "originalTitle": "Microsoft’s latest email outage turned into a full-blown global cloud crisis",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Der Ausfall begann bei Outlook und Teams und weitete sich auf große Teile der Cloud-Dienste aus. Microsoft sagt, dass die Wiederherstellung schrittweise läuft.",
+        "why": "Das ist ein klassisches Infrastruktur-Risiko mit direkter Relevanz für Teams, Creator-Workflows und Unternehmen, die stark auf Microsoft-Dienste angewiesen sind. Solche Ausfälle wirken sofort auf Produktion, Kommunikation und Publishing aus.",
+        "opportunity": "Ein knapper Safety-Reminder-Post zu Cloud-Abhängigkeiten wäre passend.",
+        "links": [
+          "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/"
+        ]
+      },
+      {
+        "title": "Uber bestätigt Datenklau bei Fahrerdokumenten nach Sicherheitsvorfall bei Fireworks AI",
+        "originalTitle": "Uber confirms hackers stole thousands of drivers’ license information in data breach",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Uber sagt, dass bei einem Sicherheitsvorfall bei der AI-Cloud-Firma Fireworks AI Tausende Führerscheininformationen gestohlen wurden. Betroffen sind Daten, die dort gespeichert waren.",
+        "why": "Der Vorfall zeigt, wie Drittanbieter und AI-Cloud-Dienste zu kritischen Angriffspunkten für sensible Identitätsdaten werden. Für Creator und Medienunternehmen ist das ein wichtiges Beispiel für Lieferkettenrisiken und Datenhaltung.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/"
+        ]
+      },
+      {
+        "title": "ElevenLabs bringt eine Team-App für Meeting-Notizen und Diktat",
+        "originalTitle": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "ElevenLabs startet eine neue App, die Meeting-Notizen und Diktat für Teams zusammenführt. Das Produkt richtet sich an Teams und Unternehmen und erweitert den Anwendungsbereich über reine Sprachsynthese hinaus.",
+        "why": "Für produktive Creator- und Agentur-Workflows ist das interessant, weil Sprach-Tools immer stärker in echte Arbeitsabläufe hineinwachsen. Das kann für Recherche, Drehplanung und interne Abstimmung praktisch relevant werden.",
+        "opportunity": "Ein Vergleichsclip zu AI-Notetaking-Tools wäre denkbar.",
+        "links": [
+          "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/"
+        ]
+      },
+      {
+        "title": "Neuere Sicherheitsforschung zeigt einen Weg, Androids Clipboard-Schutz zu umgehen",
+        "originalTitle": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein vielbeachteter Frontpage-Post beschreibt eine Umgehung von Androids Clipboard-Read-Sicherheitsmaßnahmen. Die Diskussion deutet auf ein praktisches Risiko für mobile Datenflüsse hin.",
+        "why": "Clipboard-Angriffe sind besonders relevant für mobile Workflows mit Passwörtern, Codes und sensiblen Texten. Für Creator und Teams, die viel mobil arbeiten, ist das ein nützliches Warnsignal.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://toninoble.com/post/ctrlc-ctrlv-ctrlcve"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-14T11:40:21.883Z",
+    "generatedAtBerlin": "14.11.2026, 12:40",
+    "mode": "ai",
+    "sourceCount": 23,
+    "highlights": [
+      "OpenAI rollt ChatGPT Wallet für Agenten aus, damit sie mit Nutzerfreigabe Einkäufe abschließen können",
+      "Unsicherheit um Jensen Huang belastet die AI-Startup-Finanzierung",
+      "Microsofts E-Mail-Ausfall entwickelt sich zu einer globalen Cloud-Krise"
+    ],
+    "audioPath": "audio/briefing-2026-11-13.mp3",
+    "audioUrl": "audio/briefing-2026-11-13.mp3",
+    "audioGeneratedAt": "2026-11-14T11:41:02.355Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-12",
     "title": "KI, Infrastruktur und Creator-Tools unter Druck und im Ausbau",
     "summary": "Am Vortag prägten vor allem Nvidia-Wirbel, neue KI-Produktivitätstools, Infrastrukturfragen und ein relevanter Security-Vorfall die Lage. Für Creator und Produkt-Teams sind besonders die Entwicklung bei Google Search, automatisierte Creator-Outreach-Tools und die Microsoft-365-Störung relevant.",
