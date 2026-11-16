@@ -1,5 +1,151 @@
 [
   {
+    "date": "2026-11-15",
+    "title": "Daily-Briefing: Nvidia-Krise, KI-Modelle und neue Creator-/Tech-Signale",
+    "summary": "Der wichtigste Tech-Plot des Tages dreht sich um Nvidia und die Folgen der Führungskrise: Es gibt neue Berichte zu Jensen Huang, Sicherheitsfragen und möglichen politischen Konsequenzen. Daneben zeigen mehrere KI-Quellen, dass sich der Fokus weiter auf LLM-Architektur, lokale Agenten und die Kosten von Token-Ausgaben verschiebt.",
+    "topSummary": "Heute in 30 Sekunden: Nvidia bleibt der dominierende Aufreger, weil sich die Führungs- und Sicherheitsstory weiter zuspitzt und politisch ausstrahlt. Parallel wird deutlich, dass KI-Entwicklung 2026 nicht nur über Modellqualität, sondern auch über Kosten, Effizienz, Sicherheit und lokale Toolchains definiert wird. Für Creator und Produktvideos sind vor allem die neuen AI-Workflows, Hardware- und Plattformsignale spannend.",
+    "implications": [
+      "Nvidia ist nicht nur ein Chip-Thema, sondern ein Plattform- und Vertrauenssignal für den gesamten KI-Markt.",
+      "Kosteneffizienz bei LLMs wird wichtiger: Token-Preise, lokale Ausführung und Router-Architekturen gewinnen an Relevanz.",
+      "Security und Exportkontrollen rücken enger an KI-Hardware und Unternehmensführung heran.",
+      "Für Creator-Formate entstehen gute Erklärthemen rund um lokale Agenten, LLM-Performance und KI-Infrastruktur."
+    ],
+    "watchlist": [
+      "Ob es weitere offizielle Schritte zu Nvidia, Huang oder den Exportregeln gibt.",
+      "Ob sich aus den LLM-HN-Posts konkrete, nutzbare Tools oder Benchmarks entwickeln.",
+      "Ob OpenAI die neue Science-Offensive mit greifbaren Produkt- oder Forschungssignalen untermauert.",
+      "Ob Creator- und Consumer-Tech zum Holiday-Shopping mehr belastbare Kaufempfehlungen liefert."
+    ],
+    "tags": [
+      "#Nvidia",
+      "#KI",
+      "#Security",
+      "#LLM",
+      "#CreatorTools",
+      "#TechNews"
+    ],
+    "stories": [
+      {
+        "title": "Nvidia-Krise zieht weiter Kreise: Jensen Huang, Security und Politik geraten unter Druck",
+        "originalTitle": "Is bad news for Jensen Huang also bad news for the AI industry?",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI, The Verge AI",
+        "summary": "Mehrere Berichte zeichnen ein sich zuspitzendes Nvidia-Narrativ rund um Jensen Huang, Führungsfragen und die Folgen für die KI-Branche. Gleichzeitig wird über strengere Exportregeln für AI-Chips und mögliche Anhörungen im US-Kongress berichtet.",
+        "why": "Nvidia ist ein zentraler Baustein der KI-Infrastruktur; jede Führungs- oder Vertrauenskrise wirkt auf den Markt hinaus. Für Denis ist das ein relevantes Thema, weil Chipversorgung, Produktionspläne und Regulierung direkt auf KI-Produkte und Tool-Ökosysteme einzahlen.",
+        "opportunity": "Gute Grundlage für ein kurzes Erklärvideo: Warum Nvidia nicht nur ein Hersteller, sondern ein Machtfaktor für KI ist.",
+        "links": [
+          "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+          "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+          "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+          "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed"
+        ]
+      },
+      {
+        "title": "OpenAI startet einen Science-Blog und koppelt Forschung stärker an GPT-6 Astra",
+        "originalTitle": "Our new blog for science",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "OpenAI News",
+        "summary": "OpenAI kündigt einen neuen Science-Blog an, der Erkenntnisse, Methoden und Berichte aus der Forschung bündeln soll. In einem weiteren Beitrag wird beschrieben, wie GPT-6 Astra an einem Beweis zur Standardmodell-Theorie beteiligt war.",
+        "why": "Das ist ein Signal dafür, dass KI-Anbieter Forschung und Storytelling noch enger verzahnen. Für Creator kann das später als Formatvorlage dienen: komplexe Wissenschaft in verständliche Video- und Social-Formate übersetzen.",
+        "opportunity": "Beobachten, ob daraus zitierfähige Forschungssignale oder neue Videoideen für Wissenschaftskommunikation entstehen.",
+        "links": [
+          "https://openai.com/index/our-new-blog-for-science",
+          "https://openai.com/index/step-toward-defining-the-standard-model"
+        ]
+      },
+      {
+        "title": "HN-Posts zeigen neue LLM-Schwerpunkte: Kosten, Routing, lokale Agenten und Sicherheit",
+        "originalTitle": "LLM Releases, Token Limits, and Pricing Since GPT 3.5",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News LLM",
+        "summary": "Mehrere Community-Posts drehen sich um Token-Preise, LLM-Router, lokale Desktop-Agenten und Sicherheitsrisiken durch manipulierte Modelle. Dazu kommen Beiträge über Performance auf dem Laptop und Ansätze, LLMs durch gezielte Gewichtsänderungen zu beeinflussen.",
+        "why": "Das ist für die Tech-Praxis relevant, weil KI-Anwendungen zunehmend nicht nur smarter, sondern auch billiger, lokaler und kontrollierbarer werden müssen. Gerade für Creator-Tools und Produktivitäts-Workflows sind Router, lokale Agenten und Sicherheitsfragen direkt anschlussfähig.",
+        "opportunity": "Potenzial für ein Video zu „Was lokale KI-Agenten heute schon können – und wo die Risiken liegen“.",
+        "links": [
+          "https://www.metemorris.com/posts/tokenomics/",
+          "https://think-graft.vercel.app/",
+          "https://github.com/daptin/daptin/wiki/Walkthrough-LLM-Router",
+          "https://github.com/Scronkfinkle/byob"
+        ]
+      },
+      {
+        "title": "TechCrunch empfiehlt neue Gadgets für die Holiday-Saison",
+        "originalTitle": "The tech products we enthusiastically recommend this holiday season",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "TechCrunch bündelt seine Favoriten aus den getesteten Gadgets des Jahres für Black Friday und die Feiertagssaison. Es geht um Produkte, die sich für Einkäufe rund um die Saison besonders anbieten.",
+        "why": "Für Creator- und Produktvideo-Formate ist das ein nützlicher Trendindikator für kaufbare Technik mit Video-Potenzial. Solche Empfehlungen funktionieren oft gut als Vergleichs-, Test- oder Geschenk-Content.",
+        "opportunity": "Mögliche Videoidee: eigene, deutschsprachige Einordnung der spannendsten Holiday-Tech-Produkte.",
+        "links": [
+          "https://techcrunch.com/2026/11/15/the-tech-products-we-enthusiastically-recommend-this-holiday-season/"
+        ]
+      },
+      {
+        "title": "SNL macht Tech-Milliardäre erneut zum Comedy-Thema",
+        "originalTitle": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+        "category": "Creator",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "niedrig",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Saturday Night Live greift erneut Tech-Tycoons und deren peinliche oder creepy Seiten auf und nutzt sie für ein Sketch-Setup über Dating und Spycraft. TechCrunch ordnet das als wiederkehrendes Motiv der Sendung ein.",
+        "why": "Das ist eher Kultur- als Tech-News, aber es zeigt, wie Tech-Eliten inzwischen Teil der Popkultur sind. Für Denis könnte das als Signal für satirische oder reaction-basierte Formate interessant sein.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/"
+        ]
+      },
+      {
+        "title": "Flaming Hydra wirbt mit Kickstarter für neue Ideen zu E-Book-Eigentum und digitalem Verleih",
+        "originalTitle": "Flaming Hydra’s new Kickstarter campaign rethinks e-book ownership and digital lending",
+        "category": "Business",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "niedrig",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch",
+        "summary": "Eine neue Kickstarter-Kampagne will E-Book-Eigentum und digitales Ausleihen neu denken. TechCrunch verbindet das mit der Idee einer Rückkehr zum „human internet“.",
+        "why": "Das ist für Medien- und Rechtefragen interessant, aber aus dem gegebenen Kontext nur begrenzt konkret. Für Creator kann der Umgang mit digitalem Besitz und Lizenzmodellen dennoch langfristig relevant sein.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/15/flaming-hydras-new-kickstarter-campaign-rethinks-e-book-ownership-and-digital-lending/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-16T13:01:50.174Z",
+    "generatedAtBerlin": "16.11.2026, 14:01",
+    "mode": "ai",
+    "sourceCount": 18,
+    "highlights": [
+      "Nvidia-Krise zieht weiter Kreise: Jensen Huang, Security und Politik geraten unter Druck",
+      "OpenAI startet einen Science-Blog und koppelt Forschung stärker an GPT-6 Astra",
+      "HN-Posts zeigen neue LLM-Schwerpunkte: Kosten, Routing, lokale Agenten und Sicherheit"
+    ],
+    "audioPath": "audio/briefing-2026-11-15.mp3",
+    "audioUrl": "audio/briefing-2026-11-15.mp3",
+    "audioGeneratedAt": "2026-11-16T13:02:28.115Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-14",
     "title": "Daily-Briefing: KI, Plattformen und Security im Blick",
     "summary": "Gestern dominierten KI-Infrastruktur, Plattform-Sicherheit und große Tech-Personalien. Besonders relevant: neue Sicherheitswarnsignale rund um Apps und PyPI, dazu Diskussionen um Nvidia/Jensen Huang und mehrere Produkt- und Plattformthemen mit Creator- und Business-Bezug.",
