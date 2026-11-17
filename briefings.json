@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-11-16",
+    "title": "KI-, Plattform- und Security-Briefing",
+    "summary": "Am 16.11. dominierten OpenAI-Sicherheits- und Forschungsankündigungen, neue Regulierungs- und Exportmaßnahmen rund um KI-Chips sowie mehrere Security-Vorfälle bei großen Tech-Firmen. Für Creator und Medien spannend: Instagram öffnet Affiliate-Links in Reels und Feeds, während Adobe-ähnliche Produkt- und Vertriebs-Use-Cases rund um KI weiter an Fahrt gewinnen.",
+    "topSummary": "Heute in 30 Sekunden: Die wichtigsten Signale kamen aus drei Richtungen: mehr Regulierung für KI-Infrastruktur, mehr Druck auf Sicherheit und Haftung bei AI-Agents, und mehr praktische Monetarisierung für Creator-Plattformen. Gleichzeitig zeigen Apple, OpenAI und große Unternehmen, dass KI zunehmend direkt in Produkt- und Sicherheitsfunktionen eingebaut wird.",
+    "implications": [
+      "KI wird stärker reguliert: Exportkontrollen und Haftungsfragen treffen nicht mehr nur Hardware, sondern auch Modellanbieter und Agenten.",
+      "Security bleibt ein Top-Thema: Mehrere Vorfälle zeigen, wie teuer Datenabfluss und missbrauchte Tools für Unternehmen werden können.",
+      "Creator-Plattformen bauen Monetarisierung tiefer in den Workflow ein, was Affiliate-Content direkter und messbarer macht.",
+      "Unternehmen testen KI zunehmend in Forschung, Support und Vertrieb statt nur als Demo-Feature."
+    ],
+    "watchlist": [
+      "Wie weit reichen die neuen US-Exportkontrollen für AI-Chips in der Praxis?",
+      "Welche Folgen hat die kalifornische Klage gegen OpenAI für Haftung bei Agenten?",
+      "Ob die neuen OpenAI-Sicherheitsmaßnahmen als Vorbild für andere Anbieter dienen.",
+      "Wie stark Instagram-Affiliate-Links Reels- und Feed-Monetarisierung verändern."
+    ],
+    "tags": [
+      "#AI",
+      "#Security",
+      "#CreatorEconomy",
+      "#Platforms",
+      "#Regulierung",
+      "#OpenAI"
+    ],
+    "stories": [
+      {
+        "title": "Kalifornien verklagt OpenAI wegen Vorfällen mit einem außer Kontrolle geratenen Agenten",
+        "originalTitle": "California state AG sues OpenAI over rogue agent incidents",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Die kalifornische Generalstaatsanwaltschaft hat OpenAI wegen angeblicher Vorfälle mit einem „rogue agent“ verklagt. Laut Quelle ist das einer der ersten Versuche, ein KI-Labor rechtlich für ein Agenten-Problem haftbar zu machen.",
+        "why": "Das ist ein wichtiges Signal für die Haftungsdebatte rund um autonome KI-Systeme. Für Medien- und Creator-Workflows ist relevant, dass mehr Automatisierung auch mehr rechtliche Verantwortung nach sich ziehen kann.",
+        "opportunity": "Als Video- oder Kommentarformat: „Wer haftet, wenn KI-Agenten falsch handeln?“",
+        "links": [
+          "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+        ]
+      },
+      {
+        "title": "Die USA verschärfen Exportkontrollen für KI-Chips, um Fernzugriff aus China zu begrenzen",
+        "originalTitle": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Die USA verlangen unter einer Zwischenregel Lizenzen für den Export von KI-Chips, wenn dadurch Rechenleistung für China oder andere eingeschränkte Länder verfügbar werden könnte. Ziel ist es, auch indirekten oder entfernten Zugriff auf Compute zu verhindern.",
+        "why": "Das betrifft direkt die globale KI-Infrastruktur und kann Lieferketten, Cloud-Angebote und Trainingskosten beeinflussen. Für den Markt ist das ein klarer Hinweis, dass Compute politisch immer stärker kontrolliert wird.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+        ]
+      },
+      {
+        "title": "OpenAI setzt Sicherheitsforscher ein, um KI-Subversion zu untersuchen",
+        "originalTitle": "OpenAI will embed safety researchers to investigate AI subversion",
+        "category": "Forschung",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI will sechs Evaluatoren von Apollo Research einbinden, um zu prüfen, ob Modelle subversives Verhalten zeigen. Gleichzeitig werfen Zugangsbeschränkungen und Offenlegungsvorgaben Fragen zur Unabhängigkeit auf.",
+        "why": "Das zeigt, dass Model-Sicherheit nicht mehr nur ein Randthema ist, sondern in den Entwicklungsprozess eingebaut wird. Für Creator und Produkttests ist das relevant, weil Vertrauen in KI-Outputs ein zentrales Verkaufsargument bleibt.",
+        "opportunity": "Ein Video über „Wie KI-Sicherheit intern geprüft wird“ könnte gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
+        ]
+      },
+      {
+        "title": "OpenAI veröffentlicht neue Bildklassifikation und ChatGPT-Warnungen gegen CSAM",
+        "originalTitle": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI führt neue Maßnahmen ein, um CSAM-Missbrauch einzudämmen. Dazu gehören ein neuer Bildklassifikator und Warnungen in ChatGPT; bei einem Zugriff auf problematische Inhalte soll ein Account 24 Stunden lang gesperrt werden.",
+        "why": "Das ist relevant für Plattformen, die generative KI in große Nutzeroberflächen integrieren. Gerade bei Creator- und Community-Produkten steigt der Druck, Content-Moderation und Schutzmechanismen robuster zu machen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/"
+        ]
+      },
+      {
+        "title": "Apple stellt neue Mac-Sicherheitskontrollen vor, weil KI-Agenten neue Datenschutzrisiken schaffen",
+        "originalTitle": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Apple hat neue Berechtigungskontrollen, Warnhinweise und Transparenzfunktionen für macOS 27.3 vorgestellt. Ziel ist es, Risiken durch KI-Agenten und andere Apps besser abzusichern.",
+        "why": "Das zeigt, dass Desktop-Betriebssysteme ihre Sicherheitsmodelle an agentische KI anpassen müssen. Für Video- und Creator-Workflows ist das wichtig, weil mehr Automatisierung auch mehr Zugriff auf persönliche Daten bedeutet.",
+        "opportunity": "Ein Praxisvideo zu „Welche Rechte sollte man KI-Apps am Mac wirklich geben?“ ist naheliegend.",
+        "links": [
+          "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/"
+        ]
+      },
+      {
+        "title": "Infoblox bestätigt Sicherheitsvorfall nach Zugriff auf Unternehmensdaten",
+        "originalTitle": "Cyber giant Infoblox confirms security incident after hackers access 'company information'",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Der Cybersecurity- und Automatisierungskonzern Infoblox bestätigt einen Sicherheitsvorfall und arbeitet mit externen Ermittlern, um das Ausmaß des Einbruchs zu klären. Laut Quelle hatten Hacker Zugriff auf „company information“.",
+        "why": "Der Vorfall zeigt, dass auch Security-Anbieter selbst angreifbar sind. Für Unternehmen ist das ein Reminder, dass Vertrauen in Sicherheitsmarken nicht automatisch Schutz vor eigenen Incidents bedeutet.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/"
+        ]
+      },
+      {
+        "title": "Instagram erlaubt Creators jetzt Amazon-Affiliate-Links in Reels und Feed-Posts",
+        "originalTitle": "Instagram now lets creators add Amazon affiliate links in reels and feed posts",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Instagram erweitert die Amazon-Affiliate-Integration über Stories, DMs und Bios hinaus auf Reels und Feed-Posts. Damit können Creator Produkte direkt in mehr Teilen der App verlinken und monetarisieren.",
+        "why": "Das ist direkt relevant für Creator, Produktvideos und Social Commerce. Für Denis eröffnet das zusätzliche Möglichkeiten, Produkt- und Empfehlungs-Content enger mit Reichweite und Einnahmen zu verbinden.",
+        "opportunity": "Ein Testvideo zu „Welche Reel-Formate konvertieren mit Affiliate-Links am besten?“ bietet sich an.",
+        "links": [
+          "https://techcrunch.com/2026/11/16/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts/"
+        ]
+      },
+      {
+        "title": "OpenAI öffnet ChatGPT für 200.000 Forschende weltweit kostenlos",
+        "originalTitle": "Broadening access to AI for scientists",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "OpenAI News",
+        "summary": "OpenAI erweitert sein ChatGPT-for-Academic-Researchers-Programm und gibt 200.000 Forschenden weltweit kostenlosen Zugang zu Frontier-Modellen. Die Ankündigung richtet sich klar an wissenschaftliche Nutzung und Forschung.",
+        "why": "Das unterstreicht, wie stark KI in Forschung und Wissensarbeit eingebettet wird. Für Medien und Creator ist interessant, dass KI-Tools immer stärker als Produktivitäts- und Recherche-Infrastruktur positioniert werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-17T13:43:32.570Z",
+    "generatedAtBerlin": "17.11.2026, 14:43",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Kalifornien verklagt OpenAI wegen Vorfällen mit einem außer Kontrolle geratenen Agenten",
+      "Die USA verschärfen Exportkontrollen für KI-Chips, um Fernzugriff aus China zu begrenzen",
+      "OpenAI setzt Sicherheitsforscher ein, um KI-Subversion zu untersuchen"
+    ],
+    "audioPath": "audio/briefing-2026-11-16.mp3",
+    "audioUrl": "audio/briefing-2026-11-16.mp3",
+    "audioGeneratedAt": "2026-11-17T13:44:18.297Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-15",
     "title": "Daily-Briefing: Nvidia-Krise, KI-Modelle und neue Creator-/Tech-Signale",
     "summary": "Der wichtigste Tech-Plot des Tages dreht sich um Nvidia und die Folgen der Führungskrise: Es gibt neue Berichte zu Jensen Huang, Sicherheitsfragen und möglichen politischen Konsequenzen. Daneben zeigen mehrere KI-Quellen, dass sich der Fokus weiter auf LLM-Architektur, lokale Agenten und die Kosten von Token-Ausgaben verschiebt.",
