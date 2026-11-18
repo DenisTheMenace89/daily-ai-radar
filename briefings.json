@@ -1,5 +1,177 @@
 [
   {
+    "date": "2026-11-17",
+    "title": "Daily-Briefing KI & Tech — 17.11.2026",
+    "summary": "Die auffälligsten Themen des Tages drehen sich um neue KI-Produkte von Google und OpenAI, um Privatsphäre, Sicherheit und die Frage, wie stark KI inzwischen in Arbeitsabläufe eingreift. Dazu kommen größere Plattform- und Infrastruktur-Themen wie Ausfälle bei Apple und Google sowie Regulierungs- und Governance-Signale rund um Nvidia und Waymo.",
+    "topSummary": "Heute in 30 Sekunden: Google und OpenAI schieben ihre KI-Produkte weiter Richtung praktische Alltags- und Business-Tasks, während gleichzeitig die Diskussion um Datenschutz, Zuverlässigkeit und Kontrolle schärfer wird. Parallel zeigen Ausfälle bei Apple und Google, wie abhängig Creator und Teams von wenigen Plattformen sind. Regulatorisch bleibt der Druck hoch: Bei Nvidia gibt es neue Berichte, bei Waymo direkte Einschränkungen durch die Behörden.",
+    "implications": [
+      "KI-Tools werden immer stärker zu Ausführungs- statt nur Chat-Systemen: Calls, Käufe, CRM und Desktop-Automation rücken näher an den Alltag.",
+      "Privatsphäre und Datenspeicherung werden zum Differenzierungsmerkmal, weil Anbieter wie Google ihre Aufbewahrungslogik ändern und Privacy-first-Alternativen nachziehen.",
+      "Plattform-Ausfälle bei Apple und Google sind ein Reminder, wie fragil Workflows für Creator, Produzenten und Teams sein können.",
+      "Regulatorik und Sicherheitsfragen bleiben kein Randthema: Von Nvidia bis Waymo zeigen sich Governance-, Compliance- und Safety-Risiken deutlich."
+    ],
+    "watchlist": [
+      "Wie schnell rollen Googles Gemini-Tasks und die neue Chat-Aufbewahrung global aus?",
+      "Welche Folgen hat die neue Eigentümerstruktur von Anthropic nach dem IPO für Produktstrategie und Ökosystem?",
+      "Ob es bei Nvidia über die Berichte hinaus offizielle Schritte oder Klarstellungen gibt.",
+      "Wie hart die Einschränkungen für Waymo bleiben und ob ähnliche Eingriffe bei anderen autonomen Systemen folgen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorAI",
+      "#Security",
+      "#Plattformen",
+      "#Regulierung",
+      "#DeveloperTools"
+    ],
+    "stories": [
+      {
+        "title": "OpenAI bringt GPT-6.2 Astra und Sol mit besseren Profi-, Coding- und Computer-Use-Funktionen",
+        "originalTitle": "Introducing GPT-6.2 Astra and Sol",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "OpenAI News",
+        "summary": "OpenAI hat GPT‑6.2 Astra und Sol vorgestellt. Laut OpenAI sollen die Modelle bessere professionelle Outputs, Coding, Computer Use und mehr Effizienz zu niedrigeren Kosten in ChatGPT Work, Codex und der API liefern.",
+        "why": "Das ist direkt relevant für Workflows rund um Skripting, Automatisierung und Produktivität, also genau dort, wo Creator- und Video-Teams Zeit sparen wollen. Wenn die Qualität bei Computer Use und Coding steigt, kann das auch interne Tools, Prototyping und Produktionsprozesse beschleunigen.",
+        "opportunity": "Eine Videoidee wäre ein Praxischeck: Was kann GPT-6.2 im Vergleich in einem Creator-Workflow wirklich besser?",
+        "links": [
+          "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+        ]
+      },
+      {
+        "title": "Google erweitert den Zugriff auf Gemini Tasks und erhöht die Aufbewahrung von Chats auf zwei Monate",
+        "originalTitle": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI",
+        "summary": "Google weitet den Zugang zu Gemini Tasks aus. Zusätzlich soll Google Gemini-Chats künftig zwei Monate lang speichern, statt 72 Stunden, selbst wenn der Verlauf ausgeschaltet ist.",
+        "why": "Gemini wird damit klarer zu einem Assistenzsystem, das Aufgaben im Namen der Nutzer ausführt und gleichzeitig mehr Datenspuren hält. Für Creator und Medienarbeit ist das sowohl praktisch als auch sensibel, weil Automatisierung und Privatsphäre enger zusammenrücken.",
+        "opportunity": "Denis könnte die Frage aufgreifen, wie viel Autonomie KI-Assistenten im Alltag bekommen sollten.",
+        "links": [
+          "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+          "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/"
+        ]
+      },
+      {
+        "title": "Proton startet Lumo Desktop als datenschutzorientierte KI-Alternative für Windows, Mac und Linux",
+        "originalTitle": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Proton hat Lumo Desktop für Windows, Mac und Linux veröffentlicht. Die App soll Aufgaben über Dateien und verbundene Apps automatisieren und dabei granulare Kontrollen darüber geben, worauf die KI zugreifen darf.",
+        "why": "Das ist ein klarer Gegenentwurf zu immer offeneren KI-Assistenten und passt in die Debatte um Datensouveränität. Für Creator, die mit sensiblen Projekten, Kundendaten oder unveröffentlichtem Material arbeiten, ist das besonders relevant.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
+        ]
+      },
+      {
+        "title": "Google und Amazon könnten nach dem IPO zusammen fast 30 Prozent von Anthropic halten",
+        "originalTitle": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Laut TechCrunch würde Amazon nach dem IPO knapp unter 15 Prozent an Anthropic halten, mit der Option auf mehr. Google läge mit knapp 14 Prozent knapp dahinter.",
+        "why": "Die Beteiligungsstruktur zeigt, wie eng große Plattformen und Modellanbieter wirtschaftlich verflochten sind. Das ist wichtig für die Frage, wie unabhängig KI-Ökosysteme wirklich sind und welche Anbieter langfristig die Regeln setzen.",
+        "opportunity": "Eine gute Beobachtung für ein Business-Update über Machtkonzentration im KI-Markt.",
+        "links": [
+          "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/"
+        ]
+      },
+      {
+        "title": "Berichten zufolge prüft die SEC Nvidia nach dem Abgang von Jensen Huang",
+        "originalTitle": "SEC reportedly investigating Nvidia amid Huang exit",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch berichtet, dass die SEC eine Untersuchung gegen Nvidia einleitet, nachdem Jensen Huang das Unternehmen verlassen hat. Als Hintergrund wird auf einen Bericht der Wall Street Journal verwiesen.",
+        "why": "Das ist ein Warnsignal für Governance- und Compliance-Risiken bei einem der wichtigsten KI-Infrastruktur-Unternehmen. Für die Branche zählt hier weniger der Personalien-Teil als die Frage, wie sensibel Investoren und Aufsichtsbehörden inzwischen reagieren.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/"
+        ]
+      },
+      {
+        "title": "Waymo setzt landesweit Autobahnfahrten nach Anordnung der kalifornischen DMV aus",
+        "originalTitle": "Waymo suspends freeway rides nationwide after California DMV order",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Die kalifornische DMV sieht in Waymos Autobahn-Betrieb ein unmittelbares Sicherheitsrisiko. Waymo muss die Einschränkungen so lange akzeptieren, bis das Unternehmen wirksame Korrekturen nachweist.",
+        "why": "Das ist ein deutliches Signal dafür, dass autonome Mobilität weiter stark regulatorisch begrenzt bleibt, sobald Behörden Sicherheitsprobleme sehen. Für Tech- und Mobilitätsbeobachter ist das ein wichtiger Realitätscheck.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/"
+        ]
+      },
+      {
+        "title": "Apple-Dienste wie iCloud, App Store und Apple Music waren von einer Störung betroffen",
+        "originalTitle": "Apple services, including iCloud, App Store, Apple Music, and more, hit by outage",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Die Apple-Statusseite bestätigte Ausfälle bei mehreren Diensten, darunter iCloud, App Store und Apple Music. Eine Ursache wurde nicht bestätigt.",
+        "why": "Für Creator, die auf Apple-Ökosysteme, Cloud-Speicher oder App-Distribution angewiesen sind, kann so eine Störung direkt Arbeit und Veröffentlichungen blockieren. Gleichzeitig zeigt der Ausfall, wie fragil zentrale Plattform-Infrastrukturen bleiben.",
+        "opportunity": "Denis könnte daraus ein kurzes Awareness-Format machen: Was tun, wenn zentrale Cloud- und Plattformdienste ausfallen?",
+        "links": [
+          "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/"
+        ]
+      },
+      {
+        "title": "Harvard-Forschende zeigen, dass KI-Coding-Agenten den Flaschenhals zum Code-Review verschieben",
+        "originalTitle": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein diskutierter Artikel berichtet, dass KI-Coding-Agenten die eigentliche Engstelle nicht beseitigen, sondern zum Review verlagern. Die Aufmerksamkeit im Hacker-News-Thread war hoch.",
+        "why": "Das ist für alle relevant, die mit AI-Assisted Coding arbeiten: Mehr Autonomie bei der Code-Erzeugung bedeutet nicht automatisch weniger Aufwand, weil Prüfen und Absichern wichtiger werden. Für Produktvideos und Creator-Tools ist das eine gute Einordnung, wie real der Produktivitätsgewinn tatsächlich ist.",
+        "opportunity": "Eine starke Videoidee wäre: „KI schreibt den Code — aber wer prüft ihn?“",
+        "links": [
+          "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-18T13:17:43.542Z",
+    "generatedAtBerlin": "18.11.2026, 14:17",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "OpenAI bringt GPT-6.2 Astra und Sol mit besseren Profi-, Coding- und Computer-Use-Funktionen",
+      "Google erweitert den Zugriff auf Gemini Tasks und erhöht die Aufbewahrung von Chats auf zwei Monate",
+      "Google und Amazon könnten nach dem IPO zusammen fast 30 Prozent von Anthropic halten"
+    ],
+    "audioPath": "audio/briefing-2026-11-17.mp3",
+    "audioUrl": "audio/briefing-2026-11-17.mp3",
+    "audioGeneratedAt": "2026-11-18T13:18:26.229Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-16",
     "title": "KI-, Plattform- und Security-Briefing",
     "summary": "Am 16.11. dominierten OpenAI-Sicherheits- und Forschungsankündigungen, neue Regulierungs- und Exportmaßnahmen rund um KI-Chips sowie mehrere Security-Vorfälle bei großen Tech-Firmen. Für Creator und Medien spannend: Instagram öffnet Affiliate-Links in Reels und Feeds, während Adobe-ähnliche Produkt- und Vertriebs-Use-Cases rund um KI weiter an Fahrt gewinnen.",
