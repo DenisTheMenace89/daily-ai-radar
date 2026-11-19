@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-11-18",
+    "title": "KI, Chips und Creator-Tools: das wichtigste Tech-Briefing vom 18.11.2026",
+    "summary": "Der Tag wurde von großen KI- und Chip-Themen geprägt: OpenAI/Anthropic, Nvidia und Microsoft setzen die Schlagzahl hoch, während neue Agenten- und Developer-Tools in Produkt- und Creator-Workflows drängen. Parallel verschärfen sich Security- und Governance-Fragen rund um KI-Agenten, Bankkonten und Cyberangriffe.",
+    "topSummary": "Heute dominieren drei Linien: mehr Kapital und höhere Erwartungen im KI-Markt, neue Werkzeuge für Entwickler und Creator sowie wachsende Risiken bei Security und autonom handelnden Agenten. Für Denis ist vor allem interessant, wie schnell sich KI von Chat-Funktion zu Produktions-, Automations- und Plattform-Infrastruktur entwickelt. Gleichzeitig zeigt der Tag, dass Regulierung, Haftung und Kontrolle immer stärker mitgedacht werden müssen.",
+    "implications": [
+      "KI wird zunehmend in Produkt-, Entwickler- und Creator-Workflows eingebaut, nicht nur als Zusatzfunktion, sondern als Kernschicht.",
+      "Agenten-Tools werden leistungsfähiger, aber auch riskanter: Sicherheit, Freigaben und Haftungsfragen rücken nach vorn.",
+      "Große Plattformen und Chip-Hersteller beeinflussen weiter, welche Modelle, Tools und Startups skalieren können.",
+      "Für Videoformate ergeben sich gute Themen zu AI Agents, Creator-Tools, Plattform-Macht und Security-Risiken."
+    ],
+    "watchlist": [
+      "Wie sich Anthropic nach dem IPO am Markt positioniert und ob die Bewertung belastbar bleibt.",
+      "Ob Nvidia die Finanzierungs- und Reporting-Unruhe rund um Neoclouds und SEC-Themen beruhigen kann.",
+      "Wie Google, Snapchat und Microsoft ihre neuen KI-Funktionen in echte Nutzer-Workflows übersetzen.",
+      "Ob mehr Banken weitere Grenzen für AI-Agenten setzen."
+    ],
+    "tags": [
+      "#AI",
+      "#CreatorTools",
+      "#Security",
+      "#BigTech",
+      "#DeveloperTools",
+      "#Platforms"
+    ],
+    "stories": [
+      {
+        "title": "Satya Nadella sagt, dass KI-Agenten die Ökonomie des Webs neu sortieren werden",
+        "originalTitle": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Microsoft-CEO Satya Nadella sagte, KI-Agenten könnten werbebasierte Geschäftsmodelle durcheinanderbringen und Unternehmen wie Amazon zwingen, ihre Kundenansprache neu zu denken. Der Schwerpunkt liegt auf der Verschiebung von Aufmerksamkeit, Traffic und Conversion hin zu Agenten statt direktem Nutzerverhalten.",
+        "why": "Das ist relevant für alle, die von Web-Traffic, Plattform-Distribution oder Monetarisierung abhängen. Für Creator und Medien ist besonders wichtig, dass sich Reichweite und Klicklogik durch Agenten verändern könnten.",
+        "opportunity": "Eine Videoidee wäre: Wie KI-Agenten die Web-Ökonomie und Creator-Reichweite verändern könnten.",
+        "links": [
+          "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/"
+        ]
+      },
+      {
+        "title": "Anthropic preist seinen Börsengang über der erwarteten Spanne bei 83 Dollar je Aktie",
+        "originalTitle": "Anthropic prices IPO at $83 a share, above projected range",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Anthropic soll seinen IPO bei 83 Dollar je Aktie angesetzt haben, also über der zuvor erwarteten Spanne. Laut Meldung würde das Unternehmen auf vollständig verwässerter Basis mit 1,5 Billionen Dollar bewertet.",
+        "why": "Das zeigt, wie heiß der Markt für große KI-Modelle und KI-Plattformen weiterhin ist. Solche Bewertungen beeinflussen Funding, Konkurrenzdruck und die Erwartungen an nächste Produktzyklen.",
+        "opportunity": "Gut für ein kurzes Markt-Update zu KI-Bewertungen und der Frage, wer im Rennen um die nächste Plattformgeneration vorne liegt.",
+        "links": [
+          "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+        ]
+      },
+      {
+        "title": "Nvidia sorgt mit einer ausbleibenden Routine-SEC-Meldung für Unruhe",
+        "originalTitle": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Nvidia kündigte überraschend an, den regulären Quartalsbericht 10-Q erst Wochen später einzureichen. Die Meldung beschreibt, dass ein Wall-Street-Analyst den Hintergrund der ungewöhnlichen Entscheidung eingeordnet hat.",
+        "why": "Für den Markt ist Nvidia der zentrale Hebel für KI-Infrastruktur, Chips und das Startup-Ökosystem. Jede Unsicherheit rund um Reporting oder Finanzierung kann die gesamte KI-Lieferkette beeinflussen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/"
+        ]
+      },
+      {
+        "title": "Palmer Luckey warnt, dass KI-gestützte Cyberangriffe die Abwehr überholen",
+        "originalTitle": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Palmer Luckey sagte, veraltete Technologien ließen Systeme für eine neue Welle KI-gestützter Angriffe verwundbar werden. Seine Einschätzung zielt auf die Lücke zwischen Angriffsgeschwindigkeit und Verteidigungskapazität.",
+        "why": "Das ist für Creator, Produktionen und Unternehmen relevant, weil KI die Eintrittsbarrieren für Phishing, Social Engineering und Angriffstaktiken weiter senken kann. Security wird damit nicht nur IT-, sondern auch Workflow-Thema.",
+        "opportunity": "Eine gute Hook für ein Video über KI-Security und warum klassische Schutzmaßnahmen nicht mehr reichen könnten.",
+        "links": [
+          "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/"
+        ]
+      },
+      {
+        "title": "Snapchat lässt Entwickler AR-Lenses mit KI-Assistenten wie Claude Code und Cursor bauen",
+        "originalTitle": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Snapchat sagt, dass Lens-Creator ihre gewünschte AR-Lens in normaler Sprache beschreiben können und der KI-Assistent den Prozess von Anfang bis Ende übernimmt. Genannt werden unter anderem Claude Code und Cursor.",
+        "why": "Das ist direkt relevant für Creator-Tools, AR-Content und schnelle Prototyping-Workflows. Für Video-Creator zeigt es, wie stark sich kreative Produktion in Richtung natürlicher Sprache und KI-Unterstützung verschiebt.",
+        "opportunity": "Sehr gut für eine Creator-Story darüber, wie KI die Erstellung von AR- und Social-Content beschleunigt.",
+        "links": [
+          "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"
+        ]
+      },
+      {
+        "title": "Google gibt seiner KI-Suche einen eigenen Inkognito-Modus",
+        "originalTitle": "Google’s AI feature in Search gets its own incognito mode",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google führt für die AI Mode-Suche temporäre Threads ein, die nicht in der Suchhistorie landen und spätere Empfehlungen nicht beeinflussen. Damit trennt Google kurzlebige KI-Konversationen stärker vom normalen Suchprofil.",
+        "why": "Das betrifft Privatsphäre, Personalisierung und das Verhalten von Nutzern in KI-Suchen. Für Content-Strategien ist wichtig, dass sich Sucherlebnis und Messbarkeit weiter verändern.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/"
+        ]
+      },
+      {
+        "title": "Mehr Banken sagen, dass Kunden mit KI-Agenten auf eigenes Risiko handeln",
+        "originalTitle": "More banks say customers using AI agents are on their own — even if they get hacked",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Mehrere Banken verschärfen ihren Kurs gegenüber Personal-Finance-KI-Agenten; Citi ist laut Meldung die jüngste große Institution, die bei diesem Thema bremst. Die Kernaussage: Wer solche Agenten nutzt, könnte bei Schäden allein dastehen.",
+        "why": "Das ist wichtig für die reale Nutzbarkeit von Agenten, weil Haftung und Sicherheit direkt über Adoption entscheiden. Für Creator und kleine Unternehmen ist das relevant, wenn Finanz- oder Automationsagenten in Workflows integriert werden sollen.",
+        "opportunity": "Gut für ein Video über die Grenzen von AI Agents im Alltag und warum Banken sie ausbremsen.",
+        "links": [
+          "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
+        ]
+      },
+      {
+        "title": "OpenAI-Chef Sam Altman hält eine KI-zentrierte Zukunft für problematisch, in der Maschinen statt Menschen entscheiden",
+        "originalTitle": "Sam Altman warns against a future where AI, not humans, calls the shots",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Sam Altman und Greg Brockman haben sich gegen die wachsende Debatte über eine KI-Übernahme gestellt, räumten aber die Herausforderung ein, fortgeschrittene Modelle unter menschlicher Kontrolle zu halten. Die Position ist eher warnend als triumphalistisch.",
+        "why": "Das ist relevant für die laufende Debatte um Kontrolle, Governance und Vertrauen in KI-Systeme. Für Medien und Creator ist wichtig, wie führende KI-Player die Zukunft selbst einordnen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-19T13:41:30.523Z",
+    "generatedAtBerlin": "19.11.2026, 14:41",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Satya Nadella sagt, dass KI-Agenten die Ökonomie des Webs neu sortieren werden",
+      "Anthropic preist seinen Börsengang über der erwarteten Spanne bei 83 Dollar je Aktie",
+      "Nvidia sorgt mit einer ausbleibenden Routine-SEC-Meldung für Unruhe"
+    ],
+    "audioPath": "audio/briefing-2026-11-18.mp3",
+    "audioUrl": "audio/briefing-2026-11-18.mp3",
+    "audioGeneratedAt": "2026-11-19T13:42:09.019Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-17",
     "title": "Daily-Briefing KI & Tech — 17.11.2026",
     "summary": "Die auffälligsten Themen des Tages drehen sich um neue KI-Produkte von Google und OpenAI, um Privatsphäre, Sicherheit und die Frage, wie stark KI inzwischen in Arbeitsabläufe eingreift. Dazu kommen größere Plattform- und Infrastruktur-Themen wie Ausfälle bei Apple und Google sowie Regulierungs- und Governance-Signale rund um Nvidia und Waymo.",
