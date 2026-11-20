@@ -1,5 +1,184 @@
 [
   {
+    "date": "2026-11-19",
+    "title": "Daily-Briefing: KI-Agenten, Meta-Hardware, Nvidia und Security-Risiken",
+    "summary": "Gestern dominierten KI-Agenten auf dem Desktop, neue Hardware-Signale rund um Meta und mehrere Security-Themen von Unternehmens- bis Infrastruktur-Ebene. Gleichzeitig zeigt der Newsflow, wie stark sich KI gerade in Produktivität, Suche, Browser- und Systemoberflächen sowie in Unternehmens-Workflows verankert.",
+    "topSummary": "Heute in 30 Sekunden: Google und OpenAI schieben KI-Agenten tiefer in Alltags-Workflows, von macOS bis in Produktivitäts- und Security-Tools. Meta könnte mit einem neuen Wearable in den Hardware-Markt gehen, während die Diskussion um Sicherheitsrisiken, Datenzugriff und kritische Infrastruktur weiter zunimmt. Dazu kommen starke Signale aus dem AI-Ökosystem rund um Anthropic und Nvidia – mit Markt-, Governance- und Sicherheitsfolgen.",
+    "implications": [
+      "KI-Agenten werden vom Demo-Feature zum Produktivitätswerkzeug auf dem Desktop.",
+      "Security und Datenschutz bleiben der Engpass, besonders bei Agenten mit Zugriff auf E-Mails, Dateien und Unternehmensdaten.",
+      "Hardware rund um KI wird konkreter: Wearables und Desktop-Integrationen könnten neue Creator- und Review-Themen liefern.",
+      "Die Governance-Frage bleibt zentral: Wachstum, Kapital und Sicherheitsbedenken laufen bei großen KI-Firmen parallel."
+    ],
+    "watchlist": [
+      "Wie Google die Mac- und Search-Integrationen konkret ausrollt und ob Nutzerkontrolle/Datenschutz nachgezogen wird.",
+      "Ob Meta den Preis und die Verfügbarkeit des Muse Charm offiziell bestätigt.",
+      "Wie sich die Nvidia-Nachwirkungen auf AI-Infrastruktur, Partner und Marktstimmung auswirken.",
+      "Ob Synologys Security Advisory größere reale Auswirkungen oder breite Patch-Empfehlungen auslöst."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#TechNews",
+      "#Plattformen",
+      "#Hardware"
+    ],
+    "stories": [
+      {
+        "title": "Google bringt Gemini auf den Mac und lässt den Assistenten Computer bedienen",
+        "originalTitle": "Google gives Gemini the ability to use your Mac for you",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Google hat Gemini für macOS so erweitert, dass der Assistent Dateien organisieren, Formulare ausfüllen und mehrstufige Workflows erledigen kann. Die Funktion ist klar auf produktive Desktop-Aufgaben ausgelegt.",
+        "why": "Das ist für Creator und Product-Workflows relevant, weil damit Routineaufgaben am Mac stärker delegiert werden können. Solche Desktop-Agenten könnten künftig auch Video-Prep, Asset-Organisation oder einfache Admin-Arbeit übernehmen.",
+        "opportunity": "Eine Videoidee wäre ein Praxis-Test: Was kann Gemini auf dem Mac wirklich im Creator-Alltag erledigen?",
+        "links": [
+          "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+          "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use"
+        ]
+      },
+      {
+        "title": "Google zeigt AI-Chats direkt auf der Startseite der Suche",
+        "originalTitle": "Google is putting AI chats right on the homepage",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "The Verge AI",
+        "summary": "Google baut seine Homepage um und integriert dort KI-Suche bzw. einen ausklappbaren Bereich für fortgesetzte AI-Chats. Damit rückt der Einstieg in konversationelle Suche noch weiter nach vorn.",
+        "why": "Das ist wichtig, weil Google damit die Suchoberfläche selbst verändert und nicht nur ein zusätzliches Tool anbietet. Für Creator, SEO und Recherche-Workflows kann das beeinflussen, wie Nutzer Inhalte entdecken und Fragen beantworten.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats"
+        ]
+      },
+      {
+        "title": "Meta soll den Muse Charm mit rund 300 Dollar bepreisen",
+        "originalTitle": "Meta’s Muse Charm might cost $300",
+        "category": "Hardware",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI; The Verge AI",
+        "summary": "Mehrere Berichte deuten darauf hin, dass Metas neues Muse-Charm-Gerät etwa 300 Dollar kosten könnte. Meta hat die Berichte nicht dementiert und nur angekündigt, bald mehr dazu zu sagen.",
+        "why": "Das Signal ist relevant, weil Meta damit offenbar ein klareres KI-Wearable positioniert, das sich auch an Konsum- und Creator-Nutzer richten könnte. Hardware-Preispunkte sagen oft viel darüber aus, wie ernst ein Unternehmen ein neues Produktsegment nimmt.",
+        "opportunity": "Eine Beobachtungs-Story dazu, ob Meta hier ein echtes Massenprodukt oder eher ein High-End-Experiment baut.",
+        "links": [
+          "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+          "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price"
+        ]
+      },
+      {
+        "title": "Meta-Muse-Agent soll Gespräche verwechseln und private Daten ausgeben können",
+        "originalTitle": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Laut Bericht hat Metas Muse in manchen Fällen Inhalte aus fremden Konversationen angezeigt, darunter Anfragen zu Kinderbetreuung, Karriereberatung, Bestellungen und sogar Kontostände. Das deutet auf ein mögliches Privatsphäre- und Zugriffsrisko hin.",
+        "why": "Das ist für Creator und Medien besonders relevant, weil KI-Tools mit persönlichem Kontext schnell in sensible Bereiche hineinreichen können. Sobald Agenten Daten falsch zuordnen, wird aus Komfort ein Vertrauensproblem.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+        ]
+      },
+      {
+        "title": "OpenAI erklärt, wie die Performance Factory ChatGPT schnell hält",
+        "originalTitle": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "OpenAI News",
+        "summary": "OpenAI beschreibt ein System aus Codex-gestützten Workflows, das Performance-Probleme findet und behebt, um ChatGPT schnell zu halten. Der Fokus liegt auf kontinuierlicher Optimierung im Betrieb.",
+        "why": "Das ist interessant für Dev- und Produktteams, weil Performance in großen KI-Produkten zunehmend als systematischer Prozess gedacht wird. Für Product-Video-Creator liefert das zudem gutes Material für Erklärformate über Ops, Observability und AI-Engineering.",
+        "opportunity": "Eine Videoidee wäre: Wie hält man ein großes KI-Produkt schnell, wenn Nutzung und Komplexität wachsen?",
+        "links": [
+          "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+        ]
+      },
+      {
+        "title": "OpenAI zeigt Sicherheits-Workflows rund um Daybreak Red, PR-Scans und Codex-Plugins",
+        "originalTitle": "Deploying Daybreak Red",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "OpenAI News",
+        "summary": "OpenAI hat mehrere Business- und Demo-Seiten veröffentlicht, darunter eine Referenzarchitektur für überwachte Sicherheitsuntersuchungen mit Daybreak Red sowie Demos für PR Scans und das Codex Security Plugin. Die Inhalte drehen sich um Setup, Monitoring und Review-Prozesse.",
+        "why": "Das ist relevant, weil KI-Security zunehmend als Produkt-Workflow statt nur als Policy-Thema verkauft wird. Für technische Zuschauer ist das ein konkreter Blick darauf, wie KI in Review- und Audit-Prozesse integriert werden soll.",
+        "opportunity": "Eine Explain-Video-Idee: Wie sehen KI-gestützte Security-Reviews in der Praxis aus?",
+        "links": [
+          "https://openai.com/business/learn/deploying-daybreak-red",
+          "https://openai.com/business/learn/pr-scans-demo",
+          "https://openai.com/business/learn/codex-security-plugin-demo",
+          "https://openai.com/business/learn/daybreak-blue-onboarding-demo"
+        ]
+      },
+      {
+        "title": "Anthropic geht an die Börse und setzt gleichzeitig auf Wachstum, Governance und Forschung",
+        "originalTitle": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI; The Verge AI; Hacker News Frontpage",
+        "summary": "Anthropic ist an der Börse gestartet und wird in mehreren Berichten mit deutlicher Marktbewegung, hoher Bewertung und weiteren IPO-Folgethemen beschrieben. Parallel dazu betont CEO Dario Amodei öffentlich die Idee, die Entwicklung von KI zu verlangsamen bzw. zu takten, und Anthropic sorgt mit Forschung zu Claude für Aufmerksamkeit.",
+        "why": "Das ist wichtig, weil hier Kapitalmarkt, Ethik und Produktentwicklung sichtbar zusammenlaufen. Für Medien- und Creator-Themen ist Anthropic damit nicht nur ein Modellanbieter, sondern auch ein Player mit öffentlicher Governance-Erzählung.",
+        "opportunity": "Eine Videoidee wäre ein kurzer Markt- und Strategie-Check: Warum ist Anthropic jetzt für Investoren, Entwickler und Medien so relevant?",
+        "links": [
+          "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+          "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+          "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+          "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings"
+        ]
+      },
+      {
+        "title": "Synology veröffentlicht Sicherheitswarnung",
+        "originalTitle": "Synology Security Advisory",
+        "category": "Security",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Auf Hacker News wurde ein Synology Security Advisory hervorgehoben und stark diskutiert. Die Quelle verweist direkt auf die offizielle Synology-Warnung.",
+        "why": "Auch wenn die Quelle hier nur ein Community-Signal ist, kann ein Synology-Advisory für NAS-Nutzer und kleine Teams praktisch relevant sein. Solche Meldungen betreffen oft genau die Systeme, in denen Creator ihre Medien und Backups lagern.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-20T13:25:17.095Z",
+    "generatedAtBerlin": "20.11.2026, 14:25",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "Google bringt Gemini auf den Mac und lässt den Assistenten Computer bedienen",
+      "Meta-Muse-Agent soll Gespräche verwechseln und private Daten ausgeben können",
+      "Anthropic geht an die Börse und setzt gleichzeitig auf Wachstum, Governance und Forschung"
+    ],
+    "audioPath": "audio/briefing-2026-11-19.mp3",
+    "audioUrl": "audio/briefing-2026-11-19.mp3",
+    "audioGeneratedAt": "2026-11-20T13:25:53.321Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-18",
     "title": "KI, Chips und Creator-Tools: das wichtigste Tech-Briefing vom 18.11.2026",
     "summary": "Der Tag wurde von großen KI- und Chip-Themen geprägt: OpenAI/Anthropic, Nvidia und Microsoft setzen die Schlagzahl hoch, während neue Agenten- und Developer-Tools in Produkt- und Creator-Workflows drängen. Parallel verschärfen sich Security- und Governance-Fragen rund um KI-Agenten, Bankkonten und Cyberangriffe.",
