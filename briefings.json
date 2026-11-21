@@ -1,5 +1,177 @@
 [
   {
+    "date": "2026-11-20",
+    "title": "Daily-Briefing: AI-Modelle, Datenzentren, Security und Plattform-Strategien",
+    "summary": "Der Vortag war geprägt von einer Mischung aus technischen Fortschritten bei KI und klaren Gegenbewegungen bei Sicherheit, Plattformkontrolle und Regulierung. Besonders relevant für Creator und Tech-Workflows: Apple, Signal und OpenAI setzen Akzente bei Agenten, Privacy und Modellschutz, während Energie, Chips und Datenzentren politisch und wirtschaftlich stärker unter Druck geraten.",
+    "topSummary": "Heute in 30 Sekunden: KI bleibt das dominante Thema, aber nicht nur wegen neuer Modelle, sondern auch wegen Schutzmechanismen, Privacy und industrieller Infrastruktur. Gleichzeitig verschieben sich die Spielregeln bei Datenzentren, Chips und Plattformen – mit Folgen für Startups, große Tech-Konzerne und alle, die auf stabile Tools angewiesen sind.",
+    "implications": [
+      "KI wird stärker als Produkt- und Infrastrukturthema sichtbar: nicht nur Modelle, sondern auch Schutz vor Modell-Abgriff, Energieversorgung und Rechenzentrums-Politik.",
+      "Für Creator und Video-Teams sind Agenten- und Workspace-Features relevant, weil sie direkt in Mac-, Handy- und Office-Workflows eingreifen könnten.",
+      "Security bleibt ein reales Risiko: Datenlecks, Plattformschutz und technische Ausfälle betreffen auch Medien-, Transkriptions- und Produktionsprozesse.",
+      "Regulierung und Standortpolitik rund um Datenzentren und Chips könnten Lieferketten, Cloud-Kosten und Verfügbarkeit mittelbar beeinflussen."
+    ],
+    "watchlist": [
+      "Ob Apple tatsächlich einen eigenen Mac-AI-Agenten in ein Produkt überführt und wie tief er ins System integriert wird.",
+      "Ob die Riemann-Hypothese-Claims von Mensch und KI verifiziert werden oder als weiterer Hype verpuffen.",
+      "Wie sich die politische Debatte um Datenzentren, Chips und China-Beziehungen auf Nvidia und die Branche auswirkt.",
+      "Ob Signal-ähnliche Schutzmaßnahmen gegen Screen-Reading-AI in weiteren Apps oder OS-Funktionen auftauchen."
+    ],
+    "tags": [
+      "#KI",
+      "#Security",
+      "#Platformen",
+      "#CreatorTools",
+      "#Infrastructure",
+      "#Regulierung"
+    ],
+    "stories": [
+      {
+        "title": "OpenAI beschreibt Maßnahmen gegen adversarielle Destillation",
+        "originalTitle": "Combatting adversarial distillation",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "OpenAI News",
+        "summary": "OpenAI erklärt einen mehrschichtigen Ansatz aus Training, Schutzmaßnahmen, Erkennung und Durchsetzung, um Capability Extraction zu erschweren. Im Kern geht es darum, dass Modelle nicht unerwünscht nachgebaut oder abgesaugt werden können.",
+        "why": "Das ist wichtig, weil Modellschutz für alle Anbieter von KI-Features ein zentrales Thema wird. Für Creator- und Produkt-Workflows heißt das: Wer auf API-Modelle, Agenten oder eingebettete KI setzt, hängt immer stärker an Sicherheits- und Zugriffsregeln.",
+        "opportunity": "Als Thema für ein Video oder Kommentarformat: Wie KI-Anbieter ihre Modelle gegen Kopieren und Missbrauch absichern.",
+        "links": [
+          "https://openai.com/index/combatting-adversarial-distillation"
+        ]
+      },
+      {
+        "title": "Signal blockiert Gemini und Siri AI beim Lesen von Bildschirminhalten",
+        "originalTitle": "Signal is blocking Gemini and Siri AI from reading your screen",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "The Verge AI",
+        "summary": "Signal schränkt Screenshots auf Android und iOS ein, um zu verhindern, dass KI-Agenten Nachrichten und andere Inhalte vom Bildschirm auslesen. Signal begründet das mit dem Schutz der Privatsphäre gegenüber agentischen OS-Funktionen.",
+        "why": "Das ist relevant für jeden, der mit sensiblen Inhalten arbeitet, besonders in Medien-, Produktions- und Social-Workflows. Es zeigt, dass KI-Agenten im Betriebssystem nicht nur Komfort, sondern auch echte Privacy-Konflikte erzeugen.",
+        "opportunity": "Für Denis ein gutes Beispiel für ein Kurzvideo über den Konflikt zwischen KI-Komfort und Datenschutz.",
+        "links": [
+          "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
+        ]
+      },
+      {
+        "title": "Apple arbeitet offenbar an einem eigenen KI-Agenten für den Mac",
+        "originalTitle": "Apple may be developing its own AI agent that runs your Mac",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "TechCrunch AI",
+        "summary": "Laut der Quelle arbeitet Apple offenbar an Agenten, die direkt auf dem Mac laufen und mit Angeboten wie Meta Muse, Instinct, Claude und OpenAI Dots konkurrieren könnten. Offiziell bestätigt ist das nicht, es handelt sich um einen Hinweis auf mögliche Produktentwicklung.",
+        "why": "Für Creator, Video-Editoren und Produktivitäts-Workflows wäre ein nativer Mac-Agent potenziell sehr relevant, weil er direkt in bestehende Apple-Setups eingreifen könnte. Gerade bei Demo-Videos und Produktvorstellungen wäre das ein starkes Thema.",
+        "opportunity": "Beobachten, ob Apple daraus eine echte Systemfunktion macht und nicht nur ein Forschungsprojekt bleibt.",
+        "links": [
+          "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+        ]
+      },
+      {
+        "title": "Anthropic-Mathematiker behauptet, die Riemann-Hypothese mit Claude bewiesen zu haben",
+        "originalTitle": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+        "category": "Forschung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "mehrere Quellen",
+        "source": "The Verge AI; TechCrunch AI",
+        "summary": "Ein Anthropic-Mathematiker sagt, er habe die Riemann-Hypothese mit Hilfe von Claude bewiesen. Parallel berichten weitere Quellen über ähnliche oder konkurrierende Lösungen, weshalb die Lage derzeit noch ungeklärt ist.",
+        "why": "Das ist relevant, weil es zeigt, wie weit KI in wissenschaftliche Spitzenprobleme vordringt. Gleichzeitig ist es ein gutes Beispiel dafür, dass spektakuläre KI-Claims erst noch verifiziert werden müssen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+          "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+        ]
+      },
+      {
+        "title": "Trump droht mit „tremendous tax“ auf KI-Datenzentren außerhalb der USA",
+        "originalTitle": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "The Verge AI",
+        "summary": "Donald Trump kündigte an, Unternehmen mit einem „tremendous tax“ zu belegen, wenn sie Rechenzentren außerhalb der USA bauen. Das kommt zu einer Phase hinzu, in der in den USA gleichzeitig neue Rechenzentrumsvorhaben regional stärker eingeschränkt werden.",
+        "why": "Das betrifft die Standortstrategie der gesamten KI-Industrie und damit indirekt Kosten, Verfügbarkeit und Expansion von Cloud- und Modellinfrastruktur. Für Creator und Media-Produktionen ist das wichtig, weil solche Entscheidungen mittelfristig auf Preise und Tool-Zugriffe durchschlagen können.",
+        "opportunity": "Einordnungsvideo oder Kommentar: Warum KI-Infrastruktur zunehmend politisch wird.",
+        "links": [
+          "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
+        ]
+      },
+      {
+        "title": "Nvidia gerät nach dem Jensen-Huang-Skandal weiter unter Druck",
+        "originalTitle": "The fallout from Nvidia’s Jensen Huang scandal continues",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Nvidia meldete zwar solides Wachstum, steht aber weiter wegen der Folgen rund um den Abgang von Jensen Huang unter Beobachtung. Zusätzlich will der Konzern H200-Chips nicht mehr in China verkaufen.",
+        "why": "Das ist für die gesamte KI-Hardware-Landschaft relevant, weil Nvidia weiterhin der Taktgeber für Chips und KI-Infrastruktur bleibt. Politische und operative Unsicherheit bei Nvidia wirkt sich oft direkt auf den Markt und die Roadmaps anderer Anbieter aus.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/"
+        ]
+      },
+      {
+        "title": "Bending Spoons kauft Mailchimp für 3,68 Milliarden Dollar",
+        "originalTitle": "Bending Spoons buys Mailchimp for $3.68B",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Bending Spoons übernimmt Mailchimp für 3,68 Milliarden Dollar. Die frühere Bewertung von Intuit lag deutlich höher, daher wirkt der Deal im Vergleich wie ein günstiger Einstieg.",
+        "why": "Mailchimp bleibt für viele Creator, Solopreneure und kleine Businesses ein wichtiges Marketing-Tool. Ein Eigentümerwechsel kann Produktstrategie, Preise und Integrationen beeinflussen.",
+        "opportunity": "Beobachten, ob sich Mailchimp unter Bending Spoons eher restrukturiert oder produktseitig neu positioniert.",
+        "links": [
+          "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/"
+        ]
+      },
+      {
+        "title": "Eine Transkriptionsfirma für Polizei und Tech-Konzerne legte Kundendaten offen ins Netz",
+        "originalTitle": "A transcription firm used by police, prosecutors, and tech giants exposed customer data online",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Eine Sicherheitslücke legte Transkripte von Polizeiverhören und Bodycam-Material ohne Passwort auf einem Cloud-Server offen. Betroffen war ein Dienstleister, der auch von Polizei, Staatsanwälten und Tech-Konzernen genutzt wird.",
+        "why": "Das ist besonders relevant für Medien-, Audio- und Video-Workflows, weil Transkription oft sensible Rohdaten enthält. Der Fall zeigt, wie schnell Produktions- und Ermittlungsdaten durch einfache Fehlkonfigurationen öffentlich werden können.",
+        "opportunity": "Für Denis ein starkes Security-Beispiel aus dem Bereich Speech-to-Text und Cloud-Workflows.",
+        "links": [
+          "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-21T12:53:40.560Z",
+    "generatedAtBerlin": "21.11.2026, 13:53",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "OpenAI beschreibt Maßnahmen gegen adversarielle Destillation",
+      "Signal blockiert Gemini und Siri AI beim Lesen von Bildschirminhalten",
+      "Apple arbeitet offenbar an einem eigenen KI-Agenten für den Mac"
+    ],
+    "audioPath": "audio/briefing-2026-11-20.mp3",
+    "audioUrl": "audio/briefing-2026-11-20.mp3",
+    "audioGeneratedAt": "2026-11-21T12:54:22.272Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-19",
     "title": "Daily-Briefing: KI-Agenten, Meta-Hardware, Nvidia und Security-Risiken",
     "summary": "Gestern dominierten KI-Agenten auf dem Desktop, neue Hardware-Signale rund um Meta und mehrere Security-Themen von Unternehmens- bis Infrastruktur-Ebene. Gleichzeitig zeigt der Newsflow, wie stark sich KI gerade in Produktivität, Suche, Browser- und Systemoberflächen sowie in Unternehmens-Workflows verankert.",
