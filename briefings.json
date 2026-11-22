@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-11-21",
+    "title": "Daily Briefing: KI-Sicherheit, Creator-Rechte und Plattformbewegungen",
+    "summary": "Heute dominieren drei Themen: Sicherheit wird durch neue Angriffs- und Schutzmeldungen wieder konkreter, KI wird stärker in Alltagsprodukte und Messaging integriert, und bei Medien- sowie Plattformfragen verschieben sich die Fronten. Für Creator und Produktteams sind besonders die Signale rund um Identität, Rechte und Infrastruktur relevant.",
+    "topSummary": "Heute in 30 Sekunden: Signal verschärft Schutzmaßnahmen gegen Screenshot-/Überwachungsrisiken, während gleichzeitig neue KI-Agenten direkt in Messenger rücken. Parallel gibt es frische Konflikte um Apple in Indien, Sicherheitslücken im Open-Source-/LLM-Umfeld und einen potenziell wegweisenden Fall zu KI-gescannten Gesichtern in der Unterhaltungsbranche. Dazu kommt ein ernüchterndes Update aus der Regulierung: Bei autonomen Waffensystemen kommt die UN kaum voran.",
+    "implications": [
+      "Sicherheit und Privatsphäre werden für Consumer-Apps und Creator-Kommunikation spürbar wichtiger.",
+      "KI-Produkte wandern weiter in Alltagsoberflächen wie Chats und Messaging ein.",
+      "Rechte an Gesicht, Stimme und Identität könnten für Medien- und Creator-Business an Bedeutung gewinnen.",
+      "Regulierung und Security bleiben ein Taktgeber für Produktentscheidungen und Plattformrisiken."
+    ],
+    "watchlist": [
+      "Ob weitere Apps ähnliche Screenshot- oder Anti-Surveillance-Maßnahmen einführen.",
+      "Wie stark sich KI-Agenten in Messenger-Produkten tatsächlich im Alltag durchsetzen.",
+      "Ob der Apple-Streit in Indien Import- oder Feature-Folgen bekommt.",
+      "Ob es nach den gemeldeten Security-Themen weitere belastbare Details oder Patches gibt."
+    ],
+    "tags": [
+      "#Security",
+      "#CreatorAI",
+      "#Platforms",
+      "#Regulierung",
+      "#DeveloperTools",
+      "#MediaRights"
+    ],
+    "stories": [
+      {
+        "title": "Signal schränkt mobile Screenshots ein, weil die App eine ‚existenzielle Bedrohung‘ durch KI-Überwachung sieht",
+        "originalTitle": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Signal begrenzt laut Bericht die Möglichkeit, in der Android- und iOS-App Screenshots zu machen. Das wird als Reaktion auf KI-gestützte Überwachung und Missbrauch eingeordnet.",
+        "why": "Das ist relevant für jede App, die private Kommunikation, vertrauliche Workflows oder Creator-Absprachen schützt. Es zeigt, dass Plattformen stärker technische Barrieren gegen unerwünschtes Abfilmen und Archivieren einziehen könnten.",
+        "opportunity": "Für Denis interessant als Video-Thema über Privatsphäre-Features und ihre Grenzen in Messenger-Apps.",
+        "links": [
+          "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+        ]
+      },
+      {
+        "title": "TechCrunch zeigt die wichtigsten KI-Agenten, die direkt in Textnachrichten leben können",
+        "originalTitle": "Here are the top AI agents that can live in your text messages",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch hat eine Übersicht über auffällige KI-Agenten veröffentlicht, die in Textnachrichten eingebettet werden können. Genannt werden allgemeine Assistenten sowie Varianten für Familie, Reisen und Arbeit.",
+        "why": "Das ist ein klarer Hinweis darauf, wohin sich Creator- und Consumer-AI entwickelt: weg von separaten Apps hin zu Funktionen in Chat-Interfaces. Für Video-Creator ist das spannend, weil solche Tools schnell Teil des Alltags- und Workflows werden können.",
+        "opportunity": "Gute Basis für ein kurzes Creator-Video zu den spannendsten KI-Agenten im Chat-Alltag.",
+        "links": [
+          "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/"
+        ]
+      },
+      {
+        "title": "Ein Schauspieler lizenziert sein Gesicht an ein Microdrama-Startup – und das könnte Hollywood verändern",
+        "originalTitle": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Ein Schauspieler hat sein Gesicht an ein Microdrama-Startup lizenziert. Laut Bericht ist das Teil eines Trends, der in China bereits verbreitet ist, während Experten die langfristigen Folgen für Hollywood diskutieren.",
+        "why": "Für Schauspieler, Creator und Medienproduktionen ist das ein frühes Signal für neue Geschäftsmodelle rund um digitale Abbilder und Rechteverwertung. Gleichzeitig wirft es Fragen nach Kontrolle, Vergütung und Wiederverwendbarkeit von Gesichtern in KI-Produktionen auf.",
+        "opportunity": "Starkes Thema für ein Erklärvideo zu KI-Gesichtsrechten, Verträgen und den Folgen für Schauspieler.",
+        "links": [
+          "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/"
+        ]
+      },
+      {
+        "title": "Der Hacker News-Hype dreht sich um Security-Probleme und LLM-Infrastruktur",
+        "originalTitle": "Upload2Shell (CVE-2026-125396)",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "Hacker News Frontpage / Hacker News LLM",
+        "summary": "Auf Hacker News ziehen mehrere Security- und LLM-Beiträge Aufmerksamkeit auf sich, darunter Upload2Shell (CVE-2026-125396), eine GnuPG-Sicherheitswarnung für GPGME und Tools rund um LLM-Caching, Redaction und Konfiguration. Das Cluster deutet auf hohes Interesse an praktischer KI-Sicherheit und Betriebsstabilität hin.",
+        "why": "Für Creator-Tools, Produktvideo-Workflows und AI-Stacks ist das relevant, weil Sicherheitslücken und Datenhygiene direkte Auswirkungen auf Produktivität und Vertrauen haben. Besonders Themen wie PII-Redaction und Cache-Verhalten betreffen reale KI-Workflows.",
+        "opportunity": "Für Denis eignet sich daraus ein Tech-Update zu ‚Was gerade KI- und Security-Teams beschäftigt‘.",
+        "links": [
+          "https://pwn.ai/upload2shell",
+          "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+          "https://github.com/flipcyde101/kvdiff",
+          "https://danb.id.au/blog/pii-redaction-before-llm.html"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-22T12:46:01.072Z",
+    "generatedAtBerlin": "22.11.2026, 13:46",
+    "mode": "ai",
+    "sourceCount": 22,
+    "highlights": [
+      "Signal schränkt mobile Screenshots ein, weil die App eine ‚existenzielle Bedrohung‘ durch KI-Überwachung sieht",
+      "TechCrunch zeigt die wichtigsten KI-Agenten, die direkt in Textnachrichten leben können",
+      "Ein Schauspieler lizenziert sein Gesicht an ein Microdrama-Startup – und das könnte Hollywood verändern"
+    ],
+    "audioPath": "audio/briefing-2026-11-21.mp3",
+    "audioUrl": "audio/briefing-2026-11-21.mp3",
+    "audioGeneratedAt": "2026-11-22T12:46:41.919Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-20",
     "title": "Daily-Briefing: AI-Modelle, Datenzentren, Security und Plattform-Strategien",
     "summary": "Der Vortag war geprägt von einer Mischung aus technischen Fortschritten bei KI und klaren Gegenbewegungen bei Sicherheit, Plattformkontrolle und Regulierung. Besonders relevant für Creator und Tech-Workflows: Apple, Signal und OpenAI setzen Akzente bei Agenten, Privacy und Modellschutz, während Energie, Chips und Datenzentren politisch und wirtschaftlich stärker unter Druck geraten.",
