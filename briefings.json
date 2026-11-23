@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-11-22",
+    "title": "KI, Outages und Creator-Tooling prägen den Vortag",
+    "summary": "Die wichtigsten Signale drehen sich um KI-Messung und -Begrenzung, größere Tech-Ausfälle sowie praktische Creator- und Developer-Themen. Dazu kommen ein Streit um KI-Musik in einem Spiel, Local-AI-Tooling aus der Hacker-News-Community und eine starke Dokumentarfilm-Performance rund um Elizabeth Holmes.",
+    "topSummary": "Heute in 30 Sekunden: OpenAI argumentiert für eine gemeinsame Messgröße, wenn KI-Wachstum begrenzt werden soll, während die Diskussion um Rechenzentren und Big-Tech-Gegenwind weiterläuft. Gleichzeitig zeigen die jüngsten Ausfälle bei großen Diensten, wie abhängig Arbeit und Kommunikation von wenigen Plattformen sind. Für Creator und Entwickler relevant: Local AI, vibe-coding und die Frage, wie strikt man KI-Einsatz in Medien und Games kennzeichnen muss.",
+    "implications": [
+      "KI-Entwicklung wird nicht nur technisch, sondern auch politisch über Messbarkeit und Regulierung verhandelt.",
+      "Ausfälle bei großen Plattformen bleiben ein Business- und Produktionsrisiko, auch für Creator-Workflows.",
+      "KI-gestützte Inhalte geraten weiter unter Beobachtung, vor allem bei Musik, Games und Medienproduktion.",
+      "Community-getriebene Local-AI-Tools und vibe-coding bleiben ein starkes Signal für schnellere Prototypen."
+    ],
+    "watchlist": [
+      "Ob OpenAI und andere Akteure konkrete Kennzahlen für KI-Fortschritt und Limits weiter schärfen.",
+      "Wie stark die Debatte um Datenzentren, Energiebedarf und Big-Tech-Gegenreaktionen politisch anschwillt.",
+      "Ob weitere Plattform- oder Cloud-Ausfälle folgen und ob Unternehmen daraus Konsequenzen ziehen.",
+      "Wie streng Creator, Studios und Spieleentwickler künftig KI-Musik und andere KI-Inhalte markieren."
+    ],
+    "tags": [
+      "#AI",
+      "#CreatorTools",
+      "#Security",
+      "#DeveloperTools",
+      "#Regulierung",
+      "#Plattformen"
+    ],
+    "stories": [
+      {
+        "title": "OpenAI-Forscher denkt über eine Begrenzung der KI-Entwicklung nach",
+        "originalTitle": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAIs Chefwissenschaftler argumentiert, dass man für eine Geschwindigkeitsbegrenzung der KI-Entwicklung erst einmal auf eine Messgröße einigen müsse. Der Beitrag setzt damit den Fokus auf die Frage, wie Fortschritt in KI überhaupt vergleichbar gemacht werden kann.",
+        "why": "Das ist relevant, weil sich an solchen Messgrößen künftig Regulierung, Benchmarks und öffentliche Debatten orientieren könnten. Für Creator und Produktteams zählt das auch, weil es indirekt beeinflusst, wie schnell neue KI-Features in Tools und Workflows landen.",
+        "opportunity": "Denis könnte daraus ein kurzes Video über die Frage machen, wie man KI-Fortschritt überhaupt misst.",
+        "links": [
+          "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+        ]
+      },
+      {
+        "title": "Datenzentren stehen im Zentrum der Big-Tech-Gegenreaktion",
+        "originalTitle": "Why data centers are at the center of the Big Tech backlash",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch ordnet ein, warum Rechenzentren zum Symbol der Kritik an Big Tech geworden sind. Der Beitrag basiert auf einer Einordnung von Paris Marx zu seinem Buch „Hyperscale“.",
+        "why": "Rechenzentren sind die physische Grundlage für KI-Dienste, Streaming und Cloud-Software. Für ein deutsches Publikum ist das wichtig, weil Energiebedarf, Standortfragen und politische Debatten damit enger zusammenhängen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
+        ]
+      },
+      {
+        "title": "Die jüngsten großen Tech-Ausfälle zeigen, wie fragil die Infrastruktur bleibt",
+        "originalTitle": "We haven’t seen the last of the major tech outages",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "The Verge AI",
+        "summary": "Der Beitrag verweist auf mehrere jüngste Ausfälle, darunter einen landesweiten FAA-Stop, eine mehrtägige Outlook-Störung und eine Bankenstörung bei JPMorgan Chase. Die Einschätzung ist, dass weitere große Ausfälle kommen werden.",
+        "why": "Für Creator, Teams und Produktionsabläufe ist das ein direktes Risiko, weil Kommunikation, Planung und Cloud-Services davon abhängen. Auch für Video- und Medienproduktion ist es ein Hinweis, Backup-Workflows ernst zu nehmen.",
+        "opportunity": "Denis könnte daraus eine praktische Creator-Checkliste zu Ausfall-Resilienz und Backup-Setups machen.",
+        "links": [
+          "https://www.theverge.com/tech/1039851/major-tech-outages"
+        ]
+      },
+      {
+        "title": "Der Entwickler von Binding of Isaac entfernt KI-Musik aus Repentance Plus",
+        "originalTitle": "Binding of Isaac developer removes AI music from Repentance Plus",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "The Verge AI",
+        "summary": "Nach Review-Bombing auf Steam wurde bekannt, dass ein Abschnitt von The Binding of Isaac: Repentance Plus KI-generierte Musik enthielt. Der Entwickler hat die KI-Musik daraufhin entfernt.",
+        "why": "Das ist wichtig für alle, die mit KI in Audio, Games oder Video arbeiten, weil Akzeptanz und Transparenz schnell zum Reputationsrisiko werden können. Gerade bei Medieninhalten zählt Herkunft und Kennzeichnung von KI-Material zunehmend mit.",
+        "opportunity": "Denis könnte ein kurzes Format über die Grenzen von KI-Musik in Medienprojekten machen.",
+        "links": [
+          "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"
+        ]
+      },
+      {
+        "title": "Eine Einstiegsanleitung für Local AI mit Inkling, Qwen und Unsloth zieht viel Aufmerksamkeit auf sich",
+        "originalTitle": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein Blogpost über Local AI mit Inkling, Qwen und Unsloth erreichte die Hacker-News-Frontpage und sammelte viele Punkte und Kommentare. Das deutet auf starkes Interesse an lokaler, praxisnaher KI-Nutzung hin.",
+        "why": "Local AI ist für Creator und Produktvideos spannend, weil es mehr Kontrolle, potenziell geringere Kosten und Offline-Workflows verspricht. Für Entwickler ist es ein klares Signal, dass solche Setups weiterhin stark nachgefragt sind.",
+        "opportunity": "Denis könnte daraus eine verständliche Erklärung zu Local AI für Einsteiger machen.",
+        "links": [
+          "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth"
+        ]
+      },
+      {
+        "title": "The Verge sieht den Trend zum Vibe-Coding auf immer mehr Geräten",
+        "originalTitle": "The vibe-coding revolution is coming to all the gadgets",
+        "category": "Developer",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "The Verge AI",
+        "summary": "The Verge beschreibt, wie sich Vibe-Coding und ähnliche KI-gestützte Ansätze auf immer mehr Gadgets ausbreiten. Der Text ordnet das als breiteren Trend in der Consumer-Tech-Welt ein.",
+        "why": "Für Creator und Produktvideos ist das relevant, weil damit neue Demo- und Prototyping-Formate entstehen, die über klassisches Software-Coding hinausgehen. Es zeigt auch, wie KI-Funktionen in Alltagsgeräte hineinwandern.",
+        "opportunity": "Denis könnte den Trend in einem Video zu KI in Consumer-Hardware erklären.",
+        "links": [
+          "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera"
+        ]
+      },
+      {
+        "title": "OpenAI erläutert, wie Perplexity als Maß für KI-Fortschritt dienen kann",
+        "originalTitle": "Perplexity and Intelligence",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "OpenAI News",
+        "summary": "OpenAI erklärt, wie Perplexity den Fortschritt von KI-Modellen messbar machen kann und warum das Entwicklern bei einer gemeinsamen Bewertung neuer Fähigkeiten helfen könnte. Der Beitrag zielt auf eine einheitlichere Evaluierung von Modellleistungen.",
+        "why": "Das ergänzt die Debatte um KI-Limits und macht deutlich, dass Benchmarks und Metriken für die Branche zentral bleiben. Für Produkt- und Tool-Entwicklung ist das wichtig, weil Messmethoden oft darüber entscheiden, welche Modelle sich durchsetzen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://openai.com/index/perplexity-and-intelligence"
+        ]
+      },
+      {
+        "title": "Die Elizabeth-Holmes-Doku hat weltweit mehr als 100 Millionen Dollar eingespielt",
+        "originalTitle": "‘You Can See Everything’ has made more than $100M worldwide",
+        "category": "Business",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Die neue Elizabeth-Holmes-Dokumentation „You Can See Everything“ hat weltweit mehr als 100 Millionen Dollar eingespielt. Laut Quelle läuft der internationale Rollout gerade erst an.",
+        "why": "Für Medien- und Streaming-Beobachter ist das ein Hinweis darauf, dass True-Crime- und Tech-Storys weiterhin stark ziehen. Für Creator im Video-Bereich zeigt es, dass solche Stoffe ein großes Publikum finden können.",
+        "opportunity": "Denis könnte daraus eine Beobachtung zu Tech-Dokus als Format machen.",
+        "links": [
+          "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-23T15:07:59.719Z",
+    "generatedAtBerlin": "23.11.2026, 16:07",
+    "mode": "ai",
+    "sourceCount": 12,
+    "highlights": [
+      "OpenAI-Forscher denkt über eine Begrenzung der KI-Entwicklung nach",
+      "Die jüngsten großen Tech-Ausfälle zeigen, wie fragil die Infrastruktur bleibt",
+      "Der Entwickler von Binding of Isaac entfernt KI-Musik aus Repentance Plus"
+    ],
+    "audioPath": "audio/briefing-2026-11-22.mp3",
+    "audioUrl": "audio/briefing-2026-11-22.mp3",
+    "audioGeneratedAt": "2026-11-23T15:08:44.163Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-21",
     "title": "Daily Briefing: KI-Sicherheit, Creator-Rechte und Plattformbewegungen",
     "summary": "Heute dominieren drei Themen: Sicherheit wird durch neue Angriffs- und Schutzmeldungen wieder konkreter, KI wird stärker in Alltagsprodukte und Messaging integriert, und bei Medien- sowie Plattformfragen verschieben sich die Fronten. Für Creator und Produktteams sind besonders die Signale rund um Identität, Rechte und Infrastruktur relevant.",
