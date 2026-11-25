@@ -1,5 +1,183 @@
 [
   {
+    "date": "2026-11-24",
+    "title": "KI wird produktiver, aber auch riskanter",
+    "summary": "Der Tag zeigte vor allem zwei Linien: KI wandert tiefer in Alltagsprodukte wie Shopping, Social und DMs — gleichzeitig wachsen die Warnsignale bei Sicherheit, Urheberrecht und Qualität. Dazu kommen neue Signale zu Infrastruktur, Datenkontrolle und der Frage, wie belastbar aktuelle KI-Modelle im echten Einsatz sind.",
+    "topSummary": "Heute in 30 Sekunden: KI-Funktionen werden weiter direkt in Plattformen eingebaut, von Instagram über Pinterest bis Walmart. Gleichzeitig häufen sich Meldungen über Sicherheitslücken, AI-Slop und Probleme bei kreativen Workflows. Für Creator und Medienprofis ist besonders relevant, dass Plattformen stärker moderieren, labeln und verbieten.",
+    "implications": [
+      "Plattformen integrieren KI immer stärker direkt in bestehende Nutzeroberflächen statt separate Apps zu verlangen.",
+      "Brand-Safety, Rechtefragen und Qualitätskontrolle werden für Creator, Medien und Musikdienste wichtiger.",
+      "Sicherheits- und Datenschutzargumente werden zu einem echten Produktmerkmal, nicht nur zu Compliance-Texten.",
+      "KI-Startups stehen unter mehr Druck, wenn Markt- und Bewertungsnarrative kippen."
+    ],
+    "watchlist": [
+      "Wie schnell setzen Plattformen härtere Regeln gegen KI-generierte Inhalte durch?",
+      "Ob sich der Trend zu integrierten AI-Assistenten in Social/Commerce weiter beschleunigt.",
+      "Wie stark Sicherheitsvorfälle und KI-gestützte Angriffe neue Standards bei Infrastruktur und Unternehmenssoftware erzwingen.",
+      "Ob weitere Medien- und Kreativfirmen generative AI in Produktions- und Bearbeitungs-Tools einschränken."
+    ],
+    "tags": [
+      "#CreatorAI",
+      "#Security",
+      "#Plattformen",
+      "#AItools",
+      "#MediaTech",
+      "#Startups"
+    ],
+    "stories": [
+      {
+        "title": "Tidal verbietet und löscht ab Dezember KI-generierte Musik",
+        "originalTitle": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI; The Verge AI",
+        "summary": "Tidal will KI-generierte Musik ab dem 9. Dezember verbieten und schätzungsweise Millionen Titel entfernen. Erlaubt bleiben weiterhin Songs, die mit KI-Unterstützung erstellt wurden, aber nicht vollständig generierte Tracks.",
+        "why": "Das ist ein klares Signal, dass Plattformen auf den KI-Musik-Überfluss mit härteren Regeln reagieren. Für Creator, Labels und Video-Produzenten ist das relevant, weil sich die Grenze zwischen unterstützter Produktion und vollständig generierten Inhalten weiter verschärft.",
+        "opportunity": "Eine kurze Einordnung zu „Was gilt künftig noch als legitime KI-Musik?“ könnte für Denis als Creator-Content gut funktionieren.",
+        "links": [
+          "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+          "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
+        ]
+      },
+      {
+        "title": "Meta integriert den Muse-Assistenten direkt in Instagram DMs und Walmart bringt Deals zu Muse",
+        "originalTitle": "Meta brings its Muse AI assistant directly into Instagram DMs",
+        "category": "Plattformen",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI",
+        "summary": "Meta bringt seinen Muse-Assistenten direkt in Instagram DMs, sodass Nutzer nicht mehr zwischen App und Chat wechseln müssen. Parallel zeigt Walmart mit einer Anbindung an Muse, dass sich KI-Assistenten auch im Commerce-Kontext als Interaktionsschicht etablieren sollen.",
+        "why": "Für Creator und Marken ist das wichtig, weil Interaktion, Shopping und Beratung noch stärker in Messaging-Umgebungen zusammenrücken. Das verändert, wo Aufmerksamkeit entsteht und wie Produktkommunikation in Social- und Commerce-Flows stattfindet.",
+        "opportunity": "Denis könnte daraus eine Videoidee zu „KI in DMs als neuer Vertriebs- und Community-Kanal“ machen.",
+        "links": [
+          "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+          "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/"
+        ]
+      },
+      {
+        "title": "Mitbewerb und Regulierung drücken auf KI-Inhalte: Pinterest limitiert AI-Content für Teens",
+        "originalTitle": "Pinterest will now let parents limit the AI-generated content their teens see",
+        "category": "Regulierung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Pinterest gibt Eltern neue Möglichkeiten, den Anteil KI-generierter Inhalte im Feed von Teenagern zu begrenzen. Die Plattform adressiert damit nicht nur Chatbots, sondern explizit den Zustrom von KI-Content im Feed.",
+        "why": "Das zeigt, dass Plattformen KI nicht nur als Tool, sondern als Inhaltsproblem behandeln. Für Creator ist relevant, dass die Sichtbarkeit von KI-generierten Formaten künftig stärker gefiltert oder eingeschränkt werden kann.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/"
+        ]
+      },
+      {
+        "title": "Neue Warnsignale bei Sicherheit: Großbritannien warnt vor KI-gestützten Cyberangriffen",
+        "originalTitle": "UK warns AI-driven cyberattacks are exposing years of weak security",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Die britische Cyberbehörde warnt, dass KI-gestützte Angriffe bestehende, oft einfache Sicherheitslücken ausnutzen. Der Hinweis lautet ausdrücklich, dass robuste Grundlagen wichtiger denn je seien.",
+        "why": "Das ist relevant für jeden Creator- und Medien-Workflow, weil Accounts, Schnitt-Tools, Cloud-Zugänge und Kollaborationssysteme zunehmend Zielscheiben werden. Wer Video- oder Produktionen mit mehreren Tools betreibt, muss Basisschutz ernster nehmen.",
+        "opportunity": "Eine praktische Security-Checkliste für Creator-Setups wäre ein nützliches Format.",
+        "links": [
+          "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/"
+        ]
+      },
+      {
+        "title": "Maple sammelt 5,3 Millionen Dollar für verschlüsselte KI-Produkte ein",
+        "originalTitle": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Das Startup Maple hat 5,3 Millionen Dollar eingesammelt, um KI-Produkte mit verschlüsselter Architektur zu bauen. Ziel ist es, selbst dem Unternehmen keinen Zugriff auf private Nutzerdaten zu geben.",
+        "why": "Datenschutz wird damit vom Nebenthema zum Kernversprechen eines KI-Produkts. Für Creator und Medienunternehmen ist das interessant, wenn sie sensible Rohdaten, Skripte oder Kundendaten in KI-Workflows einsetzen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/"
+        ]
+      },
+      {
+        "title": "Anthropic fällt unter den IPO-Preis, was ein Warnsignal für KI-Startups ist",
+        "originalTitle": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Anthropics Aktien sind unter den IPO-Preis gefallen. TechCrunch wertet das als mögliches Warnsignal für den Bewertungsdruck auf KI-Startups.",
+        "why": "Für den Markt bedeutet das, dass die Luft bei KI-Bewertungen dünner werden könnte. Das beeinflusst auch, welche Tools langfristig finanziert werden und wie aggressiv Startups Creator- und Enterprise-Produkte ausrollen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/"
+        ]
+      },
+      {
+        "title": "OpenAI zeigt mit GPT-6 Anzeichen für Protein-Design-Fähigkeiten, und Nutzer-Workflows werden agentischer",
+        "originalTitle": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "Hacker News Frontpage; OpenAI News",
+        "summary": "Ein OpenAI-Beitrag beschreibt, dass GPT-6-Modelle intrinsische Fähigkeiten im Protein-Design zeigen. Zusätzlich zeigen OpenAI-Cases, wie Codex und ChatGPT in konkreten Business-Workflows eingesetzt werden, etwa bei Recherche, Coding und Sales.",
+        "why": "Das unterstreicht, wie breit KI inzwischen von Wissenschaft bis Unternehmensprozesse eingesetzt wird. Für Denis ist vor allem spannend, dass Agenten-Workflows immer stärker als praktische Produktivitäts-Tools vermarktet werden.",
+        "opportunity": "Eine Videoidee wäre „Wofür KI-Agenten heute wirklich nützlich sind – und wo noch nicht“. ",
+        "links": [
+          "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+          "https://openai.com/business/customer-stories/intentful-dots",
+          "https://openai.com/business/customer-stories/ifood",
+          "https://openai.com/business/customer-stories/clay-plugins-openai"
+        ]
+      },
+      {
+        "title": "Jensen Huang gerät mit widersprüchlichen Signalen zur Rückkehr bei Nvidia unter Druck",
+        "originalTitle": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+        "category": "Business",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "niedrig",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI; The Verge AI",
+        "summary": "Jensen Huang soll Nvidia-Mitarbeitern gesagt haben, es sei „nicht wahr“, dass Trump ihn wieder eingestellt habe. Laut Berichten entschuldigte er sich zudem in einem All-hands und versuchte, die politische Erzählung um seine Rückkehr einzuhegen.",
+        "why": "Das ist vor allem ein Governance- und Führungsthema rund um Nvidia. Für die Tech-Branche ist es relevant, weil sich daran zeigt, wie stark CEO-Narrative und Unternehmenskommunikation unter öffentlicher Beobachtung stehen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+          "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+          "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-25T14:47:01.230Z",
+    "generatedAtBerlin": "25.11.2026, 15:47",
+    "mode": "ai",
+    "sourceCount": 28,
+    "highlights": [
+      "Tidal verbietet und löscht ab Dezember KI-generierte Musik",
+      "Meta integriert den Muse-Assistenten direkt in Instagram DMs und Walmart bringt Deals zu Muse",
+      "Neue Warnsignale bei Sicherheit: Großbritannien warnt vor KI-gestützten Cyberangriffen"
+    ],
+    "audioPath": "audio/briefing-2026-11-24.mp3",
+    "audioUrl": "audio/briefing-2026-11-24.mp3",
+    "audioGeneratedAt": "2026-11-25T14:47:46.900Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-23",
     "title": "Daily-Briefing: Nvidia, KI-Tools und neue Cloud-Deals prägen den Tag",
     "summary": "Der Vortag stand im Zeichen großer KI- und Infrastruktur-Bewegungen: Nvidia brachte Jensen Huang zurück, während Amazon und CrowdStrike mit milliardenschweren Deals ihre KI- und Security-Strategien ausbauten. Dazu kamen neue Produktupdates bei Anthropic und Google sowie mehrere prägnante Signale aus dem Creator- und Datenschutz-Umfeld.",
