@@ -1,5 +1,180 @@
 [
   {
+    "date": "2026-11-25",
+    "title": "KI-Governance, Creator-Tools und Security-Druck prägen den Vortag",
+    "summary": "Am 25.11.2026 dominierten KI-Governance, Plattform- und Sicherheitsfragen das Tech-Bild. Neben neuen OpenAI- und X-Updates standen Nvidia, AI-Datacenters, Regulierungsdruck und mehrere Security-Vorfälle im Fokus.",
+    "topSummary": "Heute in 30 Sekunden: KI wird zugleich produktiver und politisch heikler. OpenAI verdichtet ChatGPT zu einem gemeinsamen Nutzungsmodell, während Behörden und Gerichte bei AI Toys, Character.AI und Nvidia stärker in die Governance und Datennutzung eingreifen. Parallel verschärfen Ausfälle und Datenlecks bei bekannten Tools den Blick auf Security und Betriebsstabilität.",
+    "implications": [
+      "KI-Produkte werden stärker an Nutzungsgrenzen, Datenschutz und Verantwortlichkeit gemessen.",
+      "Creator- und Video-Plattformen investieren weiter in Kurzformat- und Vertical-Video-Workflows.",
+      "Security bleibt ein Reputations- und Vertrauensrisiko für SaaS-Tools und Passwort-Manager.",
+      "Infrastrukturfragen wie Strom, Bauzeit und Finanzierung werden für AI-Scaling wichtiger als reine Modellankündigungen."
+    ],
+    "watchlist": [
+      "Wie OpenAI die neue gemeinsame Usage-Meter-Logik in ChatGPT genau ausrollt.",
+      "Ob weitere Regulierer gegen AI-Chatbots und den Umgang mit Nutzerdaten vorgehen.",
+      "Wie sich die Nvidia-Themen rund um Governance, Ermittlungen und Rating-Risiken entwickeln.",
+      "Ob mehr Plattformen Creator-Features rund um Vertical Video nachziehen."
+    ],
+    "tags": [
+      "#KI",
+      "#CreatorTools",
+      "#Security",
+      "#Plattformen",
+      "#Regulierung",
+      "#Infrastructure"
+    ],
+    "stories": [
+      {
+        "title": "OpenAI führt ein gemeinsames Nutzungslimit für ChatGPT ein, während Chat und Work zusammenwachsen",
+        "originalTitle": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+        "category": "KI-Tools",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "OpenAI will ChatGPT und Work zu einer gemeinsamen Experience verschmelzen und dafür einen einheitlichen Usage-Meter einführen. Heavy User könnten dadurch schneller an Limits stoßen.",
+        "why": "Für Creator und Product-Teams ist das relevant, weil sich Nutzung, Workflows und Kostenkontrolle direkt in einem System bündeln. Es ist ein Hinweis darauf, dass KI-Tools stärker wie produktive Software mit klaren Limits und Metriken behandelt werden.",
+        "opportunity": "Beobachte, ob sich dadurch neue Pro-Workflows oder Einschränkungen für intensive Video- und Content-Arbeit ergeben.",
+        "links": [
+          "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+        ]
+      },
+      {
+        "title": "X schiebt Creator-Tools für vertikales Video nach, um mit YouTube und Instagram zu konkurrieren",
+        "originalTitle": "X’s latest update for creators focuses on vertical video",
+        "category": "Creator",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "X hat ein neues Update für Creator veröffentlicht, das sich auf vertikales Video konzentriert. Laut Quelle sind die Tools Teil des Versuchs, im Short-Form-Bereich gegen YouTube und Instagram anzutreten.",
+        "why": "Das ist direkt relevant für Video-Creator, weil Vertical Video weiter zum Standardformat für Reichweite und schnelle Produktion wird. Für Denis könnte das ein Hinweis sein, welche Plattformen künftig mehr Posting- und Schnitt-Workflows anbieten.",
+        "opportunity": "Eine Videoidee wäre der Vergleich, wie X, YouTube Shorts und Instagram Reels Creator-Workflows unterschiedlich unterstützen.",
+        "links": [
+          "https://techcrunch.com/2026/11/25/xs-latest-update-for-creators-focuses-on-vertical-video/"
+        ]
+      },
+      {
+        "title": "Nvidia gerät wegen Governance-, Schlüsselpersonen- und Rating-Risiken weiter unter Druck",
+        "originalTitle": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+        "category": "Business",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI",
+        "summary": "S&P prüft offenbar eine Herabstufung von Nvidias Kreditrating auf AA- wegen Governance- und „key man“-Risiken. Weitere TechCrunch-Meldungen desselben Tages thematisieren zusätzlich interne Code-of-Conduct-Fragen und offene Fragen rund um Nvidia und Megaspeed.",
+        "why": "Nvidia ist weiterhin ein zentraler Taktgeber für KI-Infrastruktur, daher haben Governance-Probleme dort Signalwirkung für den gesamten Markt. Für Business- und Tech-Beobachter zeigt sich, dass Unternehmensführung inzwischen genauso wichtig ist wie Chip-Nachfrage.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+          "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+          "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/"
+        ]
+      },
+      {
+        "title": "AI-Datacenter werden schwerer zu bauen, während Nvidia und der Markt auf Reife statt Pitchdecks setzen",
+        "originalTitle": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+        "category": "Infrastruktur",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Die Quelle beschreibt, dass AI-Datacenter schwerer zu finanzieren und zu bauen werden, während Neoclouds mit Verzögerungen und teurerem Fremdkapital kämpfen. Nvidia werde ein Datacenter erst sehr spät unterstützen, wenn es fast betriebsbereit ist.",
+        "why": "Das ist wichtig, weil die KI-Wachstumsstory zunehmend an Energie, Bauzeit und Finanzierung hängt. Für Creator und Medien lässt sich daraus gut erklären, warum KI-Infrastruktur kein rein digitales Thema mehr ist.",
+        "opportunity": "Eine kurze Analyse könnte zeigen, warum „Power, Land und ein fertiges Gebäude“ für KI gerade wichtiger werden als reine Modell-Roadmaps.",
+        "links": [
+          "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/"
+        ]
+      },
+      {
+        "title": "Regulierer gehen gegen AI Toys und die geplante Versteigerung privater Character.AI-Chats vor",
+        "originalTitle": "Want to buy your kid an AI toy this Christmas? Not in New York",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch AI",
+        "summary": "New York hat AI-Chatbot-Spielzeug für fünf Jahre verboten. Gleichzeitig wird der geplante Verkauf von Character.AIs privaten Chats von mehreren Generalstaatsanwälten angefochten; betroffen seien auch Daten von Minderjährigen.",
+        "why": "Das zeigt, wie stark KI-Produkte unter Datenschutz-, Kinderschutz- und Verbraucherschutzdruck geraten. Für Creator und Medien ist das ein relevantes Thema, weil sich Nutzungsgrenzen und öffentliche Wahrnehmung von KI-Assistenten schnell verschärfen.",
+        "opportunity": "Eine Beobachtung wert ist, ob ähnliche Regeln bald auch andere KI-Companion- oder Chat-Produkte treffen.",
+        "links": [
+          "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+          "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
+        ]
+      },
+      {
+        "title": "1Password meldet einen Einbruch in interne Systeme, betont aber, dass Kundepasswörter sicher sind",
+        "originalTitle": "1Password said hackers broke into its internal systems, but customer passwords are safe",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "TechCrunch",
+        "summary": "1Password hat einen Angriff auf interne Systeme bestätigt, bei dem ein Angreifer Zugriff auf ein Mitarbeiterkonto erhielt und einige Kundeninformationen mitnahm. In einer parallel gelisteten Hacker-News-Meldung wurde der Vorfall ebenfalls stark diskutiert.",
+        "why": "Für alle, die mit vielen Logins, Teamzugängen und Creator-Assets arbeiten, ist ein Vorfall bei einem Passwort-Manager besonders sensibel. Er erinnert daran, dass selbst Sicherheitsprodukte operative Risiken haben.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
+          "https://1password.com/blog/update-on-nov-2026-security-incident"
+        ]
+      },
+      {
+        "title": "FCC genehmigt SpaceXs Plan für AI-Datacenter im All",
+        "originalTitle": "FCC approves SpaceX plan to put AI data centers in space",
+        "category": "Infrastruktur",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "Die FCC hat SpaceXs Plan genehmigt, AI-Datacenter im Weltraum zu platzieren. Ein Teil der Einwände, etwa zu möglichen Auswirkungen auf wissenschaftliche Forschung, wurde von der Behörde als außerhalb ihrer Zuständigkeit bewertet.",
+        "why": "Das ist ein auffälliges Infrastruktur-Signal, weil KI-Rechenleistung weiter in extreme technische und regulatorische Richtungen drängt. Für ein Tech-Briefing ist es vor allem ein Marker dafür, wie ambitioniert die Datacenter-Ideen inzwischen werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
+        ]
+      },
+      {
+        "title": "WhatsApp erlaubt jetzt das Planen von Nachrichten in Gruppen- und Einzelchats",
+        "originalTitle": "WhatsApp now lets you schedule messages in group and individual chats",
+        "category": "Plattformen",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "WhatsApp hat eine Funktion zum Planen von Nachrichten eingeführt. Nachrichten können ab zehn Minuten bis zu 14 Tage im Voraus terminiert werden.",
+        "why": "Das ist ein kleines, aber nützliches Produktivitäts-Update für Kommunikation in Teams und Communitys. Für Creator kann es die Planung von Gruppenabsprachen oder Kampagnen erleichtern.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-26T14:10:30.894Z",
+    "generatedAtBerlin": "26.11.2026, 15:10",
+    "mode": "ai",
+    "sourceCount": 32,
+    "highlights": [
+      "OpenAI führt ein gemeinsames Nutzungslimit für ChatGPT ein, während Chat und Work zusammenwachsen",
+      "X schiebt Creator-Tools für vertikales Video nach, um mit YouTube und Instagram zu konkurrieren",
+      "Nvidia gerät wegen Governance-, Schlüsselpersonen- und Rating-Risiken weiter unter Druck"
+    ],
+    "audioPath": "audio/briefing-2026-11-25.mp3",
+    "audioUrl": "audio/briefing-2026-11-25.mp3",
+    "audioGeneratedAt": "2026-11-26T14:11:07.769Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-24",
     "title": "KI wird produktiver, aber auch riskanter",
     "summary": "Der Tag zeigte vor allem zwei Linien: KI wandert tiefer in Alltagsprodukte wie Shopping, Social und DMs — gleichzeitig wachsen die Warnsignale bei Sicherheit, Urheberrecht und Qualität. Dazu kommen neue Signale zu Infrastruktur, Datenkontrolle und der Frage, wie belastbar aktuelle KI-Modelle im echten Einsatz sind.",
