@@ -1,5 +1,144 @@
 [
   {
+    "date": "2026-11-26",
+    "title": "Daily-Briefing: Chip-Engpässe, Plattform-Regulierung und Creator-Sicherheitsfragen",
+    "summary": "Heute dominieren drei Themen: Nvidia bremst Chip-Lieferungen nach Südostasien, weil die US-Regulierung weiter gegen Umgehungswege für KI-Chips vorgeht. Gleichzeitig geraten Plattformen wie X und Character.AI unter Druck, weil Jugendschutz und Nutzerdaten politisch und regulatorisch stärker ins Zentrum rücken. Aus der Tech- und KI-Ecke kommen dazu ein stark diskutierter Self-Hosting-Ansatz mit KI sowie ein Grundlagenartikel zu Unsicherheit im Machine Learning.",
+    "topSummary": "Heute in 30 Sekunden: Die Tech-Lage wird stärker von Regulierung, Lieferketten und Plattformrisiken geprägt als von reinen Produkt-Launches. Für Creator und Medienmacher sind vor allem Jugendschutz, Datenschutz, KI-Infrastruktur und die Frage relevant, wie stabil die Tools und Plattformen im Hintergrund bleiben. Dazu kommt ein klares Signal aus der Community: KI macht Self-Hosting wieder attraktiv, während zugleich die Grenzen von Effizienz und Automatisierung sichtbar bleiben.",
+    "implications": [
+      "KI-Infrastruktur ist geopolitisch und regulatorisch sensibler geworden; Lieferwege und Verfügbarkeit können sich schneller ändern.",
+      "Plattformen müssen stärker auf Jugendschutz und Datenhoheit reagieren, sonst drohen politischer Druck und Vertrauensverlust.",
+      "Für Creator steigen die Relevanz von sicheren, stabilen Workflows und die Frage, welche Dienste langfristig verlässlich bleiben.",
+      "Die Debatte um KI wird breiter: Nicht nur Modelle, sondern auch Betrieb, Unsicherheit und Kontrolle rücken in den Fokus."
+    ],
+    "watchlist": [
+      "Wie lange bleibt Nvidias Lieferpause für Südostasien bestehen und ob sich daraus weitere Handels- oder Compliance-Effekte ergeben.",
+      "Ob X die neuen Jugendschutzfunktionen ausbaut oder nur einen Minimal-Schritt liefert.",
+      "Wie sich die Auseinandersetzung um Character.AI und Nutzerdaten in den Insolvenzverfahren entwickelt.",
+      "Ob der Self-Hosting-Trend mit KI-Tools in mehr Entwickler- und Creator-Setups übergeht."
+    ],
+    "tags": [
+      "#KI",
+      "#Security",
+      "#Plattformen",
+      "#CreatorTools",
+      "#Hardware",
+      "#Regulierung"
+    ],
+    "stories": [
+      {
+        "title": "Nvidia pausiert Chip-Lieferungen nach Südostasien",
+        "originalTitle": "Nvidia hits pause on chip shipments to Southeast Asia",
+        "category": "Hardware",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Nvidia hat Fertigungspartner angewiesen, Server-Lieferungen nach Malaysia, Singapur, Thailand und Indonesien vorerst zu stoppen. Der Schritt steht laut Quelle im Zusammenhang mit dem verschärften US-Druck, KI-Chips aus China herauszuhalten.",
+        "why": "Das ist relevant, weil KI-Infrastruktur nicht nur eine Produkt-, sondern auch eine Lieferketten- und Geopolitikfrage ist. Für Unternehmen, die auf GPU-Kapazitäten angewiesen sind, kann das direkte Auswirkungen auf Verfügbarkeit und Planung haben.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+        ]
+      },
+      {
+        "title": "X führt nach 20 Jahren erstmals Jugendschutzfunktionen ein",
+        "originalTitle": "X finally gets parental controls after 20 years",
+        "category": "Plattformen",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "TechCrunch",
+        "summary": "X hat erstmals Eltern- und Jugendschutzfunktionen eingeführt, mit denen Eltern und Erziehungsberechtigte steuern können, was Jugendliche auf der Plattform sehen. Die Neuerung kommt nach langer Verzögerung.",
+        "why": "Für Creator und Medienmarken ist das wichtig, weil Plattformen stärker in Richtung Altersfreigaben, Content-Kontrolle und Safety-Features gedrückt werden. Solche Änderungen beeinflussen Reichweite, Content-Distribution und Moderationsaufwand.",
+        "opportunity": "Prüfen, ob sich daraus neue Chancen für jugendgerechte Formate oder sicherere Community-Setups ergeben.",
+        "links": [
+          "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/"
+        ]
+      },
+      {
+        "title": "42 US-Bundesstaaten wollen verhindern, dass Character.AI Nutzerdialoge verkauft",
+        "originalTitle": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+        "category": "Regulierung",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Primärquelle",
+        "source": "The Verge AI",
+        "summary": "Eine Koalition aus 42 Generalstaatsanwälten versucht, Character.AI daran zu hindern, Nutzerdaten im Rahmen des Chapter-11-Verfahrens zu veräußern. Im Mittelpunkt steht der Vorwurf, private Chatverläufe von mehr als 21 Millionen US-Konten könnten versteigert werden.",
+        "why": "Das ist ein starkes Signal für die Zukunft von KI-Companion- und Chat-Produkten: Nutzerdaten, Privatsphäre und Insolvenzrecht treffen hier unmittelbar aufeinander. Für alle, die mit KI-Tools arbeiten oder solche Produkte bauen, ist das ein wichtiges Warnsignal in Sachen Vertrauen und Datenstrategie.",
+        "opportunity": "Den Daten- und Privacy-Teil als Thema für ein kurzes Video oder Kommentarformat mit Creator-Bezug einplanen.",
+        "links": [
+          "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
+        ]
+      },
+      {
+        "title": "KI macht Self-Hosting wieder attraktiv",
+        "originalTitle": "AI made self-hosting fun again",
+        "category": "Open Source",
+        "priority": "mittel",
+        "signal": "hoch",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein Blogpost auf Hacker News hat viel Aufmerksamkeit bekommen und diskutiert, wie KI-Tools Self-Hosting wieder zugänglicher und interessanter machen. Die Resonanz war mit hoher Punktzahl und vielen Kommentaren stark.",
+        "why": "Das spricht Entwickler und technisch versierte Creator an, die mehr Kontrolle über ihre Tools, Workflows und Daten wollen. Gerade für Video- und Produkt-Workflows kann Self-Hosting relevant sein, wenn Datenschutz, Anpassbarkeit und Kosten wichtig werden.",
+        "opportunity": "Als Beobachtung für Tools, die sich lokal oder selbst gehostet einsetzen lassen, auf dem Radar behalten.",
+        "links": [
+          "https://janlukas.blog/posts/ai-self-hosting"
+        ]
+      },
+      {
+        "title": "Ein Grundlagenartikel erklärt Unsicherheit im Machine Learning",
+        "originalTitle": "An introduction to uncertainty in machine learning",
+        "category": "Forschung",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Community-Signal",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein HN-Post zu einem Einführungsartikel über Unsicherheit im Machine Learning wurde diskutiert. Der Beitrag behandelt ein technisches Kernproblem, das für Modellzuverlässigkeit und Bewertung wichtig ist.",
+        "why": "Für Creator und Produktvideos ist das eher Grundlagenwissen als Breaking News, aber es ist zentral für das Verständnis, warum KI-Systeme trotz beeindruckender Ergebnisse oft nicht deterministisch oder sicher vorhersagbar sind.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://chrhenning.com/blog/2026/introduction-to-uncertainty/"
+        ]
+      },
+      {
+        "title": "Grand Theft Auto VI zeigt, warum Effizienz nicht alles ist",
+        "originalTitle": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+        "category": "Creator",
+        "priority": "niedrig",
+        "signal": "mittel",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "TechCrunch AI",
+        "summary": "Ein TechCrunch-Kommentar stellt den Erfolg eines aufwendig und menschlich produzierten Videospiels in Kontrast zum Börsengang von Anthropic am selben Tag. Die These: Effizienz allein ist nicht der Maßstab für kulturelle oder kommerzielle Wirkung.",
+        "why": "Das ist interessant für Creator und Medienmacher, weil es die Rolle menschlicher Produktion, Handwerk und emotionaler Wirkung betont. Gerade bei Video und Entertainment bleibt Qualität oft wichtiger als reine Automatisierung.",
+        "opportunity": "Als Gedanke für ein Creator-Video über Menschlichkeit, Handwerk und KI-Produktivität nutzbar.",
+        "links": [
+          "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-27T14:08:13.524Z",
+    "generatedAtBerlin": "27.11.2026, 15:08",
+    "mode": "ai",
+    "sourceCount": 9,
+    "highlights": [
+      "Nvidia pausiert Chip-Lieferungen nach Südostasien",
+      "42 US-Bundesstaaten wollen verhindern, dass Character.AI Nutzerdialoge verkauft",
+      "X führt nach 20 Jahren erstmals Jugendschutzfunktionen ein"
+    ],
+    "audioPath": "audio/briefing-2026-11-26.mp3",
+    "audioUrl": "audio/briefing-2026-11-26.mp3",
+    "audioGeneratedAt": "2026-11-27T14:08:51.882Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-25",
     "title": "KI-Governance, Creator-Tools und Security-Druck prägen den Vortag",
     "summary": "Am 25.11.2026 dominierten KI-Governance, Plattform- und Sicherheitsfragen das Tech-Bild. Neben neuen OpenAI- und X-Updates standen Nvidia, AI-Datacenters, Regulierungsdruck und mehrere Security-Vorfälle im Fokus.",
