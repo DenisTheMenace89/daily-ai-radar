@@ -1,5 +1,161 @@
 [
   {
+    "date": "2026-11-27",
+    "title": "KI- und Tech-Briefing vom 27.11.2026",
+    "summary": "Der Tag war geprägt von praktischen LLM-Tools, Kosten-Optimierung und neuen Sicherheitsfragen. Dazu kamen eine auffällige Warnung zu WebRTC-basierten Skimmern auf Shopping-Seiten sowie ein Blick auf Googles neue Verifizierbarkeits-Ansätze für LLM-Assistenten.",
+    "topSummary": "Heute standen weniger große Modell-Launches im Fokus als vielmehr die harte Praxis: Kosten, Token-Streaming, Agenten-Workflows und Sicherheitsrisiken. Besonders relevant für Creator und Produktvideos sind die Themen rund um LLM-Tools, Browser-Integration und das Vertrauen in AI-Ausgaben. Gleichzeitig zeigt die Security-Meldung, dass Angriffe über Web-Features auch im E-Commerce weiter zunehmen.",
+    "implications": [
+      "LLM-Tools werden zunehmend nach Betriebskosten, Streaming-Erlebnis und Workflow-Effizienz bewertet, nicht nur nach Modellqualität.",
+      "Sicherheitsvorfälle im Web-Stack bleiben ein reales Geschäftsrisiko, gerade für Shopping- und Plattformprodukte.",
+      "Verifizierbarkeit und Nachvollziehbarkeit von LLM-Ausgaben werden wichtiger, wenn KI-Assistenten produktiv eingesetzt werden.",
+      "Für Creator ergeben sich Chancen für Tool-Tests, Vergleichsvideos und Praxisformate statt nur News-Kommentare."
+    ],
+    "watchlist": [
+      "Ob sich neue Standards für verifizierbare LLM-Antworten oder Reasoning-Checks etablieren.",
+      "Ob weitere Berichte zu WebRTC- oder anderen browserbasierten Skimmern auf große Handelsplattformen folgen.",
+      "Welche der vorgestellten Cost- und Streaming-Tools echte Nutzerakzeptanz bekommen.",
+      "Ob aus den LLM-Research- und Cost-Tools konkrete Creator- oder Dev-Workflows entstehen."
+    ],
+    "tags": [
+      "#KI",
+      "#LLM",
+      "#Security",
+      "#CreatorTools",
+      "#DeveloperTools"
+    ],
+    "stories": [
+      {
+        "title": "Convex-Skill sendet App-Idee an einen Remote-Server, ohne den Nutzer zu informieren",
+        "originalTitle": "Convex skills send the user's app idea to a remote server without telling them",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein GitHub-Issue zum Convex-Backend-Skill behauptet, dass die App-Idee eines Nutzers an einen entfernten Server gesendet wird, ohne dass dies klar offengelegt wird. Der Beitrag landete stark auf der Hacker-News-Frontpage und erzeugte hohe Diskussion.",
+        "why": "Für KI- und Dev-Tools ist Transparenz bei Datenflüssen zentral. Gerade bei Produkten, die Ideen, Prompts oder Projektinfos verarbeiten, ist eine versteckte Weitergabe ein Vertrauensproblem.",
+        "opportunity": "Als Video über Datenschutz-Fallen in AI-Entwicklertools aufgreifen.",
+        "links": [
+          "https://github.com/convex/convex-backend-skill/issues/64"
+        ]
+      },
+      {
+        "title": "Auf beliebten Shopping-Seiten wurden Kreditkarten-Skimmer mit WebRTC entdeckt",
+        "originalTitle": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+        "category": "Security",
+        "priority": "hoch",
+        "signal": "hoch",
+        "relevance": "hoch",
+        "trust": "Einzelquelle",
+        "source": "Hacker News Frontpage",
+        "summary": "Ein Bericht meldet Kreditkarten-Skimming-Skripte, die WebRTC nutzen und auf populären Shopping-Seiten gefunden wurden. Die Meldung hatte sehr viele Punkte und Kommentare auf Hacker News.",
+        "why": "Das ist ein ernstes E-Commerce- und Plattformthema, weil Zahlungsseiten und Web-Integrationen direkt betroffen sein können. Für Creator und Produktvideos ist das ein starkes Beispiel dafür, wie moderne Browser-APIs auch missbraucht werden.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer"
+        ]
+      },
+      {
+        "title": "Neue Tools vergleichen LLM-Kosten, Streaming und Batch-Workflows",
+        "originalTitle": "Show HN: CostPerToken – Rank LLM API providers by your monthly bill",
+        "category": "KI-Tools",
+        "priority": "mittel",
+        "signal": "mittel",
+        "relevance": "hoch",
+        "trust": "mehrere Quellen",
+        "source": "Hacker News LLM",
+        "summary": "Mehrere Show-HN-Posts drehen sich um den praktischen Betrieb von LLMs: CostPerToken vergleicht Anbieter nach der monatlichen Rechnung, IQ-Stream streamt Tokens direkt in den Browser, und Carpool versucht LLM-Kosten durch Batchen und Code-Generierung zu senken.",
+        "why": "Diese Tools zeigen, dass sich der Markt von reinen Demo-Apps zu Infrastruktur für echte Nutzung verschiebt. Für Creator mit AI-Workflow ist vor allem interessant, wie sich Antworten live darstellen und wiederkehrende Aufgaben günstiger automatisieren lassen.",
+        "opportunity": "Ein Vergleichsvideo zu LLM-Kostenoptimierung und Browser-Streaming wäre naheliegend.",
+        "links": [
+          "https://costpertoken.vercel.app",
+          "https://www.neuron-ai.dev/blog/why-i-built-iq-stream/",
+          "https://github.com/nmayp/carpool"
+        ]
+      },
+      {
+        "title": "Google Research arbeitet an verifizierbarem Social Reasoning für LLM-Assistenten",
+        "originalTitle": "Verifiable Social Reasoning for LLM Assistants",
+        "category": "Forschung",
+        "priority": "mittel",
+        "signal": "niedrig",
+        "relevance": "mittel",
+        "trust": "Primärquelle",
+        "source": "Hacker News LLM",
+        "summary": "Google Research hat einen Beitrag zu verifizierbarem Social Reasoning für LLM-Assistenten veröffentlicht. Die Meldung ist eher Forschungsstoff als Produktnews.",
+        "why": "Das Thema ist relevant, weil Assistenten in Zukunft nicht nur Antworten geben, sondern auch soziale Kontexte, Regeln und Absichten besser nachvollziehbar machen sollen. Das betrifft langfristig auch Creator- und Medien-Workflows mit KI.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/"
+        ]
+      },
+      {
+        "title": "Eine Analyse zeigt Schwächen in LLM-Trading-Papers bei den Transaktionskosten",
+        "originalTitle": "In 75 LLM trading papers, half deduct no trading costs",
+        "category": "Forschung",
+        "priority": "niedrig",
+        "signal": "niedrig",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "Hacker News LLM",
+        "summary": "Ein Blogpost behauptet, dass in 75 LLM-Trading-Papern die Hälfte keine Trading-Kosten berücksichtigt. Die Meldung ist ein methodischer Hinweis auf mögliche Verzerrungen in der Forschung.",
+        "why": "Für den KI-Markt ist das ein Reminder, Benchmarks und Papers kritisch zu lesen. Auch Business-Entscheidungen auf Basis von AI-Research sollten auf realistischen Annahmen beruhen.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://blog.aperiodic.io/p/quant-reads-weekly-1-llm-trading-costs"
+        ]
+      },
+      {
+        "title": "Androids DIY-Widgets wirken wie spielerisches Vibe-Coding",
+        "originalTitle": "Android’s DIY widgets are a bit of vibe-coding fun",
+        "category": "Plattformen",
+        "priority": "niedrig",
+        "signal": "niedrig",
+        "relevance": "mittel",
+        "trust": "Einzelquelle",
+        "source": "The Verge AI",
+        "summary": "The Verge beschreibt Androids DIY-Widgets als spielerische Vibe-Coding-Erfahrung im Zusammenspiel mit Gemini. Im Beispiel geht es um ein Widget für Echtzeit-Busankünfte.",
+        "why": "Das ist ein kleines, aber brauchbares Signal dafür, wie KI im Alltag an die Oberfläche von Plattformen rückt. Für Creator sind solche UI-nahen KI-Funktionen oft anschaulicher als abstrakte Modell-News.",
+        "opportunity": "Ein kurzes Test-Video zu KI-Widgets auf dem Smartphone wäre möglich.",
+        "links": [
+          "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini"
+        ]
+      },
+      {
+        "title": "Ein LLM-gestütztes Englisch-Übersetzungsprojekt überträgt einen syrischen liturgischen Kommentar",
+        "originalTitle": "LLM-assisted English translation of a 9th-century Syriac liturgical commentary",
+        "category": "Forschung",
+        "priority": "niedrig",
+        "signal": "niedrig",
+        "relevance": "niedrig",
+        "trust": "Einzelquelle",
+        "source": "Hacker News LLM",
+        "summary": "Ein Dokument beschreibt eine LLM-gestützte englische Übersetzung eines syrischen liturgischen Kommentars aus dem 9. Jahrhundert. Die Meldung ist eher spezialisiert und hat kaum Resonanz.",
+        "why": "Interessant als Beispiel für Nischen-Übersetzungsarbeit mit KI, aber für Denis nur begrenzt relevant.",
+        "opportunity": "Nur beobachten.",
+        "links": [
+          "https://docs.google.com/document/d/1NlgkmxuXkmBfgBuUdx85rM8FgA6hxcXbRaSWATI95T8/edit?usp=sharing"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-28T13:26:00.674Z",
+    "generatedAtBerlin": "28.11.2026, 14:26",
+    "mode": "ai",
+    "sourceCount": 14,
+    "highlights": [
+      "Convex-Skill sendet App-Idee an einen Remote-Server, ohne den Nutzer zu informieren",
+      "Auf beliebten Shopping-Seiten wurden Kreditkarten-Skimmer mit WebRTC entdeckt",
+      "Neue Tools vergleichen LLM-Kosten, Streaming und Batch-Workflows"
+    ],
+    "audioPath": "audio/briefing-2026-11-27.mp3",
+    "audioUrl": "audio/briefing-2026-11-27.mp3",
+    "audioGeneratedAt": "2026-11-28T13:26:37.452Z",
+    "audioVoice": "cedar",
+    "audioModel": "gpt-4o-mini-tts",
+    "audioScriptLength": 3900
+  },
+  {
     "date": "2026-11-26",
     "title": "Daily-Briefing: Chip-Engpässe, Plattform-Regulierung und Creator-Sicherheitsfragen",
     "summary": "Heute dominieren drei Themen: Nvidia bremst Chip-Lieferungen nach Südostasien, weil die US-Regulierung weiter gegen Umgehungswege für KI-Chips vorgeht. Gleichzeitig geraten Plattformen wie X und Character.AI unter Druck, weil Jugendschutz und Nutzerdaten politisch und regulatorisch stärker ins Zentrum rücken. Aus der Tech- und KI-Ecke kommen dazu ein stark diskutierter Self-Hosting-Ansatz mit KI sowie ein Grundlagenartikel zu Unsicherheit im Machine Learning.",
